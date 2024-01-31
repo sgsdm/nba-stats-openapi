@@ -1,5 +1,0 @@
-name: GtOPPDREB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtOPPDREB.yaml

@@ -1,0 +1,13 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "Last 5 Minutes",
+    "Last 4 Minutes",
+    "Last 3 Minutes",
+    "Last 2 Minutes",
+    "Last 1 Minute",
+    "Last 30 Seconds",
+    "Last 10 Seconds"
+  ]
+}

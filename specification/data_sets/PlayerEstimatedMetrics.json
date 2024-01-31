@@ -1,0 +1,274 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "W"
+        },
+        {
+          "const": "L"
+        },
+        {
+          "const": "W_PCT"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "E_OFF_RATING"
+        },
+        {
+          "const": "E_DEF_RATING"
+        },
+        {
+          "const": "E_NET_RATING"
+        },
+        {
+          "const": "E_AST_RATIO"
+        },
+        {
+          "const": "E_OREB_PCT"
+        },
+        {
+          "const": "E_DREB_PCT"
+        },
+        {
+          "const": "E_REB_PCT"
+        },
+        {
+          "const": "E_TOV_PCT"
+        },
+        {
+          "const": "E_USG_PCT"
+        },
+        {
+          "const": "E_PACE"
+        },
+        {
+          "const": "GP_RANK"
+        },
+        {
+          "const": "W_RANK"
+        },
+        {
+          "const": "L_RANK"
+        },
+        {
+          "const": "W_PCT_RANK"
+        },
+        {
+          "const": "MIN_RANK"
+        },
+        {
+          "const": "E_OFF_RATING_RANK"
+        },
+        {
+          "const": "E_DEF_RATING_RANK"
+        },
+        {
+          "const": "E_NET_RATING_RANK"
+        },
+        {
+          "const": "E_AST_RATIO_RANK"
+        },
+        {
+          "const": "E_OREB_PCT_RANK"
+        },
+        {
+          "const": "E_DREB_PCT_RANK"
+        },
+        {
+          "const": "E_REB_PCT_RANK"
+        },
+        {
+          "const": "E_TOV_PCT_RANK"
+        },
+        {
+          "const": "E_USG_PCT_RANK"
+        },
+        {
+          "const": "E_PACE_RANK"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/W.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/L.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EOffRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EDefRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ENetRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EAstRatio.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EOrebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EDrebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ERebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ETovPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EUsgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EPace.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GpRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MinRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EOffRatingRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EDefRatingRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ENetRatingRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EAstRatioRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EOrebPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EDrebPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ERebPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ETovPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EUsgPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EPaceRank.json"
+          }
+        }
+      ]
+    }
+  }
+}

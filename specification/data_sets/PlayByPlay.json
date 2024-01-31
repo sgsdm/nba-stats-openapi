@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "EVENTNUM"
+        },
+        {
+          "const": "EVENTMSGTYPE"
+        },
+        {
+          "const": "EVENTMSGACTIONTYPE"
+        },
+        {
+          "const": "PERIOD"
+        },
+        {
+          "const": "WCTIMESTRING"
+        },
+        {
+          "const": "PCTIMESTRING"
+        },
+        {
+          "const": "HOMEDESCRIPTION"
+        },
+        {
+          "const": "NEUTRALDESCRIPTION"
+        },
+        {
+          "const": "VISITORDESCRIPTION"
+        },
+        {
+          "const": "SCORE"
+        },
+        {
+          "const": "SCOREMARGIN"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Eventnum.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Eventmsgtype.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Eventmsgactiontype.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Period.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Wctimestring.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pctimestring.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Homedescription.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Neutraldescription.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Visitordescription.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Score.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Scoremargin.json"
+          }
+        }
+      ]
+    }
+  }
+}

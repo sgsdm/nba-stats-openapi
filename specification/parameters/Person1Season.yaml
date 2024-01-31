@@ -1,6 +1,0 @@
-name: Person1Season
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Person1Season.yaml
-required: true

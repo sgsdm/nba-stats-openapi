@@ -1,6 +1,0 @@
-name: StatType
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/StatType.yaml
-required: true

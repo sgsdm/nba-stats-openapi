@@ -1,0 +1,225 @@
+{
+  "get": {
+    "summary": "PlayerVsPlayer",
+    "operationId": "PlayerVsPlayer",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/GameSegment.json"
+      },
+      {
+        "$ref": "../parameters/LastNGames.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/MeasureType.json"
+      },
+      {
+        "$ref": "../parameters/Month.json"
+      },
+      {
+        "$ref": "../parameters/OpponentTeamID.json"
+      },
+      {
+        "$ref": "../parameters/Outcome.json"
+      },
+      {
+        "$ref": "../parameters/PaceAdjust.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/Period.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      },
+      {
+        "$ref": "../parameters/PlusMinus.json"
+      },
+      {
+        "$ref": "../parameters/Rank.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      },
+      {
+        "$ref": "../parameters/VsPlayerID.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "GameSegment": {
+                      "$ref": "../schemas/GameSegment.json"
+                    },
+                    "LastNGames": {
+                      "$ref": "../schemas/LastNGames.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "MeasureType": {
+                      "$ref": "../schemas/MeasureType.json"
+                    },
+                    "Month": {
+                      "$ref": "../schemas/Month.json"
+                    },
+                    "OpponentTeamID": {
+                      "$ref": "../schemas/OpponentTeamID.json"
+                    },
+                    "Outcome": {
+                      "$ref": "../schemas/Outcome.json"
+                    },
+                    "PaceAdjust": {
+                      "$ref": "../schemas/PaceAdjust.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "Period": {
+                      "$ref": "../schemas/Period.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    },
+                    "PlusMinus": {
+                      "$ref": "../schemas/PlusMinus.json"
+                    },
+                    "Rank": {
+                      "$ref": "../schemas/Rank.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    },
+                    "VsPlayerID": {
+                      "$ref": "../schemas/VsPlayerID.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "playervsplayer"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/OnOffCourt.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/Overall.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/PlayerInfo.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotAreaOffCourt.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotAreaOnCourt.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotAreaOverall.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotDistanceOffCourt.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotDistanceOnCourt.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ShotDistanceOverall.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/VsPlayerInfo.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,0 @@
-name: EqOPPPTSPAINT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqOPPPTSPAINT.yaml

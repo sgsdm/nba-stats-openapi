@@ -1,0 +1,8 @@
+{
+  "name": "DraftYear",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/DraftYear.json"
+  }
+}

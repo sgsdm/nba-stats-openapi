@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "REMAINING_G"
+        },
+        {
+          "const": "REMAINING_HOME_G"
+        },
+        {
+          "const": "REMAINING_AWAY_G"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Team.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RemainingG.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RemainingHomeG.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RemainingAwayG.json"
+          }
+        }
+      ]
+    }
+  }
+}

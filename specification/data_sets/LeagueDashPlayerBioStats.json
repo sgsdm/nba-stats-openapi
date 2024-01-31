@@ -1,0 +1,202 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "AGE"
+        },
+        {
+          "const": "PLAYER_HEIGHT"
+        },
+        {
+          "const": "PLAYER_HEIGHT_INCHES"
+        },
+        {
+          "const": "PLAYER_WEIGHT"
+        },
+        {
+          "const": "COLLEGE"
+        },
+        {
+          "const": "COUNTRY"
+        },
+        {
+          "const": "DRAFT_YEAR"
+        },
+        {
+          "const": "DRAFT_ROUND"
+        },
+        {
+          "const": "DRAFT_NUMBER"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "NET_RATING"
+        },
+        {
+          "const": "OREB_PCT"
+        },
+        {
+          "const": "DREB_PCT"
+        },
+        {
+          "const": "USG_PCT"
+        },
+        {
+          "const": "TS_PCT"
+        },
+        {
+          "const": "AST_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Age.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerHeight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerHeightInches.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerWeight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/College.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Country.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DraftYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DraftRound.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DraftNumber.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/NetRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OrebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DrebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UsgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TsPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPct.json"
+          }
+        }
+      ]
+    }
+  }
+}

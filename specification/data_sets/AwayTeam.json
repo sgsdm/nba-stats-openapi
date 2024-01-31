@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "PLAYER_FIRST"
+        },
+        {
+          "const": "PLAYER_LAST"
+        },
+        {
+          "const": "IN_TIME_REAL"
+        },
+        {
+          "const": "OUT_TIME_REAL"
+        },
+        {
+          "const": "PLAYER_PTS"
+        },
+        {
+          "const": "PT_DIFF"
+        },
+        {
+          "const": "USG_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerLast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/InTimeReal.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OutTimeReal.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtDiff.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UsgPct.json"
+          }
+        }
+      ]
+    }
+  }
+}

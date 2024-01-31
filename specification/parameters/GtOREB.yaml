@@ -1,5 +1,0 @@
-name: GtOREB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtOREB.yaml

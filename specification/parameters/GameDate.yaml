@@ -1,6 +1,0 @@
-name: GameDate
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GameDate.yaml
-required: true

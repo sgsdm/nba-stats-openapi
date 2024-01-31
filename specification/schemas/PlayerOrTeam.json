@@ -1,0 +1,8 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "Player",
+    "Team"
+  ]
+}

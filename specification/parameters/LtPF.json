@@ -1,0 +1,8 @@
+{
+  "name": "LtPF",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/LtPF.json"
+  }
+}

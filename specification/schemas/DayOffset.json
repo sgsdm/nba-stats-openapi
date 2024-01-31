@@ -1,0 +1,5 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "pattern": "^-{0,1}\\d+$"
+}

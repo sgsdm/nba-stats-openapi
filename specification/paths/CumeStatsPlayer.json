@@ -1,0 +1,83 @@
+{
+  "get": {
+    "summary": "CumeStatsPlayer",
+    "operationId": "CumeStatsPlayer",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/GameIDs.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "GameIDs": {
+                      "$ref": "../schemas/GameIDs.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "cumestatsplayer"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/GameByGameStats.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/TotalPlayerStats.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

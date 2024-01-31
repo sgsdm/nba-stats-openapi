@@ -1,5 +1,0 @@
-name: LtAST
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtAST.yaml

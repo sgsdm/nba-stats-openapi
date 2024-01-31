@@ -1,9 +1,0 @@
-description: '[to do]'
-type: string
-enum:
-- Overall
-- 3 Pointers
-- 2 Pointers
-- Less Than 6Ft
-- Less Than 10Ft
-- Greater Than 15Ft

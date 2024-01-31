@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "JERSEY_NUM"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/JerseyNum.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        }
+      ]
+    }
+  }
+}

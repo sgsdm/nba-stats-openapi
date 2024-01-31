@@ -1,0 +1,9 @@
+{
+  "name": "StartRange",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/StartRange.json"
+  },
+  "required": true
+}

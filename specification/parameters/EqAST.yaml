@@ -1,5 +1,0 @@
-name: EqAST
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqAST.yaml

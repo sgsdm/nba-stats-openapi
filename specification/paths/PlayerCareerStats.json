@@ -1,0 +1,111 @@
+{
+  "get": {
+    "summary": "PlayerCareerStats",
+    "operationId": "PlayerCareerStats",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "playercareerstats"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/CareerTotalsAllStarSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/CareerTotalsCollegeSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/CareerTotalsPostSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/CareerTotalsRegularSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonRankingsPostSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonRankingsRegularSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonTotalsAllStarSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonTotalsCollegeSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonTotalsPostSeason.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SeasonTotalsRegularSeason.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

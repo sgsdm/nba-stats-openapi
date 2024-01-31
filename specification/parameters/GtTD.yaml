@@ -1,5 +1,0 @@
-name: GtTD
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtTD.yaml

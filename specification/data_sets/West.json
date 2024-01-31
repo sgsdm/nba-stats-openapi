@@ -1,0 +1,210 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "REGION"
+        },
+        {
+          "const": "SEED"
+        },
+        {
+          "const": "COLLEGE"
+        },
+        {
+          "const": "PLAYERS"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3M"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FTM"
+        },
+        {
+          "const": "FTA"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "OREB"
+        },
+        {
+          "const": "DREB"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "TOV"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "PTS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Region.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Seed.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/College.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Players.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ftm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Oreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Tov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        }
+      ]
+    }
+  }
+}

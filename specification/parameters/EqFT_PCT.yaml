@@ -1,5 +1,0 @@
-name: EqFT_PCT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqFT_PCT.yaml

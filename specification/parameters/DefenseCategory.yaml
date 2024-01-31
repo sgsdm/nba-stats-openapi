@@ -1,6 +1,0 @@
-name: DefenseCategory
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/DefenseCategory.yaml
-required: true

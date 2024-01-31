@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "DREB"
+        },
+        {
+          "const": "DREB_RANK"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DrebRank.json"
+          }
+        }
+      ]
+    }
+  }
+}

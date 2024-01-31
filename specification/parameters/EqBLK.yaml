@@ -1,5 +1,0 @@
-name: EqBLK
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqBLK.yaml

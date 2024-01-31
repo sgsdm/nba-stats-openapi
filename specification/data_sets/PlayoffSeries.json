@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "HOME_TEAM_ID"
+        },
+        {
+          "const": "VISITOR_TEAM_ID"
+        },
+        {
+          "const": "SERIES_ID"
+        },
+        {
+          "const": "GAME_NUM"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SeriesId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameNum.json"
+          }
+        }
+      ]
+    }
+  }
+}

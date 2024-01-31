@@ -1,0 +1,18 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "SpeedDistance",
+    "Rebounding",
+    "Possessions",
+    "CatchShoot",
+    "PullUpShot",
+    "Defense",
+    "Drives",
+    "Passing",
+    "ElbowTouch",
+    "PostTouch",
+    "PaintTouch",
+    "Efficiency"
+  ]
+}

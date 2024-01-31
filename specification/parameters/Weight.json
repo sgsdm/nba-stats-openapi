@@ -1,0 +1,8 @@
+{
+  "name": "Weight",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Weight.json"
+  }
+}

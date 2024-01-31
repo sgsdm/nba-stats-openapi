@@ -1,5 +1,0 @@
-name: VsTeamID
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/VsTeamID.yaml

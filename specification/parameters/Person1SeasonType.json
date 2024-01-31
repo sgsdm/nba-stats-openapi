@@ -1,0 +1,9 @@
+{
+  "name": "Person1SeasonType",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Person1SeasonType.json"
+  },
+  "required": true
+}

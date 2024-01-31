@@ -1,5 +1,0 @@
-name: Position
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Position.yaml

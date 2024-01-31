@@ -1,0 +1,8 @@
+{
+  "name": "EqPF",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/EqPF.json"
+  }
+}

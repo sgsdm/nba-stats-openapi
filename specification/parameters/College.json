@@ -1,0 +1,8 @@
+{
+  "name": "College",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/College.json"
+  }
+}

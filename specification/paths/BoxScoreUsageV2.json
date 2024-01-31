@@ -1,0 +1,89 @@
+{
+  "get": {
+    "summary": "BoxScoreUsageV2",
+    "operationId": "BoxScoreUsageV2",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/EndPeriod.json"
+      },
+      {
+        "$ref": "../parameters/EndRange.json"
+      },
+      {
+        "$ref": "../parameters/GameID.json"
+      },
+      {
+        "$ref": "../parameters/RangeType.json"
+      },
+      {
+        "$ref": "../parameters/StartPeriod.json"
+      },
+      {
+        "$ref": "../parameters/StartRange.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "EndPeriod": {
+                      "$ref": "../schemas/EndPeriod.json"
+                    },
+                    "EndRange": {
+                      "$ref": "../schemas/EndRange.json"
+                    },
+                    "GameID": {
+                      "$ref": "../schemas/GameID.json"
+                    },
+                    "RangeType": {
+                      "$ref": "../schemas/RangeType.json"
+                    },
+                    "StartPeriod": {
+                      "$ref": "../schemas/StartPeriod.json"
+                    },
+                    "StartRange": {
+                      "$ref": "../schemas/StartRange.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "boxscoreusagev2"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/sqlPlayersUsage.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/sqlTeamsUsage.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

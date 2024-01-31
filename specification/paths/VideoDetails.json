@@ -1,0 +1,222 @@
+{
+  "get": {
+    "summary": "VideoDetails",
+    "operationId": "VideoDetails",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/AheadBehind.json"
+      },
+      {
+        "$ref": "../parameters/ClutchTime.json"
+      },
+      {
+        "$ref": "../parameters/ContextFilter.json"
+      },
+      {
+        "$ref": "../parameters/ContextMeasure.json"
+      },
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/EndPeriod.json"
+      },
+      {
+        "$ref": "../parameters/EndRange.json"
+      },
+      {
+        "$ref": "../parameters/GameID.json"
+      },
+      {
+        "$ref": "../parameters/GameSegment.json"
+      },
+      {
+        "$ref": "../parameters/LastNGames.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/Month.json"
+      },
+      {
+        "$ref": "../parameters/OpponentTeamID.json"
+      },
+      {
+        "$ref": "../parameters/Outcome.json"
+      },
+      {
+        "$ref": "../parameters/Period.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      },
+      {
+        "$ref": "../parameters/PointDiff.json"
+      },
+      {
+        "$ref": "../parameters/Position.json"
+      },
+      {
+        "$ref": "../parameters/RangeType.json"
+      },
+      {
+        "$ref": "../parameters/RookieYear.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/StartPeriod.json"
+      },
+      {
+        "$ref": "../parameters/StartRange.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "AheadBehind": {
+                      "$ref": "../schemas/AheadBehind.json"
+                    },
+                    "ClutchTime": {
+                      "$ref": "../schemas/ClutchTime.json"
+                    },
+                    "ContextFilter": {
+                      "$ref": "../schemas/ContextFilter.json"
+                    },
+                    "ContextMeasure": {
+                      "$ref": "../schemas/ContextMeasure.json"
+                    },
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "EndPeriod": {
+                      "$ref": "../schemas/EndPeriod.json"
+                    },
+                    "EndRange": {
+                      "$ref": "../schemas/EndRange.json"
+                    },
+                    "GameID": {
+                      "$ref": "../schemas/GameID.json"
+                    },
+                    "GameSegment": {
+                      "$ref": "../schemas/GameSegment.json"
+                    },
+                    "LastNGames": {
+                      "$ref": "../schemas/LastNGames.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "Month": {
+                      "$ref": "../schemas/Month.json"
+                    },
+                    "OpponentTeamID": {
+                      "$ref": "../schemas/OpponentTeamID.json"
+                    },
+                    "Outcome": {
+                      "$ref": "../schemas/Outcome.json"
+                    },
+                    "Period": {
+                      "$ref": "../schemas/Period.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    },
+                    "PointDiff": {
+                      "$ref": "../schemas/PointDiff.json"
+                    },
+                    "Position": {
+                      "$ref": "../schemas/Position.json"
+                    },
+                    "RangeType": {
+                      "$ref": "../schemas/RangeType.json"
+                    },
+                    "RookieYear": {
+                      "$ref": "../schemas/RookieYear.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "StartPeriod": {
+                      "$ref": "../schemas/StartPeriod.json"
+                    },
+                    "StartRange": {
+                      "$ref": "../schemas/StartRange.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "videodetails"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": []
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

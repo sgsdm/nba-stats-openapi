@@ -1,5 +1,0 @@
-name: DefTeamID
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/DefTeamID.yaml

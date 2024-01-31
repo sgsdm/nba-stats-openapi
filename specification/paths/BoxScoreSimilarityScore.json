@@ -1,0 +1,96 @@
+{
+  "get": {
+    "summary": "BoxScoreSimilarityScore",
+    "operationId": "BoxScoreSimilarityScore",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/Person1Id.json"
+      },
+      {
+        "$ref": "../parameters/Person1LeagueId.json"
+      },
+      {
+        "$ref": "../parameters/Person1Season.json"
+      },
+      {
+        "$ref": "../parameters/Person1SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/Person2Id.json"
+      },
+      {
+        "$ref": "../parameters/Person2LeagueId.json"
+      },
+      {
+        "$ref": "../parameters/Person2Season.json"
+      },
+      {
+        "$ref": "../parameters/Person2SeasonType.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "Person1Id": {
+                      "$ref": "../schemas/Person1Id.json"
+                    },
+                    "Person1LeagueId": {
+                      "$ref": "../schemas/Person1LeagueId.json"
+                    },
+                    "Person1Season": {
+                      "$ref": "../schemas/Person1Season.json"
+                    },
+                    "Person1SeasonType": {
+                      "$ref": "../schemas/Person1SeasonType.json"
+                    },
+                    "Person2Id": {
+                      "$ref": "../schemas/Person2Id.json"
+                    },
+                    "Person2LeagueId": {
+                      "$ref": "../schemas/Person2LeagueId.json"
+                    },
+                    "Person2Season": {
+                      "$ref": "../schemas/Person2Season.json"
+                    },
+                    "Person2SeasonType": {
+                      "$ref": "../schemas/Person2SeasonType.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "boxscoresimilarityscore"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/BoxScoreSimilarityScores.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

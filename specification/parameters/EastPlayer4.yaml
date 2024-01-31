@@ -1,6 +1,0 @@
-name: EastPlayer4
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EastPlayer4.yaml
-required: true

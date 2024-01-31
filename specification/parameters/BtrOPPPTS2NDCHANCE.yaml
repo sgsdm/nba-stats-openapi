@@ -1,5 +1,0 @@
-name: BtrOPPPTS2NDCHANCE
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPPTS2NDCHANCE.yaml

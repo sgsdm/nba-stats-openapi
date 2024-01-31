@@ -1,0 +1,162 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GROUP_SET"
+        },
+        {
+          "const": "GROUP_VALUE"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3M"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "EFG_PCT"
+        },
+        {
+          "const": "BLKA"
+        },
+        {
+          "const": "PCT_AST_2PM"
+        },
+        {
+          "const": "PCT_UAST_2PM"
+        },
+        {
+          "const": "PCT_AST_3PM"
+        },
+        {
+          "const": "PCT_UAST_3PM"
+        },
+        {
+          "const": "PCT_AST_FGM"
+        },
+        {
+          "const": "PCT_UAST_FGM"
+        },
+        {
+          "const": "CFID"
+        },
+        {
+          "const": "CFPARAMS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GroupSet.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GroupValue.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EfgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blka.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAst2pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUast2pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAst3pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUast3pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAstFgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUastFgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfid.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfparams.json"
+          }
+        }
+      ]
+    }
+  }
+}

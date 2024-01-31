@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "HOME_TEAM_ID"
+        },
+        {
+          "const": "VISITOR_TEAM_ID"
+        },
+        {
+          "const": "GAME_DATE_EST"
+        },
+        {
+          "const": "HOME_TEAM_WINS"
+        },
+        {
+          "const": "HOME_TEAM_LOSSES"
+        },
+        {
+          "const": "SERIES_LEADER"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameDateEst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamWins.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamLosses.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SeriesLeader.json"
+          }
+        }
+      ]
+    }
+  }
+}

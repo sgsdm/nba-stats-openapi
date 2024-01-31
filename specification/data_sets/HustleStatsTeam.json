@@ -1,0 +1,178 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "CONTESTED_SHOTS"
+        },
+        {
+          "const": "CONTESTED_SHOTS_2PT"
+        },
+        {
+          "const": "CONTESTED_SHOTS_3PT"
+        },
+        {
+          "const": "DEFLECTIONS"
+        },
+        {
+          "const": "CHARGES_DRAWN"
+        },
+        {
+          "const": "SCREEN_ASSISTS"
+        },
+        {
+          "const": "SCREEN_AST_PTS"
+        },
+        {
+          "const": "OFF_LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "DEF_LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "PCT_LOOSE_BALLS_RECOVERED_OFF"
+        },
+        {
+          "const": "PCT_LOOSE_BALLS_RECOVERED_DEF"
+        },
+        {
+          "const": "OFF_BOXOUTS"
+        },
+        {
+          "const": "DEF_BOXOUTS"
+        },
+        {
+          "const": "BOX_OUTS"
+        },
+        {
+          "const": "PCT_BOX_OUTS_OFF"
+        },
+        {
+          "const": "PCT_BOX_OUTS_DEF"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots2pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots3pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Deflections.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ChargesDrawn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ScreenAssists.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ScreenAstPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffLooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefLooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffBoxouts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefBoxouts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BoxOuts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsOff.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsDef.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,0 @@
-name: WrsOPPFGA
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPFGA.yaml

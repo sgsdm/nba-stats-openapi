@@ -1,0 +1,9 @@
+{
+  "name": "PaceAdjust",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/PaceAdjust.json"
+  },
+  "required": true
+}

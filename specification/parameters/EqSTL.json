@@ -1,0 +1,8 @@
+{
+  "name": "EqSTL",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/EqSTL.json"
+  }
+}

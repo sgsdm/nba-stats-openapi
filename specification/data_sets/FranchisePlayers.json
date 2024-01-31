@@ -1,0 +1,226 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "LEAGUE_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM"
+        },
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "PLAYER"
+        },
+        {
+          "const": "SEASON_TYPE"
+        },
+        {
+          "const": "ACTIVE_WITH_TEAM"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3M"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FTM"
+        },
+        {
+          "const": "FTA"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "OREB"
+        },
+        {
+          "const": "DREB"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "TOV"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "PTS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/LeagueId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Team.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Player.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SeasonType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActiveWithTeam.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ftm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Oreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Tov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        }
+      ]
+    }
+  }
+}

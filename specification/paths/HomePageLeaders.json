@@ -1,0 +1,100 @@
+{
+  "get": {
+    "summary": "HomePageLeaders",
+    "operationId": "HomePageLeaders",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/GameScope.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PlayerOrTeam.json"
+      },
+      {
+        "$ref": "../parameters/PlayerScope.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/StatCategory.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "GameScope": {
+                      "$ref": "../schemas/GameScope.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PlayerOrTeam": {
+                      "$ref": "../schemas/PlayerOrTeam.json"
+                    },
+                    "PlayerScope": {
+                      "$ref": "../schemas/PlayerScope.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "StatCategory": {
+                      "$ref": "../schemas/StatCategory.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "homepageleaders"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/HomePageLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeagueAverage.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeagueMax.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

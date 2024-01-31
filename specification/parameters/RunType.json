@@ -1,0 +1,9 @@
+{
+  "name": "RunType",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/RunType.json"
+  },
+  "required": true
+}

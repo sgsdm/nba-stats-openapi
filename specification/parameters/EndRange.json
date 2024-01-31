@@ -1,0 +1,9 @@
+{
+  "name": "EndRange",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/EndRange.json"
+  },
+  "required": true
+}

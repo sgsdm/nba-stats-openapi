@@ -1,0 +1,8 @@
+{
+  "name": "GtREB",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GtREB.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "TimeFrame"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "PIE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Timeframe.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pie.json"
+          }
+        }
+      ]
+    }
+  }
+}

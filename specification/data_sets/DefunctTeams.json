@@ -1,0 +1,138 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "LEAGUE_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "START_YEAR"
+        },
+        {
+          "const": "END_YEAR"
+        },
+        {
+          "const": "YEARS"
+        },
+        {
+          "const": "GAMES"
+        },
+        {
+          "const": "WINS"
+        },
+        {
+          "const": "LOSSES"
+        },
+        {
+          "const": "WIN_PCT"
+        },
+        {
+          "const": "PO_APPEARANCES"
+        },
+        {
+          "const": "DIV_TITLES"
+        },
+        {
+          "const": "CONF_TITLES"
+        },
+        {
+          "const": "LEAGUE_TITLES"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/LeagueId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StartYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EndYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Years.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Games.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Wins.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Losses.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WinPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PoAppearances.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DivTitles.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ConfTitles.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LeagueTitles.json"
+          }
+        }
+      ]
+    }
+  }
+}

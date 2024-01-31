@@ -1,0 +1,9 @@
+{
+  "name": "PerMode",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/PerMode.json"
+  },
+  "required": true
+}

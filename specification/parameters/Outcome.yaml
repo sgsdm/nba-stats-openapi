@@ -1,5 +1,0 @@
-name: Outcome
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Outcome.yaml

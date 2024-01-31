@@ -1,5 +1,0 @@
-name: SeasonSegment
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/SeasonSegment.yaml

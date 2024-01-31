@@ -1,5 +1,0 @@
-name: MinGames
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/MinGames.yaml

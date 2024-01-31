@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FG3_PCT_RANK"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3PctRank.json"
+          }
+        }
+      ]
+    }
+  }
+}

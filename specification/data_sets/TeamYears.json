@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "LEAGUE_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "MIN_YEAR"
+        },
+        {
+          "const": "MAX_YEAR"
+        },
+        {
+          "const": "ABBREVIATION"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/LeagueId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MinYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Abbreviation.json"
+          }
+        }
+      ]
+    }
+  }
+}

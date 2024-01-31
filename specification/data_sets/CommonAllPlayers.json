@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "DISPLAY_LAST_COMMA_FIRST"
+        },
+        {
+          "const": "DISPLAY_FIRST_LAST"
+        },
+        {
+          "const": "ROSTERSTATUS"
+        },
+        {
+          "const": "FROM_YEAR"
+        },
+        {
+          "const": "TO_YEAR"
+        },
+        {
+          "const": "PLAYERCODE"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_CODE"
+        },
+        {
+          "const": "GAMES_PLAYED_FLAG"
+        },
+        {
+          "const": "OTHERLEAGUE_EXPERIENCE_CH"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DisplayLastCommaFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DisplayFirstLast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Rosterstatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FromYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ToYear.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Playercode.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCode.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GamesPlayedFlag.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OtherleagueExperienceCh.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "TouchTimeRange",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/TouchTimeRange.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ContextMeasure",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/ContextMeasure.json"
+  },
+  "required": true
+}

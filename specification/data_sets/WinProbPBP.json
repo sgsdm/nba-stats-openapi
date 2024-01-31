@@ -1,0 +1,138 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "EVENT_NUM"
+        },
+        {
+          "const": "HOME_PCT"
+        },
+        {
+          "const": "VISITOR_PCT"
+        },
+        {
+          "const": "HOME_PTS"
+        },
+        {
+          "const": "VISITOR_PTS"
+        },
+        {
+          "const": "HOME_SCORE_MARGIN"
+        },
+        {
+          "const": "PERIOD"
+        },
+        {
+          "const": "SECONDS_REMAINING"
+        },
+        {
+          "const": "HOME_POSS_IND"
+        },
+        {
+          "const": "HOME_G"
+        },
+        {
+          "const": "DESCRIPTION"
+        },
+        {
+          "const": "LOCATION"
+        },
+        {
+          "const": "PCTIMESTRING"
+        },
+        {
+          "const": "ISVISIBLE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EventNum.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomePct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomePts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeScoreMargin.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Period.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SecondsRemaining.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomePossInd.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeG.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Description.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Location.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pctimestring.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Isvisible.json"
+          }
+        }
+      ]
+    }
+  }
+}

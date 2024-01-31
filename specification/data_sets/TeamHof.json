@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYERID"
+        },
+        {
+          "const": "PLAYER"
+        },
+        {
+          "const": "POSITION"
+        },
+        {
+          "const": "JERSEY"
+        },
+        {
+          "const": "SEASONSWITHTEAM"
+        },
+        {
+          "const": "YEAR"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Playerid.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Player.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Position.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Jersey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Seasonswithteam.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Year.json"
+          }
+        }
+      ]
+    }
+  }
+}

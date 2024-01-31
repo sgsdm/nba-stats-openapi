@@ -1,0 +1,96 @@
+{
+  "get": {
+    "summary": "DraftBoard",
+    "operationId": "DraftBoard",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/College.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/OverallPick.json"
+      },
+      {
+        "$ref": "../parameters/RoundNum.json"
+      },
+      {
+        "$ref": "../parameters/RoundPick.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/TopX.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "College": {
+                      "$ref": "../schemas/College.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "OverallPick": {
+                      "$ref": "../schemas/OverallPick.json"
+                    },
+                    "RoundNum": {
+                      "$ref": "../schemas/RoundNum.json"
+                    },
+                    "RoundPick": {
+                      "$ref": "../schemas/RoundPick.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "TopX": {
+                      "$ref": "../schemas/TopX.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "draftboard"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/DraftBoard.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

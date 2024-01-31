@@ -1,6 +1,0 @@
-name: MeasureType
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/MeasureType.yaml
-required: true

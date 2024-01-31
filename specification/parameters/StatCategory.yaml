@@ -1,6 +1,0 @@
-name: StatCategory
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/StatCategory.yaml
-required: true

@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "VIDEO_AVAILABLE_FLAG"
+        },
+        {
+          "const": "PT_AVAILABLE"
+        },
+        {
+          "const": "PT_XYZ_AVAILABLE"
+        },
+        {
+          "const": "WH_STATUS"
+        },
+        {
+          "const": "HUSTLE_STATUS"
+        },
+        {
+          "const": "HISTORICAL_STATUS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VideoAvailableFlag.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtAvailable.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtXyzAvailable.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WhStatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HustleStatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HistoricalStatus.json"
+          }
+        }
+      ]
+    }
+  }
+}

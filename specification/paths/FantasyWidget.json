@@ -1,0 +1,162 @@
+{
+  "get": {
+    "summary": "FantasyWidget",
+    "operationId": "FantasyWidget",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/ActivePlayers.json"
+      },
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/LastNGames.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/Month.json"
+      },
+      {
+        "$ref": "../parameters/OpponentTeamID.json"
+      },
+      {
+        "$ref": "../parameters/PORound.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      },
+      {
+        "$ref": "../parameters/Position.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/TodaysOpponent.json"
+      },
+      {
+        "$ref": "../parameters/TodaysPlayers.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "ActivePlayers": {
+                      "$ref": "../schemas/ActivePlayers.json"
+                    },
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "LastNGames": {
+                      "$ref": "../schemas/LastNGames.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "Month": {
+                      "$ref": "../schemas/Month.json"
+                    },
+                    "OpponentTeamID": {
+                      "$ref": "../schemas/OpponentTeamID.json"
+                    },
+                    "PORound": {
+                      "$ref": "../schemas/PORound.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    },
+                    "Position": {
+                      "$ref": "../schemas/Position.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "TodaysOpponent": {
+                      "$ref": "../schemas/TodaysOpponent.json"
+                    },
+                    "TodaysPlayers": {
+                      "$ref": "../schemas/TodaysPlayers.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "fantasywidget"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FantasyWidgetResult.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

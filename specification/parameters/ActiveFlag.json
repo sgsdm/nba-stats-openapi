@@ -1,0 +1,8 @@
+{
+  "name": "ActiveFlag",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/ActiveFlag.json"
+  }
+}

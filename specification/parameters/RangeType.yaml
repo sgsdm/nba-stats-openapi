@@ -1,6 +1,0 @@
-name: RangeType
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/RangeType.yaml
-required: true

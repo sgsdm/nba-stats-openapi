@@ -1,6 +1,0 @@
-name: StartPeriod
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/StartPeriod.yaml
-required: true

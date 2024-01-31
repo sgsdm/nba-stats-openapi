@@ -1,0 +1,8 @@
+{
+  "name": "EqOREB",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/EqOREB.json"
+  }
+}

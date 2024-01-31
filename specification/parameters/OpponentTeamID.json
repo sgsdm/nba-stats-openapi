@@ -1,0 +1,8 @@
+{
+  "name": "OpponentTeamID",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/OpponentTeamID.json"
+  }
+}

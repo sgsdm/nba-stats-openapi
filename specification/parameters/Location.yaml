@@ -1,5 +1,0 @@
-name: Location
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Location.yaml

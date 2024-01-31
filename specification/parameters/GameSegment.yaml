@@ -1,6 +1,0 @@
-name: GameSegment
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GameSegment.yaml
-required: true

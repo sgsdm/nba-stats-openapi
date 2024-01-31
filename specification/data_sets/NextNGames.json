@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "GAME_DATE"
+        },
+        {
+          "const": "HOME_TEAM_ID"
+        },
+        {
+          "const": "VISITOR_TEAM_ID"
+        },
+        {
+          "const": "HOME_TEAM_NAME"
+        },
+        {
+          "const": "VISITOR_TEAM_NAME"
+        },
+        {
+          "const": "HOME_TEAM_ABBREVIATION"
+        },
+        {
+          "const": "VISITOR_TEAM_ABBREVIATION"
+        },
+        {
+          "const": "HOME_TEAM_NICKNAME"
+        },
+        {
+          "const": "VISITOR_TEAM_NICKNAME"
+        },
+        {
+          "const": "GAME_TIME"
+        },
+        {
+          "const": "HOME_WL"
+        },
+        {
+          "const": "VISITOR_WL"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameDate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamNickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamNickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeWl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorWl.json"
+          }
+        }
+      ]
+    }
+  }
+}

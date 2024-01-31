@@ -1,5 +1,0 @@
-name: WrsOPPPTS
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPPTS.yaml

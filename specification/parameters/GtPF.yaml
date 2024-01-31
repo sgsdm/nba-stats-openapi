@@ -1,5 +1,0 @@
-name: GtPF
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtPF.yaml

@@ -1,0 +1,576 @@
+{
+  "get": {
+    "summary": "LeagueGameFinder",
+    "operationId": "LeagueGameFinder",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/Conference.json"
+      },
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/Division.json"
+      },
+      {
+        "$ref": "../parameters/DraftNumber.json"
+      },
+      {
+        "$ref": "../parameters/DraftRound.json"
+      },
+      {
+        "$ref": "../parameters/DraftTeamID.json"
+      },
+      {
+        "$ref": "../parameters/DraftYear.json"
+      },
+      {
+        "$ref": "../parameters/EqAST.json"
+      },
+      {
+        "$ref": "../parameters/EqBLK.json"
+      },
+      {
+        "$ref": "../parameters/EqDD.json"
+      },
+      {
+        "$ref": "../parameters/EqDREB.json"
+      },
+      {
+        "$ref": "../parameters/EqFG3A.json"
+      },
+      {
+        "$ref": "../parameters/EqFG3M.json"
+      },
+      {
+        "$ref": "../parameters/EqFG3_PCT.json"
+      },
+      {
+        "$ref": "../parameters/EqFGA.json"
+      },
+      {
+        "$ref": "../parameters/EqFGM.json"
+      },
+      {
+        "$ref": "../parameters/EqFG_PCT.json"
+      },
+      {
+        "$ref": "../parameters/EqFTA.json"
+      },
+      {
+        "$ref": "../parameters/EqFTM.json"
+      },
+      {
+        "$ref": "../parameters/EqFT_PCT.json"
+      },
+      {
+        "$ref": "../parameters/EqMINUTES.json"
+      },
+      {
+        "$ref": "../parameters/EqOREB.json"
+      },
+      {
+        "$ref": "../parameters/EqPF.json"
+      },
+      {
+        "$ref": "../parameters/EqPTS.json"
+      },
+      {
+        "$ref": "../parameters/EqREB.json"
+      },
+      {
+        "$ref": "../parameters/EqSTL.json"
+      },
+      {
+        "$ref": "../parameters/EqTD.json"
+      },
+      {
+        "$ref": "../parameters/EqTOV.json"
+      },
+      {
+        "$ref": "../parameters/GameID.json"
+      },
+      {
+        "$ref": "../parameters/GtAST.json"
+      },
+      {
+        "$ref": "../parameters/GtBLK.json"
+      },
+      {
+        "$ref": "../parameters/GtDD.json"
+      },
+      {
+        "$ref": "../parameters/GtDREB.json"
+      },
+      {
+        "$ref": "../parameters/GtFG3A.json"
+      },
+      {
+        "$ref": "../parameters/GtFG3M.json"
+      },
+      {
+        "$ref": "../parameters/GtFG3_PCT.json"
+      },
+      {
+        "$ref": "../parameters/GtFGA.json"
+      },
+      {
+        "$ref": "../parameters/GtFGM.json"
+      },
+      {
+        "$ref": "../parameters/GtFG_PCT.json"
+      },
+      {
+        "$ref": "../parameters/GtFTA.json"
+      },
+      {
+        "$ref": "../parameters/GtFTM.json"
+      },
+      {
+        "$ref": "../parameters/GtFT_PCT.json"
+      },
+      {
+        "$ref": "../parameters/GtMINUTES.json"
+      },
+      {
+        "$ref": "../parameters/GtOREB.json"
+      },
+      {
+        "$ref": "../parameters/GtPF.json"
+      },
+      {
+        "$ref": "../parameters/GtPTS.json"
+      },
+      {
+        "$ref": "../parameters/GtREB.json"
+      },
+      {
+        "$ref": "../parameters/GtSTL.json"
+      },
+      {
+        "$ref": "../parameters/GtTD.json"
+      },
+      {
+        "$ref": "../parameters/GtTOV.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/LtAST.json"
+      },
+      {
+        "$ref": "../parameters/LtBLK.json"
+      },
+      {
+        "$ref": "../parameters/LtDD.json"
+      },
+      {
+        "$ref": "../parameters/LtDREB.json"
+      },
+      {
+        "$ref": "../parameters/LtFG3A.json"
+      },
+      {
+        "$ref": "../parameters/LtFG3M.json"
+      },
+      {
+        "$ref": "../parameters/LtFG3_PCT.json"
+      },
+      {
+        "$ref": "../parameters/LtFGA.json"
+      },
+      {
+        "$ref": "../parameters/LtFGM.json"
+      },
+      {
+        "$ref": "../parameters/LtFG_PCT.json"
+      },
+      {
+        "$ref": "../parameters/LtFTA.json"
+      },
+      {
+        "$ref": "../parameters/LtFTM.json"
+      },
+      {
+        "$ref": "../parameters/LtFT_PCT.json"
+      },
+      {
+        "$ref": "../parameters/LtMINUTES.json"
+      },
+      {
+        "$ref": "../parameters/LtOREB.json"
+      },
+      {
+        "$ref": "../parameters/LtPF.json"
+      },
+      {
+        "$ref": "../parameters/LtPTS.json"
+      },
+      {
+        "$ref": "../parameters/LtREB.json"
+      },
+      {
+        "$ref": "../parameters/LtSTL.json"
+      },
+      {
+        "$ref": "../parameters/LtTD.json"
+      },
+      {
+        "$ref": "../parameters/LtTOV.json"
+      },
+      {
+        "$ref": "../parameters/Outcome.json"
+      },
+      {
+        "$ref": "../parameters/PORound.json"
+      },
+      {
+        "$ref": "../parameters/PlayerID.json"
+      },
+      {
+        "$ref": "../parameters/PlayerOrTeam.json"
+      },
+      {
+        "$ref": "../parameters/RookieYear.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/StarterBench.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      },
+      {
+        "$ref": "../parameters/VsTeamID.json"
+      },
+      {
+        "$ref": "../parameters/YearsExperience.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "Conference": {
+                      "$ref": "../schemas/Conference.json"
+                    },
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "Division": {
+                      "$ref": "../schemas/Division.json"
+                    },
+                    "DraftNumber": {
+                      "$ref": "../schemas/DraftNumber.json"
+                    },
+                    "DraftRound": {
+                      "$ref": "../schemas/DraftRound.json"
+                    },
+                    "DraftTeamID": {
+                      "$ref": "../schemas/DraftTeamID.json"
+                    },
+                    "DraftYear": {
+                      "$ref": "../schemas/DraftYear.json"
+                    },
+                    "EqAST": {
+                      "$ref": "../schemas/EqAST.json"
+                    },
+                    "EqBLK": {
+                      "$ref": "../schemas/EqBLK.json"
+                    },
+                    "EqDD": {
+                      "$ref": "../schemas/EqDD.json"
+                    },
+                    "EqDREB": {
+                      "$ref": "../schemas/EqDREB.json"
+                    },
+                    "EqFG3A": {
+                      "$ref": "../schemas/EqFG3A.json"
+                    },
+                    "EqFG3M": {
+                      "$ref": "../schemas/EqFG3M.json"
+                    },
+                    "EqFG3_PCT": {
+                      "$ref": "../schemas/EqFG3_PCT.json"
+                    },
+                    "EqFGA": {
+                      "$ref": "../schemas/EqFGA.json"
+                    },
+                    "EqFGM": {
+                      "$ref": "../schemas/EqFGM.json"
+                    },
+                    "EqFG_PCT": {
+                      "$ref": "../schemas/EqFG_PCT.json"
+                    },
+                    "EqFTA": {
+                      "$ref": "../schemas/EqFTA.json"
+                    },
+                    "EqFTM": {
+                      "$ref": "../schemas/EqFTM.json"
+                    },
+                    "EqFT_PCT": {
+                      "$ref": "../schemas/EqFT_PCT.json"
+                    },
+                    "EqMINUTES": {
+                      "$ref": "../schemas/EqMINUTES.json"
+                    },
+                    "EqOREB": {
+                      "$ref": "../schemas/EqOREB.json"
+                    },
+                    "EqPF": {
+                      "$ref": "../schemas/EqPF.json"
+                    },
+                    "EqPTS": {
+                      "$ref": "../schemas/EqPTS.json"
+                    },
+                    "EqREB": {
+                      "$ref": "../schemas/EqREB.json"
+                    },
+                    "EqSTL": {
+                      "$ref": "../schemas/EqSTL.json"
+                    },
+                    "EqTD": {
+                      "$ref": "../schemas/EqTD.json"
+                    },
+                    "EqTOV": {
+                      "$ref": "../schemas/EqTOV.json"
+                    },
+                    "GameID": {
+                      "$ref": "../schemas/GameID.json"
+                    },
+                    "GtAST": {
+                      "$ref": "../schemas/GtAST.json"
+                    },
+                    "GtBLK": {
+                      "$ref": "../schemas/GtBLK.json"
+                    },
+                    "GtDD": {
+                      "$ref": "../schemas/GtDD.json"
+                    },
+                    "GtDREB": {
+                      "$ref": "../schemas/GtDREB.json"
+                    },
+                    "GtFG3A": {
+                      "$ref": "../schemas/GtFG3A.json"
+                    },
+                    "GtFG3M": {
+                      "$ref": "../schemas/GtFG3M.json"
+                    },
+                    "GtFG3_PCT": {
+                      "$ref": "../schemas/GtFG3_PCT.json"
+                    },
+                    "GtFGA": {
+                      "$ref": "../schemas/GtFGA.json"
+                    },
+                    "GtFGM": {
+                      "$ref": "../schemas/GtFGM.json"
+                    },
+                    "GtFG_PCT": {
+                      "$ref": "../schemas/GtFG_PCT.json"
+                    },
+                    "GtFTA": {
+                      "$ref": "../schemas/GtFTA.json"
+                    },
+                    "GtFTM": {
+                      "$ref": "../schemas/GtFTM.json"
+                    },
+                    "GtFT_PCT": {
+                      "$ref": "../schemas/GtFT_PCT.json"
+                    },
+                    "GtMINUTES": {
+                      "$ref": "../schemas/GtMINUTES.json"
+                    },
+                    "GtOREB": {
+                      "$ref": "../schemas/GtOREB.json"
+                    },
+                    "GtPF": {
+                      "$ref": "../schemas/GtPF.json"
+                    },
+                    "GtPTS": {
+                      "$ref": "../schemas/GtPTS.json"
+                    },
+                    "GtREB": {
+                      "$ref": "../schemas/GtREB.json"
+                    },
+                    "GtSTL": {
+                      "$ref": "../schemas/GtSTL.json"
+                    },
+                    "GtTD": {
+                      "$ref": "../schemas/GtTD.json"
+                    },
+                    "GtTOV": {
+                      "$ref": "../schemas/GtTOV.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "LtAST": {
+                      "$ref": "../schemas/LtAST.json"
+                    },
+                    "LtBLK": {
+                      "$ref": "../schemas/LtBLK.json"
+                    },
+                    "LtDD": {
+                      "$ref": "../schemas/LtDD.json"
+                    },
+                    "LtDREB": {
+                      "$ref": "../schemas/LtDREB.json"
+                    },
+                    "LtFG3A": {
+                      "$ref": "../schemas/LtFG3A.json"
+                    },
+                    "LtFG3M": {
+                      "$ref": "../schemas/LtFG3M.json"
+                    },
+                    "LtFG3_PCT": {
+                      "$ref": "../schemas/LtFG3_PCT.json"
+                    },
+                    "LtFGA": {
+                      "$ref": "../schemas/LtFGA.json"
+                    },
+                    "LtFGM": {
+                      "$ref": "../schemas/LtFGM.json"
+                    },
+                    "LtFG_PCT": {
+                      "$ref": "../schemas/LtFG_PCT.json"
+                    },
+                    "LtFTA": {
+                      "$ref": "../schemas/LtFTA.json"
+                    },
+                    "LtFTM": {
+                      "$ref": "../schemas/LtFTM.json"
+                    },
+                    "LtFT_PCT": {
+                      "$ref": "../schemas/LtFT_PCT.json"
+                    },
+                    "LtMINUTES": {
+                      "$ref": "../schemas/LtMINUTES.json"
+                    },
+                    "LtOREB": {
+                      "$ref": "../schemas/LtOREB.json"
+                    },
+                    "LtPF": {
+                      "$ref": "../schemas/LtPF.json"
+                    },
+                    "LtPTS": {
+                      "$ref": "../schemas/LtPTS.json"
+                    },
+                    "LtREB": {
+                      "$ref": "../schemas/LtREB.json"
+                    },
+                    "LtSTL": {
+                      "$ref": "../schemas/LtSTL.json"
+                    },
+                    "LtTD": {
+                      "$ref": "../schemas/LtTD.json"
+                    },
+                    "LtTOV": {
+                      "$ref": "../schemas/LtTOV.json"
+                    },
+                    "Outcome": {
+                      "$ref": "../schemas/Outcome.json"
+                    },
+                    "PORound": {
+                      "$ref": "../schemas/PORound.json"
+                    },
+                    "PlayerID": {
+                      "$ref": "../schemas/PlayerID.json"
+                    },
+                    "PlayerOrTeam": {
+                      "$ref": "../schemas/PlayerOrTeam.json"
+                    },
+                    "RookieYear": {
+                      "$ref": "../schemas/RookieYear.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "StarterBench": {
+                      "$ref": "../schemas/StarterBench.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    },
+                    "VsTeamID": {
+                      "$ref": "../schemas/VsTeamID.json"
+                    },
+                    "YearsExperience": {
+                      "$ref": "../schemas/YearsExperience.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "leaguegamefinder"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeagueGameFinderResults.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

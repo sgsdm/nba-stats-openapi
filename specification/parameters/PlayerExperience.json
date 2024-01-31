@@ -1,0 +1,8 @@
+{
+  "name": "PlayerExperience",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/PlayerExperience.json"
+  }
+}

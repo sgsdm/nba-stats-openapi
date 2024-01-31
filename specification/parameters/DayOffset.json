@@ -1,0 +1,9 @@
+{
+  "name": "DayOffset",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/DayOffset.json"
+  },
+  "required": true
+}

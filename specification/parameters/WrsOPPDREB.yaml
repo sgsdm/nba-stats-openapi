@@ -1,5 +1,0 @@
-name: WrsOPPDREB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPDREB.yaml

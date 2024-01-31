@@ -1,0 +1,9 @@
+{
+  "name": "Period",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Period.json"
+  },
+  "required": true
+}

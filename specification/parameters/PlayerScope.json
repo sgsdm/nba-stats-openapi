@@ -1,0 +1,9 @@
+{
+  "name": "PlayerScope",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/PlayerScope.json"
+  },
+  "required": true
+}

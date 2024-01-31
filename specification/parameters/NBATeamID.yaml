@@ -1,6 +1,0 @@
-name: NBATeamID
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/NBATeamID.yaml
-required: true

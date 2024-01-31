@@ -1,0 +1,90 @@
+{
+  "get": {
+    "summary": "SynergyPlayTypes",
+    "operationId": "SynergyPlayTypes",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/PlayType.json"
+      },
+      {
+        "$ref": "../parameters/PlayerOrTeam.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/SeasonYear.json"
+      },
+      {
+        "$ref": "../parameters/TypeGrouping.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "PlayType": {
+                      "$ref": "../schemas/PlayType.json"
+                    },
+                    "PlayerOrTeam": {
+                      "$ref": "../schemas/PlayerOrTeam.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "SeasonYear": {
+                      "$ref": "../schemas/SeasonYear.json"
+                    },
+                    "TypeGrouping": {
+                      "$ref": "../schemas/TypeGrouping.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "synergyplaytypes"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/SynergyPlayType.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

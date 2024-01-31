@@ -1,6 +1,0 @@
-name: DayOffset
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/DayOffset.yaml
-required: true

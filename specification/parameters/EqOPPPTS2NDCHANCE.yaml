@@ -1,5 +1,0 @@
-name: EqOPPPTS2NDCHANCE
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqOPPPTS2NDCHANCE.yaml

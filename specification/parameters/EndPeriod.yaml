@@ -1,6 +1,0 @@
-name: EndPeriod
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EndPeriod.yaml
-required: true

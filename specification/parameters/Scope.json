@@ -1,0 +1,9 @@
+{
+  "name": "Scope",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Scope.json"
+  },
+  "required": true
+}

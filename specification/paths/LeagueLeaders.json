@@ -1,0 +1,90 @@
+{
+  "get": {
+    "summary": "LeagueLeaders",
+    "operationId": "LeagueLeaders",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/ActiveFlag.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/Scope.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/StatCategory.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "ActiveFlag": {
+                      "$ref": "../schemas/ActiveFlag.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "Scope": {
+                      "$ref": "../schemas/Scope.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "StatCategory": {
+                      "$ref": "../schemas/StatCategory.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "leagueleaders"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeagueLeaders.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

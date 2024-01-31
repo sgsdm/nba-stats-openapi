@@ -1,0 +1,9 @@
+{
+  "name": "DefenseCategory",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/DefenseCategory.json"
+  },
+  "required": true
+}

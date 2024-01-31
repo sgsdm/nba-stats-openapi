@@ -1,5 +1,0 @@
-name: EqFGM
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/EqFGM.yaml

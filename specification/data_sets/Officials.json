@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "OFFICIAL_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "JERSEY_NUM"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/OfficialId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/JerseyNum.json"
+          }
+        }
+      ]
+    }
+  }
+}

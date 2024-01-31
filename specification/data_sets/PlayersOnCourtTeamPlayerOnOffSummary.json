@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GROUP_SET"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "VS_PLAYER_ID"
+        },
+        {
+          "const": "VS_PLAYER_NAME"
+        },
+        {
+          "const": "COURT_STATUS"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "PLUS_MINUS"
+        },
+        {
+          "const": "OFF_RATING"
+        },
+        {
+          "const": "DEF_RATING"
+        },
+        {
+          "const": "NET_RATING"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GroupSet.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsPlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CourtStatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlusMinus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefRating.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/NetRating.json"
+          }
+        }
+      ]
+    }
+  }
+}

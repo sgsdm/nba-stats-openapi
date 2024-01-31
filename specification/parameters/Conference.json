@@ -1,0 +1,8 @@
+{
+  "name": "Conference",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Conference.json"
+  }
+}

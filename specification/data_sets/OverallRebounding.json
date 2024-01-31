@@ -1,0 +1,146 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME_LAST_FIRST"
+        },
+        {
+          "const": "G"
+        },
+        {
+          "const": "OVERALL"
+        },
+        {
+          "const": "REB_FREQUENCY"
+        },
+        {
+          "const": "OREB"
+        },
+        {
+          "const": "DREB"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "C_OREB"
+        },
+        {
+          "const": "C_DREB"
+        },
+        {
+          "const": "C_REB"
+        },
+        {
+          "const": "C_REB_PCT"
+        },
+        {
+          "const": "UC_OREB"
+        },
+        {
+          "const": "UC_DREB"
+        },
+        {
+          "const": "UC_REB"
+        },
+        {
+          "const": "UC_REB_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/G.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Overall.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebFrequency.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Oreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/COreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CDreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CRebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UcOreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UcDreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UcReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UcRebPct.json"
+          }
+        }
+      ]
+    }
+  }
+}

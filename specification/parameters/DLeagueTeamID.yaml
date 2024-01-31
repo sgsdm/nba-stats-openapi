@@ -1,6 +1,0 @@
-name: DLeagueTeamID
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/DLeagueTeamID.yaml
-required: true

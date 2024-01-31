@@ -1,0 +1,9 @@
+{
+  "name": "Direction",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Direction.json"
+  },
+  "required": true
+}

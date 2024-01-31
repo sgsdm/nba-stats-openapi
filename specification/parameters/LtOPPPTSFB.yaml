@@ -1,5 +1,0 @@
-name: LtOPPPTSFB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtOPPPTSFB.yaml

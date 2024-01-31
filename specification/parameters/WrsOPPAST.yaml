@@ -1,5 +1,0 @@
-name: WrsOPPAST
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPAST.yaml

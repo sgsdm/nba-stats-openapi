@@ -1,0 +1,98 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "DISPLAY_FIRST_LAST"
+        },
+        {
+          "const": "DISPLAY_LAST_COMMA_FIRST"
+        },
+        {
+          "const": "DISPLAY_FI_LAST"
+        },
+        {
+          "const": "BIRTHDATE"
+        },
+        {
+          "const": "SCHOOL"
+        },
+        {
+          "const": "COUNTRY"
+        },
+        {
+          "const": "LAST_AFFILIATION"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DisplayFirstLast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DisplayLastCommaFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DisplayFiLast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Birthdate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/School.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Country.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastAffiliation.json"
+          }
+        }
+      ]
+    }
+  }
+}

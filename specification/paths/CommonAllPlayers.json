@@ -1,0 +1,66 @@
+{
+  "get": {
+    "summary": "CommonAllPlayers",
+    "operationId": "CommonAllPlayers",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/IsOnlyCurrentSeason.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "IsOnlyCurrentSeason": {
+                      "$ref": "../schemas/IsOnlyCurrentSeason.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "commonallplayers"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/CommonAllPlayers.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

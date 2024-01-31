@@ -1,0 +1,186 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "PCT_FGA_2PT"
+        },
+        {
+          "const": "PCT_FGA_3PT"
+        },
+        {
+          "const": "PCT_PTS_2PT"
+        },
+        {
+          "const": "PCT_PTS_2PT_MR"
+        },
+        {
+          "const": "PCT_PTS_3PT"
+        },
+        {
+          "const": "PCT_PTS_FB"
+        },
+        {
+          "const": "PCT_PTS_FT"
+        },
+        {
+          "const": "PCT_PTS_OFF_TOV"
+        },
+        {
+          "const": "PCT_PTS_PAINT"
+        },
+        {
+          "const": "PCT_AST_2PM"
+        },
+        {
+          "const": "PCT_UAST_2PM"
+        },
+        {
+          "const": "PCT_AST_3PM"
+        },
+        {
+          "const": "PCT_UAST_3PM"
+        },
+        {
+          "const": "PCT_AST_FGM"
+        },
+        {
+          "const": "PCT_UAST_FGM"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFga2pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFga3pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPts2pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPts2ptMr.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPts3pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPtsFb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPtsFt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPtsOffTov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPtsPaint.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAst2pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUast2pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAst3pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUast3pm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAstFgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctUastFgm.json"
+          }
+        }
+      ]
+    }
+  }
+}

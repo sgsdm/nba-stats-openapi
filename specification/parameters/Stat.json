@@ -1,0 +1,9 @@
+{
+  "name": "Stat",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Stat.json"
+  },
+  "required": true
+}

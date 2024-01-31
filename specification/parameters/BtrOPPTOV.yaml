@@ -1,5 +1,0 @@
-name: BtrOPPTOV
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPTOV.yaml

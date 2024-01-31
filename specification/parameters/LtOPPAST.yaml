@@ -1,5 +1,0 @@
-name: LtOPPAST
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtOPPAST.yaml

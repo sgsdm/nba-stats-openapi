@@ -1,0 +1,242 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "DATE_EST"
+        },
+        {
+          "const": "VISITOR_TEAM"
+        },
+        {
+          "const": "HOME_TEAM"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "GS"
+        },
+        {
+          "const": "ACTUAL_MINUTES"
+        },
+        {
+          "const": "ACTUAL_SECONDS"
+        },
+        {
+          "const": "FG"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FT"
+        },
+        {
+          "const": "FTA"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "OFF_REB"
+        },
+        {
+          "const": "DEF_REB"
+        },
+        {
+          "const": "TOT_REB"
+        },
+        {
+          "const": "AVG_TOT_REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "DQ"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "TURNOVERS"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "AVG_PTS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/DateEst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeam.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeam.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gs.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActualMinutes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActualSeconds.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TotReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgTotReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dq.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Turnovers.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgPts.json"
+          }
+        }
+      ]
+    }
+  }
+}

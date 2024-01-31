@@ -1,0 +1,5 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "pattern": "^\\d+(( - \\d+){2,4})?$"
+}

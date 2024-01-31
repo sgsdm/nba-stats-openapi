@@ -1,6 +1,0 @@
-name: TodaysOpponent
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/TodaysOpponent.yaml
-required: true

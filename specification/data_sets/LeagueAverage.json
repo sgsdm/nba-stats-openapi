@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "EFG_PCT"
+        },
+        {
+          "const": "TS_PCT"
+        },
+        {
+          "const": "PTS_PER48"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EfgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TsPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPer48.json"
+          }
+        }
+      ]
+    }
+  }
+}

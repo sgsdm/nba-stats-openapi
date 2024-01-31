@@ -1,6 +1,0 @@
-name: VsPlayerID3
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/VsPlayerID3.yaml
-required: true

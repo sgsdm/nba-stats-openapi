@@ -1,6 +1,0 @@
-name: GroupQuantity
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GroupQuantity.yaml
-required: true

@@ -1,0 +1,14 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "Base",
+    "Advanced",
+    "Misc",
+    "Four Factors",
+    "Scoring",
+    "Opponent",
+    "Usage",
+    "Defense"
+  ]
+}

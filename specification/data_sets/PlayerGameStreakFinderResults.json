@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_NAME_LAST_FIRST"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "GAMESTREAK"
+        },
+        {
+          "const": "STARTDATE"
+        },
+        {
+          "const": "ENDDATE"
+        },
+        {
+          "const": "ACTIVESTREAK"
+        },
+        {
+          "const": "NUMSEASONS"
+        },
+        {
+          "const": "LASTSEASON"
+        },
+        {
+          "const": "FIRSTSEASON"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gamestreak.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Startdate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Enddate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Activestreak.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Numseasons.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Lastseason.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Firstseason.json"
+          }
+        }
+      ]
+    }
+  }
+}

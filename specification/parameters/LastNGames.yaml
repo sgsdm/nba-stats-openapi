@@ -1,5 +1,0 @@
-name: LastNGames
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LastNGames.yaml

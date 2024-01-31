@@ -1,0 +1,9 @@
+{
+  "name": "TodaysOpponent",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/TodaysOpponent.json"
+  },
+  "required": true
+}

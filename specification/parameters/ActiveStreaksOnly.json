@@ -1,0 +1,8 @@
+{
+  "name": "ActiveStreaksOnly",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/ActiveStreaksOnly.json"
+  }
+}

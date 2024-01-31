@@ -1,0 +1,8 @@
+{
+  "name": "GtDD",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GtDD.json"
+  }
+}

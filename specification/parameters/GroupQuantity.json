@@ -1,0 +1,9 @@
+{
+  "name": "GroupQuantity",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GroupQuantity.json"
+  },
+  "required": true
+}

@@ -1,0 +1,399 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Official NBA Stats API",
+    "version": "1.0.0",
+    "description": "OpenAPI documentation for the nba.stats.com and data.nba.com",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/license/mit/"
+    },
+    "contact": {
+      "name": "Abhi Agarwal"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://stats.nba.com/stats"
+    }
+  ],
+  "paths": {
+    "/alltimeleadersgrids": {
+      "$ref": "specification/paths/AllTimeLeadersGrids.json"
+    },
+    "/assistleaders": {
+      "$ref": "specification/paths/AssistLeaders.json"
+    },
+    "/assisttracker": {
+      "$ref": "specification/paths/AssistTracker.json"
+    },
+    "/boxscoreadvancedv2": {
+      "$ref": "specification/paths/BoxScoreAdvancedV2.json"
+    },
+    "/boxscorefourfactorsv2": {
+      "$ref": "specification/paths/BoxScoreFourFactorsV2.json"
+    },
+    "/boxscoremiscv2": {
+      "$ref": "specification/paths/BoxScoreMiscV2.json"
+    },
+    "/boxscoreplayertrackv2": {
+      "$ref": "specification/paths/BoxScorePlayerTrackV2.json"
+    },
+    "/boxscorescoringv2": {
+      "$ref": "specification/paths/BoxScoreScoringV2.json"
+    },
+    "/boxscoresimilarityscore": {
+      "$ref": "specification/paths/BoxScoreSimilarityScore.json"
+    },
+    "/boxscoresummaryv2": {
+      "$ref": "specification/paths/BoxScoreSummaryV2.json"
+    },
+    "/boxscoretraditionalv2": {
+      "$ref": "specification/paths/BoxScoreTraditionalV2.json"
+    },
+    "/boxscoreusagev2": {
+      "$ref": "specification/paths/BoxScoreUsageV2.json"
+    },
+    "/commonallplayers": {
+      "$ref": "specification/paths/CommonAllPlayers.json"
+    },
+    "/commonplayerinfo": {
+      "$ref": "specification/paths/CommonPlayerInfo.json"
+    },
+    "/commonplayoffseries": {
+      "$ref": "specification/paths/CommonPlayoffSeries.json"
+    },
+    "/commonteamroster": {
+      "$ref": "specification/paths/CommonTeamRoster.json"
+    },
+    "/commonteamyears": {
+      "$ref": "specification/paths/CommonTeamYears.json"
+    },
+    "/cumestatsplayer": {
+      "$ref": "specification/paths/CumeStatsPlayer.json"
+    },
+    "/cumestatsplayergames": {
+      "$ref": "specification/paths/CumeStatsPlayerGames.json"
+    },
+    "/cumestatsteam": {
+      "$ref": "specification/paths/CumeStatsTeam.json"
+    },
+    "/cumestatsteamgames": {
+      "$ref": "specification/paths/CumeStatsTeamGames.json"
+    },
+    "/defensehub": {
+      "$ref": "specification/paths/DefenseHub.json"
+    },
+    "/draftboard": {
+      "$ref": "specification/paths/DraftBoard.json"
+    },
+    "/draftcombinedrillresults": {
+      "$ref": "specification/paths/DraftCombineDrillResults.json"
+    },
+    "/draftcombinenonstationaryshooting": {
+      "$ref": "specification/paths/DraftCombineNonStationaryShooting.json"
+    },
+    "/draftcombineplayeranthro": {
+      "$ref": "specification/paths/DraftCombinePlayerAnthro.json"
+    },
+    "/draftcombinespotshooting": {
+      "$ref": "specification/paths/DraftCombineSpotShooting.json"
+    },
+    "/draftcombinestats": {
+      "$ref": "specification/paths/DraftCombineStats.json"
+    },
+    "/drafthistory": {
+      "$ref": "specification/paths/DraftHistory.json"
+    },
+    "/fantasywidget": {
+      "$ref": "specification/paths/FantasyWidget.json"
+    },
+    "/franchisehistory": {
+      "$ref": "specification/paths/FranchiseHistory.json"
+    },
+    "/franchiseleaders": {
+      "$ref": "specification/paths/FranchiseLeaders.json"
+    },
+    "/franchiseplayers": {
+      "$ref": "specification/paths/FranchisePlayers.json"
+    },
+    "/glalumboxscoresimilarityscore": {
+      "$ref": "specification/paths/GLAlumBoxScoreSimilarityScore.json"
+    },
+    "/gamerotation": {
+      "$ref": "specification/paths/GameRotation.json"
+    },
+    "/homepageleaders": {
+      "$ref": "specification/paths/HomePageLeaders.json"
+    },
+    "/homepagev2": {
+      "$ref": "specification/paths/HomePageV2.json"
+    },
+    "/hustlestatsboxscore": {
+      "$ref": "specification/paths/HustleStatsBoxScore.json"
+    },
+    "/infographicfanduelplayer": {
+      "$ref": "specification/paths/InfographicFanDuelPlayer.json"
+    },
+    "/iststangings": {
+      "$ref": "specification/paths/ISTStangings.json"
+    },
+    "/leaderstiles": {
+      "$ref": "specification/paths/LeadersTiles.json"
+    },
+    "/leaguedashlineups": {
+      "$ref": "specification/paths/LeagueDashLineups.json"
+    },
+    "/leaguedashoppptshot": {
+      "$ref": "specification/paths/LeagueDashOppPtShot.json"
+    },
+    "/leaguedashplayerbiostats": {
+      "$ref": "specification/paths/LeagueDashPlayerBioStats.json"
+    },
+    "/leaguedashplayerclutch": {
+      "$ref": "specification/paths/LeagueDashPlayerClutch.json"
+    },
+    "/leaguedashplayerptshot": {
+      "$ref": "specification/paths/LeagueDashPlayerPtShot.json"
+    },
+    "/leaguedashplayershotlocations": {
+      "$ref": "specification/paths/LeagueDashPlayerShotLocations.json"
+    },
+    "/leaguedashplayerstats": {
+      "$ref": "specification/paths/LeagueDashPlayerStats.json"
+    },
+    "/leaguedashptdefend": {
+      "$ref": "specification/paths/LeagueDashPtDefend.json"
+    },
+    "/leaguedashptstats": {
+      "$ref": "specification/paths/LeagueDashPtStats.json"
+    },
+    "/leaguedashptteamdefend": {
+      "$ref": "specification/paths/LeagueDashPtTeamDefend.json"
+    },
+    "/leaguedashteamclutch": {
+      "$ref": "specification/paths/LeagueDashTeamClutch.json"
+    },
+    "/leaguedashteamptshot": {
+      "$ref": "specification/paths/LeagueDashTeamPtShot.json"
+    },
+    "/leaguedashteamshotlocations": {
+      "$ref": "specification/paths/LeagueDashTeamShotLocations.json"
+    },
+    "/leaguedashteamstats": {
+      "$ref": "specification/paths/LeagueDashTeamStats.json"
+    },
+    "/leaguegamefinder": {
+      "$ref": "specification/paths/LeagueGameFinder.json"
+    },
+    "/leaguegamelog": {
+      "$ref": "specification/paths/LeagueGameLog.json"
+    },
+    "/leaguehustlestatsplayer": {
+      "$ref": "specification/paths/LeagueHustleStatsPlayer.json"
+    },
+    "/leaguehustlestatsteam": {
+      "$ref": "specification/paths/LeagueHustleStatsTeam.json"
+    },
+    "/leagueleaders": {
+      "$ref": "specification/paths/LeagueLeaders.json"
+    },
+    "/leaguelineupviz": {
+      "$ref": "specification/paths/LeagueLineupViz.json"
+    },
+    "/leagueplayerondetails": {
+      "$ref": "specification/paths/LeaguePlayerOnDetails.json"
+    },
+    "/leagueseasonmatchups": {
+      "$ref": "specification/paths/LeagueSeasonMatchups.json"
+    },
+    "/leaguestandings": {
+      "$ref": "specification/paths/LeagueStandings.json"
+    },
+    "/leaguestandingsv3": {
+      "$ref": "specification/paths/LeagueStandingsV3.json"
+    },
+    "/matchupsrollup": {
+      "$ref": "specification/paths/MatchupsRollup.json"
+    },
+    "/playbyplay": {
+      "$ref": "specification/paths/PlayByPlay.json"
+    },
+    "/playbyplayv2": {
+      "$ref": "specification/paths/PlayByPlayV2.json"
+    },
+    "/playerawards": {
+      "$ref": "specification/paths/PlayerAwards.json"
+    },
+    "/playercareerbycollege": {
+      "$ref": "specification/paths/PlayerCareerByCollege.json"
+    },
+    "/playercareerbycollegerollup": {
+      "$ref": "specification/paths/PlayerCareerByCollegeRollup.json"
+    },
+    "/playercareerstats": {
+      "$ref": "specification/paths/PlayerCareerStats.json"
+    },
+    "/playercompare": {
+      "$ref": "specification/paths/PlayerCompare.json"
+    },
+    "/playerdashptpass": {
+      "$ref": "specification/paths/PlayerDashPtPass.json"
+    },
+    "/playerdashptreb": {
+      "$ref": "specification/paths/PlayerDashPtReb.json"
+    },
+    "/playerdashptshotdefend": {
+      "$ref": "specification/paths/PlayerDashPtShotDefend.json"
+    },
+    "/playerdashptshots": {
+      "$ref": "specification/paths/PlayerDashPtShots.json"
+    },
+    "/playerdashboardbyclutch": {
+      "$ref": "specification/paths/PlayerDashboardByClutch.json"
+    },
+    "/playerdashboardbygamesplits": {
+      "$ref": "specification/paths/PlayerDashboardByGameSplits.json"
+    },
+    "/playerdashboardbygeneralsplits": {
+      "$ref": "specification/paths/PlayerDashboardByGeneralSplits.json"
+    },
+    "/playerdashboardbylastngames": {
+      "$ref": "specification/paths/PlayerDashboardByLastNGames.json"
+    },
+    "/playerdashboardbyshootingsplits": {
+      "$ref": "specification/paths/PlayerDashboardByShootingSplits.json"
+    },
+    "/playerdashboardbyteamperformance": {
+      "$ref": "specification/paths/PlayerDashboardByTeamPerformance.json"
+    },
+    "/playerdashboardbyyearoveryear": {
+      "$ref": "specification/paths/PlayerDashboardByYearOverYear.json"
+    },
+    "/playerestimatedmetrics": {
+      "$ref": "specification/paths/PlayerEstimatedMetrics.json"
+    },
+    "/playerfantasyprofile": {
+      "$ref": "specification/paths/PlayerFantasyProfile.json"
+    },
+    "/playerfantasyprofilebargraph": {
+      "$ref": "specification/paths/PlayerFantasyProfileBarGraph.json"
+    },
+    "/playergamelog": {
+      "$ref": "specification/paths/PlayerGameLog.json"
+    },
+    "/playergamelogs": {
+      "$ref": "specification/paths/PlayerGameLogs.json"
+    },
+    "/playergamestreakfinder": {
+      "$ref": "specification/paths/PlayerGameStreakFinder.json"
+    },
+    "/playerindex": {
+      "$ref": "specification/paths/PlayerIndex.json"
+    },
+    "/playernextngames": {
+      "$ref": "specification/paths/PlayerNextNGames.json"
+    },
+    "/playerprofilev2": {
+      "$ref": "specification/paths/PlayerProfileV2.json"
+    },
+    "/playervsplayer": {
+      "$ref": "specification/paths/PlayerVsPlayer.json"
+    },
+    "/playoffpicture": {
+      "$ref": "specification/paths/PlayoffPicture.json"
+    },
+    "/scoreboard": {
+      "$ref": "specification/paths/Scoreboard.json"
+    },
+    "/scoreboardv2": {
+      "$ref": "specification/paths/ScoreboardV2.json"
+    },
+    "/shotchartdetail": {
+      "$ref": "specification/paths/ShotChartDetail.json"
+    },
+    "/shotchartleaguewide": {
+      "$ref": "specification/paths/ShotChartLeagueWide.json"
+    },
+    "/shotchartlineupdetail": {
+      "$ref": "specification/paths/ShotChartLineupDetail.json"
+    },
+    "/synergyplaytypes": {
+      "$ref": "specification/paths/SynergyPlayTypes.json"
+    },
+    "/teamandplayersvsplayers": {
+      "$ref": "specification/paths/TeamAndPlayersVsPlayers.json"
+    },
+    "/teamdashlineups": {
+      "$ref": "specification/paths/TeamDashLineups.json"
+    },
+    "/teamdashptpass": {
+      "$ref": "specification/paths/TeamDashPtPass.json"
+    },
+    "/teamdashptreb": {
+      "$ref": "specification/paths/TeamDashPtReb.json"
+    },
+    "/teamdashptshots": {
+      "$ref": "specification/paths/TeamDashPtShots.json"
+    },
+    "/teamdashboardbygeneralsplits": {
+      "$ref": "specification/paths/TeamDashboardByGeneralSplits.json"
+    },
+    "/teamdashboardbyshootingsplits": {
+      "$ref": "specification/paths/TeamDashboardByShootingSplits.json"
+    },
+    "/teamdetails": {
+      "$ref": "specification/paths/TeamDetails.json"
+    },
+    "/teamestimatedmetrics": {
+      "$ref": "specification/paths/TeamEstimatedMetrics.json"
+    },
+    "/teamgamelog": {
+      "$ref": "specification/paths/TeamGameLog.json"
+    },
+    "/teamgamelogs": {
+      "$ref": "specification/paths/TeamGameLogs.json"
+    },
+    "/teamhistoricalleaders": {
+      "$ref": "specification/paths/TeamHistoricalLeaders.json"
+    },
+    "/teaminfocommon": {
+      "$ref": "specification/paths/TeamInfoCommon.json"
+    },
+    "/teamplayerdashboard": {
+      "$ref": "specification/paths/TeamPlayerDashboard.json"
+    },
+    "/teamplayeronoffdetails": {
+      "$ref": "specification/paths/TeamPlayerOnOffDetails.json"
+    },
+    "/teamplayeronoffsummary": {
+      "$ref": "specification/paths/TeamPlayerOnOffSummary.json"
+    },
+    "/teamvsplayer": {
+      "$ref": "specification/paths/TeamVsPlayer.json"
+    },
+    "/teamyearbyyearstats": {
+      "$ref": "specification/paths/TeamYearByYearStats.json"
+    },
+    "/videodetails": {
+      "$ref": "specification/paths/VideoDetails.json"
+    },
+    "/videoevents": {
+      "$ref": "specification/paths/VideoEvents.json"
+    },
+    "/videostatus": {
+      "$ref": "specification/paths/VideoStatus.json"
+    },
+    "/winprobabilitypbp": {
+      "$ref": "specification/paths/WinProbabilityPBP.json"
+    }
+  },
+  "components": {
+    "parameters": {
+      "$ref": "specification/parameters/_index.json"
+    },
+    "schemas": {
+      "$ref": "specification/schemas/_index.json"
+    }
+  }
+}

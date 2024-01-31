@@ -1,0 +1,204 @@
+{
+  "get": {
+    "summary": "LeagueDashLineups",
+    "operationId": "LeagueDashLineups",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/Conference.json"
+      },
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/Division.json"
+      },
+      {
+        "$ref": "../parameters/GameSegment.json"
+      },
+      {
+        "$ref": "../parameters/GroupQuantity.json"
+      },
+      {
+        "$ref": "../parameters/LastNGames.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/MeasureType.json"
+      },
+      {
+        "$ref": "../parameters/Month.json"
+      },
+      {
+        "$ref": "../parameters/OpponentTeamID.json"
+      },
+      {
+        "$ref": "../parameters/Outcome.json"
+      },
+      {
+        "$ref": "../parameters/PORound.json"
+      },
+      {
+        "$ref": "../parameters/PaceAdjust.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/Period.json"
+      },
+      {
+        "$ref": "../parameters/PlusMinus.json"
+      },
+      {
+        "$ref": "../parameters/Rank.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/ShotClockRange.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "Conference": {
+                      "$ref": "../schemas/Conference.json"
+                    },
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "Division": {
+                      "$ref": "../schemas/Division.json"
+                    },
+                    "GameSegment": {
+                      "$ref": "../schemas/GameSegment.json"
+                    },
+                    "GroupQuantity": {
+                      "$ref": "../schemas/GroupQuantity.json"
+                    },
+                    "LastNGames": {
+                      "$ref": "../schemas/LastNGames.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "MeasureType": {
+                      "$ref": "../schemas/MeasureType.json"
+                    },
+                    "Month": {
+                      "$ref": "../schemas/Month.json"
+                    },
+                    "OpponentTeamID": {
+                      "$ref": "../schemas/OpponentTeamID.json"
+                    },
+                    "Outcome": {
+                      "$ref": "../schemas/Outcome.json"
+                    },
+                    "PORound": {
+                      "$ref": "../schemas/PORound.json"
+                    },
+                    "PaceAdjust": {
+                      "$ref": "../schemas/PaceAdjust.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "Period": {
+                      "$ref": "../schemas/Period.json"
+                    },
+                    "PlusMinus": {
+                      "$ref": "../schemas/PlusMinus.json"
+                    },
+                    "Rank": {
+                      "$ref": "../schemas/Rank.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "ShotClockRange": {
+                      "$ref": "../schemas/ShotClockRange.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "leaguedashlineups"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/Lineups.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

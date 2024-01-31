@@ -1,0 +1,9 @@
+{
+  "name": "RangeType",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/RangeType.json"
+  },
+  "required": true
+}

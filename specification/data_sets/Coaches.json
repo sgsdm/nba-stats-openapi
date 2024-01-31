@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "SEASON"
+        },
+        {
+          "const": "COACH_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "COACH_NAME"
+        },
+        {
+          "const": "IS_ASSISTANT"
+        },
+        {
+          "const": "COACH_TYPE"
+        },
+        {
+          "const": "SORT_SEQUENCE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Season.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CoachId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CoachName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/IsAssistant.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CoachType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SortSequence.json"
+          }
+        }
+      ]
+    }
+  }
+}

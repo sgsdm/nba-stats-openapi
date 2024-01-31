@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_DATE_EST"
+        },
+        {
+          "const": "GAME_SEQUENCE"
+        },
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "GAME_STATUS_ID"
+        },
+        {
+          "const": "GAME_STATUS_TEXT"
+        },
+        {
+          "const": "GAMECODE"
+        },
+        {
+          "const": "HOME_TEAM_ID"
+        },
+        {
+          "const": "VISITOR_TEAM_ID"
+        },
+        {
+          "const": "SEASON"
+        },
+        {
+          "const": "LIVE_PERIOD"
+        },
+        {
+          "const": "LIVE_PC_TIME"
+        },
+        {
+          "const": "NATL_TV_BROADCASTER_ABBREVIATION"
+        },
+        {
+          "const": "LIVE_PERIOD_TIME_BCAST"
+        },
+        {
+          "const": "WH_STATUS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameDateEst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameSequence.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameStatusId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameStatusText.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gamecode.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Season.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LivePeriod.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LivePcTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/NatlTvBroadcasterAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LivePeriodTimeBcast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WhStatus.json"
+          }
+        }
+      ]
+    }
+  }
+}

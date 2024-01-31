@@ -1,0 +1,14 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "PTS",
+    "REB",
+    "AST",
+    "FGPCT",
+    "FTPCT",
+    "FG3PCT",
+    "STL",
+    "BLK"
+  ]
+}

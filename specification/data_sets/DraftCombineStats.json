@@ -1,0 +1,394 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "SEASON"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "POSITION"
+        },
+        {
+          "const": "HEIGHT_WO_SHOES"
+        },
+        {
+          "const": "HEIGHT_WO_SHOES_FT_IN"
+        },
+        {
+          "const": "HEIGHT_W_SHOES"
+        },
+        {
+          "const": "HEIGHT_W_SHOES_FT_IN"
+        },
+        {
+          "const": "WEIGHT"
+        },
+        {
+          "const": "WINGSPAN"
+        },
+        {
+          "const": "WINGSPAN_FT_IN"
+        },
+        {
+          "const": "STANDING_REACH"
+        },
+        {
+          "const": "STANDING_REACH_FT_IN"
+        },
+        {
+          "const": "BODY_FAT_PCT"
+        },
+        {
+          "const": "HAND_LENGTH"
+        },
+        {
+          "const": "HAND_WIDTH"
+        },
+        {
+          "const": "STANDING_VERTICAL_LEAP"
+        },
+        {
+          "const": "MAX_VERTICAL_LEAP"
+        },
+        {
+          "const": "LANE_AGILITY_TIME"
+        },
+        {
+          "const": "MODIFIED_LANE_AGILITY_TIME"
+        },
+        {
+          "const": "THREE_QUARTER_SPRINT"
+        },
+        {
+          "const": "BENCH_PRESS"
+        },
+        {
+          "const": "SPOT_FIFTEEN_CORNER_LEFT"
+        },
+        {
+          "const": "SPOT_FIFTEEN_BREAK_LEFT"
+        },
+        {
+          "const": "SPOT_FIFTEEN_TOP_KEY"
+        },
+        {
+          "const": "SPOT_FIFTEEN_BREAK_RIGHT"
+        },
+        {
+          "const": "SPOT_FIFTEEN_CORNER_RIGHT"
+        },
+        {
+          "const": "SPOT_COLLEGE_CORNER_LEFT"
+        },
+        {
+          "const": "SPOT_COLLEGE_BREAK_LEFT"
+        },
+        {
+          "const": "SPOT_COLLEGE_TOP_KEY"
+        },
+        {
+          "const": "SPOT_COLLEGE_BREAK_RIGHT"
+        },
+        {
+          "const": "SPOT_COLLEGE_CORNER_RIGHT"
+        },
+        {
+          "const": "SPOT_NBA_CORNER_LEFT"
+        },
+        {
+          "const": "SPOT_NBA_BREAK_LEFT"
+        },
+        {
+          "const": "SPOT_NBA_TOP_KEY"
+        },
+        {
+          "const": "SPOT_NBA_BREAK_RIGHT"
+        },
+        {
+          "const": "SPOT_NBA_CORNER_RIGHT"
+        },
+        {
+          "const": "OFF_DRIB_FIFTEEN_BREAK_LEFT"
+        },
+        {
+          "const": "OFF_DRIB_FIFTEEN_TOP_KEY"
+        },
+        {
+          "const": "OFF_DRIB_FIFTEEN_BREAK_RIGHT"
+        },
+        {
+          "const": "OFF_DRIB_COLLEGE_BREAK_LEFT"
+        },
+        {
+          "const": "OFF_DRIB_COLLEGE_TOP_KEY"
+        },
+        {
+          "const": "OFF_DRIB_COLLEGE_BREAK_RIGHT"
+        },
+        {
+          "const": "ON_MOVE_FIFTEEN"
+        },
+        {
+          "const": "ON_MOVE_COLLEGE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Season.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Position.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HeightWoShoes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HeightWoShoesFtIn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HeightWShoes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HeightWShoesFtIn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Weight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Wingspan.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WingspanFtIn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StandingReach.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StandingReachFtIn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BodyFatPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HandLength.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HandWidth.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StandingVerticalLeap.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxVerticalLeap.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LaneAgilityTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ModifiedLaneAgilityTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ThreeQuarterSprint.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BenchPress.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotFifteenCornerLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotFifteenBreakLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotFifteenTopKey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotFifteenBreakRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotFifteenCornerRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotCollegeCornerLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotCollegeBreakLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotCollegeTopKey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotCollegeBreakRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotCollegeCornerRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotNbaCornerLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotNbaBreakLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotNbaTopKey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotNbaBreakRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SpotNbaCornerRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribFifteenBreakLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribFifteenTopKey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribFifteenBreakRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribCollegeBreakLeft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribCollegeTopKey.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffDribCollegeBreakRight.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OnMoveFifteen.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OnMoveCollege.json"
+          }
+        }
+      ]
+    }
+  }
+}

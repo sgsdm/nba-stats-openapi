@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NICKNAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "PTS_PLAYER_ID"
+        },
+        {
+          "const": "PTS_PLAYER_NAME"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "REB_PLAYER_ID"
+        },
+        {
+          "const": "REB_PLAYER_NAME"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "AST_PLAYER_ID"
+        },
+        {
+          "const": "AST_PLAYER_NAME"
+        },
+        {
+          "const": "AST"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamNickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebPlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        }
+      ]
+    }
+  }
+}

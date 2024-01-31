@@ -1,0 +1,234 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "START_POSITION"
+        },
+        {
+          "const": "COMMENT"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "USG_PCT"
+        },
+        {
+          "const": "PCT_FGM"
+        },
+        {
+          "const": "PCT_FGA"
+        },
+        {
+          "const": "PCT_FG3M"
+        },
+        {
+          "const": "PCT_FG3A"
+        },
+        {
+          "const": "PCT_FTM"
+        },
+        {
+          "const": "PCT_FTA"
+        },
+        {
+          "const": "PCT_OREB"
+        },
+        {
+          "const": "PCT_DREB"
+        },
+        {
+          "const": "PCT_REB"
+        },
+        {
+          "const": "PCT_AST"
+        },
+        {
+          "const": "PCT_TOV"
+        },
+        {
+          "const": "PCT_STL"
+        },
+        {
+          "const": "PCT_BLK"
+        },
+        {
+          "const": "PCT_BLKA"
+        },
+        {
+          "const": "PCT_PF"
+        },
+        {
+          "const": "PCT_PFD"
+        },
+        {
+          "const": "PCT_PTS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StartPosition.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Comment.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/UsgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFtm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctFta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctOreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctDreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctAst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctTov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctStl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBlk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBlka.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPfd.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPts.json"
+          }
+        }
+      ]
+    }
+  }
+}

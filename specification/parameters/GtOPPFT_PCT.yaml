@@ -1,5 +1,0 @@
-name: GtOPPFT_PCT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtOPPFT_PCT.yaml

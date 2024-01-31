@@ -1,0 +1,9 @@
+{
+  "name": "Section",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Section.json"
+  },
+  "required": true
+}

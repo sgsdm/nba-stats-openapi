@@ -1,0 +1,9 @@
+{
+  "name": "GROUP_ID",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GROUP_ID.json"
+  },
+  "required": true
+}

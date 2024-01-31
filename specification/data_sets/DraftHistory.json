@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "SEASON"
+        },
+        {
+          "const": "ROUND_NUMBER"
+        },
+        {
+          "const": "ROUND_PICK"
+        },
+        {
+          "const": "OVERALL_PICK"
+        },
+        {
+          "const": "DRAFT_TYPE"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "ORGANIZATION"
+        },
+        {
+          "const": "ORGANIZATION_TYPE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Season.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RoundNumber.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RoundPick.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OverallPick.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DraftType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Organization.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OrganizationType.json"
+          }
+        }
+      ]
+    }
+  }
+}

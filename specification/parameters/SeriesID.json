@@ -1,0 +1,8 @@
+{
+  "name": "SeriesID",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/SeriesID.json"
+  }
+}

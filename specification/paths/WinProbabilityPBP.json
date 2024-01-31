@@ -1,0 +1,65 @@
+{
+  "get": {
+    "summary": "WinProbabilityPBP",
+    "operationId": "WinProbabilityPBP",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/GameID.json"
+      },
+      {
+        "$ref": "../parameters/RunType.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "GameID": {
+                      "$ref": "../schemas/GameID.json"
+                    },
+                    "RunType": {
+                      "$ref": "../schemas/RunType.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "winprobabilitypbp"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/GameInfo.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/WinProbPBP.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

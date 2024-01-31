@@ -1,0 +1,174 @@
+{
+  "get": {
+    "summary": "LeagueDashPtTeamDefend",
+    "operationId": "LeagueDashPtTeamDefend",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/Conference.json"
+      },
+      {
+        "$ref": "../parameters/DateFrom.json"
+      },
+      {
+        "$ref": "../parameters/DateTo.json"
+      },
+      {
+        "$ref": "../parameters/DefenseCategory.json"
+      },
+      {
+        "$ref": "../parameters/Division.json"
+      },
+      {
+        "$ref": "../parameters/GameSegment.json"
+      },
+      {
+        "$ref": "../parameters/LastNGames.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/Location.json"
+      },
+      {
+        "$ref": "../parameters/Month.json"
+      },
+      {
+        "$ref": "../parameters/OpponentTeamID.json"
+      },
+      {
+        "$ref": "../parameters/Outcome.json"
+      },
+      {
+        "$ref": "../parameters/PORound.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/Period.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonSegment.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/TeamID.json"
+      },
+      {
+        "$ref": "../parameters/VsConference.json"
+      },
+      {
+        "$ref": "../parameters/VsDivision.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "Conference": {
+                      "$ref": "../schemas/Conference.json"
+                    },
+                    "DateFrom": {
+                      "$ref": "../schemas/DateFrom.json"
+                    },
+                    "DateTo": {
+                      "$ref": "../schemas/DateTo.json"
+                    },
+                    "DefenseCategory": {
+                      "$ref": "../schemas/DefenseCategory.json"
+                    },
+                    "Division": {
+                      "$ref": "../schemas/Division.json"
+                    },
+                    "GameSegment": {
+                      "$ref": "../schemas/GameSegment.json"
+                    },
+                    "LastNGames": {
+                      "$ref": "../schemas/LastNGames.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "Location": {
+                      "$ref": "../schemas/Location.json"
+                    },
+                    "Month": {
+                      "$ref": "../schemas/Month.json"
+                    },
+                    "OpponentTeamID": {
+                      "$ref": "../schemas/OpponentTeamID.json"
+                    },
+                    "Outcome": {
+                      "$ref": "../schemas/Outcome.json"
+                    },
+                    "PORound": {
+                      "$ref": "../schemas/PORound.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "Period": {
+                      "$ref": "../schemas/Period.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonSegment": {
+                      "$ref": "../schemas/SeasonSegment.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "TeamID": {
+                      "$ref": "../schemas/TeamID.json"
+                    },
+                    "VsConference": {
+                      "$ref": "../schemas/VsConference.json"
+                    },
+                    "VsDivision": {
+                      "$ref": "../schemas/VsDivision.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "leaguedashptteamdefend"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeagueDashPtTeamDefend.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

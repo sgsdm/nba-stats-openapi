@@ -1,5 +1,0 @@
-name: BtrOPPOREB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPOREB.yaml

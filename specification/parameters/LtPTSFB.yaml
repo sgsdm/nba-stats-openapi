@@ -1,5 +1,0 @@
-name: LtPTSFB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtPTSFB.yaml

@@ -1,5 +1,0 @@
-name: LtFGA
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtFGA.yaml

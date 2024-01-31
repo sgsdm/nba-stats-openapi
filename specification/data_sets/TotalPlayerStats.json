@@ -1,0 +1,402 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "DISPLAY_FI_LAST"
+        },
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "JERSEY_NUM"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "GS"
+        },
+        {
+          "const": "ACTUAL_MINUTES"
+        },
+        {
+          "const": "ACTUAL_SECONDS"
+        },
+        {
+          "const": "FG"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FT"
+        },
+        {
+          "const": "FTA"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "OFF_REB"
+        },
+        {
+          "const": "DEF_REB"
+        },
+        {
+          "const": "TOT_REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "DQ"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "TURNOVERS"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "MAX_ACTUAL_MINUTES"
+        },
+        {
+          "const": "MAX_ACTUAL_SECONDS"
+        },
+        {
+          "const": "MAX_REB"
+        },
+        {
+          "const": "MAX_AST"
+        },
+        {
+          "const": "MAX_STL"
+        },
+        {
+          "const": "MAX_TURNOVERS"
+        },
+        {
+          "const": "MAX_BLK"
+        },
+        {
+          "const": "MAX_PTS"
+        },
+        {
+          "const": "AVG_ACTUAL_MINUTES"
+        },
+        {
+          "const": "AVG_ACTUAL_SECONDS"
+        },
+        {
+          "const": "AVG_TOT_REB"
+        },
+        {
+          "const": "AVG_AST"
+        },
+        {
+          "const": "AVG_STL"
+        },
+        {
+          "const": "AVG_TURNOVERS"
+        },
+        {
+          "const": "AVG_BLK"
+        },
+        {
+          "const": "AVG_PTS"
+        },
+        {
+          "const": "PER_MIN_TOT_REB"
+        },
+        {
+          "const": "PER_MIN_AST"
+        },
+        {
+          "const": "PER_MIN_STL"
+        },
+        {
+          "const": "PER_MIN_TURNOVERS"
+        },
+        {
+          "const": "PER_MIN_BLK"
+        },
+        {
+          "const": "PER_MIN_PTS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/DisplayFiLast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/JerseyNum.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gs.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActualMinutes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActualSeconds.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ft.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TotReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dq.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Turnovers.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxActualMinutes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxActualSeconds.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxAst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxStl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxTurnovers.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxBlk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgActualMinutes.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgActualSeconds.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgTotReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgAst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgStl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgTurnovers.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgBlk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AvgPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinTotReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinAst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinStl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinTurnovers.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinBlk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PerMinPts.json"
+          }
+        }
+      ]
+    }
+  }
+}

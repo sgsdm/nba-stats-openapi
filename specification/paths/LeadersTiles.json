@@ -1,0 +1,105 @@
+{
+  "get": {
+    "summary": "LeadersTiles",
+    "operationId": "LeadersTiles",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/GameScope.json"
+      },
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PlayerOrTeam.json"
+      },
+      {
+        "$ref": "../parameters/PlayerScope.json"
+      },
+      {
+        "$ref": "../parameters/Season.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/Stat.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "GameScope": {
+                      "$ref": "../schemas/GameScope.json"
+                    },
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PlayerOrTeam": {
+                      "$ref": "../schemas/PlayerOrTeam.json"
+                    },
+                    "PlayerScope": {
+                      "$ref": "../schemas/PlayerScope.json"
+                    },
+                    "Season": {
+                      "$ref": "../schemas/Season.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "Stat": {
+                      "$ref": "../schemas/Stat.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "leaderstiles"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/AllTimeSeasonHigh.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LastSeasonHigh.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LeadersTiles.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/LowSeasonHigh.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

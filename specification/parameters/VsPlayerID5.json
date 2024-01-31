@@ -1,0 +1,9 @@
+{
+  "name": "VsPlayerID5",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/VsPlayerID5.json"
+  },
+  "required": true
+}

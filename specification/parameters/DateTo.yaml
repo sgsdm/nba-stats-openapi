@@ -1,5 +1,0 @@
-name: DateTo
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/DateTo.yaml

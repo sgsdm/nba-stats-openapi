@@ -1,5 +1,0 @@
-name: LtOPPFG3M
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtOPPFG3M.yaml

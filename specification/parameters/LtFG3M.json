@@ -1,0 +1,8 @@
+{
+  "name": "LtFG3M",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/LtFG3M.json"
+  }
+}

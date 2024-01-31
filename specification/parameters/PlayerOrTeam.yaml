@@ -1,6 +1,0 @@
-name: PlayerOrTeam
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/PlayerOrTeam.yaml
-required: true

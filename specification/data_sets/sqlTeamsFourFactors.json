@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "EFG_PCT"
+        },
+        {
+          "const": "FTA_RATE"
+        },
+        {
+          "const": "TM_TOV_PCT"
+        },
+        {
+          "const": "OREB_PCT"
+        },
+        {
+          "const": "OPP_EFG_PCT"
+        },
+        {
+          "const": "OPP_FTA_RATE"
+        },
+        {
+          "const": "OPP_TOV_PCT"
+        },
+        {
+          "const": "OPP_OREB_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EfgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtaRate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TmTovPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OrebPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppEfgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppFtaRate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppTovPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppOrebPct.json"
+          }
+        }
+      ]
+    }
+  }
+}

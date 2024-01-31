@@ -1,0 +1,8 @@
+{
+  "name": "TypeGrouping",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/TypeGrouping.json"
+  }
+}

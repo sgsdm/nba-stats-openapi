@@ -1,0 +1,59 @@
+{
+  "get": {
+    "summary": "BoxScorePlayerTrackV2",
+    "operationId": "BoxScorePlayerTrackV2",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/GameID.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "GameID": {
+                      "$ref": "../schemas/GameID.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "boxscoreplayertrackv2"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/PlayerStats.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/TeamStats.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

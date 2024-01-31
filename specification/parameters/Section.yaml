@@ -1,6 +1,0 @@
-name: Section
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Section.yaml
-required: true

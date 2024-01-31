@@ -1,5 +1,0 @@
-name: ActiveTeamsOnly
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/ActiveTeamsOnly.yaml

@@ -1,0 +1,8 @@
+{
+  "name": "GtAST",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GtAST.json"
+  }
+}

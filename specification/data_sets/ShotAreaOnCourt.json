@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GROUP_SET"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "VS_PLAYER_ID"
+        },
+        {
+          "const": "VS_PLAYER_NAME"
+        },
+        {
+          "const": "COURT_STATUS"
+        },
+        {
+          "const": "GROUP_VALUE"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "CFID"
+        },
+        {
+          "const": "CFPARAMS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GroupSet.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsPlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/CourtStatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GroupValue.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfid.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfparams.json"
+          }
+        }
+      ]
+    }
+  }
+}

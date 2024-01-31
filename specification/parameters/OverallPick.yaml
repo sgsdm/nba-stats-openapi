@@ -1,5 +1,0 @@
-name: OverallPick
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/OverallPick.yaml

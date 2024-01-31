@@ -1,0 +1,186 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME_LAST_FIRST"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "PASS_TYPE"
+        },
+        {
+          "const": "G"
+        },
+        {
+          "const": "PASS_TO"
+        },
+        {
+          "const": "PASS_TEAMMATE_PLAYER_ID"
+        },
+        {
+          "const": "FREQUENCY"
+        },
+        {
+          "const": "PASS"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG2M"
+        },
+        {
+          "const": "FG2A"
+        },
+        {
+          "const": "FG2_PCT"
+        },
+        {
+          "const": "FG3M"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PassType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/G.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PassTo.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PassTeammatePlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Frequency.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pass.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg2m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg2a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg2Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        }
+      ]
+    }
+  }
+}

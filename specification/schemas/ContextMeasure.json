@@ -1,0 +1,20 @@
+{
+  "description": "[to do]",
+  "type": "string",
+  "enum": [
+    "PTS",
+    "FGM",
+    "FGA",
+    "FGPCT",
+    "FG3M",
+    "FG3A",
+    "FG3PCT",
+    "PF",
+    "EFGPCT",
+    "TSPCT",
+    "PTSFB",
+    "PTSOFFTOV",
+    "PTS2NDCHANCE",
+    "PF"
+  ]
+}

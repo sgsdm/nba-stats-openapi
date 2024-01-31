@@ -1,5 +1,0 @@
-name: BtrOPPPTSPAINT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPPTSPAINT.yaml

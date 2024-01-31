@@ -1,5 +1,0 @@
-name: LtOPPFTA
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtOPPFTA.yaml

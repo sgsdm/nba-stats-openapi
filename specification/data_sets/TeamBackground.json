@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "ABBREVIATION"
+        },
+        {
+          "const": "NICKNAME"
+        },
+        {
+          "const": "YEARFOUNDED"
+        },
+        {
+          "const": "CITY"
+        },
+        {
+          "const": "ARENA"
+        },
+        {
+          "const": "ARENACAPACITY"
+        },
+        {
+          "const": "OWNER"
+        },
+        {
+          "const": "GENERALMANAGER"
+        },
+        {
+          "const": "HEADCOACH"
+        },
+        {
+          "const": "DLEAGUEAFFILIATION"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Abbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Nickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Yearfounded.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/City.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Arena.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Arenacapacity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Owner.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Generalmanager.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Headcoach.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dleagueaffiliation.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,0 @@
-name: PerMode
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/PerMode.yaml
-required: true

@@ -1,0 +1,242 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "AGE"
+        },
+        {
+          "const": "G"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "CONTESTED_SHOTS"
+        },
+        {
+          "const": "CONTESTED_SHOTS_2PT"
+        },
+        {
+          "const": "CONTESTED_SHOTS_3PT"
+        },
+        {
+          "const": "DEFLECTIONS"
+        },
+        {
+          "const": "CHARGES_DRAWN"
+        },
+        {
+          "const": "SCREEN_ASSISTS"
+        },
+        {
+          "const": "SCREEN_AST_PTS"
+        },
+        {
+          "const": "OFF_LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "DEF_LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "LOOSE_BALLS_RECOVERED"
+        },
+        {
+          "const": "PCT_LOOSE_BALLS_RECOVERED_OFF"
+        },
+        {
+          "const": "PCT_LOOSE_BALLS_RECOVERED_DEF"
+        },
+        {
+          "const": "OFF_BOXOUTS"
+        },
+        {
+          "const": "DEF_BOXOUTS"
+        },
+        {
+          "const": "BOX_OUT_PLAYER_TEAM_REBS"
+        },
+        {
+          "const": "BOX_OUT_PLAYER_REBS"
+        },
+        {
+          "const": "BOX_OUTS"
+        },
+        {
+          "const": "PCT_BOX_OUTS_OFF"
+        },
+        {
+          "const": "PCT_BOX_OUTS_DEF"
+        },
+        {
+          "const": "PCT_BOX_OUTS_TEAM_REB"
+        },
+        {
+          "const": "PCT_BOX_OUTS_REB"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Age.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/G.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots2pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ContestedShots3pt.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Deflections.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ChargesDrawn.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ScreenAssists.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ScreenAstPts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffLooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefLooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LooseBallsRecovered.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OffBoxouts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DefBoxouts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BoxOutPlayerTeamRebs.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BoxOutPlayerRebs.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BoxOuts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsOff.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsDef.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsTeamReb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctBoxOutsReb.json"
+          }
+        }
+      ]
+    }
+  }
+}

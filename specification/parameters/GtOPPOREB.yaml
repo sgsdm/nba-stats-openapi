@@ -1,5 +1,0 @@
-name: GtOPPOREB
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtOPPOREB.yaml

@@ -1,0 +1,8 @@
+{
+  "name": "TwoWay",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/TwoWay.json"
+  }
+}

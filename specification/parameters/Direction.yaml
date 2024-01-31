@@ -1,6 +1,0 @@
-name: Direction
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/Direction.yaml
-required: true

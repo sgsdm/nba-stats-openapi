@@ -1,0 +1,9 @@
+{
+  "name": "IsOnlyCurrentSeason",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/IsOnlyCurrentSeason.json"
+  },
+  "required": true
+}

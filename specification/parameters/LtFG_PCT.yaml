@@ -1,5 +1,0 @@
-name: LtFG_PCT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtFG_PCT.yaml

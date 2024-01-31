@@ -1,5 +1,0 @@
-name: WrsOPPPTSPAINT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPPTSPAINT.yaml

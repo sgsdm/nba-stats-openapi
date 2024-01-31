@@ -1,0 +1,2846 @@
+{
+  "Abbreviation": {
+    "$ref": "./Abbreviation.json"
+  },
+  "Accounttype": {
+    "$ref": "./Accounttype.json"
+  },
+  "ActionType": {
+    "$ref": "./ActionType.json"
+  },
+  "Active": {
+    "$ref": "./Active.json"
+  },
+  "ActiveFlag": {
+    "$ref": "./ActiveFlag.json"
+  },
+  "ActivePlayers": {
+    "$ref": "./ActivePlayers.json"
+  },
+  "ActiveStreaksOnly": {
+    "$ref": "./ActiveStreaksOnly.json"
+  },
+  "ActiveWithTeam": {
+    "$ref": "./ActiveWithTeam.json"
+  },
+  "Activestreak": {
+    "$ref": "./Activestreak.json"
+  },
+  "ActualMinutes": {
+    "$ref": "./ActualMinutes.json"
+  },
+  "ActualSeconds": {
+    "$ref": "./ActualSeconds.json"
+  },
+  "Age": {
+    "$ref": "./Age.json"
+  },
+  "AheadBehind": {
+    "$ref": "./AheadBehind.json"
+  },
+  "AllNbaTeamNumber": {
+    "$ref": "./AllNbaTeamNumber.json"
+  },
+  "AllStar": {
+    "$ref": "./AllStar.json"
+  },
+  "Arena": {
+    "$ref": "./Arena.json"
+  },
+  "Arenacapacity": {
+    "$ref": "./Arenacapacity.json"
+  },
+  "Assists": {
+    "$ref": "./Assists.json"
+  },
+  "Ast": {
+    "$ref": "./Ast.json"
+  },
+  "AstPct": {
+    "$ref": "./AstPct.json"
+  },
+  "AstPersonId": {
+    "$ref": "./AstPersonId.json"
+  },
+  "AstPg": {
+    "$ref": "./AstPg.json"
+  },
+  "AstPlayer": {
+    "$ref": "./AstPlayer.json"
+  },
+  "AstPlayerId": {
+    "$ref": "./AstPlayerId.json"
+  },
+  "AstPlayerName": {
+    "$ref": "./AstPlayerName.json"
+  },
+  "AstRank": {
+    "$ref": "./AstRank.json"
+  },
+  "AstRatio": {
+    "$ref": "./AstRatio.json"
+  },
+  "AstTov": {
+    "$ref": "./AstTov.json"
+  },
+  "Attendance": {
+    "$ref": "./Attendance.json"
+  },
+  "AvgActualMinutes": {
+    "$ref": "./AvgActualMinutes.json"
+  },
+  "AvgActualSeconds": {
+    "$ref": "./AvgActualSeconds.json"
+  },
+  "AvgAst": {
+    "$ref": "./AvgAst.json"
+  },
+  "AvgBlk": {
+    "$ref": "./AvgBlk.json"
+  },
+  "AvgPts": {
+    "$ref": "./AvgPts.json"
+  },
+  "AvgReb": {
+    "$ref": "./AvgReb.json"
+  },
+  "AvgSpeed": {
+    "$ref": "./AvgSpeed.json"
+  },
+  "AvgSpeedDef": {
+    "$ref": "./AvgSpeedDef.json"
+  },
+  "AvgSpeedOff": {
+    "$ref": "./AvgSpeedOff.json"
+  },
+  "AvgStl": {
+    "$ref": "./AvgStl.json"
+  },
+  "AvgTotReb": {
+    "$ref": "./AvgTotReb.json"
+  },
+  "AvgTurnovers": {
+    "$ref": "./AvgTurnovers.json"
+  },
+  "Away": {
+    "$ref": "./Away.json"
+  },
+  "BenchPress": {
+    "$ref": "./BenchPress.json"
+  },
+  "BirthDate": {
+    "$ref": "./BirthDate.json"
+  },
+  "Birthdate": {
+    "$ref": "./Birthdate.json"
+  },
+  "Blk": {
+    "$ref": "./Blk.json"
+  },
+  "BlkPersonId": {
+    "$ref": "./BlkPersonId.json"
+  },
+  "BlkPlayer": {
+    "$ref": "./BlkPlayer.json"
+  },
+  "BlkRank": {
+    "$ref": "./BlkRank.json"
+  },
+  "Blka": {
+    "$ref": "./Blka.json"
+  },
+  "BlkaRank": {
+    "$ref": "./BlkaRank.json"
+  },
+  "BodyFatPct": {
+    "$ref": "./BodyFatPct.json"
+  },
+  "BoxOutPlayerRebs": {
+    "$ref": "./BoxOutPlayerRebs.json"
+  },
+  "BoxOutPlayerTeamRebs": {
+    "$ref": "./BoxOutPlayerTeamRebs.json"
+  },
+  "BoxOuts": {
+    "$ref": "./BoxOuts.json"
+  },
+  "CDreb": {
+    "$ref": "./CDreb.json"
+  },
+  "COreb": {
+    "$ref": "./COreb.json"
+  },
+  "CReb": {
+    "$ref": "./CReb.json"
+  },
+  "CRebPct": {
+    "$ref": "./CRebPct.json"
+  },
+  "Cfid": {
+    "$ref": "./Cfid.json"
+  },
+  "Cfparams": {
+    "$ref": "./Cfparams.json"
+  },
+  "ChargesDrawn": {
+    "$ref": "./ChargesDrawn.json"
+  },
+  "City": {
+    "$ref": "./City.json"
+  },
+  "ClinchedConference": {
+    "$ref": "./ClinchedConference.json"
+  },
+  "ClinchedDivision": {
+    "$ref": "./ClinchedDivision.json"
+  },
+  "ClinchedPlayIn": {
+    "$ref": "./ClinchedPlayIn.json"
+  },
+  "ClinchedPlayoffs": {
+    "$ref": "./ClinchedPlayoffs.json"
+  },
+  "Clinchedistgroup": {
+    "$ref": "./Clinchedistgroup.json"
+  },
+  "Clinchedistknockout": {
+    "$ref": "./Clinchedistknockout.json"
+  },
+  "Clinchedistwildcard": {
+    "$ref": "./Clinchedistwildcard.json"
+  },
+  "Clinchindicator": {
+    "$ref": "./Clinchindicator.json"
+  },
+  "CloseDefDistRange": {
+    "$ref": "./CloseDefDistRange.json"
+  },
+  "CloseDefPersonId": {
+    "$ref": "./CloseDefPersonId.json"
+  },
+  "ClutchTime": {
+    "$ref": "./ClutchTime.json"
+  },
+  "CoachId": {
+    "$ref": "./CoachId.json"
+  },
+  "CoachName": {
+    "$ref": "./CoachName.json"
+  },
+  "CoachType": {
+    "$ref": "./CoachType.json"
+  },
+  "College": {
+    "$ref": "./College.json"
+  },
+  "Comment": {
+    "$ref": "./Comment.json"
+  },
+  "Conf": {
+    "$ref": "./Conf.json"
+  },
+  "ConfRank": {
+    "$ref": "./ConfRank.json"
+  },
+  "ConfTitles": {
+    "$ref": "./ConfTitles.json"
+  },
+  "Conference": {
+    "$ref": "./Conference.json"
+  },
+  "ContestedShots": {
+    "$ref": "./ContestedShots.json"
+  },
+  "ContestedShots2pt": {
+    "$ref": "./ContestedShots2pt.json"
+  },
+  "ContestedShots3pt": {
+    "$ref": "./ContestedShots3pt.json"
+  },
+  "ContextFilter": {
+    "$ref": "./ContextFilter.json"
+  },
+  "ContextMeasure": {
+    "$ref": "./ContextMeasure.json"
+  },
+  "Counter": {
+    "$ref": "./Counter.json"
+  },
+  "Country": {
+    "$ref": "./Country.json"
+  },
+  "CourtStatus": {
+    "$ref": "./CourtStatus.json"
+  },
+  "DFgPct": {
+    "$ref": "./DFgPct.json"
+  },
+  "DFga": {
+    "$ref": "./DFga.json"
+  },
+  "DFgm": {
+    "$ref": "./DFgm.json"
+  },
+  "DateEst": {
+    "$ref": "./DateEst.json"
+  },
+  "DateFrom": {
+    "$ref": "./DateFrom.json"
+  },
+  "DateTo": {
+    "$ref": "./DateTo.json"
+  },
+  "DayOffset": {
+    "$ref": "./DayOffset.json"
+  },
+  "Dd2": {
+    "$ref": "./Dd2.json"
+  },
+  "Dd2Rank": {
+    "$ref": "./Dd2Rank.json"
+  },
+  "DefBoxouts": {
+    "$ref": "./DefBoxouts.json"
+  },
+  "DefLooseBallsRecovered": {
+    "$ref": "./DefLooseBallsRecovered.json"
+  },
+  "DefPlayerID": {
+    "$ref": "./DefPlayerID.json"
+  },
+  "DefPlayerId": {
+    "$ref": "./DefPlayerId.json"
+  },
+  "DefPlayerName": {
+    "$ref": "./DefPlayerName.json"
+  },
+  "DefRating": {
+    "$ref": "./DefRating.json"
+  },
+  "DefReb": {
+    "$ref": "./DefReb.json"
+  },
+  "DefRimPct": {
+    "$ref": "./DefRimPct.json"
+  },
+  "DefTeamID": {
+    "$ref": "./DefTeamID.json"
+  },
+  "DefenseCategory": {
+    "$ref": "./DefenseCategory.json"
+  },
+  "Deflections": {
+    "$ref": "./Deflections.json"
+  },
+  "Description": {
+    "$ref": "./Description.json"
+  },
+  "Diff": {
+    "$ref": "./Diff.json"
+  },
+  "Direction": {
+    "$ref": "./Direction.json"
+  },
+  "DisplayFiLast": {
+    "$ref": "./DisplayFiLast.json"
+  },
+  "DisplayFirstLast": {
+    "$ref": "./DisplayFirstLast.json"
+  },
+  "DisplayLastCommaFirst": {
+    "$ref": "./DisplayLastCommaFirst.json"
+  },
+  "DistFeet": {
+    "$ref": "./DistFeet.json"
+  },
+  "DistMiles": {
+    "$ref": "./DistMiles.json"
+  },
+  "DistMilesDef": {
+    "$ref": "./DistMilesDef.json"
+  },
+  "DistMilesOff": {
+    "$ref": "./DistMilesOff.json"
+  },
+  "DistanceRange": {
+    "$ref": "./DistanceRange.json"
+  },
+  "Div": {
+    "$ref": "./Div.json"
+  },
+  "DivRank": {
+    "$ref": "./DivRank.json"
+  },
+  "DivTitles": {
+    "$ref": "./DivTitles.json"
+  },
+  "Division": {
+    "$ref": "./Division.json"
+  },
+  "DleagueFlag": {
+    "$ref": "./DleagueFlag.json"
+  },
+  "Dleagueaffiliation": {
+    "$ref": "./Dleagueaffiliation.json"
+  },
+  "Dq": {
+    "$ref": "./Dq.json"
+  },
+  "DraftNumber": {
+    "$ref": "./DraftNumber.json"
+  },
+  "DraftPick": {
+    "$ref": "./DraftPick.json"
+  },
+  "DraftRound": {
+    "$ref": "./DraftRound.json"
+  },
+  "DraftTeamID": {
+    "$ref": "./DraftTeamID.json"
+  },
+  "DraftType": {
+    "$ref": "./DraftType.json"
+  },
+  "DraftYear": {
+    "$ref": "./DraftYear.json"
+  },
+  "Dreb": {
+    "$ref": "./Dreb.json"
+  },
+  "DrebPct": {
+    "$ref": "./DrebPct.json"
+  },
+  "DrebRank": {
+    "$ref": "./DrebRank.json"
+  },
+  "DribbleRange": {
+    "$ref": "./DribbleRange.json"
+  },
+  "EAstRatio": {
+    "$ref": "./EAstRatio.json"
+  },
+  "EAstRatioRank": {
+    "$ref": "./EAstRatioRank.json"
+  },
+  "EDefRating": {
+    "$ref": "./EDefRating.json"
+  },
+  "EDefRatingRank": {
+    "$ref": "./EDefRatingRank.json"
+  },
+  "EDrebPct": {
+    "$ref": "./EDrebPct.json"
+  },
+  "EDrebPctRank": {
+    "$ref": "./EDrebPctRank.json"
+  },
+  "ENetRating": {
+    "$ref": "./ENetRating.json"
+  },
+  "ENetRatingRank": {
+    "$ref": "./ENetRatingRank.json"
+  },
+  "EOffRating": {
+    "$ref": "./EOffRating.json"
+  },
+  "EOffRatingRank": {
+    "$ref": "./EOffRatingRank.json"
+  },
+  "EOrebPct": {
+    "$ref": "./EOrebPct.json"
+  },
+  "EOrebPctRank": {
+    "$ref": "./EOrebPctRank.json"
+  },
+  "EPace": {
+    "$ref": "./EPace.json"
+  },
+  "EPaceRank": {
+    "$ref": "./EPaceRank.json"
+  },
+  "ERebPct": {
+    "$ref": "./ERebPct.json"
+  },
+  "ERebPctRank": {
+    "$ref": "./ERebPctRank.json"
+  },
+  "ETmTovPct": {
+    "$ref": "./ETmTovPct.json"
+  },
+  "ETmTovPctRank": {
+    "$ref": "./ETmTovPctRank.json"
+  },
+  "ETovPct": {
+    "$ref": "./ETovPct.json"
+  },
+  "ETovPctRank": {
+    "$ref": "./ETovPctRank.json"
+  },
+  "EUsgPct": {
+    "$ref": "./EUsgPct.json"
+  },
+  "EUsgPctRank": {
+    "$ref": "./EUsgPctRank.json"
+  },
+  "Eff": {
+    "$ref": "./Eff.json"
+  },
+  "EfgPct": {
+    "$ref": "./EfgPct.json"
+  },
+  "EfgPctRank": {
+    "$ref": "./EfgPctRank.json"
+  },
+  "EliminatedPlayoffs": {
+    "$ref": "./EliminatedPlayoffs.json"
+  },
+  "EndPeriod": {
+    "$ref": "./EndPeriod.json"
+  },
+  "EndRange": {
+    "$ref": "./EndRange.json"
+  },
+  "EndYear": {
+    "$ref": "./EndYear.json"
+  },
+  "Enddate": {
+    "$ref": "./Enddate.json"
+  },
+  "EqAST": {
+    "$ref": "./EqAST.json"
+  },
+  "EqBLK": {
+    "$ref": "./EqBLK.json"
+  },
+  "EqDD": {
+    "$ref": "./EqDD.json"
+  },
+  "EqDREB": {
+    "$ref": "./EqDREB.json"
+  },
+  "EqFG3A": {
+    "$ref": "./EqFG3A.json"
+  },
+  "EqFG3M": {
+    "$ref": "./EqFG3M.json"
+  },
+  "EqFG3_PCT": {
+    "$ref": "./EqFG3_PCT.json"
+  },
+  "EqFGA": {
+    "$ref": "./EqFGA.json"
+  },
+  "EqFGM": {
+    "$ref": "./EqFGM.json"
+  },
+  "EqFG_PCT": {
+    "$ref": "./EqFG_PCT.json"
+  },
+  "EqFTA": {
+    "$ref": "./EqFTA.json"
+  },
+  "EqFTM": {
+    "$ref": "./EqFTM.json"
+  },
+  "EqFT_PCT": {
+    "$ref": "./EqFT_PCT.json"
+  },
+  "EqMINUTES": {
+    "$ref": "./EqMINUTES.json"
+  },
+  "EqOREB": {
+    "$ref": "./EqOREB.json"
+  },
+  "EqPF": {
+    "$ref": "./EqPF.json"
+  },
+  "EqPTS": {
+    "$ref": "./EqPTS.json"
+  },
+  "EqREB": {
+    "$ref": "./EqREB.json"
+  },
+  "EqSTL": {
+    "$ref": "./EqSTL.json"
+  },
+  "EqTD": {
+    "$ref": "./EqTD.json"
+  },
+  "EqTOV": {
+    "$ref": "./EqTOV.json"
+  },
+  "EventNum": {
+    "$ref": "./EventNum.json"
+  },
+  "EventType": {
+    "$ref": "./EventType.json"
+  },
+  "Eventmsgactiontype": {
+    "$ref": "./Eventmsgactiontype.json"
+  },
+  "Eventmsgtype": {
+    "$ref": "./Eventmsgtype.json"
+  },
+  "Eventnum": {
+    "$ref": "./Eventnum.json"
+  },
+  "Exp": {
+    "$ref": "./Exp.json"
+  },
+  "FanDuelPts": {
+    "$ref": "./FanDuelPts.json"
+  },
+  "Fg": {
+    "$ref": "./Fg.json"
+  },
+  "Fg2Pct": {
+    "$ref": "./Fg2Pct.json"
+  },
+  "Fg2a": {
+    "$ref": "./Fg2a.json"
+  },
+  "Fg2aFrequency": {
+    "$ref": "./Fg2aFrequency.json"
+  },
+  "Fg2m": {
+    "$ref": "./Fg2m.json"
+  },
+  "Fg3": {
+    "$ref": "./Fg3.json"
+  },
+  "Fg3Pct": {
+    "$ref": "./Fg3Pct.json"
+  },
+  "Fg3PctRank": {
+    "$ref": "./Fg3PctRank.json"
+  },
+  "Fg3a": {
+    "$ref": "./Fg3a.json"
+  },
+  "Fg3aFrequency": {
+    "$ref": "./Fg3aFrequency.json"
+  },
+  "Fg3aRank": {
+    "$ref": "./Fg3aRank.json"
+  },
+  "Fg3m": {
+    "$ref": "./Fg3m.json"
+  },
+  "Fg3mRank": {
+    "$ref": "./Fg3mRank.json"
+  },
+  "FgPct": {
+    "$ref": "./FgPct.json"
+  },
+  "FgPctRank": {
+    "$ref": "./FgPctRank.json"
+  },
+  "Fga": {
+    "$ref": "./Fga.json"
+  },
+  "FgaFrequency": {
+    "$ref": "./FgaFrequency.json"
+  },
+  "FgaRank": {
+    "$ref": "./FgaRank.json"
+  },
+  "Fgm": {
+    "$ref": "./Fgm.json"
+  },
+  "FgmRank": {
+    "$ref": "./FgmRank.json"
+  },
+  "Fgmx": {
+    "$ref": "./Fgmx.json"
+  },
+  "FifeteenfDfgpct": {
+    "$ref": "./FifeteenfDfgpct.json"
+  },
+  "FirstName": {
+    "$ref": "./FirstName.json"
+  },
+  "Firstseason": {
+    "$ref": "./Firstseason.json"
+  },
+  "Freq": {
+    "$ref": "./Freq.json"
+  },
+  "Frequency": {
+    "$ref": "./Frequency.json"
+  },
+  "FromYear": {
+    "$ref": "./FromYear.json"
+  },
+  "Ft": {
+    "$ref": "./Ft.json"
+  },
+  "FtPct": {
+    "$ref": "./FtPct.json"
+  },
+  "FtPctRank": {
+    "$ref": "./FtPctRank.json"
+  },
+  "FtPossPct": {
+    "$ref": "./FtPossPct.json"
+  },
+  "Fta": {
+    "$ref": "./Fta.json"
+  },
+  "FtaRank": {
+    "$ref": "./FtaRank.json"
+  },
+  "FtaRate": {
+    "$ref": "./FtaRate.json"
+  },
+  "Ftm": {
+    "$ref": "./Ftm.json"
+  },
+  "FtmRank": {
+    "$ref": "./FtmRank.json"
+  },
+  "G": {
+    "$ref": "./G.json"
+  },
+  "GROUP_ID": {
+    "$ref": "./GROUP_ID.json"
+  },
+  "GameDate": {
+    "$ref": "./GameDate.json"
+  },
+  "GameDateEst": {
+    "$ref": "./GameDateEst.json"
+  },
+  "GameEventID": {
+    "$ref": "./GameEventID.json"
+  },
+  "GameEventId": {
+    "$ref": "./GameEventId.json"
+  },
+  "GameID": {
+    "$ref": "./GameID.json"
+  },
+  "GameIDs": {
+    "$ref": "./GameIDs.json"
+  },
+  "GameId": {
+    "$ref": "./GameId.json"
+  },
+  "GameNum": {
+    "$ref": "./GameNum.json"
+  },
+  "GameResult": {
+    "$ref": "./GameResult.json"
+  },
+  "GameScope": {
+    "$ref": "./GameScope.json"
+  },
+  "GameSegment": {
+    "$ref": "./GameSegment.json"
+  },
+  "GameSequence": {
+    "$ref": "./GameSequence.json"
+  },
+  "GameStatus": {
+    "$ref": "./GameStatus.json"
+  },
+  "GameStatusId": {
+    "$ref": "./GameStatusId.json"
+  },
+  "GameStatusText": {
+    "$ref": "./GameStatusText.json"
+  },
+  "GameTime": {
+    "$ref": "./GameTime.json"
+  },
+  "Gamecode": {
+    "$ref": "./Gamecode.json"
+  },
+  "Gameid1": {
+    "$ref": "./Gameid1.json"
+  },
+  "Gameid2": {
+    "$ref": "./Gameid2.json"
+  },
+  "Gameid3": {
+    "$ref": "./Gameid3.json"
+  },
+  "Gameid4": {
+    "$ref": "./Gameid4.json"
+  },
+  "Games": {
+    "$ref": "./Games.json"
+  },
+  "GamesPlayedFlag": {
+    "$ref": "./GamesPlayedFlag.json"
+  },
+  "Gamestatus1": {
+    "$ref": "./Gamestatus1.json"
+  },
+  "Gamestatus2": {
+    "$ref": "./Gamestatus2.json"
+  },
+  "Gamestatus3": {
+    "$ref": "./Gamestatus3.json"
+  },
+  "Gamestatus4": {
+    "$ref": "./Gamestatus4.json"
+  },
+  "Gamestatustext1": {
+    "$ref": "./Gamestatustext1.json"
+  },
+  "Gamestatustext2": {
+    "$ref": "./Gamestatustext2.json"
+  },
+  "Gamestatustext3": {
+    "$ref": "./Gamestatustext3.json"
+  },
+  "Gamestatustext4": {
+    "$ref": "./Gamestatustext4.json"
+  },
+  "Gamestreak": {
+    "$ref": "./Gamestreak.json"
+  },
+  "Gb": {
+    "$ref": "./Gb.json"
+  },
+  "GeneralRange": {
+    "$ref": "./GeneralRange.json"
+  },
+  "Generalmanager": {
+    "$ref": "./Generalmanager.json"
+  },
+  "Gp": {
+    "$ref": "./Gp.json"
+  },
+  "GpRank": {
+    "$ref": "./GpRank.json"
+  },
+  "GrOver500": {
+    "$ref": "./GrOver500.json"
+  },
+  "GrOver500Away": {
+    "$ref": "./GrOver500Away.json"
+  },
+  "GrOver500Home": {
+    "$ref": "./GrOver500Home.json"
+  },
+  "GrUnder500": {
+    "$ref": "./GrUnder500.json"
+  },
+  "GrUnder500Away": {
+    "$ref": "./GrUnder500Away.json"
+  },
+  "GrUnder500Home": {
+    "$ref": "./GrUnder500Home.json"
+  },
+  "GridType": {
+    "$ref": "./GridType.json"
+  },
+  "GroupId": {
+    "$ref": "./GroupId.json"
+  },
+  "GroupName": {
+    "$ref": "./GroupName.json"
+  },
+  "GroupQuantity": {
+    "$ref": "./GroupQuantity.json"
+  },
+  "GroupSet": {
+    "$ref": "./GroupSet.json"
+  },
+  "GroupValue": {
+    "$ref": "./GroupValue.json"
+  },
+  "GroupValue2": {
+    "$ref": "./GroupValue2.json"
+  },
+  "GroupValueOrder": {
+    "$ref": "./GroupValueOrder.json"
+  },
+  "Gs": {
+    "$ref": "./Gs.json"
+  },
+  "GtAST": {
+    "$ref": "./GtAST.json"
+  },
+  "GtBLK": {
+    "$ref": "./GtBLK.json"
+  },
+  "GtDD": {
+    "$ref": "./GtDD.json"
+  },
+  "GtDREB": {
+    "$ref": "./GtDREB.json"
+  },
+  "GtFG3A": {
+    "$ref": "./GtFG3A.json"
+  },
+  "GtFG3M": {
+    "$ref": "./GtFG3M.json"
+  },
+  "GtFG3_PCT": {
+    "$ref": "./GtFG3_PCT.json"
+  },
+  "GtFGA": {
+    "$ref": "./GtFGA.json"
+  },
+  "GtFGM": {
+    "$ref": "./GtFGM.json"
+  },
+  "GtFG_PCT": {
+    "$ref": "./GtFG_PCT.json"
+  },
+  "GtFTA": {
+    "$ref": "./GtFTA.json"
+  },
+  "GtFTM": {
+    "$ref": "./GtFTM.json"
+  },
+  "GtFT_PCT": {
+    "$ref": "./GtFT_PCT.json"
+  },
+  "GtMINUTES": {
+    "$ref": "./GtMINUTES.json"
+  },
+  "GtOREB": {
+    "$ref": "./GtOREB.json"
+  },
+  "GtPF": {
+    "$ref": "./GtPF.json"
+  },
+  "GtPTS": {
+    "$ref": "./GtPTS.json"
+  },
+  "GtREB": {
+    "$ref": "./GtREB.json"
+  },
+  "GtSTL": {
+    "$ref": "./GtSTL.json"
+  },
+  "GtTD": {
+    "$ref": "./GtTD.json"
+  },
+  "GtTOV": {
+    "$ref": "./GtTOV.json"
+  },
+  "HandLength": {
+    "$ref": "./HandLength.json"
+  },
+  "HandWidth": {
+    "$ref": "./HandWidth.json"
+  },
+  "Headcoach": {
+    "$ref": "./Headcoach.json"
+  },
+  "Height": {
+    "$ref": "./Height.json"
+  },
+  "HeightWShoes": {
+    "$ref": "./HeightWShoes.json"
+  },
+  "HeightWShoesFtIn": {
+    "$ref": "./HeightWShoesFtIn.json"
+  },
+  "HeightWoShoes": {
+    "$ref": "./HeightWoShoes.json"
+  },
+  "HeightWoShoesFtIn": {
+    "$ref": "./HeightWoShoesFtIn.json"
+  },
+  "HelpBlk": {
+    "$ref": "./HelpBlk.json"
+  },
+  "HelpFgPerc": {
+    "$ref": "./HelpFgPerc.json"
+  },
+  "HelpFga": {
+    "$ref": "./HelpFga.json"
+  },
+  "HelpFgm": {
+    "$ref": "./HelpFgm.json"
+  },
+  "HighSeedRank": {
+    "$ref": "./HighSeedRank.json"
+  },
+  "HighSeedSeriesL": {
+    "$ref": "./HighSeedSeriesL.json"
+  },
+  "HighSeedSeriesRemainingAwayG": {
+    "$ref": "./HighSeedSeriesRemainingAwayG.json"
+  },
+  "HighSeedSeriesRemainingG": {
+    "$ref": "./HighSeedSeriesRemainingG.json"
+  },
+  "HighSeedSeriesRemainingHomeG": {
+    "$ref": "./HighSeedSeriesRemainingHomeG.json"
+  },
+  "HighSeedSeriesW": {
+    "$ref": "./HighSeedSeriesW.json"
+  },
+  "HighSeedTeam": {
+    "$ref": "./HighSeedTeam.json"
+  },
+  "HighSeedTeamId": {
+    "$ref": "./HighSeedTeamId.json"
+  },
+  "Historical": {
+    "$ref": "./Historical.json"
+  },
+  "HistoricalStatus": {
+    "$ref": "./HistoricalStatus.json"
+  },
+  "Home": {
+    "$ref": "./Home.json"
+  },
+  "HomeG": {
+    "$ref": "./HomeG.json"
+  },
+  "HomePct": {
+    "$ref": "./HomePct.json"
+  },
+  "HomePossInd": {
+    "$ref": "./HomePossInd.json"
+  },
+  "HomePts": {
+    "$ref": "./HomePts.json"
+  },
+  "HomeRecord": {
+    "$ref": "./HomeRecord.json"
+  },
+  "HomeScoreMargin": {
+    "$ref": "./HomeScoreMargin.json"
+  },
+  "HomeTeam": {
+    "$ref": "./HomeTeam.json"
+  },
+  "HomeTeamAbbreviation": {
+    "$ref": "./HomeTeamAbbreviation.json"
+  },
+  "HomeTeamCity": {
+    "$ref": "./HomeTeamCity.json"
+  },
+  "HomeTeamId": {
+    "$ref": "./HomeTeamId.json"
+  },
+  "HomeTeamLosses": {
+    "$ref": "./HomeTeamLosses.json"
+  },
+  "HomeTeamName": {
+    "$ref": "./HomeTeamName.json"
+  },
+  "HomeTeamNickname": {
+    "$ref": "./HomeTeamNickname.json"
+  },
+  "HomeTeamWins": {
+    "$ref": "./HomeTeamWins.json"
+  },
+  "HomeWl": {
+    "$ref": "./HomeWl.json"
+  },
+  "Homedescription": {
+    "$ref": "./Homedescription.json"
+  },
+  "Htm": {
+    "$ref": "./Htm.json"
+  },
+  "HustleStatus": {
+    "$ref": "./HustleStatus.json"
+  },
+  "InTimeReal": {
+    "$ref": "./InTimeReal.json"
+  },
+  "IsAssistant": {
+    "$ref": "./IsAssistant.json"
+  },
+  "IsAvailable": {
+    "$ref": "./IsAvailable.json"
+  },
+  "IsOnlyCurrentSeason": {
+    "$ref": "./IsOnlyCurrentSeason.json"
+  },
+  "Istgroup": {
+    "$ref": "./Istgroup.json"
+  },
+  "Istgroupgb": {
+    "$ref": "./Istgroupgb.json"
+  },
+  "Istgrouprank": {
+    "$ref": "./Istgrouprank.json"
+  },
+  "Istknockoutrank": {
+    "$ref": "./Istknockoutrank.json"
+  },
+  "Istwildcardgb": {
+    "$ref": "./Istwildcardgb.json"
+  },
+  "Istwildcardrank": {
+    "$ref": "./Istwildcardrank.json"
+  },
+  "Isvisible": {
+    "$ref": "./Isvisible.json"
+  },
+  "Jersey": {
+    "$ref": "./Jersey.json"
+  },
+  "JerseyNum": {
+    "$ref": "./JerseyNum.json"
+  },
+  "JerseyNumber": {
+    "$ref": "./JerseyNumber.json"
+  },
+  "L": {
+    "$ref": "./L.json"
+  },
+  "LHome": {
+    "$ref": "./LHome.json"
+  },
+  "LRank": {
+    "$ref": "./LRank.json"
+  },
+  "LRoad": {
+    "$ref": "./LRoad.json"
+  },
+  "LaneAgilityTime": {
+    "$ref": "./LaneAgilityTime.json"
+  },
+  "LargestLead": {
+    "$ref": "./LargestLead.json"
+  },
+  "LastAffiliation": {
+    "$ref": "./LastAffiliation.json"
+  },
+  "LastGameDateEst": {
+    "$ref": "./LastGameDateEst.json"
+  },
+  "LastGameHomeTeamAbbreviation": {
+    "$ref": "./LastGameHomeTeamAbbreviation.json"
+  },
+  "LastGameHomeTeamCity": {
+    "$ref": "./LastGameHomeTeamCity.json"
+  },
+  "LastGameHomeTeamId": {
+    "$ref": "./LastGameHomeTeamId.json"
+  },
+  "LastGameHomeTeamName": {
+    "$ref": "./LastGameHomeTeamName.json"
+  },
+  "LastGameHomeTeamPoints": {
+    "$ref": "./LastGameHomeTeamPoints.json"
+  },
+  "LastGameId": {
+    "$ref": "./LastGameId.json"
+  },
+  "LastGameVisitorTeamCity": {
+    "$ref": "./LastGameVisitorTeamCity.json"
+  },
+  "LastGameVisitorTeamCity1": {
+    "$ref": "./LastGameVisitorTeamCity1.json"
+  },
+  "LastGameVisitorTeamId": {
+    "$ref": "./LastGameVisitorTeamId.json"
+  },
+  "LastGameVisitorTeamName": {
+    "$ref": "./LastGameVisitorTeamName.json"
+  },
+  "LastGameVisitorTeamPoints": {
+    "$ref": "./LastGameVisitorTeamPoints.json"
+  },
+  "LastNGames": {
+    "$ref": "./LastNGames.json"
+  },
+  "LastName": {
+    "$ref": "./LastName.json"
+  },
+  "Lastseason": {
+    "$ref": "./Lastseason.json"
+  },
+  "LeadChanges": {
+    "$ref": "./LeadChanges.json"
+  },
+  "LeagTix": {
+    "$ref": "./LeagTix.json"
+  },
+  "LeagueID": {
+    "$ref": "./LeagueID.json"
+  },
+  "LeagueId": {
+    "$ref": "./LeagueId.json"
+  },
+  "LeagueTitles": {
+    "$ref": "./LeagueTitles.json"
+  },
+  "Leagueid": {
+    "$ref": "./Leagueid.json"
+  },
+  "LivePcTime": {
+    "$ref": "./LivePcTime.json"
+  },
+  "LivePeriod": {
+    "$ref": "./LivePeriod.json"
+  },
+  "LivePeriodTimeBcast": {
+    "$ref": "./LivePeriodTimeBcast.json"
+  },
+  "LocX": {
+    "$ref": "./LocX.json"
+  },
+  "LocY": {
+    "$ref": "./LocY.json"
+  },
+  "Location": {
+    "$ref": "./Location.json"
+  },
+  "Location1": {
+    "$ref": "./Location1.json"
+  },
+  "Location2": {
+    "$ref": "./Location2.json"
+  },
+  "Location3": {
+    "$ref": "./Location3.json"
+  },
+  "Location4": {
+    "$ref": "./Location4.json"
+  },
+  "LooseBallsRecovered": {
+    "$ref": "./LooseBallsRecovered.json"
+  },
+  "Losses": {
+    "$ref": "./Losses.json"
+  },
+  "LowSeedRank": {
+    "$ref": "./LowSeedRank.json"
+  },
+  "LowSeedTeam": {
+    "$ref": "./LowSeedTeam.json"
+  },
+  "LowSeedTeamId": {
+    "$ref": "./LowSeedTeamId.json"
+  },
+  "LtAST": {
+    "$ref": "./LtAST.json"
+  },
+  "LtBLK": {
+    "$ref": "./LtBLK.json"
+  },
+  "LtDD": {
+    "$ref": "./LtDD.json"
+  },
+  "LtDREB": {
+    "$ref": "./LtDREB.json"
+  },
+  "LtFG3A": {
+    "$ref": "./LtFG3A.json"
+  },
+  "LtFG3M": {
+    "$ref": "./LtFG3M.json"
+  },
+  "LtFG3_PCT": {
+    "$ref": "./LtFG3_PCT.json"
+  },
+  "LtFGA": {
+    "$ref": "./LtFGA.json"
+  },
+  "LtFGM": {
+    "$ref": "./LtFGM.json"
+  },
+  "LtFG_PCT": {
+    "$ref": "./LtFG_PCT.json"
+  },
+  "LtFTA": {
+    "$ref": "./LtFTA.json"
+  },
+  "LtFTM": {
+    "$ref": "./LtFTM.json"
+  },
+  "LtFT_PCT": {
+    "$ref": "./LtFT_PCT.json"
+  },
+  "LtMINUTES": {
+    "$ref": "./LtMINUTES.json"
+  },
+  "LtOREB": {
+    "$ref": "./LtOREB.json"
+  },
+  "LtPF": {
+    "$ref": "./LtPF.json"
+  },
+  "LtPTS": {
+    "$ref": "./LtPTS.json"
+  },
+  "LtREB": {
+    "$ref": "./LtREB.json"
+  },
+  "LtSTL": {
+    "$ref": "./LtSTL.json"
+  },
+  "LtTD": {
+    "$ref": "./LtTD.json"
+  },
+  "LtTOV": {
+    "$ref": "./LtTOV.json"
+  },
+  "Matchup": {
+    "$ref": "./Matchup.json"
+  },
+  "MatchupAst": {
+    "$ref": "./MatchupAst.json"
+  },
+  "MatchupBlk": {
+    "$ref": "./MatchupBlk.json"
+  },
+  "MatchupFg3Pct": {
+    "$ref": "./MatchupFg3Pct.json"
+  },
+  "MatchupFg3a": {
+    "$ref": "./MatchupFg3a.json"
+  },
+  "MatchupFg3m": {
+    "$ref": "./MatchupFg3m.json"
+  },
+  "MatchupFgPct": {
+    "$ref": "./MatchupFgPct.json"
+  },
+  "MatchupFga": {
+    "$ref": "./MatchupFga.json"
+  },
+  "MatchupFgm": {
+    "$ref": "./MatchupFgm.json"
+  },
+  "MatchupFta": {
+    "$ref": "./MatchupFta.json"
+  },
+  "MatchupFtm": {
+    "$ref": "./MatchupFtm.json"
+  },
+  "MatchupMin": {
+    "$ref": "./MatchupMin.json"
+  },
+  "MatchupTov": {
+    "$ref": "./MatchupTov.json"
+  },
+  "MaxActualMinutes": {
+    "$ref": "./MaxActualMinutes.json"
+  },
+  "MaxActualSeconds": {
+    "$ref": "./MaxActualSeconds.json"
+  },
+  "MaxAst": {
+    "$ref": "./MaxAst.json"
+  },
+  "MaxBlk": {
+    "$ref": "./MaxBlk.json"
+  },
+  "MaxGameDate": {
+    "$ref": "./MaxGameDate.json"
+  },
+  "MaxPts": {
+    "$ref": "./MaxPts.json"
+  },
+  "MaxReb": {
+    "$ref": "./MaxReb.json"
+  },
+  "MaxStl": {
+    "$ref": "./MaxStl.json"
+  },
+  "MaxTurnovers": {
+    "$ref": "./MaxTurnovers.json"
+  },
+  "MaxVerticalLeap": {
+    "$ref": "./MaxVerticalLeap.json"
+  },
+  "MaxYear": {
+    "$ref": "./MaxYear.json"
+  },
+  "MeasureType": {
+    "$ref": "./MeasureType.json"
+  },
+  "Min": {
+    "$ref": "./Min.json"
+  },
+  "MinGames": {
+    "$ref": "./MinGames.json"
+  },
+  "MinRank": {
+    "$ref": "./MinRank.json"
+  },
+  "MinYear": {
+    "$ref": "./MinYear.json"
+  },
+  "MinutesMin": {
+    "$ref": "./MinutesMin.json"
+  },
+  "MinutesRemaining": {
+    "$ref": "./MinutesRemaining.json"
+  },
+  "ModifiedLaneAgilityTime": {
+    "$ref": "./ModifiedLaneAgilityTime.json"
+  },
+  "Month": {
+    "$ref": "./Month.json"
+  },
+  "NatlTvBroadcasterAbbreviation": {
+    "$ref": "./NatlTvBroadcasterAbbreviation.json"
+  },
+  "NbaFantasyPts": {
+    "$ref": "./NbaFantasyPts.json"
+  },
+  "NbaFantasyPtsRank": {
+    "$ref": "./NbaFantasyPtsRank.json"
+  },
+  "NbaFlag": {
+    "$ref": "./NbaFlag.json"
+  },
+  "NetRating": {
+    "$ref": "./NetRating.json"
+  },
+  "Neutraldescription": {
+    "$ref": "./Neutraldescription.json"
+  },
+  "Nickname": {
+    "$ref": "./Nickname.json"
+  },
+  "NormalFgPct": {
+    "$ref": "./NormalFgPct.json"
+  },
+  "Num": {
+    "$ref": "./Num.json"
+  },
+  "NumberOfGames": {
+    "$ref": "./NumberOfGames.json"
+  },
+  "Numseasons": {
+    "$ref": "./Numseasons.json"
+  },
+  "OffBoxouts": {
+    "$ref": "./OffBoxouts.json"
+  },
+  "OffDribCollegeBreakLeft": {
+    "$ref": "./OffDribCollegeBreakLeft.json"
+  },
+  "OffDribCollegeBreakRight": {
+    "$ref": "./OffDribCollegeBreakRight.json"
+  },
+  "OffDribCollegeTopKey": {
+    "$ref": "./OffDribCollegeTopKey.json"
+  },
+  "OffDribFifteenBreakLeft": {
+    "$ref": "./OffDribFifteenBreakLeft.json"
+  },
+  "OffDribFifteenBreakRight": {
+    "$ref": "./OffDribFifteenBreakRight.json"
+  },
+  "OffDribFifteenTopKey": {
+    "$ref": "./OffDribFifteenTopKey.json"
+  },
+  "OffLooseBallsRecovered": {
+    "$ref": "./OffLooseBallsRecovered.json"
+  },
+  "OffPlayerID": {
+    "$ref": "./OffPlayerID.json"
+  },
+  "OffPlayerId": {
+    "$ref": "./OffPlayerId.json"
+  },
+  "OffPlayerName": {
+    "$ref": "./OffPlayerName.json"
+  },
+  "OffRating": {
+    "$ref": "./OffRating.json"
+  },
+  "OffReb": {
+    "$ref": "./OffReb.json"
+  },
+  "OffTeamID": {
+    "$ref": "./OffTeamID.json"
+  },
+  "OfficialId": {
+    "$ref": "./OfficialId.json"
+  },
+  "OnMoveCollege": {
+    "$ref": "./OnMoveCollege.json"
+  },
+  "OnMoveFifteen": {
+    "$ref": "./OnMoveFifteen.json"
+  },
+  "OppEfgPct": {
+    "$ref": "./OppEfgPct.json"
+  },
+  "OppFg3Pct": {
+    "$ref": "./OppFg3Pct.json"
+  },
+  "OppFtaRate": {
+    "$ref": "./OppFtaRate.json"
+  },
+  "OppOrebPct": {
+    "$ref": "./OppOrebPct.json"
+  },
+  "OppPts2ndChance": {
+    "$ref": "./OppPts2ndChance.json"
+  },
+  "OppPtsFb": {
+    "$ref": "./OppPtsFb.json"
+  },
+  "OppPtsOffTov": {
+    "$ref": "./OppPtsOffTov.json"
+  },
+  "OppPtsPaint": {
+    "$ref": "./OppPtsPaint.json"
+  },
+  "OppPtsPg": {
+    "$ref": "./OppPtsPg.json"
+  },
+  "OppPtsRank": {
+    "$ref": "./OppPtsRank.json"
+  },
+  "OppTeamID": {
+    "$ref": "./OppTeamID.json"
+  },
+  "OppTovPct": {
+    "$ref": "./OppTovPct.json"
+  },
+  "OpponentTeamID": {
+    "$ref": "./OpponentTeamID.json"
+  },
+  "Opponentteamabbreviation1": {
+    "$ref": "./Opponentteamabbreviation1.json"
+  },
+  "Opponentteamabbreviation2": {
+    "$ref": "./Opponentteamabbreviation2.json"
+  },
+  "Opponentteamabbreviation3": {
+    "$ref": "./Opponentteamabbreviation3.json"
+  },
+  "Opponentteamabbreviation4": {
+    "$ref": "./Opponentteamabbreviation4.json"
+  },
+  "Oppositeteam": {
+    "$ref": "./Oppositeteam.json"
+  },
+  "Opppts": {
+    "$ref": "./Opppts.json"
+  },
+  "Oreb": {
+    "$ref": "./Oreb.json"
+  },
+  "OrebPct": {
+    "$ref": "./OrebPct.json"
+  },
+  "OrebRank": {
+    "$ref": "./OrebRank.json"
+  },
+  "Organization": {
+    "$ref": "./Organization.json"
+  },
+  "OrganizationId": {
+    "$ref": "./OrganizationId.json"
+  },
+  "OrganizationType": {
+    "$ref": "./OrganizationType.json"
+  },
+  "OtherleagueExperienceCh": {
+    "$ref": "./OtherleagueExperienceCh.json"
+  },
+  "OutTimeReal": {
+    "$ref": "./OutTimeReal.json"
+  },
+  "Outcome": {
+    "$ref": "./Outcome.json"
+  },
+  "Outcome1": {
+    "$ref": "./Outcome1.json"
+  },
+  "Outcome2": {
+    "$ref": "./Outcome2.json"
+  },
+  "Outcome3": {
+    "$ref": "./Outcome3.json"
+  },
+  "Outcome4": {
+    "$ref": "./Outcome4.json"
+  },
+  "Overall": {
+    "$ref": "./Overall.json"
+  },
+  "OverallPick": {
+    "$ref": "./OverallPick.json"
+  },
+  "OverallPm": {
+    "$ref": "./OverallPm.json"
+  },
+  "Owner": {
+    "$ref": "./Owner.json"
+  },
+  "PORound": {
+    "$ref": "./PORound.json"
+  },
+  "Pace": {
+    "$ref": "./Pace.json"
+  },
+  "PaceAdjust": {
+    "$ref": "./PaceAdjust.json"
+  },
+  "PacePer40": {
+    "$ref": "./PacePer40.json"
+  },
+  "PartialPoss": {
+    "$ref": "./PartialPoss.json"
+  },
+  "Pass": {
+    "$ref": "./Pass.json"
+  },
+  "PassFrom": {
+    "$ref": "./PassFrom.json"
+  },
+  "PassTeammatePlayerId": {
+    "$ref": "./PassTeammatePlayerId.json"
+  },
+  "PassTo": {
+    "$ref": "./PassTo.json"
+  },
+  "PassType": {
+    "$ref": "./PassType.json"
+  },
+  "Pct": {
+    "$ref": "./Pct.json"
+  },
+  "PctAst": {
+    "$ref": "./PctAst.json"
+  },
+  "PctAst2pm": {
+    "$ref": "./PctAst2pm.json"
+  },
+  "PctAst2pmRank": {
+    "$ref": "./PctAst2pmRank.json"
+  },
+  "PctAst3pm": {
+    "$ref": "./PctAst3pm.json"
+  },
+  "PctAst3pmRank": {
+    "$ref": "./PctAst3pmRank.json"
+  },
+  "PctAstFgm": {
+    "$ref": "./PctAstFgm.json"
+  },
+  "PctAstFgmRank": {
+    "$ref": "./PctAstFgmRank.json"
+  },
+  "PctBlk": {
+    "$ref": "./PctBlk.json"
+  },
+  "PctBlka": {
+    "$ref": "./PctBlka.json"
+  },
+  "PctBoxOutsDef": {
+    "$ref": "./PctBoxOutsDef.json"
+  },
+  "PctBoxOutsOff": {
+    "$ref": "./PctBoxOutsOff.json"
+  },
+  "PctBoxOutsReb": {
+    "$ref": "./PctBoxOutsReb.json"
+  },
+  "PctBoxOutsTeamReb": {
+    "$ref": "./PctBoxOutsTeamReb.json"
+  },
+  "PctDreb": {
+    "$ref": "./PctDreb.json"
+  },
+  "PctFg3a": {
+    "$ref": "./PctFg3a.json"
+  },
+  "PctFg3m": {
+    "$ref": "./PctFg3m.json"
+  },
+  "PctFga": {
+    "$ref": "./PctFga.json"
+  },
+  "PctFga2pt": {
+    "$ref": "./PctFga2pt.json"
+  },
+  "PctFga3pt": {
+    "$ref": "./PctFga3pt.json"
+  },
+  "PctFgm": {
+    "$ref": "./PctFgm.json"
+  },
+  "PctFta": {
+    "$ref": "./PctFta.json"
+  },
+  "PctFtm": {
+    "$ref": "./PctFtm.json"
+  },
+  "PctLooseBallsRecoveredDef": {
+    "$ref": "./PctLooseBallsRecoveredDef.json"
+  },
+  "PctLooseBallsRecoveredOff": {
+    "$ref": "./PctLooseBallsRecoveredOff.json"
+  },
+  "PctOreb": {
+    "$ref": "./PctOreb.json"
+  },
+  "PctPf": {
+    "$ref": "./PctPf.json"
+  },
+  "PctPfd": {
+    "$ref": "./PctPfd.json"
+  },
+  "PctPlusminus": {
+    "$ref": "./PctPlusminus.json"
+  },
+  "PctPts": {
+    "$ref": "./PctPts.json"
+  },
+  "PctPts2pt": {
+    "$ref": "./PctPts2pt.json"
+  },
+  "PctPts2ptMr": {
+    "$ref": "./PctPts2ptMr.json"
+  },
+  "PctPts3pt": {
+    "$ref": "./PctPts3pt.json"
+  },
+  "PctPtsFb": {
+    "$ref": "./PctPtsFb.json"
+  },
+  "PctPtsFt": {
+    "$ref": "./PctPtsFt.json"
+  },
+  "PctPtsOffTov": {
+    "$ref": "./PctPtsOffTov.json"
+  },
+  "PctPtsPaint": {
+    "$ref": "./PctPtsPaint.json"
+  },
+  "PctReb": {
+    "$ref": "./PctReb.json"
+  },
+  "PctStl": {
+    "$ref": "./PctStl.json"
+  },
+  "PctTov": {
+    "$ref": "./PctTov.json"
+  },
+  "PctUast2pm": {
+    "$ref": "./PctUast2pm.json"
+  },
+  "PctUast2pmRank": {
+    "$ref": "./PctUast2pmRank.json"
+  },
+  "PctUast3pm": {
+    "$ref": "./PctUast3pm.json"
+  },
+  "PctUast3pmRank": {
+    "$ref": "./PctUast3pmRank.json"
+  },
+  "PctUastFgm": {
+    "$ref": "./PctUastFgm.json"
+  },
+  "PctUastFgmRank": {
+    "$ref": "./PctUastFgmRank.json"
+  },
+  "Pctimestring": {
+    "$ref": "./Pctimestring.json"
+  },
+  "PerMinAst": {
+    "$ref": "./PerMinAst.json"
+  },
+  "PerMinBlk": {
+    "$ref": "./PerMinBlk.json"
+  },
+  "PerMinPts": {
+    "$ref": "./PerMinPts.json"
+  },
+  "PerMinStl": {
+    "$ref": "./PerMinStl.json"
+  },
+  "PerMinTotReb": {
+    "$ref": "./PerMinTotReb.json"
+  },
+  "PerMinTurnovers": {
+    "$ref": "./PerMinTurnovers.json"
+  },
+  "PerMode": {
+    "$ref": "./PerMode.json"
+  },
+  "PercentOfTime": {
+    "$ref": "./PercentOfTime.json"
+  },
+  "Percentile": {
+    "$ref": "./Percentile.json"
+  },
+  "Period": {
+    "$ref": "./Period.json"
+  },
+  "Person1Id": {
+    "$ref": "./Person1Id.json"
+  },
+  "Person1LeagueId": {
+    "$ref": "./Person1LeagueId.json"
+  },
+  "Person1Season": {
+    "$ref": "./Person1Season.json"
+  },
+  "Person1SeasonType": {
+    "$ref": "./Person1SeasonType.json"
+  },
+  "Person2": {
+    "$ref": "./Person2.json"
+  },
+  "Person2Id": {
+    "$ref": "./Person2Id.json"
+  },
+  "Person2LeagueId": {
+    "$ref": "./Person2LeagueId.json"
+  },
+  "Person2Season": {
+    "$ref": "./Person2Season.json"
+  },
+  "Person2SeasonType": {
+    "$ref": "./Person2SeasonType.json"
+  },
+  "Person2TeamId": {
+    "$ref": "./Person2TeamId.json"
+  },
+  "PersonId": {
+    "$ref": "./PersonId.json"
+  },
+  "Pf": {
+    "$ref": "./Pf.json"
+  },
+  "PfRank": {
+    "$ref": "./PfRank.json"
+  },
+  "Pfd": {
+    "$ref": "./Pfd.json"
+  },
+  "PfdRank": {
+    "$ref": "./PfdRank.json"
+  },
+  "Pie": {
+    "$ref": "./Pie.json"
+  },
+  "PlayType": {
+    "$ref": "./PlayType.json"
+  },
+  "Player": {
+    "$ref": "./Player.json"
+  },
+  "PlayerAge": {
+    "$ref": "./PlayerAge.json"
+  },
+  "PlayerExperience": {
+    "$ref": "./PlayerExperience.json"
+  },
+  "PlayerFirst": {
+    "$ref": "./PlayerFirst.json"
+  },
+  "PlayerHeight": {
+    "$ref": "./PlayerHeight.json"
+  },
+  "PlayerHeightInches": {
+    "$ref": "./PlayerHeightInches.json"
+  },
+  "PlayerID": {
+    "$ref": "./PlayerID.json"
+  },
+  "PlayerID1": {
+    "$ref": "./PlayerID1.json"
+  },
+  "PlayerID2": {
+    "$ref": "./PlayerID2.json"
+  },
+  "PlayerID3": {
+    "$ref": "./PlayerID3.json"
+  },
+  "PlayerID4": {
+    "$ref": "./PlayerID4.json"
+  },
+  "PlayerID5": {
+    "$ref": "./PlayerID5.json"
+  },
+  "PlayerIDList": {
+    "$ref": "./PlayerIDList.json"
+  },
+  "PlayerId": {
+    "$ref": "./PlayerId.json"
+  },
+  "PlayerLast": {
+    "$ref": "./PlayerLast.json"
+  },
+  "PlayerLastTeamAbbreviation": {
+    "$ref": "./PlayerLastTeamAbbreviation.json"
+  },
+  "PlayerLastTeamId": {
+    "$ref": "./PlayerLastTeamId.json"
+  },
+  "PlayerName": {
+    "$ref": "./PlayerName.json"
+  },
+  "PlayerNameLastFirst": {
+    "$ref": "./PlayerNameLastFirst.json"
+  },
+  "PlayerOrTeam": {
+    "$ref": "./PlayerOrTeam.json"
+  },
+  "PlayerPosition": {
+    "$ref": "./PlayerPosition.json"
+  },
+  "PlayerPts": {
+    "$ref": "./PlayerPts.json"
+  },
+  "PlayerScope": {
+    "$ref": "./PlayerScope.json"
+  },
+  "PlayerSlug": {
+    "$ref": "./PlayerSlug.json"
+  },
+  "PlayerTeamAbbreviation": {
+    "$ref": "./PlayerTeamAbbreviation.json"
+  },
+  "PlayerTeamCity": {
+    "$ref": "./PlayerTeamCity.json"
+  },
+  "PlayerTeamId": {
+    "$ref": "./PlayerTeamId.json"
+  },
+  "PlayerTeamNickname": {
+    "$ref": "./PlayerTeamNickname.json"
+  },
+  "PlayerWeight": {
+    "$ref": "./PlayerWeight.json"
+  },
+  "Playercode": {
+    "$ref": "./Playercode.json"
+  },
+  "Playerid": {
+    "$ref": "./Playerid.json"
+  },
+  "Players": {
+    "$ref": "./Players.json"
+  },
+  "PlusMinus": {
+    "$ref": "./PlusMinus.json"
+  },
+  "PlusMinusRank": {
+    "$ref": "./PlusMinusRank.json"
+  },
+  "PlusonePossPct": {
+    "$ref": "./PlusonePossPct.json"
+  },
+  "PoAppearances": {
+    "$ref": "./PoAppearances.json"
+  },
+  "PointDiff": {
+    "$ref": "./PointDiff.json"
+  },
+  "Position": {
+    "$ref": "./Position.json"
+  },
+  "Poss": {
+    "$ref": "./Poss.json"
+  },
+  "PossPct": {
+    "$ref": "./PossPct.json"
+  },
+  "Ppp": {
+    "$ref": "./Ppp.json"
+  },
+  "PtAvailable": {
+    "$ref": "./PtAvailable.json"
+  },
+  "PtDiff": {
+    "$ref": "./PtDiff.json"
+  },
+  "PtMeasureType": {
+    "$ref": "./PtMeasureType.json"
+  },
+  "PtXyzAvailable": {
+    "$ref": "./PtXyzAvailable.json"
+  },
+  "Pts": {
+    "$ref": "./Pts.json"
+  },
+  "Pts2ndChance": {
+    "$ref": "./Pts2ndChance.json"
+  },
+  "PtsFb": {
+    "$ref": "./PtsFb.json"
+  },
+  "PtsOffTo": {
+    "$ref": "./PtsOffTo.json"
+  },
+  "PtsOffTov": {
+    "$ref": "./PtsOffTov.json"
+  },
+  "PtsOt1": {
+    "$ref": "./PtsOt1.json"
+  },
+  "PtsOt10": {
+    "$ref": "./PtsOt10.json"
+  },
+  "PtsOt2": {
+    "$ref": "./PtsOt2.json"
+  },
+  "PtsOt3": {
+    "$ref": "./PtsOt3.json"
+  },
+  "PtsOt4": {
+    "$ref": "./PtsOt4.json"
+  },
+  "PtsOt5": {
+    "$ref": "./PtsOt5.json"
+  },
+  "PtsOt6": {
+    "$ref": "./PtsOt6.json"
+  },
+  "PtsOt7": {
+    "$ref": "./PtsOt7.json"
+  },
+  "PtsOt8": {
+    "$ref": "./PtsOt8.json"
+  },
+  "PtsOt9": {
+    "$ref": "./PtsOt9.json"
+  },
+  "PtsPaint": {
+    "$ref": "./PtsPaint.json"
+  },
+  "PtsPer48": {
+    "$ref": "./PtsPer48.json"
+  },
+  "PtsPersonId": {
+    "$ref": "./PtsPersonId.json"
+  },
+  "PtsPg": {
+    "$ref": "./PtsPg.json"
+  },
+  "PtsPlayer": {
+    "$ref": "./PtsPlayer.json"
+  },
+  "PtsPlayerId": {
+    "$ref": "./PtsPlayerId.json"
+  },
+  "PtsPlayerName": {
+    "$ref": "./PtsPlayerName.json"
+  },
+  "PtsQtr1": {
+    "$ref": "./PtsQtr1.json"
+  },
+  "PtsQtr2": {
+    "$ref": "./PtsQtr2.json"
+  },
+  "PtsQtr3": {
+    "$ref": "./PtsQtr3.json"
+  },
+  "PtsQtr4": {
+    "$ref": "./PtsQtr4.json"
+  },
+  "PtsRank": {
+    "$ref": "./PtsRank.json"
+  },
+  "RangeType": {
+    "$ref": "./RangeType.json"
+  },
+  "Rank": {
+    "$ref": "./Rank.json"
+  },
+  "RankAst": {
+    "$ref": "./RankAst.json"
+  },
+  "RankBlk": {
+    "$ref": "./RankBlk.json"
+  },
+  "RankDreb": {
+    "$ref": "./RankDreb.json"
+  },
+  "RankEff": {
+    "$ref": "./RankEff.json"
+  },
+  "RankFg3Pct": {
+    "$ref": "./RankFg3Pct.json"
+  },
+  "RankFg3a": {
+    "$ref": "./RankFg3a.json"
+  },
+  "RankFg3m": {
+    "$ref": "./RankFg3m.json"
+  },
+  "RankFgPct": {
+    "$ref": "./RankFgPct.json"
+  },
+  "RankFga": {
+    "$ref": "./RankFga.json"
+  },
+  "RankFgm": {
+    "$ref": "./RankFgm.json"
+  },
+  "RankFtPct": {
+    "$ref": "./RankFtPct.json"
+  },
+  "RankFta": {
+    "$ref": "./RankFta.json"
+  },
+  "RankFtm": {
+    "$ref": "./RankFtm.json"
+  },
+  "RankMin": {
+    "$ref": "./RankMin.json"
+  },
+  "RankOreb": {
+    "$ref": "./RankOreb.json"
+  },
+  "RankPts": {
+    "$ref": "./RankPts.json"
+  },
+  "RankReb": {
+    "$ref": "./RankReb.json"
+  },
+  "RankStl": {
+    "$ref": "./RankStl.json"
+  },
+  "RankTov": {
+    "$ref": "./RankTov.json"
+  },
+  "RankingCriteria": {
+    "$ref": "./RankingCriteria.json"
+  },
+  "Reb": {
+    "$ref": "./Reb.json"
+  },
+  "RebDistRange": {
+    "$ref": "./RebDistRange.json"
+  },
+  "RebFrequency": {
+    "$ref": "./RebFrequency.json"
+  },
+  "RebNumContestingRange": {
+    "$ref": "./RebNumContestingRange.json"
+  },
+  "RebPct": {
+    "$ref": "./RebPct.json"
+  },
+  "RebPersonId": {
+    "$ref": "./RebPersonId.json"
+  },
+  "RebPg": {
+    "$ref": "./RebPg.json"
+  },
+  "RebPlayer": {
+    "$ref": "./RebPlayer.json"
+  },
+  "RebPlayerId": {
+    "$ref": "./RebPlayerId.json"
+  },
+  "RebPlayerName": {
+    "$ref": "./RebPlayerName.json"
+  },
+  "RebRank": {
+    "$ref": "./RebRank.json"
+  },
+  "Region": {
+    "$ref": "./Region.json"
+  },
+  "RemainingAwayG": {
+    "$ref": "./RemainingAwayG.json"
+  },
+  "RemainingG": {
+    "$ref": "./RemainingG.json"
+  },
+  "RemainingHomeG": {
+    "$ref": "./RemainingHomeG.json"
+  },
+  "Returntoplay": {
+    "$ref": "./Returntoplay.json"
+  },
+  "ReturntoplayAlreadyEliminated": {
+    "$ref": "./ReturntoplayAlreadyEliminated.json"
+  },
+  "ReturntoplayEastPiFlag": {
+    "$ref": "./ReturntoplayEastPiFlag.json"
+  },
+  "ReturntoplayWestPiFlag": {
+    "$ref": "./ReturntoplayWestPiFlag.json"
+  },
+  "RoadRecord": {
+    "$ref": "./RoadRecord.json"
+  },
+  "RookieYear": {
+    "$ref": "./RookieYear.json"
+  },
+  "Rosterstatus": {
+    "$ref": "./Rosterstatus.json"
+  },
+  "RoundNum": {
+    "$ref": "./RoundNum.json"
+  },
+  "RoundNumber": {
+    "$ref": "./RoundNumber.json"
+  },
+  "RoundPick": {
+    "$ref": "./RoundPick.json"
+  },
+  "RunType": {
+    "$ref": "./RunType.json"
+  },
+  "School": {
+    "$ref": "./School.json"
+  },
+  "SchoolName": {
+    "$ref": "./SchoolName.json"
+  },
+  "Scope": {
+    "$ref": "./Scope.json"
+  },
+  "Score": {
+    "$ref": "./Score.json"
+  },
+  "ScorePossPct": {
+    "$ref": "./ScorePossPct.json"
+  },
+  "Scoremargin": {
+    "$ref": "./Scoremargin.json"
+  },
+  "ScreenAssists": {
+    "$ref": "./ScreenAssists.json"
+  },
+  "ScreenAstPts": {
+    "$ref": "./ScreenAstPts.json"
+  },
+  "Season": {
+    "$ref": "./Season.json"
+  },
+  "SeasonExp": {
+    "$ref": "./SeasonExp.json"
+  },
+  "SeasonID": {
+    "$ref": "./SeasonID.json"
+  },
+  "SeasonId": {
+    "$ref": "./SeasonId.json"
+  },
+  "SeasonMonthName": {
+    "$ref": "./SeasonMonthName.json"
+  },
+  "SeasonSegment": {
+    "$ref": "./SeasonSegment.json"
+  },
+  "SeasonType": {
+    "$ref": "./SeasonType.json"
+  },
+  "SeasonYear": {
+    "$ref": "./SeasonYear.json"
+  },
+  "Seasonswithteam": {
+    "$ref": "./Seasonswithteam.json"
+  },
+  "Seasonyear": {
+    "$ref": "./Seasonyear.json"
+  },
+  "SecondsRemaining": {
+    "$ref": "./SecondsRemaining.json"
+  },
+  "Section": {
+    "$ref": "./Section.json"
+  },
+  "Seed": {
+    "$ref": "./Seed.json"
+  },
+  "SeedingGame1Id": {
+    "$ref": "./SeedingGame1Id.json"
+  },
+  "SeedingGame1Label": {
+    "$ref": "./SeedingGame1Label.json"
+  },
+  "SeedingGame1Opponent": {
+    "$ref": "./SeedingGame1Opponent.json"
+  },
+  "SeedingGame1Outcome": {
+    "$ref": "./SeedingGame1Outcome.json"
+  },
+  "SeedingGame2Id": {
+    "$ref": "./SeedingGame2Id.json"
+  },
+  "SeedingGame2Label": {
+    "$ref": "./SeedingGame2Label.json"
+  },
+  "SeedingGame2Opponent": {
+    "$ref": "./SeedingGame2Opponent.json"
+  },
+  "SeedingGame2Outcome": {
+    "$ref": "./SeedingGame2Outcome.json"
+  },
+  "SeedingGame3Id": {
+    "$ref": "./SeedingGame3Id.json"
+  },
+  "SeedingGame3Label": {
+    "$ref": "./SeedingGame3Label.json"
+  },
+  "SeedingGame3Opponent": {
+    "$ref": "./SeedingGame3Opponent.json"
+  },
+  "SeedingGame3Outcome": {
+    "$ref": "./SeedingGame3Outcome.json"
+  },
+  "SeedingGame4Id": {
+    "$ref": "./SeedingGame4Id.json"
+  },
+  "SeedingGame4Label": {
+    "$ref": "./SeedingGame4Label.json"
+  },
+  "SeedingGame4Opponent": {
+    "$ref": "./SeedingGame4Opponent.json"
+  },
+  "SeedingGame4Outcome": {
+    "$ref": "./SeedingGame4Outcome.json"
+  },
+  "SeedingGame5Id": {
+    "$ref": "./SeedingGame5Id.json"
+  },
+  "SeedingGame5Label": {
+    "$ref": "./SeedingGame5Label.json"
+  },
+  "SeedingGame5Opponent": {
+    "$ref": "./SeedingGame5Opponent.json"
+  },
+  "SeedingGame5Outcome": {
+    "$ref": "./SeedingGame5Outcome.json"
+  },
+  "SeedingGame6Id": {
+    "$ref": "./SeedingGame6Id.json"
+  },
+  "SeedingGame6Label": {
+    "$ref": "./SeedingGame6Label.json"
+  },
+  "SeedingGame6Opponent": {
+    "$ref": "./SeedingGame6Opponent.json"
+  },
+  "SeedingGame6Outcome": {
+    "$ref": "./SeedingGame6Outcome.json"
+  },
+  "SeedingGame7Id": {
+    "$ref": "./SeedingGame7Id.json"
+  },
+  "SeedingGame7Label": {
+    "$ref": "./SeedingGame7Label.json"
+  },
+  "SeedingGame7Opponent": {
+    "$ref": "./SeedingGame7Opponent.json"
+  },
+  "SeedingGame7Outcome": {
+    "$ref": "./SeedingGame7Outcome.json"
+  },
+  "SeedingGame8Id": {
+    "$ref": "./SeedingGame8Id.json"
+  },
+  "SeedingGame8Label": {
+    "$ref": "./SeedingGame8Label.json"
+  },
+  "SeedingGame8Opponent": {
+    "$ref": "./SeedingGame8Opponent.json"
+  },
+  "SeedingGame8Outcome": {
+    "$ref": "./SeedingGame8Outcome.json"
+  },
+  "SeriesID": {
+    "$ref": "./SeriesID.json"
+  },
+  "SeriesId": {
+    "$ref": "./SeriesId.json"
+  },
+  "SeriesLeader": {
+    "$ref": "./SeriesLeader.json"
+  },
+  "SfPossPct": {
+    "$ref": "./SfPossPct.json"
+  },
+  "Sfl": {
+    "$ref": "./Sfl.json"
+  },
+  "ShotAttemptedFlag": {
+    "$ref": "./ShotAttemptedFlag.json"
+  },
+  "ShotClockRange": {
+    "$ref": "./ShotClockRange.json"
+  },
+  "ShotDistRange": {
+    "$ref": "./ShotDistRange.json"
+  },
+  "ShotDistance": {
+    "$ref": "./ShotDistance.json"
+  },
+  "ShotMadeFlag": {
+    "$ref": "./ShotMadeFlag.json"
+  },
+  "ShotType": {
+    "$ref": "./ShotType.json"
+  },
+  "ShotTypeRange": {
+    "$ref": "./ShotTypeRange.json"
+  },
+  "ShotZoneArea": {
+    "$ref": "./ShotZoneArea.json"
+  },
+  "ShotZoneBasic": {
+    "$ref": "./ShotZoneBasic.json"
+  },
+  "ShotZoneRange": {
+    "$ref": "./ShotZoneRange.json"
+  },
+  "SimilarityScore": {
+    "$ref": "./SimilarityScore.json"
+  },
+  "SortOrder": {
+    "$ref": "./SortOrder.json"
+  },
+  "SortSequence": {
+    "$ref": "./SortSequence.json"
+  },
+  "Sorter": {
+    "$ref": "./Sorter.json"
+  },
+  "SosaRemaining": {
+    "$ref": "./SosaRemaining.json"
+  },
+  "SpotCollegeBreakLeft": {
+    "$ref": "./SpotCollegeBreakLeft.json"
+  },
+  "SpotCollegeBreakRight": {
+    "$ref": "./SpotCollegeBreakRight.json"
+  },
+  "SpotCollegeCornerLeft": {
+    "$ref": "./SpotCollegeCornerLeft.json"
+  },
+  "SpotCollegeCornerRight": {
+    "$ref": "./SpotCollegeCornerRight.json"
+  },
+  "SpotCollegeTopKey": {
+    "$ref": "./SpotCollegeTopKey.json"
+  },
+  "SpotFifteenBreakLeft": {
+    "$ref": "./SpotFifteenBreakLeft.json"
+  },
+  "SpotFifteenBreakRight": {
+    "$ref": "./SpotFifteenBreakRight.json"
+  },
+  "SpotFifteenCornerLeft": {
+    "$ref": "./SpotFifteenCornerLeft.json"
+  },
+  "SpotFifteenCornerRight": {
+    "$ref": "./SpotFifteenCornerRight.json"
+  },
+  "SpotFifteenTopKey": {
+    "$ref": "./SpotFifteenTopKey.json"
+  },
+  "SpotNbaBreakLeft": {
+    "$ref": "./SpotNbaBreakLeft.json"
+  },
+  "SpotNbaBreakRight": {
+    "$ref": "./SpotNbaBreakRight.json"
+  },
+  "SpotNbaCornerLeft": {
+    "$ref": "./SpotNbaCornerLeft.json"
+  },
+  "SpotNbaCornerRight": {
+    "$ref": "./SpotNbaCornerRight.json"
+  },
+  "SpotNbaTopKey": {
+    "$ref": "./SpotNbaTopKey.json"
+  },
+  "StandingReach": {
+    "$ref": "./StandingReach.json"
+  },
+  "StandingReachFtIn": {
+    "$ref": "./StandingReachFtIn.json"
+  },
+  "StandingVerticalLeap": {
+    "$ref": "./StandingVerticalLeap.json"
+  },
+  "Standingsdate": {
+    "$ref": "./Standingsdate.json"
+  },
+  "StartPeriod": {
+    "$ref": "./StartPeriod.json"
+  },
+  "StartPosition": {
+    "$ref": "./StartPosition.json"
+  },
+  "StartRange": {
+    "$ref": "./StartRange.json"
+  },
+  "StartYear": {
+    "$ref": "./StartYear.json"
+  },
+  "Startdate": {
+    "$ref": "./Startdate.json"
+  },
+  "StarterBench": {
+    "$ref": "./StarterBench.json"
+  },
+  "StartersBench": {
+    "$ref": "./StartersBench.json"
+  },
+  "Stat": {
+    "$ref": "./Stat.json"
+  },
+  "StatCategory": {
+    "$ref": "./StatCategory.json"
+  },
+  "StatOrder": {
+    "$ref": "./StatOrder.json"
+  },
+  "StatType": {
+    "$ref": "./StatType.json"
+  },
+  "StatsValue": {
+    "$ref": "./StatsValue.json"
+  },
+  "Stl": {
+    "$ref": "./Stl.json"
+  },
+  "StlPersonId": {
+    "$ref": "./StlPersonId.json"
+  },
+  "StlPlayer": {
+    "$ref": "./StlPlayer.json"
+  },
+  "StlRank": {
+    "$ref": "./StlRank.json"
+  },
+  "StlTov": {
+    "$ref": "./StlTov.json"
+  },
+  "Subtype1": {
+    "$ref": "./Subtype1.json"
+  },
+  "Subtype2": {
+    "$ref": "./Subtype2.json"
+  },
+  "Subtype3": {
+    "$ref": "./Subtype3.json"
+  },
+  "Td3": {
+    "$ref": "./Td3.json"
+  },
+  "Td3Rank": {
+    "$ref": "./Td3Rank.json"
+  },
+  "Team": {
+    "$ref": "./Team.json"
+  },
+  "TeamAbbreviation": {
+    "$ref": "./TeamAbbreviation.json"
+  },
+  "TeamCity": {
+    "$ref": "./TeamCity.json"
+  },
+  "TeamCityName": {
+    "$ref": "./TeamCityName.json"
+  },
+  "TeamCode": {
+    "$ref": "./TeamCode.json"
+  },
+  "TeamConference": {
+    "$ref": "./TeamConference.json"
+  },
+  "TeamDaysRestRange": {
+    "$ref": "./TeamDaysRestRange.json"
+  },
+  "TeamDivision": {
+    "$ref": "./TeamDivision.json"
+  },
+  "TeamGameLocation": {
+    "$ref": "./TeamGameLocation.json"
+  },
+  "TeamID": {
+    "$ref": "./TeamID.json"
+  },
+  "TeamId": {
+    "$ref": "./TeamId.json"
+  },
+  "TeamName": {
+    "$ref": "./TeamName.json"
+  },
+  "TeamNickname": {
+    "$ref": "./TeamNickname.json"
+  },
+  "TeamPts": {
+    "$ref": "./TeamPts.json"
+  },
+  "TeamRebounds": {
+    "$ref": "./TeamRebounds.json"
+  },
+  "TeamSlug": {
+    "$ref": "./TeamSlug.json"
+  },
+  "TeamTurnovers": {
+    "$ref": "./TeamTurnovers.json"
+  },
+  "TeamWinsLosses": {
+    "$ref": "./TeamWinsLosses.json"
+  },
+  "Teamabbreviation": {
+    "$ref": "./Teamabbreviation.json"
+  },
+  "Teamcity": {
+    "$ref": "./Teamcity.json"
+  },
+  "Teamid": {
+    "$ref": "./Teamid.json"
+  },
+  "Teamname": {
+    "$ref": "./Teamname.json"
+  },
+  "Teamslug": {
+    "$ref": "./Teamslug.json"
+  },
+  "TempPlayerId": {
+    "$ref": "./TempPlayerId.json"
+  },
+  "ThreeQuarterSprint": {
+    "$ref": "./ThreeQuarterSprint.json"
+  },
+  "ThreepDfgpct": {
+    "$ref": "./ThreepDfgpct.json"
+  },
+  "Timeframe": {
+    "$ref": "./Timeframe.json"
+  },
+  "TimesTied": {
+    "$ref": "./TimesTied.json"
+  },
+  "TitleDescription": {
+    "$ref": "./TitleDescription.json"
+  },
+  "TmAstPct": {
+    "$ref": "./TmAstPct.json"
+  },
+  "TmDefRating": {
+    "$ref": "./TmDefRating.json"
+  },
+  "TmTovPct": {
+    "$ref": "./TmTovPct.json"
+  },
+  "To": {
+    "$ref": "./To.json"
+  },
+  "ToYear": {
+    "$ref": "./ToYear.json"
+  },
+  "TodaysOpponent": {
+    "$ref": "./TodaysOpponent.json"
+  },
+  "TodaysPlayers": {
+    "$ref": "./TodaysPlayers.json"
+  },
+  "TopX": {
+    "$ref": "./TopX.json"
+  },
+  "TotReb": {
+    "$ref": "./TotReb.json"
+  },
+  "TotalTurnovers": {
+    "$ref": "./TotalTurnovers.json"
+  },
+  "TouchTimeRange": {
+    "$ref": "./TouchTimeRange.json"
+  },
+  "Tov": {
+    "$ref": "./Tov.json"
+  },
+  "TovPossPct": {
+    "$ref": "./TovPossPct.json"
+  },
+  "TovRank": {
+    "$ref": "./TovRank.json"
+  },
+  "TsPct": {
+    "$ref": "./TsPct.json"
+  },
+  "Turnovers": {
+    "$ref": "./Turnovers.json"
+  },
+  "TwoWay": {
+    "$ref": "./TwoWay.json"
+  },
+  "TwopDfgpct": {
+    "$ref": "./TwopDfgpct.json"
+  },
+  "Type": {
+    "$ref": "./Type.json"
+  },
+  "TypeGrouping": {
+    "$ref": "./TypeGrouping.json"
+  },
+  "UcDreb": {
+    "$ref": "./UcDreb.json"
+  },
+  "UcOreb": {
+    "$ref": "./UcOreb.json"
+  },
+  "UcReb": {
+    "$ref": "./UcReb.json"
+  },
+  "UcRebPct": {
+    "$ref": "./UcRebPct.json"
+  },
+  "UsgPct": {
+    "$ref": "./UsgPct.json"
+  },
+  "VideoAvailable": {
+    "$ref": "./VideoAvailable.json"
+  },
+  "VideoAvailableFlag": {
+    "$ref": "./VideoAvailableFlag.json"
+  },
+  "VisitorPct": {
+    "$ref": "./VisitorPct.json"
+  },
+  "VisitorPts": {
+    "$ref": "./VisitorPts.json"
+  },
+  "VisitorTeam": {
+    "$ref": "./VisitorTeam.json"
+  },
+  "VisitorTeamAbbreviation": {
+    "$ref": "./VisitorTeamAbbreviation.json"
+  },
+  "VisitorTeamCity": {
+    "$ref": "./VisitorTeamCity.json"
+  },
+  "VisitorTeamId": {
+    "$ref": "./VisitorTeamId.json"
+  },
+  "VisitorTeamName": {
+    "$ref": "./VisitorTeamName.json"
+  },
+  "VisitorTeamNickname": {
+    "$ref": "./VisitorTeamNickname.json"
+  },
+  "VisitorWl": {
+    "$ref": "./VisitorWl.json"
+  },
+  "Visitordescription": {
+    "$ref": "./Visitordescription.json"
+  },
+  "VsConference": {
+    "$ref": "./VsConference.json"
+  },
+  "VsDivision": {
+    "$ref": "./VsDivision.json"
+  },
+  "VsPlayerID": {
+    "$ref": "./VsPlayerID.json"
+  },
+  "VsPlayerID1": {
+    "$ref": "./VsPlayerID1.json"
+  },
+  "VsPlayerID2": {
+    "$ref": "./VsPlayerID2.json"
+  },
+  "VsPlayerID3": {
+    "$ref": "./VsPlayerID3.json"
+  },
+  "VsPlayerID4": {
+    "$ref": "./VsPlayerID4.json"
+  },
+  "VsPlayerID5": {
+    "$ref": "./VsPlayerID5.json"
+  },
+  "VsPlayerIDList": {
+    "$ref": "./VsPlayerIDList.json"
+  },
+  "VsPlayerId": {
+    "$ref": "./VsPlayerId.json"
+  },
+  "VsPlayerName": {
+    "$ref": "./VsPlayerName.json"
+  },
+  "VsTeamAbbreviation": {
+    "$ref": "./VsTeamAbbreviation.json"
+  },
+  "VsTeamCity": {
+    "$ref": "./VsTeamCity.json"
+  },
+  "VsTeamID": {
+    "$ref": "./VsTeamID.json"
+  },
+  "VsTeamId": {
+    "$ref": "./VsTeamId.json"
+  },
+  "VsTeamName": {
+    "$ref": "./VsTeamName.json"
+  },
+  "VsTeamNickname": {
+    "$ref": "./VsTeamNickname.json"
+  },
+  "Vtm": {
+    "$ref": "./Vtm.json"
+  },
+  "W": {
+    "$ref": "./W.json"
+  },
+  "WHome": {
+    "$ref": "./WHome.json"
+  },
+  "WPct": {
+    "$ref": "./WPct.json"
+  },
+  "WPctRank": {
+    "$ref": "./WPctRank.json"
+  },
+  "WRank": {
+    "$ref": "./WRank.json"
+  },
+  "WRoad": {
+    "$ref": "./WRoad.json"
+  },
+  "Wctimestring": {
+    "$ref": "./Wctimestring.json"
+  },
+  "WebsiteLink": {
+    "$ref": "./WebsiteLink.json"
+  },
+  "Week": {
+    "$ref": "./Week.json"
+  },
+  "Weight": {
+    "$ref": "./Weight.json"
+  },
+  "WhStatus": {
+    "$ref": "./WhStatus.json"
+  },
+  "WinPct": {
+    "$ref": "./WinPct.json"
+  },
+  "Wingspan": {
+    "$ref": "./Wingspan.json"
+  },
+  "WingspanFtIn": {
+    "$ref": "./WingspanFtIn.json"
+  },
+  "Wins": {
+    "$ref": "./Wins.json"
+  },
+  "Wl": {
+    "$ref": "./Wl.json"
+  },
+  "Year": {
+    "$ref": "./Year.json"
+  },
+  "Yearactivetill": {
+    "$ref": "./Yearactivetill.json"
+  },
+  "Yearawarded": {
+    "$ref": "./Yearawarded.json"
+  },
+  "Yearfounded": {
+    "$ref": "./Yearfounded.json"
+  },
+  "Years": {
+    "$ref": "./Years.json"
+  },
+  "YearsExperience": {
+    "$ref": "./YearsExperience.json"
+  }
+}

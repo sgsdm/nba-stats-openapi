@@ -1,6 +1,0 @@
-name: AheadBehind
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/AheadBehind.yaml
-required: true

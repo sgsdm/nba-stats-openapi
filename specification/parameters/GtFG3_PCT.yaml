@@ -1,5 +1,0 @@
-name: GtFG3_PCT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtFG3_PCT.yaml

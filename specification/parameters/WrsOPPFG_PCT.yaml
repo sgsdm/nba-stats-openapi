@@ -1,5 +1,0 @@
-name: WrsOPPFG_PCT
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/WrsOPPFG_PCT.yaml

@@ -1,0 +1,9 @@
+{
+  "name": "SeasonYear",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/SeasonYear.json"
+  },
+  "required": true
+}

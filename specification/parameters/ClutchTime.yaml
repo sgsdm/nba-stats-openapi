@@ -1,6 +1,0 @@
-name: ClutchTime
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/ClutchTime.yaml
-required: true

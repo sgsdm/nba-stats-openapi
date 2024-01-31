@@ -1,0 +1,474 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GROUP_SET"
+        },
+        {
+          "const": "GROUP_VALUE"
+        },
+        {
+          "const": "TEAM_DAYS_REST_RANGE"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "W"
+        },
+        {
+          "const": "L"
+        },
+        {
+          "const": "W_PCT"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FG_PCT"
+        },
+        {
+          "const": "FG3M"
+        },
+        {
+          "const": "FG3A"
+        },
+        {
+          "const": "FG3_PCT"
+        },
+        {
+          "const": "FTM"
+        },
+        {
+          "const": "FTA"
+        },
+        {
+          "const": "FT_PCT"
+        },
+        {
+          "const": "OREB"
+        },
+        {
+          "const": "DREB"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "TOV"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "BLKA"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "PFD"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "PLUS_MINUS"
+        },
+        {
+          "const": "GP_RANK"
+        },
+        {
+          "const": "W_RANK"
+        },
+        {
+          "const": "L_RANK"
+        },
+        {
+          "const": "W_PCT_RANK"
+        },
+        {
+          "const": "MIN_RANK"
+        },
+        {
+          "const": "FGM_RANK"
+        },
+        {
+          "const": "FGA_RANK"
+        },
+        {
+          "const": "FG_PCT_RANK"
+        },
+        {
+          "const": "FG3M_RANK"
+        },
+        {
+          "const": "FG3A_RANK"
+        },
+        {
+          "const": "FG3_PCT_RANK"
+        },
+        {
+          "const": "FTM_RANK"
+        },
+        {
+          "const": "FTA_RANK"
+        },
+        {
+          "const": "FT_PCT_RANK"
+        },
+        {
+          "const": "OREB_RANK"
+        },
+        {
+          "const": "DREB_RANK"
+        },
+        {
+          "const": "REB_RANK"
+        },
+        {
+          "const": "AST_RANK"
+        },
+        {
+          "const": "TOV_RANK"
+        },
+        {
+          "const": "STL_RANK"
+        },
+        {
+          "const": "BLK_RANK"
+        },
+        {
+          "const": "BLKA_RANK"
+        },
+        {
+          "const": "PF_RANK"
+        },
+        {
+          "const": "PFD_RANK"
+        },
+        {
+          "const": "PTS_RANK"
+        },
+        {
+          "const": "PLUS_MINUS_RANK"
+        },
+        {
+          "const": "CFID"
+        },
+        {
+          "const": "CFPARAMS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GroupSet.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GroupValue.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamDaysRestRange.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/W.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/L.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3m.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3a.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ftm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fta.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Oreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Dreb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Tov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blka.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pfd.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlusMinus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GpRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MinRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgmRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgaRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3mRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3aRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fg3PctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtmRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtaRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FtPctRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OrebRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DrebRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TovRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StlRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BlkRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BlkaRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PfRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PfdRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlusMinusRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfid.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Cfparams.json"
+          }
+        }
+      ]
+    }
+  }
+}

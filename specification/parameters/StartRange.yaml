@@ -1,6 +1,0 @@
-name: StartRange
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/StartRange.yaml
-required: true

@@ -1,0 +1,9 @@
+{
+  "name": "Person1Id",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/Person1Id.json"
+  },
+  "required": true
+}

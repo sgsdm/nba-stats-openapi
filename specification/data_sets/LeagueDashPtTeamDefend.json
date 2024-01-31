@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "GP"
+        },
+        {
+          "const": "G"
+        },
+        {
+          "const": "FREQ"
+        },
+        {
+          "const": "D_FGM"
+        },
+        {
+          "const": "D_FGA"
+        },
+        {
+          "const": "D_FG_PCT"
+        },
+        {
+          "const": "NORMAL_FG_PCT"
+        },
+        {
+          "const": "PCT_PLUSMINUS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Gp.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/G.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Freq.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DFgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DFga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/DFgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/NormalFgPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PctPlusminus.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,0 @@
-name: GtPTS
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/GtPTS.yaml

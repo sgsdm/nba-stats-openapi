@@ -1,0 +1,8 @@
+{
+  "name": "DribbleRange",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/DribbleRange.json"
+  }
+}

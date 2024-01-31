@@ -1,5 +1,0 @@
-name: BtrOPPFTM
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPFTM.yaml

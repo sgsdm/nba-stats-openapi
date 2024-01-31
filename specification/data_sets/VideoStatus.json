@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "GAME_DATE"
+        },
+        {
+          "const": "VISITOR_TEAM_ID"
+        },
+        {
+          "const": "VISITOR_TEAM_CITY"
+        },
+        {
+          "const": "VISITOR_TEAM_NAME"
+        },
+        {
+          "const": "VISITOR_TEAM_ABBREVIATION"
+        },
+        {
+          "const": "HOME_TEAM_ID"
+        },
+        {
+          "const": "HOME_TEAM_CITY"
+        },
+        {
+          "const": "HOME_TEAM_NAME"
+        },
+        {
+          "const": "HOME_TEAM_ABBREVIATION"
+        },
+        {
+          "const": "GAME_STATUS"
+        },
+        {
+          "const": "GAME_STATUS_TEXT"
+        },
+        {
+          "const": "IS_AVAILABLE"
+        },
+        {
+          "const": "PT_XYZ_AVAILABLE"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameDate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VisitorTeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeTeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameStatus.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameStatusText.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/IsAvailable.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtXyzAvailable.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_ABBREVIATION"
+        },
+        {
+          "const": "TEAM_CITY"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "START_POSITION"
+        },
+        {
+          "const": "COMMENT"
+        },
+        {
+          "const": "MIN"
+        },
+        {
+          "const": "PTS_OFF_TOV"
+        },
+        {
+          "const": "PTS_2ND_CHANCE"
+        },
+        {
+          "const": "PTS_FB"
+        },
+        {
+          "const": "PTS_PAINT"
+        },
+        {
+          "const": "OPP_PTS_OFF_TOV"
+        },
+        {
+          "const": "OPP_PTS_2ND_CHANCE"
+        },
+        {
+          "const": "OPP_PTS_FB"
+        },
+        {
+          "const": "OPP_PTS_PAINT"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "BLKA"
+        },
+        {
+          "const": "PF"
+        },
+        {
+          "const": "PFD"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StartPosition.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Comment.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Min.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsOffTov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts2ndChance.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsFb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPaint.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPtsOffTov.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPts2ndChance.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPtsFb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPtsPaint.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blka.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pf.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pfd.json"
+          }
+        }
+      ]
+    }
+  }
+}

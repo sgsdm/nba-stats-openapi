@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GRID_TYPE"
+        },
+        {
+          "const": "SHOT_ZONE_BASIC"
+        },
+        {
+          "const": "SHOT_ZONE_AREA"
+        },
+        {
+          "const": "SHOT_ZONE_RANGE"
+        },
+        {
+          "const": "FGA"
+        },
+        {
+          "const": "FGM"
+        },
+        {
+          "const": "FG_PCT"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GridType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneBasic.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneArea.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneRange.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fga.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Fgm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FgPct.json"
+          }
+        }
+      ]
+    }
+  }
+}

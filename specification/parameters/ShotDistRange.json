@@ -1,0 +1,8 @@
+{
+  "name": "ShotDistRange",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/ShotDistRange.json"
+  }
+}

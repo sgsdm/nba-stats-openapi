@@ -1,0 +1,226 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GRID_TYPE"
+        },
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "GAME_EVENT_ID"
+        },
+        {
+          "const": "GROUP_ID"
+        },
+        {
+          "const": "GROUP_NAME"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "TEAM_NAME"
+        },
+        {
+          "const": "PERIOD"
+        },
+        {
+          "const": "MINUTES_REMAINING"
+        },
+        {
+          "const": "SECONDS_REMAINING"
+        },
+        {
+          "const": "EVENT_TYPE"
+        },
+        {
+          "const": "ACTION_TYPE"
+        },
+        {
+          "const": "SHOT_TYPE"
+        },
+        {
+          "const": "SHOT_ZONE_BASIC"
+        },
+        {
+          "const": "SHOT_ZONE_AREA"
+        },
+        {
+          "const": "SHOT_ZONE_RANGE"
+        },
+        {
+          "const": "SHOT_DISTANCE"
+        },
+        {
+          "const": "LOC_X"
+        },
+        {
+          "const": "LOC_Y"
+        },
+        {
+          "const": "SHOT_ATTEMPTED_FLAG"
+        },
+        {
+          "const": "SHOT_MADE_FLAG"
+        },
+        {
+          "const": "GAME_DATE"
+        },
+        {
+          "const": "HTM"
+        },
+        {
+          "const": "VTM"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GridType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameEventId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GroupId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GroupName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Period.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MinutesRemaining.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SecondsRemaining.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/EventType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ActionType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotType.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneBasic.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneArea.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotZoneRange.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotDistance.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LocX.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LocY.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotAttemptedFlag.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ShotMadeFlag.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameDate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Htm.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Vtm.json"
+          }
+        }
+      ]
+    }
+  }
+}

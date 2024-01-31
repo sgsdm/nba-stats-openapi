@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_DATE"
+        },
+        {
+          "const": "ATTENDANCE"
+        },
+        {
+          "const": "GAME_TIME"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameDate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Attendance.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameTime.json"
+          }
+        }
+      ]
+    }
+  }
+}

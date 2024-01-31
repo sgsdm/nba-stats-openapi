@@ -1,0 +1,146 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "PTS"
+        },
+        {
+          "const": "PTS_PERSON_ID"
+        },
+        {
+          "const": "PTS_PLAYER"
+        },
+        {
+          "const": "AST"
+        },
+        {
+          "const": "AST_PERSON_ID"
+        },
+        {
+          "const": "AST_PLAYER"
+        },
+        {
+          "const": "REB"
+        },
+        {
+          "const": "REB_PERSON_ID"
+        },
+        {
+          "const": "REB_PLAYER"
+        },
+        {
+          "const": "BLK"
+        },
+        {
+          "const": "BLK_PERSON_ID"
+        },
+        {
+          "const": "BLK_PLAYER"
+        },
+        {
+          "const": "STL"
+        },
+        {
+          "const": "STL_PERSON_ID"
+        },
+        {
+          "const": "STL_PLAYER"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Pts.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPlayer.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Ast.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPlayer.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Reb.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebPersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebPlayer.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Blk.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BlkPersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BlkPlayer.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Stl.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StlPersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StlPlayer.json"
+          }
+        }
+      ]
+    }
+  }
+}

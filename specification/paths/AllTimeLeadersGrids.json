@@ -1,0 +1,162 @@
+{
+  "get": {
+    "summary": "AllTimeLeadersGrids",
+    "operationId": "AllTimeLeadersGrids",
+    "description": "[to do]",
+    "security": [],
+    "tags": [
+      "nba"
+    ],
+    "parameters": [
+      {
+        "$ref": "../parameters/LeagueID.json"
+      },
+      {
+        "$ref": "../parameters/PerMode.json"
+      },
+      {
+        "$ref": "../parameters/SeasonType.json"
+      },
+      {
+        "$ref": "../parameters/TopX.json"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "[to do]",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "LeagueID": {
+                      "$ref": "../schemas/LeagueID.json"
+                    },
+                    "PerMode": {
+                      "$ref": "../schemas/PerMode.json"
+                    },
+                    "SeasonType": {
+                      "$ref": "../schemas/SeasonType.json"
+                    },
+                    "TopX": {
+                      "$ref": "../schemas/TopX.json"
+                    }
+                  }
+                },
+                "resource": {
+                  "const": "alltimeleadersgrids"
+                },
+                "resultSets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": {
+                        "$ref": "../data_sets/ASTLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/BLKLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/DREBLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FG3ALeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FG3MLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FG3_PCTLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FGALeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FGMLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FG_PCTLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FTALeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FTMLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/FT_PCTLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/GPLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/OREBLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/PFLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/PTSLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/REBLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/STLLeaders.json"
+                      }
+                    },
+                    {
+                      "type": {
+                        "$ref": "../data_sets/TOVLeaders.json"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "[to do]"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "ACCOUNTTYPE"
+        },
+        {
+          "const": "WEBSITE_LINK"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/Accounttype.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WebsiteLink.json"
+          }
+        }
+      ]
+    }
+  }
+}

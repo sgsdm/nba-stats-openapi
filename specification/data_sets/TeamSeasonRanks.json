@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "LEAGUE_ID"
+        },
+        {
+          "const": "SEASON_ID"
+        },
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "PTS_RANK"
+        },
+        {
+          "const": "PTS_PG"
+        },
+        {
+          "const": "REB_RANK"
+        },
+        {
+          "const": "REB_PG"
+        },
+        {
+          "const": "AST_RANK"
+        },
+        {
+          "const": "AST_PG"
+        },
+        {
+          "const": "OPP_PTS_RANK"
+        },
+        {
+          "const": "OPP_PTS_PG"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/LeagueId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SeasonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PtsPg.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RebPg.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AstPg.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPtsRank.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/OppPtsPg.json"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "GameSegment",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GameSegment.json"
+  },
+  "required": true
+}

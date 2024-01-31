@@ -1,0 +1,9 @@
+{
+  "name": "PlusMinus",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/PlusMinus.json"
+  },
+  "required": true
+}

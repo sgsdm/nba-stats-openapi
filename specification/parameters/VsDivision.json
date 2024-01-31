@@ -1,0 +1,8 @@
+{
+  "name": "VsDivision",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/VsDivision.json"
+  }
+}

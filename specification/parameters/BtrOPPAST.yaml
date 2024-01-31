@@ -1,5 +1,0 @@
-name: BtrOPPAST
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/BtrOPPAST.yaml

@@ -1,0 +1,8 @@
+{
+  "name": "GameScope",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/GameScope.json"
+  }
+}

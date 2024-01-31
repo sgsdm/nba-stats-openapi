@@ -1,5 +1,0 @@
-name: LtOPPBLK
-description: '[to do]'
-in: query
-schema:
-  $ref: ../schemas/LtOPPBLK.yaml

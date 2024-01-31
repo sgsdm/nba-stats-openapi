@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEMP_PLAYER_ID"
+        },
+        {
+          "const": "PLAYER_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "PLAYER_NAME"
+        },
+        {
+          "const": "POSITION"
+        },
+        {
+          "const": "STANDING_VERTICAL_LEAP"
+        },
+        {
+          "const": "MAX_VERTICAL_LEAP"
+        },
+        {
+          "const": "LANE_AGILITY_TIME"
+        },
+        {
+          "const": "MODIFIED_LANE_AGILITY_TIME"
+        },
+        {
+          "const": "THREE_QUARTER_SPRINT"
+        },
+        {
+          "const": "BENCH_PRESS"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TempPlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Position.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/StandingVerticalLeap.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/MaxVerticalLeap.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LaneAgilityTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ModifiedLaneAgilityTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/ThreeQuarterSprint.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/BenchPress.json"
+          }
+        }
+      ]
+    }
+  }
+}

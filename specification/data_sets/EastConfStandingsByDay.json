@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "TEAM_ID"
+        },
+        {
+          "const": "LEAGUE_ID"
+        },
+        {
+          "const": "SEASON_ID"
+        },
+        {
+          "const": "STANDINGSDATE"
+        },
+        {
+          "const": "CONFERENCE"
+        },
+        {
+          "const": "TEAM"
+        },
+        {
+          "const": "G"
+        },
+        {
+          "const": "W"
+        },
+        {
+          "const": "L"
+        },
+        {
+          "const": "W_PCT"
+        },
+        {
+          "const": "HOME_RECORD"
+        },
+        {
+          "const": "ROAD_RECORD"
+        },
+        {
+          "const": "RETURNTOPLAY"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/TeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LeagueId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/SeasonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Standingsdate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Conference.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Team.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/G.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/W.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/L.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/WPct.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/HomeRecord.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/RoadRecord.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Returntoplay.json"
+          }
+        }
+      ]
+    }
+  }
+}

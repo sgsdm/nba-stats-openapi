@@ -1,0 +1,9 @@
+{
+  "name": "ClutchTime",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/ClutchTime.json"
+  },
+  "required": true
+}

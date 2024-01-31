@@ -1,0 +1,17 @@
+{
+  "description": "[to do]",
+  "type": [
+    null,
+    "string"
+  ],
+  "enum": [
+    null,
+    "24-22",
+    "22-18 Very Early",
+    "18-15 Early",
+    "15-7 Average",
+    "7-4 Late",
+    "4-0 Very Late",
+    "ShotClock Off"
+  ]
+}

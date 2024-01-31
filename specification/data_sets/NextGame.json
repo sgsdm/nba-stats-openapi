@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "GAME_ID"
+        },
+        {
+          "const": "GAME_DATE"
+        },
+        {
+          "const": "GAME_TIME"
+        },
+        {
+          "const": "LOCATION"
+        },
+        {
+          "const": "PLAYER_TEAM_ID"
+        },
+        {
+          "const": "PLAYER_TEAM_CITY"
+        },
+        {
+          "const": "PLAYER_TEAM_NICKNAME"
+        },
+        {
+          "const": "PLAYER_TEAM_ABBREVIATION"
+        },
+        {
+          "const": "VS_TEAM_ID"
+        },
+        {
+          "const": "VS_TEAM_CITY"
+        },
+        {
+          "const": "VS_TEAM_NICKNAME"
+        },
+        {
+          "const": "VS_TEAM_ABBREVIATION"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/GameId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameDate.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/GameTime.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Location.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerTeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerTeamNickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/PlayerTeamAbbreviation.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsTeamId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsTeamCity.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsTeamNickname.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/VsTeamAbbreviation.json"
+          }
+        }
+      ]
+    }
+  }
+}

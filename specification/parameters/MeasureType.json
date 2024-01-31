@@ -1,0 +1,9 @@
+{
+  "name": "MeasureType",
+  "description": "[to do]",
+  "in": "query",
+  "schema": {
+    "$ref": "../schemas/MeasureType.json"
+  },
+  "required": true
+}

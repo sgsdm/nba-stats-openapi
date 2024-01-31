@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "array",
+      "items": [
+        {
+          "const": "PERSON_ID"
+        },
+        {
+          "const": "FIRST_NAME"
+        },
+        {
+          "const": "LAST_NAME"
+        },
+        {
+          "const": "TEAM"
+        },
+        {
+          "const": "DESCRIPTION"
+        },
+        {
+          "const": "ALL_NBA_TEAM_NUMBER"
+        },
+        {
+          "const": "SEASON"
+        },
+        {
+          "const": "MONTH"
+        },
+        {
+          "const": "WEEK"
+        },
+        {
+          "const": "CONFERENCE"
+        },
+        {
+          "const": "TYPE"
+        },
+        {
+          "const": "SUBTYPE1"
+        },
+        {
+          "const": "SUBTYPE2"
+        },
+        {
+          "const": "SUBTYPE3"
+        }
+      ]
+    },
+    "rowSet": {
+      "type": "array",
+      "items": [
+        {
+          "type": {
+            "$ref": "../schemas/PersonId.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/FirstName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/LastName.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Team.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Description.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/AllNbaTeamNumber.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Season.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Month.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Week.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Conference.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Type.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Subtype1.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Subtype2.json"
+          }
+        },
+        {
+          "type": {
+            "$ref": "../schemas/Subtype3.json"
+          }
+        }
+      ]
+    }
+  }
+}
