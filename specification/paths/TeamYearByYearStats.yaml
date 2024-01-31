@@ -1,0 +1,40 @@
+get:
+  summary: TeamYearByYearStats
+  operationId: TeamYearByYearStats
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PerMode.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/TeamID.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PerMode:
+                    $ref: ../schemas/PerMode.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+              resource:
+                const: teamyearbyyearstats
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/TeamStats.yaml
+      '404':
+        description: '[to do]'

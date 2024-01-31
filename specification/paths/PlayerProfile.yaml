@@ -1,0 +1,47 @@
+get:
+  summary: PlayerProfile
+  operationId: PlayerProfile
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GraphEndSeason.yaml
+  - $ref: ../parameters/GraphStartSeason.yaml
+  - $ref: ../parameters/GraphStat.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PlayerID.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GraphEndSeason:
+                    $ref: ../schemas/GraphEndSeason.yaml
+                  GraphStartSeason:
+                    $ref: ../schemas/GraphStartSeason.yaml
+                  GraphStat:
+                    $ref: ../schemas/GraphStat.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PlayerID:
+                    $ref: ../schemas/PlayerID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+              resource:
+                const: playerprofile
+              resultSets:
+                type: array
+                items: []
+      '404':
+        description: '[to do]'

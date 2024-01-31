@@ -1,0 +1,63 @@
+get:
+  summary: HomePageV2
+  operationId: HomePageV2
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameScope.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PlayerOrTeam.yaml
+  - $ref: ../parameters/PlayerScope.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/StatType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameScope:
+                    $ref: ../schemas/GameScope.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PlayerOrTeam:
+                    $ref: ../schemas/PlayerOrTeam.yaml
+                  PlayerScope:
+                    $ref: ../schemas/PlayerScope.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  StatType:
+                    $ref: ../schemas/StatType.yaml
+              resource:
+                const: homepagev2
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/HomePageStat1.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat2.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat3.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat4.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat5.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat6.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat7.yaml
+                - type:
+                    $ref: ../data_sets/HomePageStat8.yaml
+      '404':
+        description: '[to do]'

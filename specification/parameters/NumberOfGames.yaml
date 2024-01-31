@@ -1,0 +1,6 @@
+name: NumberOfGames
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/NumberOfGames.yaml
+required: true

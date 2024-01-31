@@ -1,0 +1,10 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items: []
+  rowSet:
+    type: array
+    items: []

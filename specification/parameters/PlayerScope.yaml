@@ -1,0 +1,6 @@
+name: PlayerScope
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PlayerScope.yaml
+required: true

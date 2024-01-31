@@ -1,0 +1,5 @@
+name: Month
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Month.yaml

@@ -1,0 +1,31 @@
+get:
+  summary: BoxScoreMatchups
+  operationId: BoxScoreMatchups
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameID.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameID:
+                    $ref: ../schemas/GameID.yaml
+              resource:
+                const: boxscorematchups
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/PlayerMatchupsStats.yaml
+      '404':
+        description: '[to do]'

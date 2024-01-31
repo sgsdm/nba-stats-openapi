@@ -1,0 +1,5 @@
+name: LtOPPFT_PCT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPFT_PCT.yaml

@@ -1,0 +1,52 @@
+get:
+  summary: DraftHistory
+  operationId: DraftHistory
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/College.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/OverallPick.yaml
+  - $ref: ../parameters/RoundNum.yaml
+  - $ref: ../parameters/RoundPick.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/TeamID.yaml
+  - $ref: ../parameters/TopX.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  College:
+                    $ref: ../schemas/College.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  OverallPick:
+                    $ref: ../schemas/OverallPick.yaml
+                  RoundNum:
+                    $ref: ../schemas/RoundNum.yaml
+                  RoundPick:
+                    $ref: ../schemas/RoundPick.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+                  TopX:
+                    $ref: ../schemas/TopX.yaml
+              resource:
+                const: drafthistory
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/DraftHistory.yaml
+      '404':
+        description: '[to do]'

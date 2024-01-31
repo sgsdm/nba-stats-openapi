@@ -1,0 +1,5 @@
+name: LtDREB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtDREB.yaml

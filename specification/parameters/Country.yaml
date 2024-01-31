@@ -1,0 +1,5 @@
+name: Country
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Country.yaml

@@ -1,0 +1,5 @@
+name: GtFTM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtFTM.yaml

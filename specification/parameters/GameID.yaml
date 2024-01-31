@@ -1,0 +1,6 @@
+name: GameID
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GameID.yaml
+required: true

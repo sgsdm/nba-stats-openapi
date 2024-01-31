@@ -1,0 +1,91 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: SEASON_ID
+    - const: LEAGUE_ID
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: PLAYER_AGE
+    - const: GP
+    - const: GS
+    - const: RANK_MIN
+    - const: RANK_FGM
+    - const: RANK_FGA
+    - const: RANK_FG_PCT
+    - const: RANK_FG3M
+    - const: RANK_FG3A
+    - const: RANK_FG3_PCT
+    - const: RANK_FTM
+    - const: RANK_FTA
+    - const: RANK_FT_PCT
+    - const: RANK_OREB
+    - const: RANK_DREB
+    - const: RANK_REB
+    - const: RANK_AST
+    - const: RANK_STL
+    - const: RANK_BLK
+    - const: RANK_TOV
+    - const: RANK_PTS
+    - const: RANK_EFF
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/SeasonId.yaml
+    - type:
+        $ref: ../schemas/LeagueId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/PlayerAge.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/Gs.yaml
+    - type:
+        $ref: ../schemas/RankMin.yaml
+    - type:
+        $ref: ../schemas/RankFgm.yaml
+    - type:
+        $ref: ../schemas/RankFga.yaml
+    - type:
+        $ref: ../schemas/RankFgPct.yaml
+    - type:
+        $ref: ../schemas/RankFg3m.yaml
+    - type:
+        $ref: ../schemas/RankFg3a.yaml
+    - type:
+        $ref: ../schemas/RankFg3Pct.yaml
+    - type:
+        $ref: ../schemas/RankFtm.yaml
+    - type:
+        $ref: ../schemas/RankFta.yaml
+    - type:
+        $ref: ../schemas/RankFtPct.yaml
+    - type:
+        $ref: ../schemas/RankOreb.yaml
+    - type:
+        $ref: ../schemas/RankDreb.yaml
+    - type:
+        $ref: ../schemas/RankReb.yaml
+    - type:
+        $ref: ../schemas/RankAst.yaml
+    - type:
+        $ref: ../schemas/RankStl.yaml
+    - type:
+        $ref: ../schemas/RankBlk.yaml
+    - type:
+        $ref: ../schemas/RankTov.yaml
+    - type:
+        $ref: ../schemas/RankPts.yaml
+    - type:
+        $ref: ../schemas/RankEff.yaml

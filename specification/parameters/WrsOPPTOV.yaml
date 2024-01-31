@@ -1,0 +1,5 @@
+name: WrsOPPTOV
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WrsOPPTOV.yaml

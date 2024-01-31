@@ -1,0 +1,55 @@
+get:
+  summary: LeadersTiles
+  operationId: LeadersTiles
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameScope.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PlayerOrTeam.yaml
+  - $ref: ../parameters/PlayerScope.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/Stat.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameScope:
+                    $ref: ../schemas/GameScope.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PlayerOrTeam:
+                    $ref: ../schemas/PlayerOrTeam.yaml
+                  PlayerScope:
+                    $ref: ../schemas/PlayerScope.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  Stat:
+                    $ref: ../schemas/Stat.yaml
+              resource:
+                const: leaderstiles
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/AllTimeSeasonHigh.yaml
+                - type:
+                    $ref: ../data_sets/LastSeasonHigh.yaml
+                - type:
+                    $ref: ../data_sets/LeadersTiles.yaml
+                - type:
+                    $ref: ../data_sets/LowSeasonHigh.yaml
+      '404':
+        description: '[to do]'

@@ -1,0 +1,6 @@
+name: Rank
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Rank.yaml
+required: true

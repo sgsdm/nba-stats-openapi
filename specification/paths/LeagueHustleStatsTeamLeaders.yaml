@@ -1,0 +1,115 @@
+get:
+  summary: LeagueHustleStatsTeamLeaders
+  operationId: LeagueHustleStatsTeamLeaders
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/College.yaml
+  - $ref: ../parameters/Conference.yaml
+  - $ref: ../parameters/Country.yaml
+  - $ref: ../parameters/DateFrom.yaml
+  - $ref: ../parameters/DateTo.yaml
+  - $ref: ../parameters/Division.yaml
+  - $ref: ../parameters/DraftPick.yaml
+  - $ref: ../parameters/DraftYear.yaml
+  - $ref: ../parameters/Height.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/Location.yaml
+  - $ref: ../parameters/Month.yaml
+  - $ref: ../parameters/OpponentTeamID.yaml
+  - $ref: ../parameters/Outcome.yaml
+  - $ref: ../parameters/PORound.yaml
+  - $ref: ../parameters/PerMode.yaml
+  - $ref: ../parameters/PlayerExperience.yaml
+  - $ref: ../parameters/PlayerPosition.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonSegment.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/TeamID.yaml
+  - $ref: ../parameters/VsConference.yaml
+  - $ref: ../parameters/VsDivision.yaml
+  - $ref: ../parameters/Weight.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  College:
+                    $ref: ../schemas/College.yaml
+                  Conference:
+                    $ref: ../schemas/Conference.yaml
+                  Country:
+                    $ref: ../schemas/Country.yaml
+                  DateFrom:
+                    $ref: ../schemas/DateFrom.yaml
+                  DateTo:
+                    $ref: ../schemas/DateTo.yaml
+                  Division:
+                    $ref: ../schemas/Division.yaml
+                  DraftPick:
+                    $ref: ../schemas/DraftPick.yaml
+                  DraftYear:
+                    $ref: ../schemas/DraftYear.yaml
+                  Height:
+                    $ref: ../schemas/Height.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  Location:
+                    $ref: ../schemas/Location.yaml
+                  Month:
+                    $ref: ../schemas/Month.yaml
+                  OpponentTeamID:
+                    $ref: ../schemas/OpponentTeamID.yaml
+                  Outcome:
+                    $ref: ../schemas/Outcome.yaml
+                  PORound:
+                    $ref: ../schemas/PORound.yaml
+                  PerMode:
+                    $ref: ../schemas/PerMode.yaml
+                  PlayerExperience:
+                    $ref: ../schemas/PlayerExperience.yaml
+                  PlayerPosition:
+                    $ref: ../schemas/PlayerPosition.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonSegment:
+                    $ref: ../schemas/SeasonSegment.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+                  VsConference:
+                    $ref: ../schemas/VsConference.yaml
+                  VsDivision:
+                    $ref: ../schemas/VsDivision.yaml
+                  Weight:
+                    $ref: ../schemas/Weight.yaml
+              resource:
+                const: leaguehustlestatsteamleaders
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/Table5.yaml
+                - type:
+                    $ref: ../data_sets/Table6.yaml
+                - type:
+                    $ref: ../data_sets/TeamChargesDrawnLeaders.yaml
+                - type:
+                    $ref: ../data_sets/TeamContestedShotsLeaders.yaml
+                - type:
+                    $ref: ../data_sets/TeamDeflectionsLeaders.yaml
+                - type:
+                    $ref: ../data_sets/TeamLooseBallLeaders.yaml
+                - type:
+                    $ref: ../data_sets/TeamScreenAssistLeaders.yaml
+      '404':
+        description: '[to do]'

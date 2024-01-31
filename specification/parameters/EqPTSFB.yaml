@@ -1,0 +1,5 @@
+name: EqPTSFB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqPTSFB.yaml

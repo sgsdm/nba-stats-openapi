@@ -1,0 +1,5 @@
+name: BtrOPPPTSOFFTOV
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/BtrOPPPTSOFFTOV.yaml

@@ -1,0 +1,5 @@
+name: SeasonID
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/SeasonID.yaml

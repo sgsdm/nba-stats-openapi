@@ -1,0 +1,5 @@
+name: WrsOPPSTL
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WrsOPPSTL.yaml

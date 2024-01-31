@@ -1,0 +1,5 @@
+name: StarterBench
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/StarterBench.yaml

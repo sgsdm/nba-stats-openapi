@@ -1,0 +1,5 @@
+name: ContextFilter
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/ContextFilter.yaml

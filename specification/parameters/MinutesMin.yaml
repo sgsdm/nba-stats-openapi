@@ -1,0 +1,6 @@
+name: MinutesMin
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/MinutesMin.yaml
+required: true

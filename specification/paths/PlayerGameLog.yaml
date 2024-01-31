@@ -1,0 +1,46 @@
+get:
+  summary: PlayerGameLog
+  operationId: PlayerGameLog
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/DateFrom.yaml
+  - $ref: ../parameters/DateTo.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PlayerID.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  DateFrom:
+                    $ref: ../schemas/DateFrom.yaml
+                  DateTo:
+                    $ref: ../schemas/DateTo.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PlayerID:
+                    $ref: ../schemas/PlayerID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+              resource:
+                const: playergamelog
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/PlayerGameLog.yaml
+      '404':
+        description: '[to do]'

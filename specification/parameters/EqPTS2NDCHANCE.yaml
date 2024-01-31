@@ -1,0 +1,5 @@
+name: EqPTS2NDCHANCE
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqPTS2NDCHANCE.yaml

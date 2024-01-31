@@ -1,0 +1,5 @@
+name: LtOPPFG3PCT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPFG3PCT.yaml

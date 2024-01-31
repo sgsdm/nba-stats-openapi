@@ -1,0 +1,49 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GROUP_SET
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_NAME
+    - const: VS_PLAYER_ID
+    - const: VS_PLAYER_NAME
+    - const: COURT_STATUS
+    - const: GP
+    - const: MIN
+    - const: PLUS_MINUS
+    - const: OFF_RATING
+    - const: DEF_RATING
+    - const: NET_RATING
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GroupSet.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/VsPlayerId.yaml
+    - type:
+        $ref: ../schemas/VsPlayerName.yaml
+    - type:
+        $ref: ../schemas/CourtStatus.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/Min.yaml
+    - type:
+        $ref: ../schemas/PlusMinus.yaml
+    - type:
+        $ref: ../schemas/OffRating.yaml
+    - type:
+        $ref: ../schemas/DefRating.yaml
+    - type:
+        $ref: ../schemas/NetRating.yaml

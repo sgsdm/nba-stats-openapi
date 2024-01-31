@@ -1,0 +1,5 @@
+name: GeneralRange
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GeneralRange.yaml

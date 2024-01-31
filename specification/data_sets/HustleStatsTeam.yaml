@@ -1,0 +1,70 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TEAM_ID
+    - const: TEAM_NAME
+    - const: MIN
+    - const: CONTESTED_SHOTS
+    - const: CONTESTED_SHOTS_2PT
+    - const: CONTESTED_SHOTS_3PT
+    - const: DEFLECTIONS
+    - const: CHARGES_DRAWN
+    - const: SCREEN_ASSISTS
+    - const: SCREEN_AST_PTS
+    - const: OFF_LOOSE_BALLS_RECOVERED
+    - const: DEF_LOOSE_BALLS_RECOVERED
+    - const: LOOSE_BALLS_RECOVERED
+    - const: PCT_LOOSE_BALLS_RECOVERED_OFF
+    - const: PCT_LOOSE_BALLS_RECOVERED_DEF
+    - const: OFF_BOXOUTS
+    - const: DEF_BOXOUTS
+    - const: BOX_OUTS
+    - const: PCT_BOX_OUTS_OFF
+    - const: PCT_BOX_OUTS_DEF
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/Min.yaml
+    - type:
+        $ref: ../schemas/ContestedShots.yaml
+    - type:
+        $ref: ../schemas/ContestedShots2pt.yaml
+    - type:
+        $ref: ../schemas/ContestedShots3pt.yaml
+    - type:
+        $ref: ../schemas/Deflections.yaml
+    - type:
+        $ref: ../schemas/ChargesDrawn.yaml
+    - type:
+        $ref: ../schemas/ScreenAssists.yaml
+    - type:
+        $ref: ../schemas/ScreenAstPts.yaml
+    - type:
+        $ref: ../schemas/OffLooseBallsRecovered.yaml
+    - type:
+        $ref: ../schemas/DefLooseBallsRecovered.yaml
+    - type:
+        $ref: ../schemas/LooseBallsRecovered.yaml
+    - type:
+        $ref: ../schemas/PctLooseBallsRecoveredOff.yaml
+    - type:
+        $ref: ../schemas/PctLooseBallsRecoveredDef.yaml
+    - type:
+        $ref: ../schemas/OffBoxouts.yaml
+    - type:
+        $ref: ../schemas/DefBoxouts.yaml
+    - type:
+        $ref: ../schemas/BoxOuts.yaml
+    - type:
+        $ref: ../schemas/PctBoxOutsOff.yaml
+    - type:
+        $ref: ../schemas/PctBoxOutsDef.yaml

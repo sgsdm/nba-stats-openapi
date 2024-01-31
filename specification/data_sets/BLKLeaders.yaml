@@ -1,0 +1,22 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: BLK
+    - const: BLK_RANK
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/Blk.yaml
+    - type:
+        $ref: ../schemas/BlkRank.yaml

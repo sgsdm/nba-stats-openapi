@@ -1,0 +1,6 @@
+name: GraphStartSeason
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GraphStartSeason.yaml
+required: true

@@ -1,0 +1,45 @@
+get:
+  summary: CumeStatsPlayer
+  operationId: CumeStatsPlayer
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameIDs.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PlayerID.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameIDs:
+                    $ref: ../schemas/GameIDs.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PlayerID:
+                    $ref: ../schemas/PlayerID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+              resource:
+                const: cumestatsplayer
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/GameByGameStats.yaml
+                - type:
+                    $ref: ../data_sets/TotalPlayerStats.yaml
+      '404':
+        description: '[to do]'

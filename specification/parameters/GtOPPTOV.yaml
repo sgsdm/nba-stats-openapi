@@ -1,0 +1,5 @@
+name: GtOPPTOV
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPTOV.yaml

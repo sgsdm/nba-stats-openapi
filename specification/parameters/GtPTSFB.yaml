@@ -1,0 +1,5 @@
+name: GtPTSFB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtPTSFB.yaml

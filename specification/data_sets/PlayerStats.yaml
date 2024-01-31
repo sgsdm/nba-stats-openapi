@@ -1,0 +1,103 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_CITY
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: START_POSITION
+    - const: COMMENT
+    - const: MIN
+    - const: E_OFF_RATING
+    - const: OFF_RATING
+    - const: E_DEF_RATING
+    - const: DEF_RATING
+    - const: E_NET_RATING
+    - const: NET_RATING
+    - const: AST_PCT
+    - const: AST_TOV
+    - const: AST_RATIO
+    - const: OREB_PCT
+    - const: DREB_PCT
+    - const: REB_PCT
+    - const: TM_TOV_PCT
+    - const: EFG_PCT
+    - const: TS_PCT
+    - const: USG_PCT
+    - const: E_USG_PCT
+    - const: E_PACE
+    - const: PACE
+    - const: PACE_PER40
+    - const: POSS
+    - const: PIE
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamCity.yaml
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/StartPosition.yaml
+    - type:
+        $ref: ../schemas/Comment.yaml
+    - type:
+        $ref: ../schemas/Min.yaml
+    - type:
+        $ref: ../schemas/EOffRating.yaml
+    - type:
+        $ref: ../schemas/OffRating.yaml
+    - type:
+        $ref: ../schemas/EDefRating.yaml
+    - type:
+        $ref: ../schemas/DefRating.yaml
+    - type:
+        $ref: ../schemas/ENetRating.yaml
+    - type:
+        $ref: ../schemas/NetRating.yaml
+    - type:
+        $ref: ../schemas/AstPct.yaml
+    - type:
+        $ref: ../schemas/AstTov.yaml
+    - type:
+        $ref: ../schemas/AstRatio.yaml
+    - type:
+        $ref: ../schemas/OrebPct.yaml
+    - type:
+        $ref: ../schemas/DrebPct.yaml
+    - type:
+        $ref: ../schemas/RebPct.yaml
+    - type:
+        $ref: ../schemas/TmTovPct.yaml
+    - type:
+        $ref: ../schemas/EfgPct.yaml
+    - type:
+        $ref: ../schemas/TsPct.yaml
+    - type:
+        $ref: ../schemas/UsgPct.yaml
+    - type:
+        $ref: ../schemas/EUsgPct.yaml
+    - type:
+        $ref: ../schemas/EPace.yaml
+    - type:
+        $ref: ../schemas/Pace.yaml
+    - type:
+        $ref: ../schemas/PacePer40.yaml
+    - type:
+        $ref: ../schemas/Poss.yaml
+    - type:
+        $ref: ../schemas/Pie.yaml

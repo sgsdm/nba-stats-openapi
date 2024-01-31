@@ -1,0 +1,52 @@
+get:
+  summary: BoxScoreSimilarityScore
+  operationId: BoxScoreSimilarityScore
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/Person1Id.yaml
+  - $ref: ../parameters/Person1LeagueId.yaml
+  - $ref: ../parameters/Person1Season.yaml
+  - $ref: ../parameters/Person1SeasonType.yaml
+  - $ref: ../parameters/Person2Id.yaml
+  - $ref: ../parameters/Person2LeagueId.yaml
+  - $ref: ../parameters/Person2Season.yaml
+  - $ref: ../parameters/Person2SeasonType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  Person1Id:
+                    $ref: ../schemas/Person1Id.yaml
+                  Person1LeagueId:
+                    $ref: ../schemas/Person1LeagueId.yaml
+                  Person1Season:
+                    $ref: ../schemas/Person1Season.yaml
+                  Person1SeasonType:
+                    $ref: ../schemas/Person1SeasonType.yaml
+                  Person2Id:
+                    $ref: ../schemas/Person2Id.yaml
+                  Person2LeagueId:
+                    $ref: ../schemas/Person2LeagueId.yaml
+                  Person2Season:
+                    $ref: ../schemas/Person2Season.yaml
+                  Person2SeasonType:
+                    $ref: ../schemas/Person2SeasonType.yaml
+              resource:
+                const: boxscoresimilarityscore
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/BoxScoreSimilarityScores.yaml
+      '404':
+        description: '[to do]'

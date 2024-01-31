@@ -1,0 +1,5 @@
+name: GtOPPFTA
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPFTA.yaml

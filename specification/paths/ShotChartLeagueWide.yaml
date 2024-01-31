@@ -1,0 +1,34 @@
+get:
+  summary: ShotChartLeagueWide
+  operationId: ShotChartLeagueWide
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/Season.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+              resource:
+                const: shotchartleaguewide
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/League_Wide.yaml
+      '404':
+        description: '[to do]'

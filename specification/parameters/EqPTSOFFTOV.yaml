@@ -1,0 +1,5 @@
+name: EqPTSOFFTOV
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqPTSOFFTOV.yaml

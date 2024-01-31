@@ -1,0 +1,5 @@
+name: GtOPPREB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPREB.yaml

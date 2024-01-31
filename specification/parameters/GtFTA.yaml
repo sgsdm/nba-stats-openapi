@@ -1,0 +1,5 @@
+name: GtFTA
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtFTA.yaml

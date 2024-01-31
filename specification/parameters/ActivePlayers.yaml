@@ -1,0 +1,6 @@
+name: ActivePlayers
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/ActivePlayers.yaml
+required: true

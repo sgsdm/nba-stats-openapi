@@ -1,0 +1,5 @@
+name: WrsOPPFT_PCT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WrsOPPFT_PCT.yaml

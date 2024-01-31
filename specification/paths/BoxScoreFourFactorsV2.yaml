@@ -1,0 +1,48 @@
+get:
+  summary: BoxScoreFourFactorsV2
+  operationId: BoxScoreFourFactorsV2
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/EndPeriod.yaml
+  - $ref: ../parameters/EndRange.yaml
+  - $ref: ../parameters/GameID.yaml
+  - $ref: ../parameters/RangeType.yaml
+  - $ref: ../parameters/StartPeriod.yaml
+  - $ref: ../parameters/StartRange.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  EndPeriod:
+                    $ref: ../schemas/EndPeriod.yaml
+                  EndRange:
+                    $ref: ../schemas/EndRange.yaml
+                  GameID:
+                    $ref: ../schemas/GameID.yaml
+                  RangeType:
+                    $ref: ../schemas/RangeType.yaml
+                  StartPeriod:
+                    $ref: ../schemas/StartPeriod.yaml
+                  StartRange:
+                    $ref: ../schemas/StartRange.yaml
+              resource:
+                const: boxscorefourfactorsv2
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/sqlPlayersFourFactors.yaml
+                - type:
+                    $ref: ../data_sets/sqlTeamsFourFactors.yaml
+      '404':
+        description: '[to do]'

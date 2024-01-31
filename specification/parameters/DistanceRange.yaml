@@ -1,0 +1,6 @@
+name: DistanceRange
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/DistanceRange.yaml
+required: true

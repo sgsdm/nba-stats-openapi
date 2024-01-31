@@ -1,0 +1,70 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: PLAYER_POSITION
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: GP
+    - const: MIN
+    - const: FAN_DUEL_PTS
+    - const: NBA_FANTASY_PTS
+    - const: PTS
+    - const: REB
+    - const: AST
+    - const: BLK
+    - const: STL
+    - const: TOV
+    - const: FG3M
+    - const: FGA
+    - const: FG_PCT
+    - const: FTA
+    - const: FT_PCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/PlayerPosition.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/Min.yaml
+    - type:
+        $ref: ../schemas/FanDuelPts.yaml
+    - type:
+        $ref: ../schemas/NbaFantasyPts.yaml
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/Reb.yaml
+    - type:
+        $ref: ../schemas/Ast.yaml
+    - type:
+        $ref: ../schemas/Blk.yaml
+    - type:
+        $ref: ../schemas/Stl.yaml
+    - type:
+        $ref: ../schemas/Tov.yaml
+    - type:
+        $ref: ../schemas/Fg3m.yaml
+    - type:
+        $ref: ../schemas/Fga.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml
+    - type:
+        $ref: ../schemas/Fta.yaml
+    - type:
+        $ref: ../schemas/FtPct.yaml

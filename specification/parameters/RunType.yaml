@@ -1,0 +1,6 @@
+name: RunType
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/RunType.yaml
+required: true

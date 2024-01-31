@@ -1,0 +1,49 @@
+get:
+  summary: LeagueLeaders
+  operationId: LeagueLeaders
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/ActiveFlag.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/PerMode.yaml
+  - $ref: ../parameters/Scope.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/StatCategory.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  ActiveFlag:
+                    $ref: ../schemas/ActiveFlag.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  PerMode:
+                    $ref: ../schemas/PerMode.yaml
+                  Scope:
+                    $ref: ../schemas/Scope.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  StatCategory:
+                    $ref: ../schemas/StatCategory.yaml
+              resource:
+                const: leagueleaders
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/LeagueLeaders.yaml
+      '404':
+        description: '[to do]'

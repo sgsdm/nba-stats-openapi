@@ -1,0 +1,52 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_NAME
+    - const: GP
+    - const: W
+    - const: L
+    - const: MIN
+    - const: DIST_FEET
+    - const: DIST_MILES
+    - const: DIST_MILES_OFF
+    - const: DIST_MILES_DEF
+    - const: AVG_SPEED
+    - const: AVG_SPEED_OFF
+    - const: AVG_SPEED_DEF
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/W.yaml
+    - type:
+        $ref: ../schemas/L.yaml
+    - type:
+        $ref: ../schemas/Min.yaml
+    - type:
+        $ref: ../schemas/DistFeet.yaml
+    - type:
+        $ref: ../schemas/DistMiles.yaml
+    - type:
+        $ref: ../schemas/DistMilesOff.yaml
+    - type:
+        $ref: ../schemas/DistMilesDef.yaml
+    - type:
+        $ref: ../schemas/AvgSpeed.yaml
+    - type:
+        $ref: ../schemas/AvgSpeedOff.yaml
+    - type:
+        $ref: ../schemas/AvgSpeedDef.yaml

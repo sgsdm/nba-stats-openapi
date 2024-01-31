@@ -1,0 +1,5 @@
+name: GtPTSPAINT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtPTSPAINT.yaml

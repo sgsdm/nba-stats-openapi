@@ -1,0 +1,40 @@
+get:
+  summary: LeagueStandingsV3
+  operationId: LeagueStandingsV3
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/SeasonYear.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  SeasonYear:
+                    $ref: ../schemas/SeasonYear.yaml
+              resource:
+                const: leaguestandingsv3
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/Standings.yaml
+      '404':
+        description: '[to do]'

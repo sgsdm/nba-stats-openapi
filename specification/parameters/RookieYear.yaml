@@ -1,0 +1,5 @@
+name: RookieYear
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/RookieYear.yaml

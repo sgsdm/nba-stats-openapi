@@ -1,0 +1,5 @@
+description: '[to do]'
+type: string
+enum:
+- All Players
+- Rookies

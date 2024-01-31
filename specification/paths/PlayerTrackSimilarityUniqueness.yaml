@@ -1,0 +1,26 @@
+get:
+  summary: PlayerTrackSimilarityUniqueness
+  operationId: PlayerTrackSimilarityUniqueness
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters: []
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties: {}
+              resource:
+                const: playertracksimilarityuniqueness
+              resultSets:
+                type: array
+                items: []
+      '404':
+        description: '[to do]'

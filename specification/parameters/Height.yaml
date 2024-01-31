@@ -1,0 +1,5 @@
+name: Height
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Height.yaml

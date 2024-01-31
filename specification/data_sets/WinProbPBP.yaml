@@ -1,0 +1,55 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: EVENT_NUM
+    - const: HOME_PCT
+    - const: VISITOR_PCT
+    - const: HOME_PTS
+    - const: VISITOR_PTS
+    - const: HOME_SCORE_MARGIN
+    - const: PERIOD
+    - const: SECONDS_REMAINING
+    - const: HOME_POSS_IND
+    - const: HOME_G
+    - const: DESCRIPTION
+    - const: LOCATION
+    - const: PCTIMESTRING
+    - const: ISVISIBLE
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/EventNum.yaml
+    - type:
+        $ref: ../schemas/HomePct.yaml
+    - type:
+        $ref: ../schemas/VisitorPct.yaml
+    - type:
+        $ref: ../schemas/HomePts.yaml
+    - type:
+        $ref: ../schemas/VisitorPts.yaml
+    - type:
+        $ref: ../schemas/HomeScoreMargin.yaml
+    - type:
+        $ref: ../schemas/Period.yaml
+    - type:
+        $ref: ../schemas/SecondsRemaining.yaml
+    - type:
+        $ref: ../schemas/HomePossInd.yaml
+    - type:
+        $ref: ../schemas/HomeG.yaml
+    - type:
+        $ref: ../schemas/Description.yaml
+    - type:
+        $ref: ../schemas/Location.yaml
+    - type:
+        $ref: ../schemas/Pctimestring.yaml
+    - type:
+        $ref: ../schemas/Isvisible.yaml

@@ -1,0 +1,6 @@
+name: Period
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Period.yaml
+required: true

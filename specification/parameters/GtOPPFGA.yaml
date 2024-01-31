@@ -1,0 +1,5 @@
+name: GtOPPFGA
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPFGA.yaml

@@ -1,0 +1,52 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TeamID
+    - const: SEASON
+    - const: LeagueID
+    - const: PLAYER
+    - const: PLAYER_SLUG
+    - const: NUM
+    - const: POSITION
+    - const: HEIGHT
+    - const: WEIGHT
+    - const: BIRTH_DATE
+    - const: AGE
+    - const: EXP
+    - const: SCHOOL
+    - const: PLAYER_ID
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Teamid.yaml
+    - type:
+        $ref: ../schemas/Season.yaml
+    - type:
+        $ref: ../schemas/Leagueid.yaml
+    - type:
+        $ref: ../schemas/Player.yaml
+    - type:
+        $ref: ../schemas/PlayerSlug.yaml
+    - type:
+        $ref: ../schemas/Num.yaml
+    - type:
+        $ref: ../schemas/Position.yaml
+    - type:
+        $ref: ../schemas/Height.yaml
+    - type:
+        $ref: ../schemas/Weight.yaml
+    - type:
+        $ref: ../schemas/BirthDate.yaml
+    - type:
+        $ref: ../schemas/Age.yaml
+    - type:
+        $ref: ../schemas/Exp.yaml
+    - type:
+        $ref: ../schemas/School.yaml
+    - type:
+        $ref: ../schemas/PlayerId.yaml

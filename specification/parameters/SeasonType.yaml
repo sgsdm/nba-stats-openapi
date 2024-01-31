@@ -1,0 +1,6 @@
+name: SeasonType
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/SeasonType.yaml
+required: true

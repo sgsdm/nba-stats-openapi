@@ -1,0 +1,5 @@
+name: LtOPPTOV
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPTOV.yaml

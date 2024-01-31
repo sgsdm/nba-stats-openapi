@@ -1,0 +1,5 @@
+name: LtOPPREB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPREB.yaml

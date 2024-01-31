@@ -1,0 +1,5 @@
+name: OffPlayerID
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/OffPlayerID.yaml

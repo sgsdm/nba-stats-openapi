@@ -1,0 +1,52 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PERSON_ID
+    - const: FIRST_NAME
+    - const: LAST_NAME
+    - const: TEAM
+    - const: DESCRIPTION
+    - const: ALL_NBA_TEAM_NUMBER
+    - const: SEASON
+    - const: MONTH
+    - const: WEEK
+    - const: CONFERENCE
+    - const: TYPE
+    - const: SUBTYPE1
+    - const: SUBTYPE2
+    - const: SUBTYPE3
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PersonId.yaml
+    - type:
+        $ref: ../schemas/FirstName.yaml
+    - type:
+        $ref: ../schemas/LastName.yaml
+    - type:
+        $ref: ../schemas/Team.yaml
+    - type:
+        $ref: ../schemas/Description.yaml
+    - type:
+        $ref: ../schemas/AllNbaTeamNumber.yaml
+    - type:
+        $ref: ../schemas/Season.yaml
+    - type:
+        $ref: ../schemas/Month.yaml
+    - type:
+        $ref: ../schemas/Week.yaml
+    - type:
+        $ref: ../schemas/Conference.yaml
+    - type:
+        $ref: ../schemas/Type.yaml
+    - type:
+        $ref: ../schemas/Subtype1.yaml
+    - type:
+        $ref: ../schemas/Subtype2.yaml
+    - type:
+        $ref: ../schemas/Subtype3.yaml

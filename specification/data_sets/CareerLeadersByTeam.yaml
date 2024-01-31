@@ -1,0 +1,61 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TEAM_ID
+    - const: PTS
+    - const: PTS_PERSON_ID
+    - const: PTS_PLAYER
+    - const: AST
+    - const: AST_PERSON_ID
+    - const: AST_PLAYER
+    - const: REB
+    - const: REB_PERSON_ID
+    - const: REB_PLAYER
+    - const: BLK
+    - const: BLK_PERSON_ID
+    - const: BLK_PLAYER
+    - const: STL
+    - const: STL_PERSON_ID
+    - const: STL_PLAYER
+    - const: SEASON_YEAR
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/PtsPersonId.yaml
+    - type:
+        $ref: ../schemas/PtsPlayer.yaml
+    - type:
+        $ref: ../schemas/Ast.yaml
+    - type:
+        $ref: ../schemas/AstPersonId.yaml
+    - type:
+        $ref: ../schemas/AstPlayer.yaml
+    - type:
+        $ref: ../schemas/Reb.yaml
+    - type:
+        $ref: ../schemas/RebPersonId.yaml
+    - type:
+        $ref: ../schemas/RebPlayer.yaml
+    - type:
+        $ref: ../schemas/Blk.yaml
+    - type:
+        $ref: ../schemas/BlkPersonId.yaml
+    - type:
+        $ref: ../schemas/BlkPlayer.yaml
+    - type:
+        $ref: ../schemas/Stl.yaml
+    - type:
+        $ref: ../schemas/StlPersonId.yaml
+    - type:
+        $ref: ../schemas/StlPlayer.yaml
+    - type:
+        $ref: ../schemas/SeasonYear.yaml

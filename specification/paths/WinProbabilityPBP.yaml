@@ -1,0 +1,36 @@
+get:
+  summary: WinProbabilityPBP
+  operationId: WinProbabilityPBP
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameID.yaml
+  - $ref: ../parameters/RunType.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameID:
+                    $ref: ../schemas/GameID.yaml
+                  RunType:
+                    $ref: ../schemas/RunType.yaml
+              resource:
+                const: winprobabilitypbp
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/GameInfo.yaml
+                - type:
+                    $ref: ../data_sets/WinProbPBP.yaml
+      '404':
+        description: '[to do]'

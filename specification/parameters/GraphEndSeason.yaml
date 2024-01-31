@@ -1,0 +1,6 @@
+name: GraphEndSeason
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GraphEndSeason.yaml
+required: true

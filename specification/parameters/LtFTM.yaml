@@ -1,0 +1,5 @@
+name: LtFTM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtFTM.yaml

@@ -1,0 +1,5 @@
+name: GtDREB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtDREB.yaml

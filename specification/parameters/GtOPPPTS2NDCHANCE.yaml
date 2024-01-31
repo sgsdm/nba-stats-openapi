@@ -1,0 +1,5 @@
+name: GtOPPPTS2NDCHANCE
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPPTS2NDCHANCE.yaml

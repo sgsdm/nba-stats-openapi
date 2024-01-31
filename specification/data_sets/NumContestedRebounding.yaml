@@ -1,0 +1,61 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: PLAYER_NAME_LAST_FIRST
+    - const: SORT_ORDER
+    - const: G
+    - const: REB_NUM_CONTESTING_RANGE
+    - const: REB_FREQUENCY
+    - const: OREB
+    - const: DREB
+    - const: REB
+    - const: C_OREB
+    - const: C_DREB
+    - const: C_REB
+    - const: C_REB_PCT
+    - const: UC_OREB
+    - const: UC_DREB
+    - const: UC_REB
+    - const: UC_REB_PCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerNameLastFirst.yaml
+    - type:
+        $ref: ../schemas/SortOrder.yaml
+    - type:
+        $ref: ../schemas/G.yaml
+    - type:
+        $ref: ../schemas/RebNumContestingRange.yaml
+    - type:
+        $ref: ../schemas/RebFrequency.yaml
+    - type:
+        $ref: ../schemas/Oreb.yaml
+    - type:
+        $ref: ../schemas/Dreb.yaml
+    - type:
+        $ref: ../schemas/Reb.yaml
+    - type:
+        $ref: ../schemas/COreb.yaml
+    - type:
+        $ref: ../schemas/CDreb.yaml
+    - type:
+        $ref: ../schemas/CReb.yaml
+    - type:
+        $ref: ../schemas/CRebPct.yaml
+    - type:
+        $ref: ../schemas/UcOreb.yaml
+    - type:
+        $ref: ../schemas/UcDreb.yaml
+    - type:
+        $ref: ../schemas/UcReb.yaml
+    - type:
+        $ref: ../schemas/UcRebPct.yaml

@@ -1,0 +1,106 @@
+get:
+  summary: LeagueDashOppPtShot
+  operationId: LeagueDashOppPtShot
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/CloseDefDistRange.yaml
+  - $ref: ../parameters/Conference.yaml
+  - $ref: ../parameters/DateFrom.yaml
+  - $ref: ../parameters/DateTo.yaml
+  - $ref: ../parameters/Division.yaml
+  - $ref: ../parameters/DribbleRange.yaml
+  - $ref: ../parameters/GameSegment.yaml
+  - $ref: ../parameters/GeneralRange.yaml
+  - $ref: ../parameters/LastNGames.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/Location.yaml
+  - $ref: ../parameters/Month.yaml
+  - $ref: ../parameters/OpponentTeamID.yaml
+  - $ref: ../parameters/Outcome.yaml
+  - $ref: ../parameters/PORound.yaml
+  - $ref: ../parameters/PerMode.yaml
+  - $ref: ../parameters/Period.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/SeasonSegment.yaml
+  - $ref: ../parameters/SeasonType.yaml
+  - $ref: ../parameters/ShotClockRange.yaml
+  - $ref: ../parameters/ShotDistRange.yaml
+  - $ref: ../parameters/TeamID.yaml
+  - $ref: ../parameters/TouchTimeRange.yaml
+  - $ref: ../parameters/VsConference.yaml
+  - $ref: ../parameters/VsDivision.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  CloseDefDistRange:
+                    $ref: ../schemas/CloseDefDistRange.yaml
+                  Conference:
+                    $ref: ../schemas/Conference.yaml
+                  DateFrom:
+                    $ref: ../schemas/DateFrom.yaml
+                  DateTo:
+                    $ref: ../schemas/DateTo.yaml
+                  Division:
+                    $ref: ../schemas/Division.yaml
+                  DribbleRange:
+                    $ref: ../schemas/DribbleRange.yaml
+                  GameSegment:
+                    $ref: ../schemas/GameSegment.yaml
+                  GeneralRange:
+                    $ref: ../schemas/GeneralRange.yaml
+                  LastNGames:
+                    $ref: ../schemas/LastNGames.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  Location:
+                    $ref: ../schemas/Location.yaml
+                  Month:
+                    $ref: ../schemas/Month.yaml
+                  OpponentTeamID:
+                    $ref: ../schemas/OpponentTeamID.yaml
+                  Outcome:
+                    $ref: ../schemas/Outcome.yaml
+                  PORound:
+                    $ref: ../schemas/PORound.yaml
+                  PerMode:
+                    $ref: ../schemas/PerMode.yaml
+                  Period:
+                    $ref: ../schemas/Period.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  SeasonSegment:
+                    $ref: ../schemas/SeasonSegment.yaml
+                  SeasonType:
+                    $ref: ../schemas/SeasonType.yaml
+                  ShotClockRange:
+                    $ref: ../schemas/ShotClockRange.yaml
+                  ShotDistRange:
+                    $ref: ../schemas/ShotDistRange.yaml
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+                  TouchTimeRange:
+                    $ref: ../schemas/TouchTimeRange.yaml
+                  VsConference:
+                    $ref: ../schemas/VsConference.yaml
+                  VsDivision:
+                    $ref: ../schemas/VsDivision.yaml
+              resource:
+                const: leaguedashoppptshot
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/LeagueDashPTShots.yaml
+      '404':
+        description: '[to do]'

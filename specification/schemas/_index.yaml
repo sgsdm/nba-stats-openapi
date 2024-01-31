@@ -1,0 +1,1982 @@
+:1:
+  $ref: ./:1.yaml
+Abbreviation:
+  $ref: ./Abbreviation.yaml
+Accounttype:
+  $ref: ./Accounttype.yaml
+ActionType:
+  $ref: ./ActionType.yaml
+ActiveFlag:
+  $ref: ./ActiveFlag.yaml
+ActivePlayers:
+  $ref: ./ActivePlayers.yaml
+ActiveStreaksOnly:
+  $ref: ./ActiveStreaksOnly.yaml
+ActiveWithTeam:
+  $ref: ./ActiveWithTeam.yaml
+Activestreak:
+  $ref: ./Activestreak.yaml
+ActualMinutes:
+  $ref: ./ActualMinutes.yaml
+ActualSeconds:
+  $ref: ./ActualSeconds.yaml
+Age:
+  $ref: ./Age.yaml
+AheadBehind:
+  $ref: ./AheadBehind.yaml
+Aheadathalf:
+  $ref: ./Aheadathalf.yaml
+Aheadatthird:
+  $ref: ./Aheadatthird.yaml
+AllNbaTeamNumber:
+  $ref: ./AllNbaTeamNumber.yaml
+Apr:
+  $ref: ./Apr.yaml
+Arena:
+  $ref: ./Arena.yaml
+Arenacapacity:
+  $ref: ./Arenacapacity.yaml
+Assists:
+  $ref: ./Assists.yaml
+Ast:
+  $ref: ./Ast.yaml
+AstPct:
+  $ref: ./AstPct.yaml
+AstPersonId:
+  $ref: ./AstPersonId.yaml
+AstPg:
+  $ref: ./AstPg.yaml
+AstPlayer:
+  $ref: ./AstPlayer.yaml
+AstPlayerId:
+  $ref: ./AstPlayerId.yaml
+AstPlayerName:
+  $ref: ./AstPlayerName.yaml
+AstRank:
+  $ref: ./AstRank.yaml
+AstRatio:
+  $ref: ./AstRatio.yaml
+AstTov:
+  $ref: ./AstTov.yaml
+Attendance:
+  $ref: ./Attendance.yaml
+Aug:
+  $ref: ./Aug.yaml
+AvgActualMinutes:
+  $ref: ./AvgActualMinutes.yaml
+AvgActualSeconds:
+  $ref: ./AvgActualSeconds.yaml
+AvgAst:
+  $ref: ./AvgAst.yaml
+AvgBlk:
+  $ref: ./AvgBlk.yaml
+AvgPts:
+  $ref: ./AvgPts.yaml
+AvgReb:
+  $ref: ./AvgReb.yaml
+AvgSpeed:
+  $ref: ./AvgSpeed.yaml
+AvgSpeedDef:
+  $ref: ./AvgSpeedDef.yaml
+AvgSpeedOff:
+  $ref: ./AvgSpeedOff.yaml
+AvgStl:
+  $ref: ./AvgStl.yaml
+AvgTotReb:
+  $ref: ./AvgTotReb.yaml
+AvgTurnovers:
+  $ref: ./AvgTurnovers.yaml
+Away:
+  $ref: ./Away.yaml
+Behindathalf:
+  $ref: ./Behindathalf.yaml
+Behindatthird:
+  $ref: ./Behindatthird.yaml
+BenchPress:
+  $ref: ./BenchPress.yaml
+BirthDate:
+  $ref: ./BirthDate.yaml
+Birthdate:
+  $ref: ./Birthdate.yaml
+Blk:
+  $ref: ./Blk.yaml
+BlkPersonId:
+  $ref: ./BlkPersonId.yaml
+BlkPlayer:
+  $ref: ./BlkPlayer.yaml
+BlkRank:
+  $ref: ./BlkRank.yaml
+Blka:
+  $ref: ./Blka.yaml
+BlkaRank:
+  $ref: ./BlkaRank.yaml
+BodyFatPct:
+  $ref: ./BodyFatPct.yaml
+BoxOutPlayerRebs:
+  $ref: ./BoxOutPlayerRebs.yaml
+BoxOutPlayerTeamRebs:
+  $ref: ./BoxOutPlayerTeamRebs.yaml
+BoxOuts:
+  $ref: ./BoxOuts.yaml
+CDreb:
+  $ref: ./CDreb.yaml
+COreb:
+  $ref: ./COreb.yaml
+CReb:
+  $ref: ./CReb.yaml
+CRebPct:
+  $ref: ./CRebPct.yaml
+Cfid:
+  $ref: ./Cfid.yaml
+Cfparams:
+  $ref: ./Cfparams.yaml
+ChargesDrawn:
+  $ref: ./ChargesDrawn.yaml
+City:
+  $ref: ./City.yaml
+ClinchedConference:
+  $ref: ./ClinchedConference.yaml
+ClinchedDivision:
+  $ref: ./ClinchedDivision.yaml
+ClinchedPlayIn:
+  $ref: ./ClinchedPlayIn.yaml
+ClinchedPlayoffs:
+  $ref: ./ClinchedPlayoffs.yaml
+Clinchedconferencetitle:
+  $ref: ./Clinchedconferencetitle.yaml
+Clincheddivisiontitle:
+  $ref: ./Clincheddivisiontitle.yaml
+Clinchedplayoffbirth:
+  $ref: ./Clinchedplayoffbirth.yaml
+Clinchindicator:
+  $ref: ./Clinchindicator.yaml
+CloseDefDistRange:
+  $ref: ./CloseDefDistRange.yaml
+CloseDefPersonId:
+  $ref: ./CloseDefPersonId.yaml
+ClutchTime:
+  $ref: ./ClutchTime.yaml
+CoachId:
+  $ref: ./CoachId.yaml
+CoachName:
+  $ref: ./CoachName.yaml
+CoachType:
+  $ref: ./CoachType.yaml
+College:
+  $ref: ./College.yaml
+Comment:
+  $ref: ./Comment.yaml
+Conf:
+  $ref: ./Conf.yaml
+ConfRank:
+  $ref: ./ConfRank.yaml
+ConfTitles:
+  $ref: ./ConfTitles.yaml
+Conference:
+  $ref: ./Conference.yaml
+Conferencegamesback:
+  $ref: ./Conferencegamesback.yaml
+Conferencerecord:
+  $ref: ./Conferencerecord.yaml
+ContestedShots:
+  $ref: ./ContestedShots.yaml
+ContestedShots2pt:
+  $ref: ./ContestedShots2pt.yaml
+ContestedShots3pt:
+  $ref: ./ContestedShots3pt.yaml
+ContextFilter:
+  $ref: ./ContextFilter.yaml
+ContextMeasure:
+  $ref: ./ContextMeasure.yaml
+Counter:
+  $ref: ./Counter.yaml
+Country:
+  $ref: ./Country.yaml
+CourtStatus:
+  $ref: ./CourtStatus.yaml
+Currenthomestreak:
+  $ref: ./Currenthomestreak.yaml
+Currentroadstreak:
+  $ref: ./Currentroadstreak.yaml
+Currentstreak:
+  $ref: ./Currentstreak.yaml
+DFgPct:
+  $ref: ./DFgPct.yaml
+DFga:
+  $ref: ./DFga.yaml
+DFgm:
+  $ref: ./DFgm.yaml
+DateEst:
+  $ref: ./DateEst.yaml
+DateFrom:
+  $ref: ./DateFrom.yaml
+DateTo:
+  $ref: ./DateTo.yaml
+DayOffset:
+  $ref: ./DayOffset.yaml
+Dd2:
+  $ref: ./Dd2.yaml
+Dd2Rank:
+  $ref: ./Dd2Rank.yaml
+Dec:
+  $ref: ./Dec.yaml
+DefBoxouts:
+  $ref: ./DefBoxouts.yaml
+DefLooseBallsRecovered:
+  $ref: ./DefLooseBallsRecovered.yaml
+DefPlayerID:
+  $ref: ./DefPlayerID.yaml
+DefPlayerId:
+  $ref: ./DefPlayerId.yaml
+DefPlayerName:
+  $ref: ./DefPlayerName.yaml
+DefRating:
+  $ref: ./DefRating.yaml
+DefReb:
+  $ref: ./DefReb.yaml
+DefRimPct:
+  $ref: ./DefRimPct.yaml
+DefTeamAbbreviation:
+  $ref: ./DefTeamAbbreviation.yaml
+DefTeamCity:
+  $ref: ./DefTeamCity.yaml
+DefTeamID:
+  $ref: ./DefTeamID.yaml
+DefTeamId:
+  $ref: ./DefTeamId.yaml
+DefTeamNickname:
+  $ref: ./DefTeamNickname.yaml
+DefenseCategory:
+  $ref: ./DefenseCategory.yaml
+Deflections:
+  $ref: ./Deflections.yaml
+Description:
+  $ref: ./Description.yaml
+Diffpointspg:
+  $ref: ./Diffpointspg.yaml
+Direction:
+  $ref: ./Direction.yaml
+DisplayFiLast:
+  $ref: ./DisplayFiLast.yaml
+DisplayFirstLast:
+  $ref: ./DisplayFirstLast.yaml
+DisplayLastCommaFirst:
+  $ref: ./DisplayLastCommaFirst.yaml
+DistFeet:
+  $ref: ./DistFeet.yaml
+DistMiles:
+  $ref: ./DistMiles.yaml
+DistMilesDef:
+  $ref: ./DistMilesDef.yaml
+DistMilesOff:
+  $ref: ./DistMilesOff.yaml
+DistanceRange:
+  $ref: ./DistanceRange.yaml
+Div:
+  $ref: ./Div.yaml
+DivRank:
+  $ref: ./DivRank.yaml
+DivTitles:
+  $ref: ./DivTitles.yaml
+Division:
+  $ref: ./Division.yaml
+Divisiongamesback:
+  $ref: ./Divisiongamesback.yaml
+Divisionrank:
+  $ref: ./Divisionrank.yaml
+Divisionrecord:
+  $ref: ./Divisionrecord.yaml
+DleagueFlag:
+  $ref: ./DleagueFlag.yaml
+Dleagueaffiliation:
+  $ref: ./Dleagueaffiliation.yaml
+Dq:
+  $ref: ./Dq.yaml
+DraftNumber:
+  $ref: ./DraftNumber.yaml
+DraftPick:
+  $ref: ./DraftPick.yaml
+DraftRound:
+  $ref: ./DraftRound.yaml
+DraftTeamID:
+  $ref: ./DraftTeamID.yaml
+DraftType:
+  $ref: ./DraftType.yaml
+DraftYear:
+  $ref: ./DraftYear.yaml
+Dreb:
+  $ref: ./Dreb.yaml
+DrebPct:
+  $ref: ./DrebPct.yaml
+DrebRank:
+  $ref: ./DrebRank.yaml
+DribbleRange:
+  $ref: ./DribbleRange.yaml
+EAstRatio:
+  $ref: ./EAstRatio.yaml
+EAstRatioRank:
+  $ref: ./EAstRatioRank.yaml
+EDefRating:
+  $ref: ./EDefRating.yaml
+EDefRatingRank:
+  $ref: ./EDefRatingRank.yaml
+EDrebPct:
+  $ref: ./EDrebPct.yaml
+EDrebPctRank:
+  $ref: ./EDrebPctRank.yaml
+ENetRating:
+  $ref: ./ENetRating.yaml
+ENetRatingRank:
+  $ref: ./ENetRatingRank.yaml
+EOffRating:
+  $ref: ./EOffRating.yaml
+EOffRatingRank:
+  $ref: ./EOffRatingRank.yaml
+EOrebPct:
+  $ref: ./EOrebPct.yaml
+EOrebPctRank:
+  $ref: ./EOrebPctRank.yaml
+EPace:
+  $ref: ./EPace.yaml
+EPaceRank:
+  $ref: ./EPaceRank.yaml
+ERebPct:
+  $ref: ./ERebPct.yaml
+ERebPctRank:
+  $ref: ./ERebPctRank.yaml
+ETmTovPct:
+  $ref: ./ETmTovPct.yaml
+ETmTovPctRank:
+  $ref: ./ETmTovPctRank.yaml
+ETovPct:
+  $ref: ./ETovPct.yaml
+ETovPctRank:
+  $ref: ./ETovPctRank.yaml
+EUsgPct:
+  $ref: ./EUsgPct.yaml
+EUsgPctRank:
+  $ref: ./EUsgPctRank.yaml
+Eff:
+  $ref: ./Eff.yaml
+EfgPct:
+  $ref: ./EfgPct.yaml
+EfgPctRank:
+  $ref: ./EfgPctRank.yaml
+EliminatedPlayoffs:
+  $ref: ./EliminatedPlayoffs.yaml
+Eliminatedconference:
+  $ref: ./Eliminatedconference.yaml
+Eliminateddivision:
+  $ref: ./Eliminateddivision.yaml
+EndPeriod:
+  $ref: ./EndPeriod.yaml
+EndRange:
+  $ref: ./EndRange.yaml
+EndYear:
+  $ref: ./EndYear.yaml
+Enddate:
+  $ref: ./Enddate.yaml
+EqAST:
+  $ref: ./EqAST.yaml
+EqBLK:
+  $ref: ./EqBLK.yaml
+EqDD:
+  $ref: ./EqDD.yaml
+EqDREB:
+  $ref: ./EqDREB.yaml
+EqFG3A:
+  $ref: ./EqFG3A.yaml
+EqFG3M:
+  $ref: ./EqFG3M.yaml
+EqFG3_PCT:
+  $ref: ./EqFG3_PCT.yaml
+EqFGA:
+  $ref: ./EqFGA.yaml
+EqFGM:
+  $ref: ./EqFGM.yaml
+EqFG_PCT:
+  $ref: ./EqFG_PCT.yaml
+EqFTA:
+  $ref: ./EqFTA.yaml
+EqFTM:
+  $ref: ./EqFTM.yaml
+EqFT_PCT:
+  $ref: ./EqFT_PCT.yaml
+EqMINUTES:
+  $ref: ./EqMINUTES.yaml
+EqOREB:
+  $ref: ./EqOREB.yaml
+EqPF:
+  $ref: ./EqPF.yaml
+EqPTS:
+  $ref: ./EqPTS.yaml
+EqREB:
+  $ref: ./EqREB.yaml
+EqSTL:
+  $ref: ./EqSTL.yaml
+EqTD:
+  $ref: ./EqTD.yaml
+EqTOV:
+  $ref: ./EqTOV.yaml
+EventNum:
+  $ref: ./EventNum.yaml
+EventType:
+  $ref: ./EventType.yaml
+Eventmsgactiontype:
+  $ref: ./Eventmsgactiontype.yaml
+Eventmsgtype:
+  $ref: ./Eventmsgtype.yaml
+Eventnum:
+  $ref: ./Eventnum.yaml
+Exp:
+  $ref: ./Exp.yaml
+FanDuelPts:
+  $ref: ./FanDuelPts.yaml
+Feb:
+  $ref: ./Feb.yaml
+Fewerturnovers:
+  $ref: ./Fewerturnovers.yaml
+Fg:
+  $ref: ./Fg.yaml
+Fg2Pct:
+  $ref: ./Fg2Pct.yaml
+Fg2a:
+  $ref: ./Fg2a.yaml
+Fg2aFrequency:
+  $ref: ./Fg2aFrequency.yaml
+Fg2m:
+  $ref: ./Fg2m.yaml
+Fg3:
+  $ref: ./Fg3.yaml
+Fg3Pct:
+  $ref: ./Fg3Pct.yaml
+Fg3PctRank:
+  $ref: ./Fg3PctRank.yaml
+Fg3a:
+  $ref: ./Fg3a.yaml
+Fg3aFrequency:
+  $ref: ./Fg3aFrequency.yaml
+Fg3aRank:
+  $ref: ./Fg3aRank.yaml
+Fg3m:
+  $ref: ./Fg3m.yaml
+Fg3mRank:
+  $ref: ./Fg3mRank.yaml
+FgPct:
+  $ref: ./FgPct.yaml
+FgPctRank:
+  $ref: ./FgPctRank.yaml
+Fga:
+  $ref: ./Fga.yaml
+FgaFrequency:
+  $ref: ./FgaFrequency.yaml
+FgaRank:
+  $ref: ./FgaRank.yaml
+Fgm:
+  $ref: ./Fgm.yaml
+FgmRank:
+  $ref: ./FgmRank.yaml
+Fgmx:
+  $ref: ./Fgmx.yaml
+FifeteenfDfgpct:
+  $ref: ./FifeteenfDfgpct.yaml
+FirstName:
+  $ref: ./FirstName.yaml
+Firstseason:
+  $ref: ./Firstseason.yaml
+Freq:
+  $ref: ./Freq.yaml
+Frequency:
+  $ref: ./Frequency.yaml
+FromYear:
+  $ref: ./FromYear.yaml
+Ft:
+  $ref: ./Ft.yaml
+FtPct:
+  $ref: ./FtPct.yaml
+FtPctRank:
+  $ref: ./FtPctRank.yaml
+FtPossPct:
+  $ref: ./FtPossPct.yaml
+Fta:
+  $ref: ./Fta.yaml
+FtaRank:
+  $ref: ./FtaRank.yaml
+FtaRate:
+  $ref: ./FtaRate.yaml
+Ftm:
+  $ref: ./Ftm.yaml
+FtmRank:
+  $ref: ./FtmRank.yaml
+G:
+  $ref: ./G.yaml
+GROUP_ID:
+  $ref: ./GROUP_ID.yaml
+GameDate:
+  $ref: ./GameDate.yaml
+GameDateEst:
+  $ref: ./GameDateEst.yaml
+GameEventID:
+  $ref: ./GameEventID.yaml
+GameEventId:
+  $ref: ./GameEventId.yaml
+GameID:
+  $ref: ./GameID.yaml
+GameIDs:
+  $ref: ./GameIDs.yaml
+GameId:
+  $ref: ./GameId.yaml
+GameNum:
+  $ref: ./GameNum.yaml
+GameResult:
+  $ref: ./GameResult.yaml
+GameScope:
+  $ref: ./GameScope.yaml
+GameSegment:
+  $ref: ./GameSegment.yaml
+GameSequence:
+  $ref: ./GameSequence.yaml
+GameStatus:
+  $ref: ./GameStatus.yaml
+GameStatusId:
+  $ref: ./GameStatusId.yaml
+GameStatusText:
+  $ref: ./GameStatusText.yaml
+GameTime:
+  $ref: ./GameTime.yaml
+Gamecode:
+  $ref: ./Gamecode.yaml
+Games:
+  $ref: ./Games.yaml
+GamesPlayedFlag:
+  $ref: ./GamesPlayedFlag.yaml
+Gamestreak:
+  $ref: ./Gamestreak.yaml
+Gb:
+  $ref: ./Gb.yaml
+GeneralRange:
+  $ref: ./GeneralRange.yaml
+Generalmanager:
+  $ref: ./Generalmanager.yaml
+Gp:
+  $ref: ./Gp.yaml
+GpRank:
+  $ref: ./GpRank.yaml
+GrOver500:
+  $ref: ./GrOver500.yaml
+GrOver500Away:
+  $ref: ./GrOver500Away.yaml
+GrOver500Home:
+  $ref: ./GrOver500Home.yaml
+GrUnder500:
+  $ref: ./GrUnder500.yaml
+GrUnder500Away:
+  $ref: ./GrUnder500Away.yaml
+GrUnder500Home:
+  $ref: ./GrUnder500Home.yaml
+GridType:
+  $ref: ./GridType.yaml
+GroupId:
+  $ref: ./GroupId.yaml
+GroupName:
+  $ref: ./GroupName.yaml
+GroupQuantity:
+  $ref: ./GroupQuantity.yaml
+GroupSet:
+  $ref: ./GroupSet.yaml
+GroupValue:
+  $ref: ./GroupValue.yaml
+GroupValue2:
+  $ref: ./GroupValue2.yaml
+GroupValueOrder:
+  $ref: ./GroupValueOrder.yaml
+Gs:
+  $ref: ./Gs.yaml
+GtAST:
+  $ref: ./GtAST.yaml
+GtBLK:
+  $ref: ./GtBLK.yaml
+GtDD:
+  $ref: ./GtDD.yaml
+GtDREB:
+  $ref: ./GtDREB.yaml
+GtFG3A:
+  $ref: ./GtFG3A.yaml
+GtFG3M:
+  $ref: ./GtFG3M.yaml
+GtFG3_PCT:
+  $ref: ./GtFG3_PCT.yaml
+GtFGA:
+  $ref: ./GtFGA.yaml
+GtFGM:
+  $ref: ./GtFGM.yaml
+GtFG_PCT:
+  $ref: ./GtFG_PCT.yaml
+GtFTA:
+  $ref: ./GtFTA.yaml
+GtFTM:
+  $ref: ./GtFTM.yaml
+GtFT_PCT:
+  $ref: ./GtFT_PCT.yaml
+GtMINUTES:
+  $ref: ./GtMINUTES.yaml
+GtOREB:
+  $ref: ./GtOREB.yaml
+GtPF:
+  $ref: ./GtPF.yaml
+GtPTS:
+  $ref: ./GtPTS.yaml
+GtREB:
+  $ref: ./GtREB.yaml
+GtSTL:
+  $ref: ./GtSTL.yaml
+GtTD:
+  $ref: ./GtTD.yaml
+GtTOV:
+  $ref: ./GtTOV.yaml
+HandLength:
+  $ref: ./HandLength.yaml
+HandWidth:
+  $ref: ./HandWidth.yaml
+Headcoach:
+  $ref: ./Headcoach.yaml
+Height:
+  $ref: ./Height.yaml
+HeightWShoes:
+  $ref: ./HeightWShoes.yaml
+HeightWShoesFtIn:
+  $ref: ./HeightWShoesFtIn.yaml
+HeightWoShoes:
+  $ref: ./HeightWoShoes.yaml
+HeightWoShoesFtIn:
+  $ref: ./HeightWoShoesFtIn.yaml
+HelpBlk:
+  $ref: ./HelpBlk.yaml
+HelpFgPerc:
+  $ref: ./HelpFgPerc.yaml
+HelpFga:
+  $ref: ./HelpFga.yaml
+HelpFgm:
+  $ref: ./HelpFgm.yaml
+HighSeedRank:
+  $ref: ./HighSeedRank.yaml
+HighSeedSeriesL:
+  $ref: ./HighSeedSeriesL.yaml
+HighSeedSeriesRemainingAwayG:
+  $ref: ./HighSeedSeriesRemainingAwayG.yaml
+HighSeedSeriesRemainingG:
+  $ref: ./HighSeedSeriesRemainingG.yaml
+HighSeedSeriesRemainingHomeG:
+  $ref: ./HighSeedSeriesRemainingHomeG.yaml
+HighSeedSeriesW:
+  $ref: ./HighSeedSeriesW.yaml
+HighSeedTeam:
+  $ref: ./HighSeedTeam.yaml
+HighSeedTeamId:
+  $ref: ./HighSeedTeamId.yaml
+HistoricalStatus:
+  $ref: ./HistoricalStatus.yaml
+Home:
+  $ref: ./Home.yaml
+HomeG:
+  $ref: ./HomeG.yaml
+HomePct:
+  $ref: ./HomePct.yaml
+HomePossInd:
+  $ref: ./HomePossInd.yaml
+HomePts:
+  $ref: ./HomePts.yaml
+HomeRecord:
+  $ref: ./HomeRecord.yaml
+HomeScoreMargin:
+  $ref: ./HomeScoreMargin.yaml
+HomeTeam:
+  $ref: ./HomeTeam.yaml
+HomeTeamAbbreviation:
+  $ref: ./HomeTeamAbbreviation.yaml
+HomeTeamCity:
+  $ref: ./HomeTeamCity.yaml
+HomeTeamId:
+  $ref: ./HomeTeamId.yaml
+HomeTeamLosses:
+  $ref: ./HomeTeamLosses.yaml
+HomeTeamName:
+  $ref: ./HomeTeamName.yaml
+HomeTeamNickname:
+  $ref: ./HomeTeamNickname.yaml
+HomeTeamWins:
+  $ref: ./HomeTeamWins.yaml
+HomeWl:
+  $ref: ./HomeWl.yaml
+Homedescription:
+  $ref: ./Homedescription.yaml
+Htm:
+  $ref: ./Htm.yaml
+HustleStatus:
+  $ref: ./HustleStatus.yaml
+InTimeReal:
+  $ref: ./InTimeReal.yaml
+IsAssistant:
+  $ref: ./IsAssistant.yaml
+IsAvailable:
+  $ref: ./IsAvailable.yaml
+IsOnlyCurrentSeason:
+  $ref: ./IsOnlyCurrentSeason.yaml
+Isvisible:
+  $ref: ./Isvisible.yaml
+Jan:
+  $ref: ./Jan.yaml
+Jersey:
+  $ref: ./Jersey.yaml
+JerseyNum:
+  $ref: ./JerseyNum.yaml
+JerseyNumber:
+  $ref: ./JerseyNumber.yaml
+Jul:
+  $ref: ./Jul.yaml
+Jun:
+  $ref: ./Jun.yaml
+L:
+  $ref: ./L.yaml
+L10:
+  $ref: ./L10.yaml
+LHome:
+  $ref: ./LHome.yaml
+LRank:
+  $ref: ./LRank.yaml
+LRoad:
+  $ref: ./LRoad.yaml
+LaneAgilityTime:
+  $ref: ./LaneAgilityTime.yaml
+LargestLead:
+  $ref: ./LargestLead.yaml
+Last10home:
+  $ref: ./Last10home.yaml
+Last10road:
+  $ref: ./Last10road.yaml
+LastAffiliation:
+  $ref: ./LastAffiliation.yaml
+LastGameDateEst:
+  $ref: ./LastGameDateEst.yaml
+LastGameHomeTeamAbbreviation:
+  $ref: ./LastGameHomeTeamAbbreviation.yaml
+LastGameHomeTeamCity:
+  $ref: ./LastGameHomeTeamCity.yaml
+LastGameHomeTeamId:
+  $ref: ./LastGameHomeTeamId.yaml
+LastGameHomeTeamName:
+  $ref: ./LastGameHomeTeamName.yaml
+LastGameHomeTeamPoints:
+  $ref: ./LastGameHomeTeamPoints.yaml
+LastGameId:
+  $ref: ./LastGameId.yaml
+LastGameVisitorTeamCity:
+  $ref: ./LastGameVisitorTeamCity.yaml
+LastGameVisitorTeamCity1:
+  $ref: ./LastGameVisitorTeamCity1.yaml
+LastGameVisitorTeamId:
+  $ref: ./LastGameVisitorTeamId.yaml
+LastGameVisitorTeamName:
+  $ref: ./LastGameVisitorTeamName.yaml
+LastGameVisitorTeamPoints:
+  $ref: ./LastGameVisitorTeamPoints.yaml
+LastNGames:
+  $ref: ./LastNGames.yaml
+LastName:
+  $ref: ./LastName.yaml
+Lastseason:
+  $ref: ./Lastseason.yaml
+LeadChanges:
+  $ref: ./LeadChanges.yaml
+Leadinfgpct:
+  $ref: ./Leadinfgpct.yaml
+Leadinreb:
+  $ref: ./Leadinreb.yaml
+LeagTix:
+  $ref: ./LeagTix.yaml
+LeagueID:
+  $ref: ./LeagueID.yaml
+LeagueId:
+  $ref: ./LeagueId.yaml
+LeagueTitles:
+  $ref: ./LeagueTitles.yaml
+Leagueid:
+  $ref: ./Leagueid.yaml
+Leaguerank:
+  $ref: ./Leaguerank.yaml
+LivePcTime:
+  $ref: ./LivePcTime.yaml
+LivePeriod:
+  $ref: ./LivePeriod.yaml
+LivePeriodTimeBcast:
+  $ref: ./LivePeriodTimeBcast.yaml
+LocX:
+  $ref: ./LocX.yaml
+LocY:
+  $ref: ./LocY.yaml
+Location:
+  $ref: ./Location.yaml
+Longhomestreak:
+  $ref: ./Longhomestreak.yaml
+Longlossstreak:
+  $ref: ./Longlossstreak.yaml
+Longroadstreak:
+  $ref: ./Longroadstreak.yaml
+Longwinstreak:
+  $ref: ./Longwinstreak.yaml
+LooseBallsRecovered:
+  $ref: ./LooseBallsRecovered.yaml
+Losses:
+  $ref: ./Losses.yaml
+LowSeedRank:
+  $ref: ./LowSeedRank.yaml
+LowSeedTeam:
+  $ref: ./LowSeedTeam.yaml
+LowSeedTeamId:
+  $ref: ./LowSeedTeamId.yaml
+LtAST:
+  $ref: ./LtAST.yaml
+LtBLK:
+  $ref: ./LtBLK.yaml
+LtDD:
+  $ref: ./LtDD.yaml
+LtDREB:
+  $ref: ./LtDREB.yaml
+LtFG3A:
+  $ref: ./LtFG3A.yaml
+LtFG3M:
+  $ref: ./LtFG3M.yaml
+LtFG3_PCT:
+  $ref: ./LtFG3_PCT.yaml
+LtFGA:
+  $ref: ./LtFGA.yaml
+LtFGM:
+  $ref: ./LtFGM.yaml
+LtFG_PCT:
+  $ref: ./LtFG_PCT.yaml
+LtFTA:
+  $ref: ./LtFTA.yaml
+LtFTM:
+  $ref: ./LtFTM.yaml
+LtFT_PCT:
+  $ref: ./LtFT_PCT.yaml
+LtMINUTES:
+  $ref: ./LtMINUTES.yaml
+LtOREB:
+  $ref: ./LtOREB.yaml
+LtPF:
+  $ref: ./LtPF.yaml
+LtPTS:
+  $ref: ./LtPTS.yaml
+LtREB:
+  $ref: ./LtREB.yaml
+LtSTL:
+  $ref: ./LtSTL.yaml
+LtTD:
+  $ref: ./LtTD.yaml
+LtTOV:
+  $ref: ./LtTOV.yaml
+Mar:
+  $ref: ./Mar.yaml
+Matchup:
+  $ref: ./Matchup.yaml
+MatchupAst:
+  $ref: ./MatchupAst.yaml
+MatchupBlk:
+  $ref: ./MatchupBlk.yaml
+MatchupFg3Pct:
+  $ref: ./MatchupFg3Pct.yaml
+MatchupFg3a:
+  $ref: ./MatchupFg3a.yaml
+MatchupFg3m:
+  $ref: ./MatchupFg3m.yaml
+MatchupFgPct:
+  $ref: ./MatchupFgPct.yaml
+MatchupFga:
+  $ref: ./MatchupFga.yaml
+MatchupFgm:
+  $ref: ./MatchupFgm.yaml
+MatchupFta:
+  $ref: ./MatchupFta.yaml
+MatchupFtm:
+  $ref: ./MatchupFtm.yaml
+MatchupMin:
+  $ref: ./MatchupMin.yaml
+MatchupPotentialAst:
+  $ref: ./MatchupPotentialAst.yaml
+MatchupTov:
+  $ref: ./MatchupTov.yaml
+MaxActualMinutes:
+  $ref: ./MaxActualMinutes.yaml
+MaxActualSeconds:
+  $ref: ./MaxActualSeconds.yaml
+MaxAst:
+  $ref: ./MaxAst.yaml
+MaxBlk:
+  $ref: ./MaxBlk.yaml
+MaxGameDate:
+  $ref: ./MaxGameDate.yaml
+MaxPts:
+  $ref: ./MaxPts.yaml
+MaxReb:
+  $ref: ./MaxReb.yaml
+MaxStl:
+  $ref: ./MaxStl.yaml
+MaxTurnovers:
+  $ref: ./MaxTurnovers.yaml
+MaxVerticalLeap:
+  $ref: ./MaxVerticalLeap.yaml
+MaxYear:
+  $ref: ./MaxYear.yaml
+May:
+  $ref: ./May.yaml
+MeasureType:
+  $ref: ./MeasureType.yaml
+Min:
+  $ref: ./Min.yaml
+MinGames:
+  $ref: ./MinGames.yaml
+MinRank:
+  $ref: ./MinRank.yaml
+MinYear:
+  $ref: ./MinYear.yaml
+MinutesMin:
+  $ref: ./MinutesMin.yaml
+MinutesRemaining:
+  $ref: ./MinutesRemaining.yaml
+ModifiedLaneAgilityTime:
+  $ref: ./ModifiedLaneAgilityTime.yaml
+Month:
+  $ref: ./Month.yaml
+NatlTvBroadcasterAbbreviation:
+  $ref: ./NatlTvBroadcasterAbbreviation.yaml
+NbaFantasyPts:
+  $ref: ./NbaFantasyPts.yaml
+NbaFantasyPtsRank:
+  $ref: ./NbaFantasyPtsRank.yaml
+NbaFlag:
+  $ref: ./NbaFlag.yaml
+NetRating:
+  $ref: ./NetRating.yaml
+Neutraldescription:
+  $ref: ./Neutraldescription.yaml
+Nickname:
+  $ref: ./Nickname.yaml
+NormalFgPct:
+  $ref: ./NormalFgPct.yaml
+Nov:
+  $ref: ./Nov.yaml
+Num:
+  $ref: ./Num.yaml
+NumberOfGames:
+  $ref: ./NumberOfGames.yaml
+Numseasons:
+  $ref: ./Numseasons.yaml
+Oct:
+  $ref: ./Oct.yaml
+OffBoxouts:
+  $ref: ./OffBoxouts.yaml
+OffDribCollegeBreakLeft:
+  $ref: ./OffDribCollegeBreakLeft.yaml
+OffDribCollegeBreakRight:
+  $ref: ./OffDribCollegeBreakRight.yaml
+OffDribCollegeTopKey:
+  $ref: ./OffDribCollegeTopKey.yaml
+OffDribFifteenBreakLeft:
+  $ref: ./OffDribFifteenBreakLeft.yaml
+OffDribFifteenBreakRight:
+  $ref: ./OffDribFifteenBreakRight.yaml
+OffDribFifteenTopKey:
+  $ref: ./OffDribFifteenTopKey.yaml
+OffLooseBallsRecovered:
+  $ref: ./OffLooseBallsRecovered.yaml
+OffPlayerID:
+  $ref: ./OffPlayerID.yaml
+OffPlayerId:
+  $ref: ./OffPlayerId.yaml
+OffPlayerName:
+  $ref: ./OffPlayerName.yaml
+OffRating:
+  $ref: ./OffRating.yaml
+OffReb:
+  $ref: ./OffReb.yaml
+OffTeamAbbreviation:
+  $ref: ./OffTeamAbbreviation.yaml
+OffTeamCity:
+  $ref: ./OffTeamCity.yaml
+OffTeamID:
+  $ref: ./OffTeamID.yaml
+OffTeamId:
+  $ref: ./OffTeamId.yaml
+OffTeamNickname:
+  $ref: ./OffTeamNickname.yaml
+OfficialId:
+  $ref: ./OfficialId.yaml
+OnMoveCollege:
+  $ref: ./OnMoveCollege.yaml
+OnMoveFifteen:
+  $ref: ./OnMoveFifteen.yaml
+OppEfgPct:
+  $ref: ./OppEfgPct.yaml
+OppFg3Pct:
+  $ref: ./OppFg3Pct.yaml
+OppFtaRate:
+  $ref: ./OppFtaRate.yaml
+OppOrebPct:
+  $ref: ./OppOrebPct.yaml
+OppPts2ndChance:
+  $ref: ./OppPts2ndChance.yaml
+OppPtsFb:
+  $ref: ./OppPtsFb.yaml
+OppPtsOffTov:
+  $ref: ./OppPtsOffTov.yaml
+OppPtsPaint:
+  $ref: ./OppPtsPaint.yaml
+OppPtsPg:
+  $ref: ./OppPtsPg.yaml
+OppPtsRank:
+  $ref: ./OppPtsRank.yaml
+OppTeamID:
+  $ref: ./OppTeamID.yaml
+OppTovPct:
+  $ref: ./OppTovPct.yaml
+OpponentTeamID:
+  $ref: ./OpponentTeamID.yaml
+Oppositeteam:
+  $ref: ./Oppositeteam.yaml
+Oppover500:
+  $ref: ./Oppover500.yaml
+Opppointspg:
+  $ref: ./Opppointspg.yaml
+Oppscore100pts:
+  $ref: ./Oppscore100pts.yaml
+Oreb:
+  $ref: ./Oreb.yaml
+OrebPct:
+  $ref: ./OrebPct.yaml
+OrebRank:
+  $ref: ./OrebRank.yaml
+Organization:
+  $ref: ./Organization.yaml
+OrganizationId:
+  $ref: ./OrganizationId.yaml
+OrganizationType:
+  $ref: ./OrganizationType.yaml
+Ot:
+  $ref: ./Ot.yaml
+OtherleagueExperienceCh:
+  $ref: ./OtherleagueExperienceCh.yaml
+OutTimeReal:
+  $ref: ./OutTimeReal.yaml
+Outcome:
+  $ref: ./Outcome.yaml
+Overall:
+  $ref: ./Overall.yaml
+OverallPick:
+  $ref: ./OverallPick.yaml
+OverallPm:
+  $ref: ./OverallPm.yaml
+Owner:
+  $ref: ./Owner.yaml
+PORound:
+  $ref: ./PORound.yaml
+Pace:
+  $ref: ./Pace.yaml
+PaceAdjust:
+  $ref: ./PaceAdjust.yaml
+PacePer40:
+  $ref: ./PacePer40.yaml
+PartialPoss:
+  $ref: ./PartialPoss.yaml
+Pass:
+  $ref: ./Pass.yaml
+PassFrom:
+  $ref: ./PassFrom.yaml
+PassTeammatePlayerId:
+  $ref: ./PassTeammatePlayerId.yaml
+PassTo:
+  $ref: ./PassTo.yaml
+PassType:
+  $ref: ./PassType.yaml
+Pct:
+  $ref: ./Pct.yaml
+PctAst:
+  $ref: ./PctAst.yaml
+PctAst2pm:
+  $ref: ./PctAst2pm.yaml
+PctAst2pmRank:
+  $ref: ./PctAst2pmRank.yaml
+PctAst3pm:
+  $ref: ./PctAst3pm.yaml
+PctAst3pmRank:
+  $ref: ./PctAst3pmRank.yaml
+PctAstFgm:
+  $ref: ./PctAstFgm.yaml
+PctAstFgmRank:
+  $ref: ./PctAstFgmRank.yaml
+PctBlk:
+  $ref: ./PctBlk.yaml
+PctBlka:
+  $ref: ./PctBlka.yaml
+PctBoxOutsDef:
+  $ref: ./PctBoxOutsDef.yaml
+PctBoxOutsOff:
+  $ref: ./PctBoxOutsOff.yaml
+PctBoxOutsReb:
+  $ref: ./PctBoxOutsReb.yaml
+PctBoxOutsTeamReb:
+  $ref: ./PctBoxOutsTeamReb.yaml
+PctDefenderTotalTime:
+  $ref: ./PctDefenderTotalTime.yaml
+PctDreb:
+  $ref: ./PctDreb.yaml
+PctFg3a:
+  $ref: ./PctFg3a.yaml
+PctFg3m:
+  $ref: ./PctFg3m.yaml
+PctFga:
+  $ref: ./PctFga.yaml
+PctFga2pt:
+  $ref: ./PctFga2pt.yaml
+PctFga3pt:
+  $ref: ./PctFga3pt.yaml
+PctFgm:
+  $ref: ./PctFgm.yaml
+PctFta:
+  $ref: ./PctFta.yaml
+PctFtm:
+  $ref: ./PctFtm.yaml
+PctLooseBallsRecoveredDef:
+  $ref: ./PctLooseBallsRecoveredDef.yaml
+PctLooseBallsRecoveredOff:
+  $ref: ./PctLooseBallsRecoveredOff.yaml
+PctOffTotalTime:
+  $ref: ./PctOffTotalTime.yaml
+PctOreb:
+  $ref: ./PctOreb.yaml
+PctPf:
+  $ref: ./PctPf.yaml
+PctPfd:
+  $ref: ./PctPfd.yaml
+PctPlusminus:
+  $ref: ./PctPlusminus.yaml
+PctPts:
+  $ref: ./PctPts.yaml
+PctPts2pt:
+  $ref: ./PctPts2pt.yaml
+PctPts2ptMr:
+  $ref: ./PctPts2ptMr.yaml
+PctPts3pt:
+  $ref: ./PctPts3pt.yaml
+PctPtsFb:
+  $ref: ./PctPtsFb.yaml
+PctPtsFt:
+  $ref: ./PctPtsFt.yaml
+PctPtsOffTov:
+  $ref: ./PctPtsOffTov.yaml
+PctPtsPaint:
+  $ref: ./PctPtsPaint.yaml
+PctReb:
+  $ref: ./PctReb.yaml
+PctStl:
+  $ref: ./PctStl.yaml
+PctTotalTimeBothOn:
+  $ref: ./PctTotalTimeBothOn.yaml
+PctTov:
+  $ref: ./PctTov.yaml
+PctUast2pm:
+  $ref: ./PctUast2pm.yaml
+PctUast2pmRank:
+  $ref: ./PctUast2pmRank.yaml
+PctUast3pm:
+  $ref: ./PctUast3pm.yaml
+PctUast3pmRank:
+  $ref: ./PctUast3pmRank.yaml
+PctUastFgm:
+  $ref: ./PctUastFgm.yaml
+PctUastFgmRank:
+  $ref: ./PctUastFgmRank.yaml
+Pctimestring:
+  $ref: ./Pctimestring.yaml
+PerMinAst:
+  $ref: ./PerMinAst.yaml
+PerMinBlk:
+  $ref: ./PerMinBlk.yaml
+PerMinPts:
+  $ref: ./PerMinPts.yaml
+PerMinStl:
+  $ref: ./PerMinStl.yaml
+PerMinTotReb:
+  $ref: ./PerMinTotReb.yaml
+PerMinTurnovers:
+  $ref: ./PerMinTurnovers.yaml
+PerMode:
+  $ref: ./PerMode.yaml
+PercentOfTime:
+  $ref: ./PercentOfTime.yaml
+Percentile:
+  $ref: ./Percentile.yaml
+Period:
+  $ref: ./Period.yaml
+Person1Id:
+  $ref: ./Person1Id.yaml
+Person1LeagueId:
+  $ref: ./Person1LeagueId.yaml
+Person1Season:
+  $ref: ./Person1Season.yaml
+Person1SeasonType:
+  $ref: ./Person1SeasonType.yaml
+Person2:
+  $ref: ./Person2.yaml
+Person2Id:
+  $ref: ./Person2Id.yaml
+Person2LeagueId:
+  $ref: ./Person2LeagueId.yaml
+Person2Season:
+  $ref: ./Person2Season.yaml
+Person2SeasonType:
+  $ref: ./Person2SeasonType.yaml
+Person2TeamId:
+  $ref: ./Person2TeamId.yaml
+PersonId:
+  $ref: ./PersonId.yaml
+Pf:
+  $ref: ./Pf.yaml
+PfRank:
+  $ref: ./PfRank.yaml
+Pfd:
+  $ref: ./Pfd.yaml
+PfdRank:
+  $ref: ./PfdRank.yaml
+Pie:
+  $ref: ./Pie.yaml
+PlayType:
+  $ref: ./PlayType.yaml
+Player:
+  $ref: ./Player.yaml
+PlayerAge:
+  $ref: ./PlayerAge.yaml
+PlayerExperience:
+  $ref: ./PlayerExperience.yaml
+PlayerFirst:
+  $ref: ./PlayerFirst.yaml
+PlayerHeight:
+  $ref: ./PlayerHeight.yaml
+PlayerHeightInches:
+  $ref: ./PlayerHeightInches.yaml
+PlayerID:
+  $ref: ./PlayerID.yaml
+PlayerID1:
+  $ref: ./PlayerID1.yaml
+PlayerID2:
+  $ref: ./PlayerID2.yaml
+PlayerID3:
+  $ref: ./PlayerID3.yaml
+PlayerID4:
+  $ref: ./PlayerID4.yaml
+PlayerID5:
+  $ref: ./PlayerID5.yaml
+PlayerIDList:
+  $ref: ./PlayerIDList.yaml
+PlayerId:
+  $ref: ./PlayerId.yaml
+PlayerLast:
+  $ref: ./PlayerLast.yaml
+PlayerLastTeamAbbreviation:
+  $ref: ./PlayerLastTeamAbbreviation.yaml
+PlayerLastTeamId:
+  $ref: ./PlayerLastTeamId.yaml
+PlayerName:
+  $ref: ./PlayerName.yaml
+PlayerNameLastFirst:
+  $ref: ./PlayerNameLastFirst.yaml
+PlayerOrTeam:
+  $ref: ./PlayerOrTeam.yaml
+PlayerPosition:
+  $ref: ./PlayerPosition.yaml
+PlayerPts:
+  $ref: ./PlayerPts.yaml
+PlayerScope:
+  $ref: ./PlayerScope.yaml
+PlayerSlug:
+  $ref: ./PlayerSlug.yaml
+PlayerTeamAbbreviation:
+  $ref: ./PlayerTeamAbbreviation.yaml
+PlayerTeamCity:
+  $ref: ./PlayerTeamCity.yaml
+PlayerTeamId:
+  $ref: ./PlayerTeamId.yaml
+PlayerTeamNickname:
+  $ref: ./PlayerTeamNickname.yaml
+PlayerWeight:
+  $ref: ./PlayerWeight.yaml
+Playercode:
+  $ref: ./Playercode.yaml
+Playerid:
+  $ref: ./Playerid.yaml
+Players:
+  $ref: ./Players.yaml
+Playoffrank:
+  $ref: ./Playoffrank.yaml
+PlusMinus:
+  $ref: ./PlusMinus.yaml
+PlusMinusRank:
+  $ref: ./PlusMinusRank.yaml
+PlusonePossPct:
+  $ref: ./PlusonePossPct.yaml
+PoAppearances:
+  $ref: ./PoAppearances.yaml
+PointDiff:
+  $ref: ./PointDiff.yaml
+Pointspg:
+  $ref: ./Pointspg.yaml
+Position:
+  $ref: ./Position.yaml
+Poss:
+  $ref: ./Poss.yaml
+PossPct:
+  $ref: ./PossPct.yaml
+Postas:
+  $ref: ./Postas.yaml
+Ppp:
+  $ref: ./Ppp.yaml
+Preas:
+  $ref: ./Preas.yaml
+PtAvailable:
+  $ref: ./PtAvailable.yaml
+PtDiff:
+  $ref: ./PtDiff.yaml
+PtMeasureType:
+  $ref: ./PtMeasureType.yaml
+PtXyzAvailable:
+  $ref: ./PtXyzAvailable.yaml
+Pts:
+  $ref: ./Pts.yaml
+Pts2ndChance:
+  $ref: ./Pts2ndChance.yaml
+PtsFb:
+  $ref: ./PtsFb.yaml
+PtsOffTo:
+  $ref: ./PtsOffTo.yaml
+PtsOffTov:
+  $ref: ./PtsOffTov.yaml
+PtsOt1:
+  $ref: ./PtsOt1.yaml
+PtsOt10:
+  $ref: ./PtsOt10.yaml
+PtsOt2:
+  $ref: ./PtsOt2.yaml
+PtsOt3:
+  $ref: ./PtsOt3.yaml
+PtsOt4:
+  $ref: ./PtsOt4.yaml
+PtsOt5:
+  $ref: ./PtsOt5.yaml
+PtsOt6:
+  $ref: ./PtsOt6.yaml
+PtsOt7:
+  $ref: ./PtsOt7.yaml
+PtsOt8:
+  $ref: ./PtsOt8.yaml
+PtsOt9:
+  $ref: ./PtsOt9.yaml
+PtsPaint:
+  $ref: ./PtsPaint.yaml
+PtsPer48:
+  $ref: ./PtsPer48.yaml
+PtsPersonId:
+  $ref: ./PtsPersonId.yaml
+PtsPg:
+  $ref: ./PtsPg.yaml
+PtsPlayer:
+  $ref: ./PtsPlayer.yaml
+PtsPlayerId:
+  $ref: ./PtsPlayerId.yaml
+PtsPlayerName:
+  $ref: ./PtsPlayerName.yaml
+PtsQtr1:
+  $ref: ./PtsQtr1.yaml
+PtsQtr2:
+  $ref: ./PtsQtr2.yaml
+PtsQtr3:
+  $ref: ./PtsQtr3.yaml
+PtsQtr4:
+  $ref: ./PtsQtr4.yaml
+PtsRank:
+  $ref: ./PtsRank.yaml
+RangeType:
+  $ref: ./RangeType.yaml
+Rank:
+  $ref: ./Rank.yaml
+RankAst:
+  $ref: ./RankAst.yaml
+RankBlk:
+  $ref: ./RankBlk.yaml
+RankDreb:
+  $ref: ./RankDreb.yaml
+RankEff:
+  $ref: ./RankEff.yaml
+RankFg3Pct:
+  $ref: ./RankFg3Pct.yaml
+RankFg3a:
+  $ref: ./RankFg3a.yaml
+RankFg3m:
+  $ref: ./RankFg3m.yaml
+RankFgPct:
+  $ref: ./RankFgPct.yaml
+RankFga:
+  $ref: ./RankFga.yaml
+RankFgm:
+  $ref: ./RankFgm.yaml
+RankFtPct:
+  $ref: ./RankFtPct.yaml
+RankFta:
+  $ref: ./RankFta.yaml
+RankFtm:
+  $ref: ./RankFtm.yaml
+RankMin:
+  $ref: ./RankMin.yaml
+RankOreb:
+  $ref: ./RankOreb.yaml
+RankPts:
+  $ref: ./RankPts.yaml
+RankReb:
+  $ref: ./RankReb.yaml
+RankStl:
+  $ref: ./RankStl.yaml
+RankTov:
+  $ref: ./RankTov.yaml
+RankingCriteria:
+  $ref: ./RankingCriteria.yaml
+Reb:
+  $ref: ./Reb.yaml
+RebDistRange:
+  $ref: ./RebDistRange.yaml
+RebFrequency:
+  $ref: ./RebFrequency.yaml
+RebNumContestingRange:
+  $ref: ./RebNumContestingRange.yaml
+RebPct:
+  $ref: ./RebPct.yaml
+RebPersonId:
+  $ref: ./RebPersonId.yaml
+RebPg:
+  $ref: ./RebPg.yaml
+RebPlayer:
+  $ref: ./RebPlayer.yaml
+RebPlayerId:
+  $ref: ./RebPlayerId.yaml
+RebPlayerName:
+  $ref: ./RebPlayerName.yaml
+RebRank:
+  $ref: ./RebRank.yaml
+Record:
+  $ref: ./Record.yaml
+Region:
+  $ref: ./Region.yaml
+RemainingAwayG:
+  $ref: ./RemainingAwayG.yaml
+RemainingG:
+  $ref: ./RemainingG.yaml
+RemainingHomeG:
+  $ref: ./RemainingHomeG.yaml
+Returntoplay:
+  $ref: ./Returntoplay.yaml
+ReturntoplayAlreadyEliminated:
+  $ref: ./ReturntoplayAlreadyEliminated.yaml
+ReturntoplayEastPiFlag:
+  $ref: ./ReturntoplayEastPiFlag.yaml
+ReturntoplayWestPiFlag:
+  $ref: ./ReturntoplayWestPiFlag.yaml
+Road:
+  $ref: ./Road.yaml
+RoadRecord:
+  $ref: ./RoadRecord.yaml
+RookieYear:
+  $ref: ./RookieYear.yaml
+Rosterstatus:
+  $ref: ./Rosterstatus.yaml
+RoundNum:
+  $ref: ./RoundNum.yaml
+RoundNumber:
+  $ref: ./RoundNumber.yaml
+RoundPick:
+  $ref: ./RoundPick.yaml
+RunType:
+  $ref: ./RunType.yaml
+School:
+  $ref: ./School.yaml
+SchoolName:
+  $ref: ./SchoolName.yaml
+Scope:
+  $ref: ./Scope.yaml
+Score:
+  $ref: ./Score.yaml
+Score100pts:
+  $ref: ./Score100pts.yaml
+ScorePossPct:
+  $ref: ./ScorePossPct.yaml
+Scoremargin:
+  $ref: ./Scoremargin.yaml
+ScreenAssists:
+  $ref: ./ScreenAssists.yaml
+ScreenAstPts:
+  $ref: ./ScreenAstPts.yaml
+Season:
+  $ref: ./Season.yaml
+SeasonExp:
+  $ref: ./SeasonExp.yaml
+SeasonID:
+  $ref: ./SeasonID.yaml
+SeasonId:
+  $ref: ./SeasonId.yaml
+SeasonMonthName:
+  $ref: ./SeasonMonthName.yaml
+SeasonSegment:
+  $ref: ./SeasonSegment.yaml
+SeasonType:
+  $ref: ./SeasonType.yaml
+SeasonYear:
+  $ref: ./SeasonYear.yaml
+Seasonid:
+  $ref: ./Seasonid.yaml
+Seasonswithteam:
+  $ref: ./Seasonswithteam.yaml
+SecondsRemaining:
+  $ref: ./SecondsRemaining.yaml
+Seed:
+  $ref: ./Seed.yaml
+SeedingGame1Id:
+  $ref: ./SeedingGame1Id.yaml
+SeedingGame1Label:
+  $ref: ./SeedingGame1Label.yaml
+SeedingGame1Opponent:
+  $ref: ./SeedingGame1Opponent.yaml
+SeedingGame1Outcome:
+  $ref: ./SeedingGame1Outcome.yaml
+SeedingGame2Id:
+  $ref: ./SeedingGame2Id.yaml
+SeedingGame2Label:
+  $ref: ./SeedingGame2Label.yaml
+SeedingGame2Opponent:
+  $ref: ./SeedingGame2Opponent.yaml
+SeedingGame2Outcome:
+  $ref: ./SeedingGame2Outcome.yaml
+SeedingGame3Id:
+  $ref: ./SeedingGame3Id.yaml
+SeedingGame3Label:
+  $ref: ./SeedingGame3Label.yaml
+SeedingGame3Opponent:
+  $ref: ./SeedingGame3Opponent.yaml
+SeedingGame3Outcome:
+  $ref: ./SeedingGame3Outcome.yaml
+SeedingGame4Id:
+  $ref: ./SeedingGame4Id.yaml
+SeedingGame4Label:
+  $ref: ./SeedingGame4Label.yaml
+SeedingGame4Opponent:
+  $ref: ./SeedingGame4Opponent.yaml
+SeedingGame4Outcome:
+  $ref: ./SeedingGame4Outcome.yaml
+SeedingGame5Id:
+  $ref: ./SeedingGame5Id.yaml
+SeedingGame5Label:
+  $ref: ./SeedingGame5Label.yaml
+SeedingGame5Opponent:
+  $ref: ./SeedingGame5Opponent.yaml
+SeedingGame5Outcome:
+  $ref: ./SeedingGame5Outcome.yaml
+SeedingGame6Id:
+  $ref: ./SeedingGame6Id.yaml
+SeedingGame6Label:
+  $ref: ./SeedingGame6Label.yaml
+SeedingGame6Opponent:
+  $ref: ./SeedingGame6Opponent.yaml
+SeedingGame6Outcome:
+  $ref: ./SeedingGame6Outcome.yaml
+SeedingGame7Id:
+  $ref: ./SeedingGame7Id.yaml
+SeedingGame7Label:
+  $ref: ./SeedingGame7Label.yaml
+SeedingGame7Opponent:
+  $ref: ./SeedingGame7Opponent.yaml
+SeedingGame7Outcome:
+  $ref: ./SeedingGame7Outcome.yaml
+SeedingGame8Id:
+  $ref: ./SeedingGame8Id.yaml
+SeedingGame8Label:
+  $ref: ./SeedingGame8Label.yaml
+SeedingGame8Opponent:
+  $ref: ./SeedingGame8Opponent.yaml
+SeedingGame8Outcome:
+  $ref: ./SeedingGame8Outcome.yaml
+Sep:
+  $ref: ./Sep.yaml
+SeriesID:
+  $ref: ./SeriesID.yaml
+SeriesId:
+  $ref: ./SeriesId.yaml
+SeriesLeader:
+  $ref: ./SeriesLeader.yaml
+SfPossPct:
+  $ref: ./SfPossPct.yaml
+Sfl:
+  $ref: ./Sfl.yaml
+ShotAttemptedFlag:
+  $ref: ./ShotAttemptedFlag.yaml
+ShotClockRange:
+  $ref: ./ShotClockRange.yaml
+ShotDistRange:
+  $ref: ./ShotDistRange.yaml
+ShotDistance:
+  $ref: ./ShotDistance.yaml
+ShotMadeFlag:
+  $ref: ./ShotMadeFlag.yaml
+ShotType:
+  $ref: ./ShotType.yaml
+ShotTypeRange:
+  $ref: ./ShotTypeRange.yaml
+ShotZoneArea:
+  $ref: ./ShotZoneArea.yaml
+ShotZoneBasic:
+  $ref: ./ShotZoneBasic.yaml
+ShotZoneRange:
+  $ref: ./ShotZoneRange.yaml
+SimilarityScore:
+  $ref: ./SimilarityScore.yaml
+SortOrder:
+  $ref: ./SortOrder.yaml
+SortSequence:
+  $ref: ./SortSequence.yaml
+Sorter:
+  $ref: ./Sorter.yaml
+SosaRemaining:
+  $ref: ./SosaRemaining.yaml
+SpotCollegeBreakLeft:
+  $ref: ./SpotCollegeBreakLeft.yaml
+SpotCollegeBreakRight:
+  $ref: ./SpotCollegeBreakRight.yaml
+SpotCollegeCornerLeft:
+  $ref: ./SpotCollegeCornerLeft.yaml
+SpotCollegeCornerRight:
+  $ref: ./SpotCollegeCornerRight.yaml
+SpotCollegeTopKey:
+  $ref: ./SpotCollegeTopKey.yaml
+SpotFifteenBreakLeft:
+  $ref: ./SpotFifteenBreakLeft.yaml
+SpotFifteenBreakRight:
+  $ref: ./SpotFifteenBreakRight.yaml
+SpotFifteenCornerLeft:
+  $ref: ./SpotFifteenCornerLeft.yaml
+SpotFifteenCornerRight:
+  $ref: ./SpotFifteenCornerRight.yaml
+SpotFifteenTopKey:
+  $ref: ./SpotFifteenTopKey.yaml
+SpotNbaBreakLeft:
+  $ref: ./SpotNbaBreakLeft.yaml
+SpotNbaBreakRight:
+  $ref: ./SpotNbaBreakRight.yaml
+SpotNbaCornerLeft:
+  $ref: ./SpotNbaCornerLeft.yaml
+SpotNbaCornerRight:
+  $ref: ./SpotNbaCornerRight.yaml
+SpotNbaTopKey:
+  $ref: ./SpotNbaTopKey.yaml
+StandingReach:
+  $ref: ./StandingReach.yaml
+StandingReachFtIn:
+  $ref: ./StandingReachFtIn.yaml
+StandingVerticalLeap:
+  $ref: ./StandingVerticalLeap.yaml
+Standingsdate:
+  $ref: ./Standingsdate.yaml
+StartPeriod:
+  $ref: ./StartPeriod.yaml
+StartPosition:
+  $ref: ./StartPosition.yaml
+StartRange:
+  $ref: ./StartRange.yaml
+StartYear:
+  $ref: ./StartYear.yaml
+Startdate:
+  $ref: ./Startdate.yaml
+StarterBench:
+  $ref: ./StarterBench.yaml
+StartersBench:
+  $ref: ./StartersBench.yaml
+Stat:
+  $ref: ./Stat.yaml
+StatCategory:
+  $ref: ./StatCategory.yaml
+StatOrder:
+  $ref: ./StatOrder.yaml
+StatType:
+  $ref: ./StatType.yaml
+StatsValue:
+  $ref: ./StatsValue.yaml
+Stl:
+  $ref: ./Stl.yaml
+StlPersonId:
+  $ref: ./StlPersonId.yaml
+StlPlayer:
+  $ref: ./StlPlayer.yaml
+StlRank:
+  $ref: ./StlRank.yaml
+StlTov:
+  $ref: ./StlTov.yaml
+Strcurrenthomestreak:
+  $ref: ./Strcurrenthomestreak.yaml
+Strcurrentroadstreak:
+  $ref: ./Strcurrentroadstreak.yaml
+Strcurrentstreak:
+  $ref: ./Strcurrentstreak.yaml
+Strlonghomestreak:
+  $ref: ./Strlonghomestreak.yaml
+Strlongroadstreak:
+  $ref: ./Strlongroadstreak.yaml
+Subtype1:
+  $ref: ./Subtype1.yaml
+Subtype2:
+  $ref: ./Subtype2.yaml
+Subtype3:
+  $ref: ./Subtype3.yaml
+SwitchesOn:
+  $ref: ./SwitchesOn.yaml
+Td3:
+  $ref: ./Td3.yaml
+Td3Rank:
+  $ref: ./Td3Rank.yaml
+Team:
+  $ref: ./Team.yaml
+TeamAbbreviation:
+  $ref: ./TeamAbbreviation.yaml
+TeamCity:
+  $ref: ./TeamCity.yaml
+TeamCityName:
+  $ref: ./TeamCityName.yaml
+TeamCode:
+  $ref: ./TeamCode.yaml
+TeamConference:
+  $ref: ./TeamConference.yaml
+TeamDaysRestRange:
+  $ref: ./TeamDaysRestRange.yaml
+TeamDivision:
+  $ref: ./TeamDivision.yaml
+TeamGameLocation:
+  $ref: ./TeamGameLocation.yaml
+TeamID:
+  $ref: ./TeamID.yaml
+TeamId:
+  $ref: ./TeamId.yaml
+TeamName:
+  $ref: ./TeamName.yaml
+TeamNickname:
+  $ref: ./TeamNickname.yaml
+TeamPts:
+  $ref: ./TeamPts.yaml
+TeamRebounds:
+  $ref: ./TeamRebounds.yaml
+TeamSlug:
+  $ref: ./TeamSlug.yaml
+TeamTurnovers:
+  $ref: ./TeamTurnovers.yaml
+TeamWinsLosses:
+  $ref: ./TeamWinsLosses.yaml
+Teamcity:
+  $ref: ./Teamcity.yaml
+Teamid:
+  $ref: ./Teamid.yaml
+Teamname:
+  $ref: ./Teamname.yaml
+TempPlayerId:
+  $ref: ./TempPlayerId.yaml
+Tenptsormore:
+  $ref: ./Tenptsormore.yaml
+ThreeQuarterSprint:
+  $ref: ./ThreeQuarterSprint.yaml
+ThreepDfgpct:
+  $ref: ./ThreepDfgpct.yaml
+Threeptsorless:
+  $ref: ./Threeptsorless.yaml
+Tiedathalf:
+  $ref: ./Tiedathalf.yaml
+Tiedatthird:
+  $ref: ./Tiedatthird.yaml
+Timeframe:
+  $ref: ./Timeframe.yaml
+TimesTied:
+  $ref: ./TimesTied.yaml
+TitleDescription:
+  $ref: ./TitleDescription.yaml
+TmAstPct:
+  $ref: ./TmAstPct.yaml
+TmDefRating:
+  $ref: ./TmDefRating.yaml
+TmTovPct:
+  $ref: ./TmTovPct.yaml
+To:
+  $ref: ./To.yaml
+ToYear:
+  $ref: ./ToYear.yaml
+TodaysOpponent:
+  $ref: ./TodaysOpponent.yaml
+TodaysPlayers:
+  $ref: ./TodaysPlayers.yaml
+TopX:
+  $ref: ./TopX.yaml
+TotReb:
+  $ref: ./TotReb.yaml
+TotalTurnovers:
+  $ref: ./TotalTurnovers.yaml
+TouchTimeRange:
+  $ref: ./TouchTimeRange.yaml
+Tov:
+  $ref: ./Tov.yaml
+TovPossPct:
+  $ref: ./TovPossPct.yaml
+TovRank:
+  $ref: ./TovRank.yaml
+TsPct:
+  $ref: ./TsPct.yaml
+Turnovers:
+  $ref: ./Turnovers.yaml
+TwoWay:
+  $ref: ./TwoWay.yaml
+TwopDfgpct:
+  $ref: ./TwopDfgpct.yaml
+Type:
+  $ref: ./Type.yaml
+TypeGrouping:
+  $ref: ./TypeGrouping.yaml
+UcDreb:
+  $ref: ./UcDreb.yaml
+UcOreb:
+  $ref: ./UcOreb.yaml
+UcReb:
+  $ref: ./UcReb.yaml
+UcRebPct:
+  $ref: ./UcRebPct.yaml
+UsgPct:
+  $ref: ./UsgPct.yaml
+VideoAvailable:
+  $ref: ./VideoAvailable.yaml
+VideoAvailableFlag:
+  $ref: ./VideoAvailableFlag.yaml
+VisitorPct:
+  $ref: ./VisitorPct.yaml
+VisitorPts:
+  $ref: ./VisitorPts.yaml
+VisitorTeam:
+  $ref: ./VisitorTeam.yaml
+VisitorTeamAbbreviation:
+  $ref: ./VisitorTeamAbbreviation.yaml
+VisitorTeamCity:
+  $ref: ./VisitorTeamCity.yaml
+VisitorTeamId:
+  $ref: ./VisitorTeamId.yaml
+VisitorTeamName:
+  $ref: ./VisitorTeamName.yaml
+VisitorTeamNickname:
+  $ref: ./VisitorTeamNickname.yaml
+VisitorWl:
+  $ref: ./VisitorWl.yaml
+Visitordescription:
+  $ref: ./Visitordescription.yaml
+VsConference:
+  $ref: ./VsConference.yaml
+VsDivision:
+  $ref: ./VsDivision.yaml
+VsPlayerID:
+  $ref: ./VsPlayerID.yaml
+VsPlayerID1:
+  $ref: ./VsPlayerID1.yaml
+VsPlayerID2:
+  $ref: ./VsPlayerID2.yaml
+VsPlayerID3:
+  $ref: ./VsPlayerID3.yaml
+VsPlayerID4:
+  $ref: ./VsPlayerID4.yaml
+VsPlayerID5:
+  $ref: ./VsPlayerID5.yaml
+VsPlayerIDList:
+  $ref: ./VsPlayerIDList.yaml
+VsPlayerId:
+  $ref: ./VsPlayerId.yaml
+VsPlayerName:
+  $ref: ./VsPlayerName.yaml
+VsTeamAbbreviation:
+  $ref: ./VsTeamAbbreviation.yaml
+VsTeamCity:
+  $ref: ./VsTeamCity.yaml
+VsTeamID:
+  $ref: ./VsTeamID.yaml
+VsTeamId:
+  $ref: ./VsTeamId.yaml
+VsTeamName:
+  $ref: ./VsTeamName.yaml
+VsTeamNickname:
+  $ref: ./VsTeamNickname.yaml
+Vsatlantic:
+  $ref: ./Vsatlantic.yaml
+Vscentral:
+  $ref: ./Vscentral.yaml
+Vseast:
+  $ref: ./Vseast.yaml
+Vsnorthwest:
+  $ref: ./Vsnorthwest.yaml
+Vspacific:
+  $ref: ./Vspacific.yaml
+Vssoutheast:
+  $ref: ./Vssoutheast.yaml
+Vssouthwest:
+  $ref: ./Vssouthwest.yaml
+Vswest:
+  $ref: ./Vswest.yaml
+Vtm:
+  $ref: ./Vtm.yaml
+W:
+  $ref: ./W.yaml
+WHome:
+  $ref: ./WHome.yaml
+WPct:
+  $ref: ./WPct.yaml
+WPctRank:
+  $ref: ./WPctRank.yaml
+WRank:
+  $ref: ./WRank.yaml
+WRoad:
+  $ref: ./WRoad.yaml
+Wctimestring:
+  $ref: ./Wctimestring.yaml
+WebsiteLink:
+  $ref: ./WebsiteLink.yaml
+Week:
+  $ref: ./Week.yaml
+Weight:
+  $ref: ./Weight.yaml
+WhStatus:
+  $ref: ./WhStatus.yaml
+WinPct:
+  $ref: ./WinPct.yaml
+Wingspan:
+  $ref: ./Wingspan.yaml
+WingspanFtIn:
+  $ref: ./WingspanFtIn.yaml
+Winpct:
+  $ref: ./Winpct.yaml
+Wins:
+  $ref: ./Wins.yaml
+Wl:
+  $ref: ./Wl.yaml
+Year:
+  $ref: ./Year.yaml
+Yearactivetill:
+  $ref: ./Yearactivetill.yaml
+Yearawarded:
+  $ref: ./Yearawarded.yaml
+Yearfounded:
+  $ref: ./Yearfounded.yaml
+Years:
+  $ref: ./Years.yaml
+YearsExperience:
+  $ref: ./YearsExperience.yaml

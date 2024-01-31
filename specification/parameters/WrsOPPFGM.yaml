@@ -1,0 +1,5 @@
+name: WrsOPPFGM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WrsOPPFGM.yaml

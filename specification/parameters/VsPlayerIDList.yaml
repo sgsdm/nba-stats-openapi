@@ -1,0 +1,6 @@
+name: VsPlayerIDList
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/VsPlayerIDList.yaml
+required: true

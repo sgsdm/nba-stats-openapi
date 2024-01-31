@@ -1,0 +1,13 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: ASSISTS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Assists.yaml

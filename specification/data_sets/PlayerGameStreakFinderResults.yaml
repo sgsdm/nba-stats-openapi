@@ -1,0 +1,37 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_NAME_LAST_FIRST
+    - const: PLAYER_ID
+    - const: GAMESTREAK
+    - const: STARTDATE
+    - const: ENDDATE
+    - const: ACTIVESTREAK
+    - const: NUMSEASONS
+    - const: LASTSEASON
+    - const: FIRSTSEASON
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerNameLastFirst.yaml
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/Gamestreak.yaml
+    - type:
+        $ref: ../schemas/Startdate.yaml
+    - type:
+        $ref: ../schemas/Enddate.yaml
+    - type:
+        $ref: ../schemas/Activestreak.yaml
+    - type:
+        $ref: ../schemas/Numseasons.yaml
+    - type:
+        $ref: ../schemas/Lastseason.yaml
+    - type:
+        $ref: ../schemas/Firstseason.yaml

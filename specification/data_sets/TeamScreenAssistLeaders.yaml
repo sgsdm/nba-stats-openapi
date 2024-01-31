@@ -1,0 +1,25 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TEAM_ID
+    - const: TEAM_NAME
+    - const: TEAM_ABBREVIATION
+    - const: RANK
+    - const: SCREEN_ASSISTS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/Rank.yaml
+    - type:
+        $ref: ../schemas/ScreenAssists.yaml

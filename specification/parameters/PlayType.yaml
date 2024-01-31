@@ -1,0 +1,5 @@
+name: PlayType
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PlayType.yaml

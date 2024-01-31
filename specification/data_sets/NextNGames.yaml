@@ -1,0 +1,49 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: GAME_DATE
+    - const: HOME_TEAM_ID
+    - const: VISITOR_TEAM_ID
+    - const: HOME_TEAM_NAME
+    - const: VISITOR_TEAM_NAME
+    - const: HOME_TEAM_ABBREVIATION
+    - const: VISITOR_TEAM_ABBREVIATION
+    - const: HOME_TEAM_NICKNAME
+    - const: VISITOR_TEAM_NICKNAME
+    - const: GAME_TIME
+    - const: HOME_WL
+    - const: VISITOR_WL
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/GameDate.yaml
+    - type:
+        $ref: ../schemas/HomeTeamId.yaml
+    - type:
+        $ref: ../schemas/VisitorTeamId.yaml
+    - type:
+        $ref: ../schemas/HomeTeamName.yaml
+    - type:
+        $ref: ../schemas/VisitorTeamName.yaml
+    - type:
+        $ref: ../schemas/HomeTeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/VisitorTeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/HomeTeamNickname.yaml
+    - type:
+        $ref: ../schemas/VisitorTeamNickname.yaml
+    - type:
+        $ref: ../schemas/GameTime.yaml
+    - type:
+        $ref: ../schemas/HomeWl.yaml
+    - type:
+        $ref: ../schemas/VisitorWl.yaml

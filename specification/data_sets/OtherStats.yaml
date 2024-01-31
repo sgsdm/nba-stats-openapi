@@ -1,0 +1,52 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: LEAGUE_ID
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_CITY
+    - const: PTS_PAINT
+    - const: PTS_2ND_CHANCE
+    - const: PTS_FB
+    - const: LARGEST_LEAD
+    - const: LEAD_CHANGES
+    - const: TIMES_TIED
+    - const: TEAM_TURNOVERS
+    - const: TOTAL_TURNOVERS
+    - const: TEAM_REBOUNDS
+    - const: PTS_OFF_TO
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/LeagueId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamCity.yaml
+    - type:
+        $ref: ../schemas/PtsPaint.yaml
+    - type:
+        $ref: ../schemas/Pts2ndChance.yaml
+    - type:
+        $ref: ../schemas/PtsFb.yaml
+    - type:
+        $ref: ../schemas/LargestLead.yaml
+    - type:
+        $ref: ../schemas/LeadChanges.yaml
+    - type:
+        $ref: ../schemas/TimesTied.yaml
+    - type:
+        $ref: ../schemas/TeamTurnovers.yaml
+    - type:
+        $ref: ../schemas/TotalTurnovers.yaml
+    - type:
+        $ref: ../schemas/TeamRebounds.yaml
+    - type:
+        $ref: ../schemas/PtsOffTo.yaml

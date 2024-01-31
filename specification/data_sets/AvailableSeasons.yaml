@@ -1,0 +1,13 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: SEASON_ID
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/SeasonId.yaml

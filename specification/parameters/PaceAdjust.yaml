@@ -1,0 +1,6 @@
+name: PaceAdjust
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PaceAdjust.yaml
+required: true

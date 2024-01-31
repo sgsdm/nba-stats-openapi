@@ -1,0 +1,13 @@
+openapi: 3.1.0
+info:
+  title: Official NBA Stats API
+  version: 1.0.0
+  description: OpenAPI documentation for the nba.stats.com and data.nba.com
+  license:
+    name: MIT
+    url: https://opensource.org/license/mit/
+  contact:
+    name: Abhi Agarwal
+servers:
+- url: https://stats.nba.com/stats
+- url: https://data.nba.com

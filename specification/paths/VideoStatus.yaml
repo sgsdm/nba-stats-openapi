@@ -1,0 +1,34 @@
+get:
+  summary: VideoStatus
+  operationId: VideoStatus
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/GameDate.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  GameDate:
+                    $ref: ../schemas/GameDate.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+              resource:
+                const: videostatus
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/VideoStatus.yaml
+      '404':
+        description: '[to do]'

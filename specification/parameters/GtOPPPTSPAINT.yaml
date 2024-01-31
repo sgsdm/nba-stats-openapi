@@ -1,0 +1,5 @@
+name: GtOPPPTSPAINT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPPTSPAINT.yaml

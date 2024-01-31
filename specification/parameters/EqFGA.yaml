@@ -1,0 +1,5 @@
+name: EqFGA
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqFGA.yaml

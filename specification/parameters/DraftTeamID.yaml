@@ -1,0 +1,5 @@
+name: DraftTeamID
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/DraftTeamID.yaml

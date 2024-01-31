@@ -1,0 +1,82 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_CITY
+    - const: TEAM_NICKNAME
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: START_POSITION
+    - const: COMMENT
+    - const: MATCHUP_MIN
+    - const: PARTIAL_POSS
+    - const: SWITCHES_ON
+    - const: PLAYER_PTS
+    - const: DREB
+    - const: MATCHUP_AST
+    - const: MATCHUP_TOV
+    - const: STL
+    - const: BLK
+    - const: MATCHUP_FGM
+    - const: MATCHUP_FGA
+    - const: MATCHUP_FG_PCT
+    - const: MATCHUP_FG3M
+    - const: MATCHUP_FG3A
+    - const: MATCHUP_FG3_PCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamCity.yaml
+    - type:
+        $ref: ../schemas/TeamNickname.yaml
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/StartPosition.yaml
+    - type:
+        $ref: ../schemas/Comment.yaml
+    - type:
+        $ref: ../schemas/MatchupMin.yaml
+    - type:
+        $ref: ../schemas/PartialPoss.yaml
+    - type:
+        $ref: ../schemas/SwitchesOn.yaml
+    - type:
+        $ref: ../schemas/PlayerPts.yaml
+    - type:
+        $ref: ../schemas/Dreb.yaml
+    - type:
+        $ref: ../schemas/MatchupAst.yaml
+    - type:
+        $ref: ../schemas/MatchupTov.yaml
+    - type:
+        $ref: ../schemas/Stl.yaml
+    - type:
+        $ref: ../schemas/Blk.yaml
+    - type:
+        $ref: ../schemas/MatchupFgm.yaml
+    - type:
+        $ref: ../schemas/MatchupFga.yaml
+    - type:
+        $ref: ../schemas/MatchupFgPct.yaml
+    - type:
+        $ref: ../schemas/MatchupFg3m.yaml
+    - type:
+        $ref: ../schemas/MatchupFg3a.yaml
+    - type:
+        $ref: ../schemas/MatchupFg3Pct.yaml

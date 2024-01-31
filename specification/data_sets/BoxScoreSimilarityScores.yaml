@@ -1,0 +1,22 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PERSON_2_ID
+    - const: PERSON_2
+    - const: PERSON_2_TEAM_ID
+    - const: SIMILARITY_SCORE
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Person2Id.yaml
+    - type:
+        $ref: ../schemas/Person2.yaml
+    - type:
+        $ref: ../schemas/Person2TeamId.yaml
+    - type:
+        $ref: ../schemas/SimilarityScore.yaml

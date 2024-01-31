@@ -1,0 +1,6 @@
+name: Counter
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Counter.yaml
+required: true

@@ -1,0 +1,6 @@
+description: '[to do]'
+type: string
+enum:
+- Traditional
+- Advanced
+- Tracking

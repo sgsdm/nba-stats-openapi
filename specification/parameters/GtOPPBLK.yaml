@@ -1,0 +1,5 @@
+name: GtOPPBLK
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPBLK.yaml

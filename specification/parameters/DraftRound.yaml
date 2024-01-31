@@ -1,0 +1,5 @@
+name: DraftRound
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/DraftRound.yaml

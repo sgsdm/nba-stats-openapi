@@ -1,0 +1,5 @@
+name: WStreak
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WStreak.yaml

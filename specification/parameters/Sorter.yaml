@@ -1,0 +1,6 @@
+name: Sorter
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Sorter.yaml
+required: true

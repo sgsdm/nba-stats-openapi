@@ -1,0 +1,5 @@
+name: LtOPPFTM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPFTM.yaml

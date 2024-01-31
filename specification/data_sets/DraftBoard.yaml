@@ -1,0 +1,64 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PERSON_ID
+    - const: PLAYER_NAME
+    - const: SEASON
+    - const: ROUND_NUMBER
+    - const: ROUND_PICK
+    - const: OVERALL_PICK
+    - const: TEAM_ID
+    - const: TEAM_CITY
+    - const: TEAM_NAME
+    - const: TEAM_ABBREVIATION
+    - const: ORGANIZATION
+    - const: ORGANIZATION_TYPE
+    - const: HEIGHT
+    - const: WEIGHT
+    - const: POSITION
+    - const: JERSEY_NUMBER
+    - const: BIRTHDATE
+    - const: AGE
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PersonId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/Season.yaml
+    - type:
+        $ref: ../schemas/RoundNumber.yaml
+    - type:
+        $ref: ../schemas/RoundPick.yaml
+    - type:
+        $ref: ../schemas/OverallPick.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamCity.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/Organization.yaml
+    - type:
+        $ref: ../schemas/OrganizationType.yaml
+    - type:
+        $ref: ../schemas/Height.yaml
+    - type:
+        $ref: ../schemas/Weight.yaml
+    - type:
+        $ref: ../schemas/Position.yaml
+    - type:
+        $ref: ../schemas/JerseyNumber.yaml
+    - type:
+        $ref: ../schemas/Birthdate.yaml
+    - type:
+        $ref: ../schemas/Age.yaml

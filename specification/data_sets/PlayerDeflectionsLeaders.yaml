@@ -1,0 +1,31 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: AGE
+    - const: RANK
+    - const: DEFLECTIONS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/Age.yaml
+    - type:
+        $ref: ../schemas/Rank.yaml
+    - type:
+        $ref: ../schemas/Deflections.yaml

@@ -1,0 +1,31 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GRID_TYPE
+    - const: SHOT_ZONE_BASIC
+    - const: SHOT_ZONE_AREA
+    - const: SHOT_ZONE_RANGE
+    - const: FGA
+    - const: FGM
+    - const: FG_PCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GridType.yaml
+    - type:
+        $ref: ../schemas/ShotZoneBasic.yaml
+    - type:
+        $ref: ../schemas/ShotZoneArea.yaml
+    - type:
+        $ref: ../schemas/ShotZoneRange.yaml
+    - type:
+        $ref: ../schemas/Fga.yaml
+    - type:
+        $ref: ../schemas/Fgm.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml

@@ -1,0 +1,46 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: GAME_DATE
+    - const: GAME_TIME
+    - const: LOCATION
+    - const: PLAYER_TEAM_ID
+    - const: PLAYER_TEAM_CITY
+    - const: PLAYER_TEAM_NICKNAME
+    - const: PLAYER_TEAM_ABBREVIATION
+    - const: VS_TEAM_ID
+    - const: VS_TEAM_CITY
+    - const: VS_TEAM_NICKNAME
+    - const: VS_TEAM_ABBREVIATION
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/GameDate.yaml
+    - type:
+        $ref: ../schemas/GameTime.yaml
+    - type:
+        $ref: ../schemas/Location.yaml
+    - type:
+        $ref: ../schemas/PlayerTeamId.yaml
+    - type:
+        $ref: ../schemas/PlayerTeamCity.yaml
+    - type:
+        $ref: ../schemas/PlayerTeamNickname.yaml
+    - type:
+        $ref: ../schemas/PlayerTeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/VsTeamId.yaml
+    - type:
+        $ref: ../schemas/VsTeamCity.yaml
+    - type:
+        $ref: ../schemas/VsTeamNickname.yaml
+    - type:
+        $ref: ../schemas/VsTeamAbbreviation.yaml

@@ -1,0 +1,6 @@
+name: PlusMinus
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PlusMinus.yaml
+required: true

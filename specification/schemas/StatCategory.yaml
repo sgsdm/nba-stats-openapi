@@ -1,0 +1,12 @@
+description: '[to do]'
+type: string
+enum:
+- Points
+- Rebounds
+- Assists
+- Defense
+- Clutch
+- Playmaking
+- Efficiency
+- Fast Break
+- Scoring Breakdown

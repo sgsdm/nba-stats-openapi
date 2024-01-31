@@ -1,0 +1,6 @@
+name: Season
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Season.yaml
+required: true

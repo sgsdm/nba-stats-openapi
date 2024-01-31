@@ -1,1 +1,283 @@
-version: 3.0.0
+openapi: 3.1.0
+info:
+  title: Official NBA Stats API
+  version: 1.0.0
+  description: OpenAPI documentation for the nba.stats.com and data.nba.com
+  license:
+    name: MIT
+    url: https://opensource.org/license/mit/
+  contact:
+    name: Abhi Agarwal
+servers:
+- url: https://stats.nba.com/stats
+- url: https://data.nba.com
+paths:
+  /alltimeleadersgrids:
+    $ref: specification/paths/AllTimeLeadersGrids.yaml
+  /assistleaders:
+    $ref: specification/paths/AssistLeaders.yaml
+  /assisttracker:
+    $ref: specification/paths/AssistTracker.yaml
+  /boxscoreadvancedv2:
+    $ref: specification/paths/BoxScoreAdvancedV2.yaml
+  /boxscoredefensive:
+    $ref: specification/paths/BoxScoreDefensive.yaml
+  /boxscorefourfactorsv2:
+    $ref: specification/paths/BoxScoreFourFactorsV2.yaml
+  /boxscorematchups:
+    $ref: specification/paths/BoxScoreMatchups.yaml
+  /boxscoremiscv2:
+    $ref: specification/paths/BoxScoreMiscV2.yaml
+  /boxscoreplayertrackv2:
+    $ref: specification/paths/BoxScorePlayerTrackV2.yaml
+  /boxscorescoringv2:
+    $ref: specification/paths/BoxScoreScoringV2.yaml
+  /boxscoresimilarityscore:
+    $ref: specification/paths/BoxScoreSimilarityScore.yaml
+  /boxscoresummaryv2:
+    $ref: specification/paths/BoxScoreSummaryV2.yaml
+  /boxscoretraditionalv2:
+    $ref: specification/paths/BoxScoreTraditionalV2.yaml
+  /boxscoreusagev2:
+    $ref: specification/paths/BoxScoreUsageV2.yaml
+  /commonallplayers:
+    $ref: specification/paths/CommonAllPlayers.yaml
+  /commonplayerinfo:
+    $ref: specification/paths/CommonPlayerInfo.yaml
+  /commonplayoffseries:
+    $ref: specification/paths/CommonPlayoffSeries.yaml
+  /commonteamroster:
+    $ref: specification/paths/CommonTeamRoster.yaml
+  /commonteamyears:
+    $ref: specification/paths/CommonTeamYears.yaml
+  /cumestatsplayer:
+    $ref: specification/paths/CumeStatsPlayer.yaml
+  /cumestatsplayergames:
+    $ref: specification/paths/CumeStatsPlayerGames.yaml
+  /cumestatsteam:
+    $ref: specification/paths/CumeStatsTeam.yaml
+  /cumestatsteamgames:
+    $ref: specification/paths/CumeStatsTeamGames.yaml
+  /defensehub:
+    $ref: specification/paths/DefenseHub.yaml
+  /draftboard:
+    $ref: specification/paths/DraftBoard.yaml
+  /draftcombinedrillresults:
+    $ref: specification/paths/DraftCombineDrillResults.yaml
+  /draftcombinenonstationaryshooting:
+    $ref: specification/paths/DraftCombineNonStationaryShooting.yaml
+  /draftcombineplayeranthro:
+    $ref: specification/paths/DraftCombinePlayerAnthro.yaml
+  /draftcombinespotshooting:
+    $ref: specification/paths/DraftCombineSpotShooting.yaml
+  /draftcombinestats:
+    $ref: specification/paths/DraftCombineStats.yaml
+  /drafthistory:
+    $ref: specification/paths/DraftHistory.yaml
+  /fantasywidget:
+    $ref: specification/paths/FantasyWidget.yaml
+  /franchisehistory:
+    $ref: specification/paths/FranchiseHistory.yaml
+  /franchiseleaders:
+    $ref: specification/paths/FranchiseLeaders.yaml
+  /franchiseplayers:
+    $ref: specification/paths/FranchisePlayers.yaml
+  /glalumboxscoresimilarityscore:
+    $ref: specification/paths/GLAlumBoxScoreSimilarityScore.yaml
+  /gamerotation:
+    $ref: specification/paths/GameRotation.yaml
+  /homepageleaders:
+    $ref: specification/paths/HomePageLeaders.yaml
+  /homepagev2:
+    $ref: specification/paths/HomePageV2.yaml
+  /hustlestatsboxscore:
+    $ref: specification/paths/HustleStatsBoxScore.yaml
+  /infographicfanduelplayer:
+    $ref: specification/paths/InfographicFanDuelPlayer.yaml
+  /leaderstiles:
+    $ref: specification/paths/LeadersTiles.yaml
+  /leaguedashlineups:
+    $ref: specification/paths/LeagueDashLineups.yaml
+  /leaguedashoppptshot:
+    $ref: specification/paths/LeagueDashOppPtShot.yaml
+  /leaguedashplayerbiostats:
+    $ref: specification/paths/LeagueDashPlayerBioStats.yaml
+  /leaguedashplayerclutch:
+    $ref: specification/paths/LeagueDashPlayerClutch.yaml
+  /leaguedashplayerptshot:
+    $ref: specification/paths/LeagueDashPlayerPtShot.yaml
+  /leaguedashplayershotlocations:
+    $ref: specification/paths/LeagueDashPlayerShotLocations.yaml
+  /leaguedashplayerstats:
+    $ref: specification/paths/LeagueDashPlayerStats.yaml
+  /leaguedashptdefend:
+    $ref: specification/paths/LeagueDashPtDefend.yaml
+  /leaguedashptstats:
+    $ref: specification/paths/LeagueDashPtStats.yaml
+  /leaguedashptteamdefend:
+    $ref: specification/paths/LeagueDashPtTeamDefend.yaml
+  /leaguedashteamclutch:
+    $ref: specification/paths/LeagueDashTeamClutch.yaml
+  /leaguedashteamptshot:
+    $ref: specification/paths/LeagueDashTeamPtShot.yaml
+  /leaguedashteamshotlocations:
+    $ref: specification/paths/LeagueDashTeamShotLocations.yaml
+  /leaguedashteamstats:
+    $ref: specification/paths/LeagueDashTeamStats.yaml
+  /leaguegamefinder:
+    $ref: specification/paths/LeagueGameFinder.yaml
+  /leaguegamelog:
+    $ref: specification/paths/LeagueGameLog.yaml
+  /leaguehustlestatsplayer:
+    $ref: specification/paths/LeagueHustleStatsPlayer.yaml
+  /leaguehustlestatsplayerleaders:
+    $ref: specification/paths/LeagueHustleStatsPlayerLeaders.yaml
+  /leaguehustlestatsteam:
+    $ref: specification/paths/LeagueHustleStatsTeam.yaml
+  /leaguehustlestatsteamleaders:
+    $ref: specification/paths/LeagueHustleStatsTeamLeaders.yaml
+  /leagueleaders:
+    $ref: specification/paths/LeagueLeaders.yaml
+  /leaguelineupviz:
+    $ref: specification/paths/LeagueLineupViz.yaml
+  /leagueplayerondetails:
+    $ref: specification/paths/LeaguePlayerOnDetails.yaml
+  /leagueseasonmatchups:
+    $ref: specification/paths/LeagueSeasonMatchups.yaml
+  /leaguestandings:
+    $ref: specification/paths/LeagueStandings.yaml
+  /leaguestandingsv3:
+    $ref: specification/paths/LeagueStandingsV3.yaml
+  /matchupsrollup:
+    $ref: specification/paths/MatchupsRollup.yaml
+  /playbyplay:
+    $ref: specification/paths/PlayByPlay.yaml
+  /playbyplayv2:
+    $ref: specification/paths/PlayByPlayV2.yaml
+  /playerawards:
+    $ref: specification/paths/PlayerAwards.yaml
+  /playercareerbycollege:
+    $ref: specification/paths/PlayerCareerByCollege.yaml
+  /playercareerbycollegerollup:
+    $ref: specification/paths/PlayerCareerByCollegeRollup.yaml
+  /playercareerstats:
+    $ref: specification/paths/PlayerCareerStats.yaml
+  /playercompare:
+    $ref: specification/paths/PlayerCompare.yaml
+  /playerdashptpass:
+    $ref: specification/paths/PlayerDashPtPass.yaml
+  /playerdashptreb:
+    $ref: specification/paths/PlayerDashPtReb.yaml
+  /playerdashptshotdefend:
+    $ref: specification/paths/PlayerDashPtShotDefend.yaml
+  /playerdashptshots:
+    $ref: specification/paths/PlayerDashPtShots.yaml
+  /playerdashboardbyclutch:
+    $ref: specification/paths/PlayerDashboardByClutch.yaml
+  /playerdashboardbygamesplits:
+    $ref: specification/paths/PlayerDashboardByGameSplits.yaml
+  /playerdashboardbygeneralsplits:
+    $ref: specification/paths/PlayerDashboardByGeneralSplits.yaml
+  /playerdashboardbylastngames:
+    $ref: specification/paths/PlayerDashboardByLastNGames.yaml
+  /playerdashboardbyopponent:
+    $ref: specification/paths/PlayerDashboardByOpponent.yaml
+  /playerdashboardbyshootingsplits:
+    $ref: specification/paths/PlayerDashboardByShootingSplits.yaml
+  /playerdashboardbyteamperformance:
+    $ref: specification/paths/PlayerDashboardByTeamPerformance.yaml
+  /playerdashboardbyyearoveryear:
+    $ref: specification/paths/PlayerDashboardByYearOverYear.yaml
+  /playerestimatedmetrics:
+    $ref: specification/paths/PlayerEstimatedMetrics.yaml
+  /playerfantasyprofile:
+    $ref: specification/paths/PlayerFantasyProfile.yaml
+  /playerfantasyprofilebargraph:
+    $ref: specification/paths/PlayerFantasyProfileBarGraph.yaml
+  /playergamelog:
+    $ref: specification/paths/PlayerGameLog.yaml
+  /playergamelogs:
+    $ref: specification/paths/PlayerGameLogs.yaml
+  /playergamestreakfinder:
+    $ref: specification/paths/PlayerGameStreakFinder.yaml
+  /playernextngames:
+    $ref: specification/paths/PlayerNextNGames.yaml
+  /playerprofilev2:
+    $ref: specification/paths/PlayerProfileV2.yaml
+  /playervsplayer:
+    $ref: specification/paths/PlayerVsPlayer.yaml
+  /playoffpicture:
+    $ref: specification/paths/PlayoffPicture.yaml
+  /scoreboard:
+    $ref: specification/paths/Scoreboard.yaml
+  /scoreboardv2:
+    $ref: specification/paths/ScoreboardV2.yaml
+  /shotchartdetail:
+    $ref: specification/paths/ShotChartDetail.yaml
+  /shotchartleaguewide:
+    $ref: specification/paths/ShotChartLeagueWide.yaml
+  /shotchartlineupdetail:
+    $ref: specification/paths/ShotChartLineupDetail.yaml
+  /synergyplaytypes:
+    $ref: specification/paths/SynergyPlayTypes.yaml
+  /teamandplayersvsplayers:
+    $ref: specification/paths/TeamAndPlayersVsPlayers.yaml
+  /teamdashlineups:
+    $ref: specification/paths/TeamDashLineups.yaml
+  /teamdashptpass:
+    $ref: specification/paths/TeamDashPtPass.yaml
+  /teamdashptreb:
+    $ref: specification/paths/TeamDashPtReb.yaml
+  /teamdashptshots:
+    $ref: specification/paths/TeamDashPtShots.yaml
+  /teamdashboardbyclutch:
+    $ref: specification/paths/TeamDashboardByClutch.yaml
+  /teamdashboardbygamesplits:
+    $ref: specification/paths/TeamDashboardByGameSplits.yaml
+  /teamdashboardbygeneralsplits:
+    $ref: specification/paths/TeamDashboardByGeneralSplits.yaml
+  /teamdashboardbylastngames:
+    $ref: specification/paths/TeamDashboardByLastNGames.yaml
+  /teamdashboardbyopponent:
+    $ref: specification/paths/TeamDashboardByOpponent.yaml
+  /teamdashboardbyshootingsplits:
+    $ref: specification/paths/TeamDashboardByShootingSplits.yaml
+  /teamdashboardbyteamperformance:
+    $ref: specification/paths/TeamDashboardByTeamPerformance.yaml
+  /teamdashboardbyyearoveryear:
+    $ref: specification/paths/TeamDashboardByYearOverYear.yaml
+  /teamdetails:
+    $ref: specification/paths/TeamDetails.yaml
+  /teamestimatedmetrics:
+    $ref: specification/paths/TeamEstimatedMetrics.yaml
+  /teamgamelog:
+    $ref: specification/paths/TeamGameLog.yaml
+  /teamgamelogs:
+    $ref: specification/paths/TeamGameLogs.yaml
+  /teamhistoricalleaders:
+    $ref: specification/paths/TeamHistoricalLeaders.yaml
+  /teaminfocommon:
+    $ref: specification/paths/TeamInfoCommon.yaml
+  /teamplayerdashboard:
+    $ref: specification/paths/TeamPlayerDashboard.yaml
+  /teamplayeronoffdetails:
+    $ref: specification/paths/TeamPlayerOnOffDetails.yaml
+  /teamplayeronoffsummary:
+    $ref: specification/paths/TeamPlayerOnOffSummary.yaml
+  /teamvsplayer:
+    $ref: specification/paths/TeamVsPlayer.yaml
+  /teamyearbyyearstats:
+    $ref: specification/paths/TeamYearByYearStats.yaml
+  /videodetails:
+    $ref: specification/paths/VideoDetails.yaml
+  /videoevents:
+    $ref: specification/paths/VideoEvents.yaml
+  /videostatus:
+    $ref: specification/paths/VideoStatus.yaml
+  /winprobabilitypbp:
+    $ref: specification/paths/WinProbabilityPBP.yaml
+components:
+  parameters:
+    $ref: specification/parameters/_index.yaml
+  schemas:
+    $ref: specification/schemas/_index.yaml

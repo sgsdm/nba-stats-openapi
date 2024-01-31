@@ -1,0 +1,5 @@
+name: LtFGM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtFGM.yaml

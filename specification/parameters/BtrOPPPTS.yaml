@@ -1,0 +1,5 @@
+name: BtrOPPPTS
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/BtrOPPPTS.yaml

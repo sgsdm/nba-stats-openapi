@@ -1,0 +1,5 @@
+name: EqDREB
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqDREB.yaml

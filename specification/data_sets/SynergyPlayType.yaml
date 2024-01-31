@@ -1,0 +1,76 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: SEASON_ID
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_NAME
+    - const: PLAY_TYPE
+    - const: TYPE_GROUPING
+    - const: PERCENTILE
+    - const: GP
+    - const: POSS_PCT
+    - const: PPP
+    - const: FG_PCT
+    - const: FT_POSS_PCT
+    - const: TOV_POSS_PCT
+    - const: SF_POSS_PCT
+    - const: PLUSONE_POSS_PCT
+    - const: SCORE_POSS_PCT
+    - const: EFG_PCT
+    - const: POSS
+    - const: PTS
+    - const: FGM
+    - const: FGA
+    - const: FGMX
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/SeasonId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/PlayType.yaml
+    - type:
+        $ref: ../schemas/TypeGrouping.yaml
+    - type:
+        $ref: ../schemas/Percentile.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/PossPct.yaml
+    - type:
+        $ref: ../schemas/Ppp.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml
+    - type:
+        $ref: ../schemas/FtPossPct.yaml
+    - type:
+        $ref: ../schemas/TovPossPct.yaml
+    - type:
+        $ref: ../schemas/SfPossPct.yaml
+    - type:
+        $ref: ../schemas/PlusonePossPct.yaml
+    - type:
+        $ref: ../schemas/ScorePossPct.yaml
+    - type:
+        $ref: ../schemas/EfgPct.yaml
+    - type:
+        $ref: ../schemas/Poss.yaml
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/Fgm.yaml
+    - type:
+        $ref: ../schemas/Fga.yaml
+    - type:
+        $ref: ../schemas/Fgmx.yaml

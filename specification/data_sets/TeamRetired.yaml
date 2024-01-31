@@ -1,0 +1,28 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYERID
+    - const: PLAYER
+    - const: POSITION
+    - const: JERSEY
+    - const: SEASONSWITHTEAM
+    - const: YEAR
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Playerid.yaml
+    - type:
+        $ref: ../schemas/Player.yaml
+    - type:
+        $ref: ../schemas/Position.yaml
+    - type:
+        $ref: ../schemas/Jersey.yaml
+    - type:
+        $ref: ../schemas/Seasonswithteam.yaml
+    - type:
+        $ref: ../schemas/Year.yaml

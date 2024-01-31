@@ -1,0 +1,5 @@
+name: PlayerPosition
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PlayerPosition.yaml

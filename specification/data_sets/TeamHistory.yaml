@@ -1,0 +1,25 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: TEAM_ID
+    - const: CITY
+    - const: NICKNAME
+    - const: YEARFOUNDED
+    - const: YEARACTIVETILL
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/City.yaml
+    - type:
+        $ref: ../schemas/Nickname.yaml
+    - type:
+        $ref: ../schemas/Yearfounded.yaml
+    - type:
+        $ref: ../schemas/Yearactivetill.yaml

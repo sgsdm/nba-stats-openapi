@@ -1,0 +1,79 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: AGE
+    - const: PLAYER_HEIGHT
+    - const: PLAYER_HEIGHT_INCHES
+    - const: PLAYER_WEIGHT
+    - const: COLLEGE
+    - const: COUNTRY
+    - const: DRAFT_YEAR
+    - const: DRAFT_ROUND
+    - const: DRAFT_NUMBER
+    - const: GP
+    - const: PTS
+    - const: REB
+    - const: AST
+    - const: NET_RATING
+    - const: OREB_PCT
+    - const: DREB_PCT
+    - const: USG_PCT
+    - const: TS_PCT
+    - const: AST_PCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/Age.yaml
+    - type:
+        $ref: ../schemas/PlayerHeight.yaml
+    - type:
+        $ref: ../schemas/PlayerHeightInches.yaml
+    - type:
+        $ref: ../schemas/PlayerWeight.yaml
+    - type:
+        $ref: ../schemas/College.yaml
+    - type:
+        $ref: ../schemas/Country.yaml
+    - type:
+        $ref: ../schemas/DraftYear.yaml
+    - type:
+        $ref: ../schemas/DraftRound.yaml
+    - type:
+        $ref: ../schemas/DraftNumber.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/Reb.yaml
+    - type:
+        $ref: ../schemas/Ast.yaml
+    - type:
+        $ref: ../schemas/NetRating.yaml
+    - type:
+        $ref: ../schemas/OrebPct.yaml
+    - type:
+        $ref: ../schemas/DrebPct.yaml
+    - type:
+        $ref: ../schemas/UsgPct.yaml
+    - type:
+        $ref: ../schemas/TsPct.yaml
+    - type:
+        $ref: ../schemas/AstPct.yaml

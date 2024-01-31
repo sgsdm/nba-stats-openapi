@@ -1,0 +1,5 @@
+name: GtFT_PCT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtFT_PCT.yaml

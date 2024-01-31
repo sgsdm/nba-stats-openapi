@@ -1,0 +1,6 @@
+name: PlayerTeamID
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PlayerTeamID.yaml
+required: true

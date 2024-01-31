@@ -1,0 +1,5 @@
+name: GtFG3A
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtFG3A.yaml

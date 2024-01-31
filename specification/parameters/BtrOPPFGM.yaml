@@ -1,0 +1,5 @@
+name: BtrOPPFGM
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/BtrOPPFGM.yaml

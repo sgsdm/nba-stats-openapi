@@ -1,0 +1,25 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: LEAGUE_ID
+    - const: TEAM_ID
+    - const: MIN_YEAR
+    - const: MAX_YEAR
+    - const: ABBREVIATION
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/LeagueId.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/MinYear.yaml
+    - type:
+        $ref: ../schemas/MaxYear.yaml
+    - type:
+        $ref: ../schemas/Abbreviation.yaml

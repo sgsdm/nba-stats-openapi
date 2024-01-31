@@ -1,0 +1,5 @@
+name: LtOPPPTSPAINT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtOPPPTSPAINT.yaml

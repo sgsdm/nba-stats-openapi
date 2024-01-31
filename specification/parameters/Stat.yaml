@@ -1,0 +1,6 @@
+name: Stat
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/Stat.yaml
+required: true

@@ -1,0 +1,109 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GROUP_SET
+    - const: PLAYER_ID
+    - const: PLAYER_NAME
+    - const: FGM
+    - const: FGA
+    - const: FG_PCT
+    - const: FG3M
+    - const: FG3A
+    - const: FG3_PCT
+    - const: EFG_PCT
+    - const: BLKA
+    - const: PCT_AST_2PM
+    - const: PCT_UAST_2PM
+    - const: PCT_AST_3PM
+    - const: PCT_UAST_3PM
+    - const: PCT_AST_FGM
+    - const: PCT_UAST_FGM
+    - const: FGM_RANK
+    - const: FGA_RANK
+    - const: FG_PCT_RANK
+    - const: FG3M_RANK
+    - const: FG3A_RANK
+    - const: FG3_PCT_RANK
+    - const: EFG_PCT_RANK
+    - const: BLKA_RANK
+    - const: PCT_AST_2PM_RANK
+    - const: PCT_UAST_2PM_RANK
+    - const: PCT_AST_3PM_RANK
+    - const: PCT_UAST_3PM_RANK
+    - const: PCT_AST_FGM_RANK
+    - const: PCT_UAST_FGM_RANK
+    - const: CFID
+    - const: CFPARAMS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GroupSet.yaml
+    - type:
+        $ref: ../schemas/PlayerId.yaml
+    - type:
+        $ref: ../schemas/PlayerName.yaml
+    - type:
+        $ref: ../schemas/Fgm.yaml
+    - type:
+        $ref: ../schemas/Fga.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml
+    - type:
+        $ref: ../schemas/Fg3m.yaml
+    - type:
+        $ref: ../schemas/Fg3a.yaml
+    - type:
+        $ref: ../schemas/Fg3Pct.yaml
+    - type:
+        $ref: ../schemas/EfgPct.yaml
+    - type:
+        $ref: ../schemas/Blka.yaml
+    - type:
+        $ref: ../schemas/PctAst2pm.yaml
+    - type:
+        $ref: ../schemas/PctUast2pm.yaml
+    - type:
+        $ref: ../schemas/PctAst3pm.yaml
+    - type:
+        $ref: ../schemas/PctUast3pm.yaml
+    - type:
+        $ref: ../schemas/PctAstFgm.yaml
+    - type:
+        $ref: ../schemas/PctUastFgm.yaml
+    - type:
+        $ref: ../schemas/FgmRank.yaml
+    - type:
+        $ref: ../schemas/FgaRank.yaml
+    - type:
+        $ref: ../schemas/FgPctRank.yaml
+    - type:
+        $ref: ../schemas/Fg3mRank.yaml
+    - type:
+        $ref: ../schemas/Fg3aRank.yaml
+    - type:
+        $ref: ../schemas/Fg3PctRank.yaml
+    - type:
+        $ref: ../schemas/EfgPctRank.yaml
+    - type:
+        $ref: ../schemas/BlkaRank.yaml
+    - type:
+        $ref: ../schemas/PctAst2pmRank.yaml
+    - type:
+        $ref: ../schemas/PctUast2pmRank.yaml
+    - type:
+        $ref: ../schemas/PctAst3pmRank.yaml
+    - type:
+        $ref: ../schemas/PctUast3pmRank.yaml
+    - type:
+        $ref: ../schemas/PctAstFgmRank.yaml
+    - type:
+        $ref: ../schemas/PctUastFgmRank.yaml
+    - type:
+        $ref: ../schemas/Cfid.yaml
+    - type:
+        $ref: ../schemas/Cfparams.yaml

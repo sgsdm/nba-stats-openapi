@@ -1,0 +1,45 @@
+get:
+  summary: TeamDetails
+  operationId: TeamDetails
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/TeamID.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+              resource:
+                const: teamdetails
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/TeamAwardsChampionships.yaml
+                - type:
+                    $ref: ../data_sets/TeamAwardsConf.yaml
+                - type:
+                    $ref: ../data_sets/TeamAwardsDiv.yaml
+                - type:
+                    $ref: ../data_sets/TeamBackground.yaml
+                - type:
+                    $ref: ../data_sets/TeamHistory.yaml
+                - type:
+                    $ref: ../data_sets/TeamHof.yaml
+                - type:
+                    $ref: ../data_sets/TeamRetired.yaml
+                - type:
+                    $ref: ../data_sets/TeamSocialSites.yaml
+      '404':
+        description: '[to do]'

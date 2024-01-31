@@ -1,0 +1,52 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_DATE_EST
+    - const: GAME_SEQUENCE
+    - const: GAME_ID
+    - const: GAME_STATUS_ID
+    - const: GAME_STATUS_TEXT
+    - const: GAMECODE
+    - const: HOME_TEAM_ID
+    - const: VISITOR_TEAM_ID
+    - const: SEASON
+    - const: LIVE_PERIOD
+    - const: LIVE_PC_TIME
+    - const: NATL_TV_BROADCASTER_ABBREVIATION
+    - const: LIVE_PERIOD_TIME_BCAST
+    - const: WH_STATUS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameDateEst.yaml
+    - type:
+        $ref: ../schemas/GameSequence.yaml
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/GameStatusId.yaml
+    - type:
+        $ref: ../schemas/GameStatusText.yaml
+    - type:
+        $ref: ../schemas/Gamecode.yaml
+    - type:
+        $ref: ../schemas/HomeTeamId.yaml
+    - type:
+        $ref: ../schemas/VisitorTeamId.yaml
+    - type:
+        $ref: ../schemas/Season.yaml
+    - type:
+        $ref: ../schemas/LivePeriod.yaml
+    - type:
+        $ref: ../schemas/LivePcTime.yaml
+    - type:
+        $ref: ../schemas/NatlTvBroadcasterAbbreviation.yaml
+    - type:
+        $ref: ../schemas/LivePeriodTimeBcast.yaml
+    - type:
+        $ref: ../schemas/WhStatus.yaml

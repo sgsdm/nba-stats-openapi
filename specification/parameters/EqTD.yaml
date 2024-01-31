@@ -1,0 +1,5 @@
+name: EqTD
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqTD.yaml

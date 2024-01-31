@@ -1,0 +1,5 @@
+name: BtrOPPFG_PCT
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/BtrOPPFG_PCT.yaml

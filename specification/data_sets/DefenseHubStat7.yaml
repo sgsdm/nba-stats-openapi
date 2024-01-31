@@ -1,0 +1,25 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: RANK
+    - const: TEAM_ID
+    - const: TEAM_ABBREVIATION
+    - const: TEAM_NAME
+    - const: TWOP_DFGPCT
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Rank.yaml
+    - type:
+        $ref: ../schemas/TeamId.yaml
+    - type:
+        $ref: ../schemas/TeamAbbreviation.yaml
+    - type:
+        $ref: ../schemas/TeamName.yaml
+    - type:
+        $ref: ../schemas/TwopDfgpct.yaml

@@ -1,0 +1,5 @@
+name: LtMINUTES
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/LtMINUTES.yaml

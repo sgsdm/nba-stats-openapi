@@ -1,0 +1,8 @@
+description: '[to do]'
+type:
+- null
+- string
+enum:
+- null
+- East
+- West

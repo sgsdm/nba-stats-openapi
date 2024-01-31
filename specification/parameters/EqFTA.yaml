@@ -1,0 +1,5 @@
+name: EqFTA
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/EqFTA.yaml

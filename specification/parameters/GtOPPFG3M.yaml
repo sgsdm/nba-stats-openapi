@@ -1,0 +1,5 @@
+name: GtOPPFG3M
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/GtOPPFG3M.yaml

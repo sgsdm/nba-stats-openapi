@@ -1,0 +1,154 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: DISPLAY_FI_LAST
+    - const: PERSON_ID
+    - const: JERSEY_NUM
+    - const: GP
+    - const: GS
+    - const: ACTUAL_MINUTES
+    - const: ACTUAL_SECONDS
+    - const: FG
+    - const: FGA
+    - const: FG_PCT
+    - const: FG3
+    - const: FG3A
+    - const: FG3_PCT
+    - const: FT
+    - const: FTA
+    - const: FT_PCT
+    - const: OFF_REB
+    - const: DEF_REB
+    - const: TOT_REB
+    - const: AST
+    - const: PF
+    - const: DQ
+    - const: STL
+    - const: TURNOVERS
+    - const: BLK
+    - const: PTS
+    - const: MAX_ACTUAL_MINUTES
+    - const: MAX_ACTUAL_SECONDS
+    - const: MAX_REB
+    - const: MAX_AST
+    - const: MAX_STL
+    - const: MAX_TURNOVERS
+    - const: MAX_BLK
+    - const: MAX_PTS
+    - const: AVG_ACTUAL_MINUTES
+    - const: AVG_ACTUAL_SECONDS
+    - const: AVG_TOT_REB
+    - const: AVG_AST
+    - const: AVG_STL
+    - const: AVG_TURNOVERS
+    - const: AVG_BLK
+    - const: AVG_PTS
+    - const: PER_MIN_TOT_REB
+    - const: PER_MIN_AST
+    - const: PER_MIN_STL
+    - const: PER_MIN_TURNOVERS
+    - const: PER_MIN_BLK
+    - const: PER_MIN_PTS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/DisplayFiLast.yaml
+    - type:
+        $ref: ../schemas/PersonId.yaml
+    - type:
+        $ref: ../schemas/JerseyNum.yaml
+    - type:
+        $ref: ../schemas/Gp.yaml
+    - type:
+        $ref: ../schemas/Gs.yaml
+    - type:
+        $ref: ../schemas/ActualMinutes.yaml
+    - type:
+        $ref: ../schemas/ActualSeconds.yaml
+    - type:
+        $ref: ../schemas/Fg.yaml
+    - type:
+        $ref: ../schemas/Fga.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml
+    - type:
+        $ref: ../schemas/Fg3.yaml
+    - type:
+        $ref: ../schemas/Fg3a.yaml
+    - type:
+        $ref: ../schemas/Fg3Pct.yaml
+    - type:
+        $ref: ../schemas/Ft.yaml
+    - type:
+        $ref: ../schemas/Fta.yaml
+    - type:
+        $ref: ../schemas/FtPct.yaml
+    - type:
+        $ref: ../schemas/OffReb.yaml
+    - type:
+        $ref: ../schemas/DefReb.yaml
+    - type:
+        $ref: ../schemas/TotReb.yaml
+    - type:
+        $ref: ../schemas/Ast.yaml
+    - type:
+        $ref: ../schemas/Pf.yaml
+    - type:
+        $ref: ../schemas/Dq.yaml
+    - type:
+        $ref: ../schemas/Stl.yaml
+    - type:
+        $ref: ../schemas/Turnovers.yaml
+    - type:
+        $ref: ../schemas/Blk.yaml
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/MaxActualMinutes.yaml
+    - type:
+        $ref: ../schemas/MaxActualSeconds.yaml
+    - type:
+        $ref: ../schemas/MaxReb.yaml
+    - type:
+        $ref: ../schemas/MaxAst.yaml
+    - type:
+        $ref: ../schemas/MaxStl.yaml
+    - type:
+        $ref: ../schemas/MaxTurnovers.yaml
+    - type:
+        $ref: ../schemas/MaxBlk.yaml
+    - type:
+        $ref: ../schemas/MaxPts.yaml
+    - type:
+        $ref: ../schemas/AvgActualMinutes.yaml
+    - type:
+        $ref: ../schemas/AvgActualSeconds.yaml
+    - type:
+        $ref: ../schemas/AvgTotReb.yaml
+    - type:
+        $ref: ../schemas/AvgAst.yaml
+    - type:
+        $ref: ../schemas/AvgStl.yaml
+    - type:
+        $ref: ../schemas/AvgTurnovers.yaml
+    - type:
+        $ref: ../schemas/AvgBlk.yaml
+    - type:
+        $ref: ../schemas/AvgPts.yaml
+    - type:
+        $ref: ../schemas/PerMinTotReb.yaml
+    - type:
+        $ref: ../schemas/PerMinAst.yaml
+    - type:
+        $ref: ../schemas/PerMinStl.yaml
+    - type:
+        $ref: ../schemas/PerMinTurnovers.yaml
+    - type:
+        $ref: ../schemas/PerMinBlk.yaml
+    - type:
+        $ref: ../schemas/PerMinPts.yaml

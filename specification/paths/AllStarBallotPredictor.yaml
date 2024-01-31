@@ -1,0 +1,56 @@
+get:
+  summary: AllStarBallotPredictor
+  operationId: AllStarBallotPredictor
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/EastPlayer1.yaml
+  - $ref: ../parameters/EastPlayer2.yaml
+  - $ref: ../parameters/EastPlayer3.yaml
+  - $ref: ../parameters/EastPlayer4.yaml
+  - $ref: ../parameters/EastPlayer5.yaml
+  - $ref: ../parameters/WestPlayer1.yaml
+  - $ref: ../parameters/WestPlayer2.yaml
+  - $ref: ../parameters/WestPlayer3.yaml
+  - $ref: ../parameters/WestPlayer4.yaml
+  - $ref: ../parameters/WestPlayer5.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  EastPlayer1:
+                    $ref: ../schemas/EastPlayer1.yaml
+                  EastPlayer2:
+                    $ref: ../schemas/EastPlayer2.yaml
+                  EastPlayer3:
+                    $ref: ../schemas/EastPlayer3.yaml
+                  EastPlayer4:
+                    $ref: ../schemas/EastPlayer4.yaml
+                  EastPlayer5:
+                    $ref: ../schemas/EastPlayer5.yaml
+                  WestPlayer1:
+                    $ref: ../schemas/WestPlayer1.yaml
+                  WestPlayer2:
+                    $ref: ../schemas/WestPlayer2.yaml
+                  WestPlayer3:
+                    $ref: ../schemas/WestPlayer3.yaml
+                  WestPlayer4:
+                    $ref: ../schemas/WestPlayer4.yaml
+                  WestPlayer5:
+                    $ref: ../schemas/WestPlayer5.yaml
+              resource:
+                const: allstarballotpredictor
+              resultSets:
+                type: array
+                items: []
+      '404':
+        description: '[to do]'

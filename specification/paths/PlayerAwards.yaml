@@ -1,0 +1,31 @@
+get:
+  summary: PlayerAwards
+  operationId: PlayerAwards
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/PlayerID.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  PlayerID:
+                    $ref: ../schemas/PlayerID.yaml
+              resource:
+                const: playerawards
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/PlayerAwards.yaml
+      '404':
+        description: '[to do]'

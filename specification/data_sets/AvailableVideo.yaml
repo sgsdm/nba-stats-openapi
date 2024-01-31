@@ -1,0 +1,31 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: GAME_ID
+    - const: VIDEO_AVAILABLE_FLAG
+    - const: PT_AVAILABLE
+    - const: PT_XYZ_AVAILABLE
+    - const: WH_STATUS
+    - const: HUSTLE_STATUS
+    - const: HISTORICAL_STATUS
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/GameId.yaml
+    - type:
+        $ref: ../schemas/VideoAvailableFlag.yaml
+    - type:
+        $ref: ../schemas/PtAvailable.yaml
+    - type:
+        $ref: ../schemas/PtXyzAvailable.yaml
+    - type:
+        $ref: ../schemas/WhStatus.yaml
+    - type:
+        $ref: ../schemas/HustleStatus.yaml
+    - type:
+        $ref: ../schemas/HistoricalStatus.yaml

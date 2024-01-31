@@ -1,0 +1,6 @@
+name: TopX
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/TopX.yaml
+required: true

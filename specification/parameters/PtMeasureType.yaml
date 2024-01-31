@@ -1,0 +1,6 @@
+name: PtMeasureType
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/PtMeasureType.yaml
+required: true

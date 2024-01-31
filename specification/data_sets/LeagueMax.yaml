@@ -1,0 +1,31 @@
+type: object
+properties:
+  name:
+    type: string
+  headers:
+    type: array
+    items:
+    - const: PTS
+    - const: FG_PCT
+    - const: FG3_PCT
+    - const: FT_PCT
+    - const: EFG_PCT
+    - const: TS_PCT
+    - const: PTS_PER48
+  rowSet:
+    type: array
+    items:
+    - type:
+        $ref: ../schemas/Pts.yaml
+    - type:
+        $ref: ../schemas/FgPct.yaml
+    - type:
+        $ref: ../schemas/Fg3Pct.yaml
+    - type:
+        $ref: ../schemas/FtPct.yaml
+    - type:
+        $ref: ../schemas/EfgPct.yaml
+    - type:
+        $ref: ../schemas/TsPct.yaml
+    - type:
+        $ref: ../schemas/PtsPer48.yaml

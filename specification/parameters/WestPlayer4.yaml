@@ -1,0 +1,6 @@
+name: WestPlayer4
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/WestPlayer4.yaml
+required: true
