@@ -20,12 +20,8 @@ paths:
     $ref: specification/paths/AssistTracker.yaml
   /boxscoreadvancedv2:
     $ref: specification/paths/BoxScoreAdvancedV2.yaml
-  /boxscoredefensive:
-    $ref: specification/paths/BoxScoreDefensive.yaml
   /boxscorefourfactorsv2:
     $ref: specification/paths/BoxScoreFourFactorsV2.yaml
-  /boxscorematchups:
-    $ref: specification/paths/BoxScoreMatchups.yaml
   /boxscoremiscv2:
     $ref: specification/paths/BoxScoreMiscV2.yaml
   /boxscoreplayertrackv2:
@@ -94,6 +90,8 @@ paths:
     $ref: specification/paths/HustleStatsBoxScore.yaml
   /infographicfanduelplayer:
     $ref: specification/paths/InfographicFanDuelPlayer.yaml
+  /iststangings:
+    $ref: specification/paths/ISTStangings.yaml
   /leaderstiles:
     $ref: specification/paths/LeadersTiles.yaml
   /leaguedashlineups:
@@ -130,12 +128,8 @@ paths:
     $ref: specification/paths/LeagueGameLog.yaml
   /leaguehustlestatsplayer:
     $ref: specification/paths/LeagueHustleStatsPlayer.yaml
-  /leaguehustlestatsplayerleaders:
-    $ref: specification/paths/LeagueHustleStatsPlayerLeaders.yaml
   /leaguehustlestatsteam:
     $ref: specification/paths/LeagueHustleStatsTeam.yaml
-  /leaguehustlestatsteamleaders:
-    $ref: specification/paths/LeagueHustleStatsTeamLeaders.yaml
   /leagueleaders:
     $ref: specification/paths/LeagueLeaders.yaml
   /leaguelineupviz:
@@ -180,8 +174,6 @@ paths:
     $ref: specification/paths/PlayerDashboardByGeneralSplits.yaml
   /playerdashboardbylastngames:
     $ref: specification/paths/PlayerDashboardByLastNGames.yaml
-  /playerdashboardbyopponent:
-    $ref: specification/paths/PlayerDashboardByOpponent.yaml
   /playerdashboardbyshootingsplits:
     $ref: specification/paths/PlayerDashboardByShootingSplits.yaml
   /playerdashboardbyteamperformance:
@@ -200,6 +192,8 @@ paths:
     $ref: specification/paths/PlayerGameLogs.yaml
   /playergamestreakfinder:
     $ref: specification/paths/PlayerGameStreakFinder.yaml
+  /playerindex:
+    $ref: specification/paths/PlayerIndex.yaml
   /playernextngames:
     $ref: specification/paths/PlayerNextNGames.yaml
   /playerprofilev2:
@@ -230,22 +224,10 @@ paths:
     $ref: specification/paths/TeamDashPtReb.yaml
   /teamdashptshots:
     $ref: specification/paths/TeamDashPtShots.yaml
-  /teamdashboardbyclutch:
-    $ref: specification/paths/TeamDashboardByClutch.yaml
-  /teamdashboardbygamesplits:
-    $ref: specification/paths/TeamDashboardByGameSplits.yaml
   /teamdashboardbygeneralsplits:
     $ref: specification/paths/TeamDashboardByGeneralSplits.yaml
-  /teamdashboardbylastngames:
-    $ref: specification/paths/TeamDashboardByLastNGames.yaml
-  /teamdashboardbyopponent:
-    $ref: specification/paths/TeamDashboardByOpponent.yaml
   /teamdashboardbyshootingsplits:
     $ref: specification/paths/TeamDashboardByShootingSplits.yaml
-  /teamdashboardbyteamperformance:
-    $ref: specification/paths/TeamDashboardByTeamPerformance.yaml
-  /teamdashboardbyyearoveryear:
-    $ref: specification/paths/TeamDashboardByYearOverYear.yaml
   /teamdetails:
     $ref: specification/paths/TeamDetails.yaml
   /teamestimatedmetrics:

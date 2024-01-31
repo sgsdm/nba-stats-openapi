@@ -1,2 +1,4 @@
 description: '[to do]'
-type: string
+type:
+- null
+- string

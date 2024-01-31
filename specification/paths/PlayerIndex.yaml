@@ -1,0 +1,67 @@
+get:
+  summary: PlayerIndex
+  operationId: PlayerIndex
+  description: '[to do]'
+  security: []
+  tags:
+  - nba
+  parameters:
+  - $ref: ../parameters/Active.yaml
+  - $ref: ../parameters/AllStar.yaml
+  - $ref: ../parameters/College.yaml
+  - $ref: ../parameters/Country.yaml
+  - $ref: ../parameters/DraftPick.yaml
+  - $ref: ../parameters/DraftRound.yaml
+  - $ref: ../parameters/DraftYear.yaml
+  - $ref: ../parameters/Height.yaml
+  - $ref: ../parameters/Historical.yaml
+  - $ref: ../parameters/LeagueID.yaml
+  - $ref: ../parameters/Season.yaml
+  - $ref: ../parameters/TeamID.yaml
+  - $ref: ../parameters/Weight.yaml
+  responses:
+    '200':
+      description: '[to do]'
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              parameters:
+                type: object
+                properties:
+                  Active:
+                    $ref: ../schemas/Active.yaml
+                  AllStar:
+                    $ref: ../schemas/AllStar.yaml
+                  College:
+                    $ref: ../schemas/College.yaml
+                  Country:
+                    $ref: ../schemas/Country.yaml
+                  DraftPick:
+                    $ref: ../schemas/DraftPick.yaml
+                  DraftRound:
+                    $ref: ../schemas/DraftRound.yaml
+                  DraftYear:
+                    $ref: ../schemas/DraftYear.yaml
+                  Height:
+                    $ref: ../schemas/Height.yaml
+                  Historical:
+                    $ref: ../schemas/Historical.yaml
+                  LeagueID:
+                    $ref: ../schemas/LeagueID.yaml
+                  Season:
+                    $ref: ../schemas/Season.yaml
+                  TeamID:
+                    $ref: ../schemas/TeamID.yaml
+                  Weight:
+                    $ref: ../schemas/Weight.yaml
+              resource:
+                const: playerindex
+              resultSets:
+                type: array
+                items:
+                - type:
+                    $ref: ../data_sets/PlayerIndex.yaml
+      '404':
+        description: '[to do]'

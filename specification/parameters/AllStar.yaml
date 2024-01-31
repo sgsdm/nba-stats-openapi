@@ -1,0 +1,5 @@
+name: AllStar
+description: '[to do]'
+in: query
+schema:
+  $ref: ../schemas/AllStar.yaml

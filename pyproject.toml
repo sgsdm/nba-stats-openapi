@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nba stats api generator"
+name = "nba_stats_generator"
 version = "1.0.0"
 description = "Generates OpenAPI Json files to document stats.nba.com"
 authors = ["Abhi Agarwal <abhiaagarwal01@gmail.com>"]
@@ -12,8 +12,7 @@ requests = "^2.28.2"
 pyyaml = "^6.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "*"
-
+ruff = "0.1.15"
 
 [build-system]
 requires = ["poetry-core"]

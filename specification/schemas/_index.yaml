@@ -1,11 +1,11 @@
-:1:
-  $ref: ./:1.yaml
 Abbreviation:
   $ref: ./Abbreviation.yaml
 Accounttype:
   $ref: ./Accounttype.yaml
 ActionType:
   $ref: ./ActionType.yaml
+Active:
+  $ref: ./Active.yaml
 ActiveFlag:
   $ref: ./ActiveFlag.yaml
 ActivePlayers:
@@ -24,14 +24,10 @@ Age:
   $ref: ./Age.yaml
 AheadBehind:
   $ref: ./AheadBehind.yaml
-Aheadathalf:
-  $ref: ./Aheadathalf.yaml
-Aheadatthird:
-  $ref: ./Aheadatthird.yaml
 AllNbaTeamNumber:
   $ref: ./AllNbaTeamNumber.yaml
-Apr:
-  $ref: ./Apr.yaml
+AllStar:
+  $ref: ./AllStar.yaml
 Arena:
   $ref: ./Arena.yaml
 Arenacapacity:
@@ -60,8 +56,6 @@ AstTov:
   $ref: ./AstTov.yaml
 Attendance:
   $ref: ./Attendance.yaml
-Aug:
-  $ref: ./Aug.yaml
 AvgActualMinutes:
   $ref: ./AvgActualMinutes.yaml
 AvgActualSeconds:
@@ -88,10 +82,6 @@ AvgTurnovers:
   $ref: ./AvgTurnovers.yaml
 Away:
   $ref: ./Away.yaml
-Behindathalf:
-  $ref: ./Behindathalf.yaml
-Behindatthird:
-  $ref: ./Behindatthird.yaml
 BenchPress:
   $ref: ./BenchPress.yaml
 BirthDate:
@@ -142,12 +132,12 @@ ClinchedPlayIn:
   $ref: ./ClinchedPlayIn.yaml
 ClinchedPlayoffs:
   $ref: ./ClinchedPlayoffs.yaml
-Clinchedconferencetitle:
-  $ref: ./Clinchedconferencetitle.yaml
-Clincheddivisiontitle:
-  $ref: ./Clincheddivisiontitle.yaml
-Clinchedplayoffbirth:
-  $ref: ./Clinchedplayoffbirth.yaml
+Clinchedistgroup:
+  $ref: ./Clinchedistgroup.yaml
+Clinchedistknockout:
+  $ref: ./Clinchedistknockout.yaml
+Clinchedistwildcard:
+  $ref: ./Clinchedistwildcard.yaml
 Clinchindicator:
   $ref: ./Clinchindicator.yaml
 CloseDefDistRange:
@@ -174,10 +164,6 @@ ConfTitles:
   $ref: ./ConfTitles.yaml
 Conference:
   $ref: ./Conference.yaml
-Conferencegamesback:
-  $ref: ./Conferencegamesback.yaml
-Conferencerecord:
-  $ref: ./Conferencerecord.yaml
 ContestedShots:
   $ref: ./ContestedShots.yaml
 ContestedShots2pt:
@@ -194,12 +180,6 @@ Country:
   $ref: ./Country.yaml
 CourtStatus:
   $ref: ./CourtStatus.yaml
-Currenthomestreak:
-  $ref: ./Currenthomestreak.yaml
-Currentroadstreak:
-  $ref: ./Currentroadstreak.yaml
-Currentstreak:
-  $ref: ./Currentstreak.yaml
 DFgPct:
   $ref: ./DFgPct.yaml
 DFga:
@@ -218,8 +198,6 @@ Dd2:
   $ref: ./Dd2.yaml
 Dd2Rank:
   $ref: ./Dd2Rank.yaml
-Dec:
-  $ref: ./Dec.yaml
 DefBoxouts:
   $ref: ./DefBoxouts.yaml
 DefLooseBallsRecovered:
@@ -236,24 +214,16 @@ DefReb:
   $ref: ./DefReb.yaml
 DefRimPct:
   $ref: ./DefRimPct.yaml
-DefTeamAbbreviation:
-  $ref: ./DefTeamAbbreviation.yaml
-DefTeamCity:
-  $ref: ./DefTeamCity.yaml
 DefTeamID:
   $ref: ./DefTeamID.yaml
-DefTeamId:
-  $ref: ./DefTeamId.yaml
-DefTeamNickname:
-  $ref: ./DefTeamNickname.yaml
 DefenseCategory:
   $ref: ./DefenseCategory.yaml
 Deflections:
   $ref: ./Deflections.yaml
 Description:
   $ref: ./Description.yaml
-Diffpointspg:
-  $ref: ./Diffpointspg.yaml
+Diff:
+  $ref: ./Diff.yaml
 Direction:
   $ref: ./Direction.yaml
 DisplayFiLast:
@@ -280,12 +250,6 @@ DivTitles:
   $ref: ./DivTitles.yaml
 Division:
   $ref: ./Division.yaml
-Divisiongamesback:
-  $ref: ./Divisiongamesback.yaml
-Divisionrank:
-  $ref: ./Divisionrank.yaml
-Divisionrecord:
-  $ref: ./Divisionrecord.yaml
 DleagueFlag:
   $ref: ./DleagueFlag.yaml
 Dleagueaffiliation:
@@ -364,10 +328,6 @@ EfgPctRank:
   $ref: ./EfgPctRank.yaml
 EliminatedPlayoffs:
   $ref: ./EliminatedPlayoffs.yaml
-Eliminatedconference:
-  $ref: ./Eliminatedconference.yaml
-Eliminateddivision:
-  $ref: ./Eliminateddivision.yaml
 EndPeriod:
   $ref: ./EndPeriod.yaml
 EndRange:
@@ -432,10 +392,6 @@ Exp:
   $ref: ./Exp.yaml
 FanDuelPts:
   $ref: ./FanDuelPts.yaml
-Feb:
-  $ref: ./Feb.yaml
-Fewerturnovers:
-  $ref: ./Fewerturnovers.yaml
 Fg:
   $ref: ./Fg.yaml
 Fg2Pct:
@@ -546,10 +502,34 @@ GameTime:
   $ref: ./GameTime.yaml
 Gamecode:
   $ref: ./Gamecode.yaml
+Gameid1:
+  $ref: ./Gameid1.yaml
+Gameid2:
+  $ref: ./Gameid2.yaml
+Gameid3:
+  $ref: ./Gameid3.yaml
+Gameid4:
+  $ref: ./Gameid4.yaml
 Games:
   $ref: ./Games.yaml
 GamesPlayedFlag:
   $ref: ./GamesPlayedFlag.yaml
+Gamestatus1:
+  $ref: ./Gamestatus1.yaml
+Gamestatus2:
+  $ref: ./Gamestatus2.yaml
+Gamestatus3:
+  $ref: ./Gamestatus3.yaml
+Gamestatus4:
+  $ref: ./Gamestatus4.yaml
+Gamestatustext1:
+  $ref: ./Gamestatustext1.yaml
+Gamestatustext2:
+  $ref: ./Gamestatustext2.yaml
+Gamestatustext3:
+  $ref: ./Gamestatustext3.yaml
+Gamestatustext4:
+  $ref: ./Gamestatustext4.yaml
 Gamestreak:
   $ref: ./Gamestreak.yaml
 Gb:
@@ -674,6 +654,8 @@ HighSeedTeam:
   $ref: ./HighSeedTeam.yaml
 HighSeedTeamId:
   $ref: ./HighSeedTeamId.yaml
+Historical:
+  $ref: ./Historical.yaml
 HistoricalStatus:
   $ref: ./HistoricalStatus.yaml
 Home:
@@ -722,24 +704,28 @@ IsAvailable:
   $ref: ./IsAvailable.yaml
 IsOnlyCurrentSeason:
   $ref: ./IsOnlyCurrentSeason.yaml
+Istgroup:
+  $ref: ./Istgroup.yaml
+Istgroupgb:
+  $ref: ./Istgroupgb.yaml
+Istgrouprank:
+  $ref: ./Istgrouprank.yaml
+Istknockoutrank:
+  $ref: ./Istknockoutrank.yaml
+Istwildcardgb:
+  $ref: ./Istwildcardgb.yaml
+Istwildcardrank:
+  $ref: ./Istwildcardrank.yaml
 Isvisible:
   $ref: ./Isvisible.yaml
-Jan:
-  $ref: ./Jan.yaml
 Jersey:
   $ref: ./Jersey.yaml
 JerseyNum:
   $ref: ./JerseyNum.yaml
 JerseyNumber:
   $ref: ./JerseyNumber.yaml
-Jul:
-  $ref: ./Jul.yaml
-Jun:
-  $ref: ./Jun.yaml
 L:
   $ref: ./L.yaml
-L10:
-  $ref: ./L10.yaml
 LHome:
   $ref: ./LHome.yaml
 LRank:
@@ -750,10 +736,6 @@ LaneAgilityTime:
   $ref: ./LaneAgilityTime.yaml
 LargestLead:
   $ref: ./LargestLead.yaml
-Last10home:
-  $ref: ./Last10home.yaml
-Last10road:
-  $ref: ./Last10road.yaml
 LastAffiliation:
   $ref: ./LastAffiliation.yaml
 LastGameDateEst:
@@ -788,10 +770,6 @@ Lastseason:
   $ref: ./Lastseason.yaml
 LeadChanges:
   $ref: ./LeadChanges.yaml
-Leadinfgpct:
-  $ref: ./Leadinfgpct.yaml
-Leadinreb:
-  $ref: ./Leadinreb.yaml
 LeagTix:
   $ref: ./LeagTix.yaml
 LeagueID:
@@ -802,8 +780,6 @@ LeagueTitles:
   $ref: ./LeagueTitles.yaml
 Leagueid:
   $ref: ./Leagueid.yaml
-Leaguerank:
-  $ref: ./Leaguerank.yaml
 LivePcTime:
   $ref: ./LivePcTime.yaml
 LivePeriod:
@@ -816,14 +792,14 @@ LocY:
   $ref: ./LocY.yaml
 Location:
   $ref: ./Location.yaml
-Longhomestreak:
-  $ref: ./Longhomestreak.yaml
-Longlossstreak:
-  $ref: ./Longlossstreak.yaml
-Longroadstreak:
-  $ref: ./Longroadstreak.yaml
-Longwinstreak:
-  $ref: ./Longwinstreak.yaml
+Location1:
+  $ref: ./Location1.yaml
+Location2:
+  $ref: ./Location2.yaml
+Location3:
+  $ref: ./Location3.yaml
+Location4:
+  $ref: ./Location4.yaml
 LooseBallsRecovered:
   $ref: ./LooseBallsRecovered.yaml
 Losses:
@@ -876,8 +852,6 @@ LtTD:
   $ref: ./LtTD.yaml
 LtTOV:
   $ref: ./LtTOV.yaml
-Mar:
-  $ref: ./Mar.yaml
 Matchup:
   $ref: ./Matchup.yaml
 MatchupAst:
@@ -902,8 +876,6 @@ MatchupFtm:
   $ref: ./MatchupFtm.yaml
 MatchupMin:
   $ref: ./MatchupMin.yaml
-MatchupPotentialAst:
-  $ref: ./MatchupPotentialAst.yaml
 MatchupTov:
   $ref: ./MatchupTov.yaml
 MaxActualMinutes:
@@ -928,8 +900,6 @@ MaxVerticalLeap:
   $ref: ./MaxVerticalLeap.yaml
 MaxYear:
   $ref: ./MaxYear.yaml
-May:
-  $ref: ./May.yaml
 MeasureType:
   $ref: ./MeasureType.yaml
 Min:
@@ -964,16 +934,12 @@ Nickname:
   $ref: ./Nickname.yaml
 NormalFgPct:
   $ref: ./NormalFgPct.yaml
-Nov:
-  $ref: ./Nov.yaml
 Num:
   $ref: ./Num.yaml
 NumberOfGames:
   $ref: ./NumberOfGames.yaml
 Numseasons:
   $ref: ./Numseasons.yaml
-Oct:
-  $ref: ./Oct.yaml
 OffBoxouts:
   $ref: ./OffBoxouts.yaml
 OffDribCollegeBreakLeft:
@@ -1000,16 +966,8 @@ OffRating:
   $ref: ./OffRating.yaml
 OffReb:
   $ref: ./OffReb.yaml
-OffTeamAbbreviation:
-  $ref: ./OffTeamAbbreviation.yaml
-OffTeamCity:
-  $ref: ./OffTeamCity.yaml
 OffTeamID:
   $ref: ./OffTeamID.yaml
-OffTeamId:
-  $ref: ./OffTeamId.yaml
-OffTeamNickname:
-  $ref: ./OffTeamNickname.yaml
 OfficialId:
   $ref: ./OfficialId.yaml
 OnMoveCollege:
@@ -1042,14 +1000,18 @@ OppTovPct:
   $ref: ./OppTovPct.yaml
 OpponentTeamID:
   $ref: ./OpponentTeamID.yaml
+Opponentteamabbreviation1:
+  $ref: ./Opponentteamabbreviation1.yaml
+Opponentteamabbreviation2:
+  $ref: ./Opponentteamabbreviation2.yaml
+Opponentteamabbreviation3:
+  $ref: ./Opponentteamabbreviation3.yaml
+Opponentteamabbreviation4:
+  $ref: ./Opponentteamabbreviation4.yaml
 Oppositeteam:
   $ref: ./Oppositeteam.yaml
-Oppover500:
-  $ref: ./Oppover500.yaml
-Opppointspg:
-  $ref: ./Opppointspg.yaml
-Oppscore100pts:
-  $ref: ./Oppscore100pts.yaml
+Opppts:
+  $ref: ./Opppts.yaml
 Oreb:
   $ref: ./Oreb.yaml
 OrebPct:
@@ -1062,14 +1024,20 @@ OrganizationId:
   $ref: ./OrganizationId.yaml
 OrganizationType:
   $ref: ./OrganizationType.yaml
-Ot:
-  $ref: ./Ot.yaml
 OtherleagueExperienceCh:
   $ref: ./OtherleagueExperienceCh.yaml
 OutTimeReal:
   $ref: ./OutTimeReal.yaml
 Outcome:
   $ref: ./Outcome.yaml
+Outcome1:
+  $ref: ./Outcome1.yaml
+Outcome2:
+  $ref: ./Outcome2.yaml
+Outcome3:
+  $ref: ./Outcome3.yaml
+Outcome4:
+  $ref: ./Outcome4.yaml
 Overall:
   $ref: ./Overall.yaml
 OverallPick:
@@ -1126,8 +1094,6 @@ PctBoxOutsReb:
   $ref: ./PctBoxOutsReb.yaml
 PctBoxOutsTeamReb:
   $ref: ./PctBoxOutsTeamReb.yaml
-PctDefenderTotalTime:
-  $ref: ./PctDefenderTotalTime.yaml
 PctDreb:
   $ref: ./PctDreb.yaml
 PctFg3a:
@@ -1150,8 +1116,6 @@ PctLooseBallsRecoveredDef:
   $ref: ./PctLooseBallsRecoveredDef.yaml
 PctLooseBallsRecoveredOff:
   $ref: ./PctLooseBallsRecoveredOff.yaml
-PctOffTotalTime:
-  $ref: ./PctOffTotalTime.yaml
 PctOreb:
   $ref: ./PctOreb.yaml
 PctPf:
@@ -1180,8 +1144,6 @@ PctReb:
   $ref: ./PctReb.yaml
 PctStl:
   $ref: ./PctStl.yaml
-PctTotalTimeBothOn:
-  $ref: ./PctTotalTimeBothOn.yaml
 PctTov:
   $ref: ./PctTov.yaml
 PctUast2pm:
@@ -1316,8 +1278,6 @@ Playerid:
   $ref: ./Playerid.yaml
 Players:
   $ref: ./Players.yaml
-Playoffrank:
-  $ref: ./Playoffrank.yaml
 PlusMinus:
   $ref: ./PlusMinus.yaml
 PlusMinusRank:
@@ -1328,20 +1288,14 @@ PoAppearances:
   $ref: ./PoAppearances.yaml
 PointDiff:
   $ref: ./PointDiff.yaml
-Pointspg:
-  $ref: ./Pointspg.yaml
 Position:
   $ref: ./Position.yaml
 Poss:
   $ref: ./Poss.yaml
 PossPct:
   $ref: ./PossPct.yaml
-Postas:
-  $ref: ./Postas.yaml
 Ppp:
   $ref: ./Ppp.yaml
-Preas:
-  $ref: ./Preas.yaml
 PtAvailable:
   $ref: ./PtAvailable.yaml
 PtDiff:
@@ -1470,8 +1424,6 @@ RebPlayerName:
   $ref: ./RebPlayerName.yaml
 RebRank:
   $ref: ./RebRank.yaml
-Record:
-  $ref: ./Record.yaml
 Region:
   $ref: ./Region.yaml
 RemainingAwayG:
@@ -1488,8 +1440,6 @@ ReturntoplayEastPiFlag:
   $ref: ./ReturntoplayEastPiFlag.yaml
 ReturntoplayWestPiFlag:
   $ref: ./ReturntoplayWestPiFlag.yaml
-Road:
-  $ref: ./Road.yaml
 RoadRecord:
   $ref: ./RoadRecord.yaml
 RookieYear:
@@ -1512,8 +1462,6 @@ Scope:
   $ref: ./Scope.yaml
 Score:
   $ref: ./Score.yaml
-Score100pts:
-  $ref: ./Score100pts.yaml
 ScorePossPct:
   $ref: ./ScorePossPct.yaml
 Scoremargin:
@@ -1538,12 +1486,14 @@ SeasonType:
   $ref: ./SeasonType.yaml
 SeasonYear:
   $ref: ./SeasonYear.yaml
-Seasonid:
-  $ref: ./Seasonid.yaml
 Seasonswithteam:
   $ref: ./Seasonswithteam.yaml
+Seasonyear:
+  $ref: ./Seasonyear.yaml
 SecondsRemaining:
   $ref: ./SecondsRemaining.yaml
+Section:
+  $ref: ./Section.yaml
 Seed:
   $ref: ./Seed.yaml
 SeedingGame1Id:
@@ -1610,8 +1560,6 @@ SeedingGame8Opponent:
   $ref: ./SeedingGame8Opponent.yaml
 SeedingGame8Outcome:
   $ref: ./SeedingGame8Outcome.yaml
-Sep:
-  $ref: ./Sep.yaml
 SeriesID:
   $ref: ./SeriesID.yaml
 SeriesId:
@@ -1724,24 +1672,12 @@ StlRank:
   $ref: ./StlRank.yaml
 StlTov:
   $ref: ./StlTov.yaml
-Strcurrenthomestreak:
-  $ref: ./Strcurrenthomestreak.yaml
-Strcurrentroadstreak:
-  $ref: ./Strcurrentroadstreak.yaml
-Strcurrentstreak:
-  $ref: ./Strcurrentstreak.yaml
-Strlonghomestreak:
-  $ref: ./Strlonghomestreak.yaml
-Strlongroadstreak:
-  $ref: ./Strlongroadstreak.yaml
 Subtype1:
   $ref: ./Subtype1.yaml
 Subtype2:
   $ref: ./Subtype2.yaml
 Subtype3:
   $ref: ./Subtype3.yaml
-SwitchesOn:
-  $ref: ./SwitchesOn.yaml
 Td3:
   $ref: ./Td3.yaml
 Td3Rank:
@@ -1782,26 +1718,22 @@ TeamTurnovers:
   $ref: ./TeamTurnovers.yaml
 TeamWinsLosses:
   $ref: ./TeamWinsLosses.yaml
+Teamabbreviation:
+  $ref: ./Teamabbreviation.yaml
 Teamcity:
   $ref: ./Teamcity.yaml
 Teamid:
   $ref: ./Teamid.yaml
 Teamname:
   $ref: ./Teamname.yaml
+Teamslug:
+  $ref: ./Teamslug.yaml
 TempPlayerId:
   $ref: ./TempPlayerId.yaml
-Tenptsormore:
-  $ref: ./Tenptsormore.yaml
 ThreeQuarterSprint:
   $ref: ./ThreeQuarterSprint.yaml
 ThreepDfgpct:
   $ref: ./ThreepDfgpct.yaml
-Threeptsorless:
-  $ref: ./Threeptsorless.yaml
-Tiedathalf:
-  $ref: ./Tiedathalf.yaml
-Tiedatthird:
-  $ref: ./Tiedatthird.yaml
 Timeframe:
   $ref: ./Timeframe.yaml
 TimesTied:
@@ -1916,22 +1848,6 @@ VsTeamName:
   $ref: ./VsTeamName.yaml
 VsTeamNickname:
   $ref: ./VsTeamNickname.yaml
-Vsatlantic:
-  $ref: ./Vsatlantic.yaml
-Vscentral:
-  $ref: ./Vscentral.yaml
-Vseast:
-  $ref: ./Vseast.yaml
-Vsnorthwest:
-  $ref: ./Vsnorthwest.yaml
-Vspacific:
-  $ref: ./Vspacific.yaml
-Vssoutheast:
-  $ref: ./Vssoutheast.yaml
-Vssouthwest:
-  $ref: ./Vssouthwest.yaml
-Vswest:
-  $ref: ./Vswest.yaml
 Vtm:
   $ref: ./Vtm.yaml
 W:
@@ -1962,8 +1878,6 @@ Wingspan:
   $ref: ./Wingspan.yaml
 WingspanFtIn:
   $ref: ./WingspanFtIn.yaml
-Winpct:
-  $ref: ./Winpct.yaml
 Wins:
   $ref: ./Wins.yaml
 Wl:

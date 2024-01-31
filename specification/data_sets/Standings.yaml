@@ -5,94 +5,61 @@ properties:
   headers:
     type: array
     items:
-    - const: LeagueID
-    - const: SeasonID
-    - const: TeamID
-    - const: TeamCity
-    - const: TeamName
-    - const: Conference
-    - const: ConferenceRecord
-    - const: PlayoffRank
-    - const: ClinchIndicator
-    - const: Division
-    - const: DivisionRecord
-    - const: DivisionRank
-    - const: WINS
-    - const: LOSSES
-    - const: WinPCT
-    - const: LeagueRank
-    - const: Record
-    - const: HOME
-    - const: ROAD
-    - const: L10
-    - const: Last10Home
-    - const: Last10Road
-    - const: OT
-    - const: ThreePTSOrLess
-    - const: TenPTSOrMore
-    - const: LongHomeStreak
-    - const: strLongHomeStreak
-    - const: LongRoadStreak
-    - const: strLongRoadStreak
-    - const: LongWinStreak
-    - const: LongLossStreak
-    - const: CurrentHomeStreak
-    - const: strCurrentHomeStreak
-    - const: CurrentRoadStreak
-    - const: strCurrentRoadStreak
-    - const: CurrentStreak
-    - const: strCurrentStreak
-    - const: ConferenceGamesBack
-    - const: DivisionGamesBack
-    - const: ClinchedConferenceTitle
-    - const: ClinchedDivisionTitle
-    - const: ClinchedPlayoffBirth
-    - const: EliminatedConference
-    - const: EliminatedDivision
-    - const: AheadAtHalf
-    - const: BehindAtHalf
-    - const: TiedAtHalf
-    - const: AheadAtThird
-    - const: BehindAtThird
-    - const: TiedAtThird
-    - const: Score100PTS
-    - const: OppScore100PTS
-    - const: OppOver500
-    - const: LeadInFGPCT
-    - const: LeadInReb
-    - const: FewerTurnovers
-    - const: PointsPG
-    - const: OppPointsPG
-    - const: DiffPointsPG
-    - const: vsEast
-    - const: vsAtlantic
-    - const: vsCentral
-    - const: vsSoutheast
-    - const: vsWest
-    - const: vsNorthwest
-    - const: vsPacific
-    - const: vsSouthwest
-    - const: Jan
-    - const: Feb
-    - const: Mar
-    - const: Apr
-    - const: May
-    - const: Jun
-    - const: Jul
-    - const: Aug
-    - const: Sep
-    - const: Oct
-    - const: Nov
-    - const: Dec
-    - const: PreAS
-    - const: PostAS
+    - const: leagueId
+    - const: seasonYear
+    - const: teamId
+    - const: teamCity
+    - const: teamName
+    - const: teamAbbreviation
+    - const: teamSlug
+    - const: conference
+    - const: istGroup
+    - const: clinchIndicator
+    - const: clinchedIstKnockout
+    - const: clinchedIstGroup
+    - const: clinchedIstWildcard
+    - const: istWildcardRank
+    - const: istGroupRank
+    - const: istKnockoutRank
+    - const: wins
+    - const: losses
+    - const: pct
+    - const: istGroupGb
+    - const: istWildcardGb
+    - const: diff
+    - const: pts
+    - const: oppPts
+    - const: gameId1
+    - const: opponentTeamAbbreviation1
+    - const: location1
+    - const: gameStatus1
+    - const: gameStatusText1
+    - const: outcome1
+    - const: gameId2
+    - const: opponentTeamAbbreviation2
+    - const: location2
+    - const: gameStatus2
+    - const: gameStatusText2
+    - const: outcome2
+    - const: gameId3
+    - const: opponentTeamAbbreviation3
+    - const: location3
+    - const: gameStatus3
+    - const: gameStatusText3
+    - const: outcome3
+    - const: gameId4
+    - const: opponentTeamAbbreviation4
+    - const: location4
+    - const: gameStatus4
+    - const: gameStatusText4
+    - const: outcome4
   rowSet:
     type: array
     items:
     - type:
         $ref: ../schemas/Leagueid.yaml
     - type:
-        $ref: ../schemas/Seasonid.yaml
+        $ref: ../schemas/Seasonyear.yaml
     - type:
         $ref: ../schemas/Teamid.yaml
     - type:
@@ -100,154 +67,88 @@ properties:
     - type:
         $ref: ../schemas/Teamname.yaml
     - type:
+        $ref: ../schemas/Teamabbreviation.yaml
+    - type:
+        $ref: ../schemas/Teamslug.yaml
+    - type:
         $ref: ../schemas/Conference.yaml
     - type:
-        $ref: ../schemas/Conferencerecord.yaml
-    - type:
-        $ref: ../schemas/Playoffrank.yaml
+        $ref: ../schemas/Istgroup.yaml
     - type:
         $ref: ../schemas/Clinchindicator.yaml
     - type:
-        $ref: ../schemas/Division.yaml
+        $ref: ../schemas/Clinchedistknockout.yaml
     - type:
-        $ref: ../schemas/Divisionrecord.yaml
+        $ref: ../schemas/Clinchedistgroup.yaml
     - type:
-        $ref: ../schemas/Divisionrank.yaml
+        $ref: ../schemas/Clinchedistwildcard.yaml
+    - type:
+        $ref: ../schemas/Istwildcardrank.yaml
+    - type:
+        $ref: ../schemas/Istgrouprank.yaml
+    - type:
+        $ref: ../schemas/Istknockoutrank.yaml
     - type:
         $ref: ../schemas/Wins.yaml
     - type:
         $ref: ../schemas/Losses.yaml
     - type:
-        $ref: ../schemas/Winpct.yaml
+        $ref: ../schemas/Pct.yaml
     - type:
-        $ref: ../schemas/Leaguerank.yaml
+        $ref: ../schemas/Istgroupgb.yaml
     - type:
-        $ref: ../schemas/Record.yaml
+        $ref: ../schemas/Istwildcardgb.yaml
     - type:
-        $ref: ../schemas/Home.yaml
+        $ref: ../schemas/Diff.yaml
     - type:
-        $ref: ../schemas/Road.yaml
+        $ref: ../schemas/Pts.yaml
     - type:
-        $ref: ../schemas/L10.yaml
+        $ref: ../schemas/Opppts.yaml
     - type:
-        $ref: ../schemas/Last10home.yaml
+        $ref: ../schemas/Gameid1.yaml
     - type:
-        $ref: ../schemas/Last10road.yaml
+        $ref: ../schemas/Opponentteamabbreviation1.yaml
     - type:
-        $ref: ../schemas/Ot.yaml
+        $ref: ../schemas/Location1.yaml
     - type:
-        $ref: ../schemas/Threeptsorless.yaml
+        $ref: ../schemas/Gamestatus1.yaml
     - type:
-        $ref: ../schemas/Tenptsormore.yaml
+        $ref: ../schemas/Gamestatustext1.yaml
     - type:
-        $ref: ../schemas/Longhomestreak.yaml
+        $ref: ../schemas/Outcome1.yaml
     - type:
-        $ref: ../schemas/Strlonghomestreak.yaml
+        $ref: ../schemas/Gameid2.yaml
     - type:
-        $ref: ../schemas/Longroadstreak.yaml
+        $ref: ../schemas/Opponentteamabbreviation2.yaml
     - type:
-        $ref: ../schemas/Strlongroadstreak.yaml
+        $ref: ../schemas/Location2.yaml
     - type:
-        $ref: ../schemas/Longwinstreak.yaml
+        $ref: ../schemas/Gamestatus2.yaml
     - type:
-        $ref: ../schemas/Longlossstreak.yaml
+        $ref: ../schemas/Gamestatustext2.yaml
     - type:
-        $ref: ../schemas/Currenthomestreak.yaml
+        $ref: ../schemas/Outcome2.yaml
     - type:
-        $ref: ../schemas/Strcurrenthomestreak.yaml
+        $ref: ../schemas/Gameid3.yaml
     - type:
-        $ref: ../schemas/Currentroadstreak.yaml
+        $ref: ../schemas/Opponentteamabbreviation3.yaml
     - type:
-        $ref: ../schemas/Strcurrentroadstreak.yaml
+        $ref: ../schemas/Location3.yaml
     - type:
-        $ref: ../schemas/Currentstreak.yaml
+        $ref: ../schemas/Gamestatus3.yaml
     - type:
-        $ref: ../schemas/Strcurrentstreak.yaml
+        $ref: ../schemas/Gamestatustext3.yaml
     - type:
-        $ref: ../schemas/Conferencegamesback.yaml
+        $ref: ../schemas/Outcome3.yaml
     - type:
-        $ref: ../schemas/Divisiongamesback.yaml
+        $ref: ../schemas/Gameid4.yaml
     - type:
-        $ref: ../schemas/Clinchedconferencetitle.yaml
+        $ref: ../schemas/Opponentteamabbreviation4.yaml
     - type:
-        $ref: ../schemas/Clincheddivisiontitle.yaml
+        $ref: ../schemas/Location4.yaml
     - type:
-        $ref: ../schemas/Clinchedplayoffbirth.yaml
+        $ref: ../schemas/Gamestatus4.yaml
     - type:
-        $ref: ../schemas/Eliminatedconference.yaml
+        $ref: ../schemas/Gamestatustext4.yaml
     - type:
-        $ref: ../schemas/Eliminateddivision.yaml
-    - type:
-        $ref: ../schemas/Aheadathalf.yaml
-    - type:
-        $ref: ../schemas/Behindathalf.yaml
-    - type:
-        $ref: ../schemas/Tiedathalf.yaml
-    - type:
-        $ref: ../schemas/Aheadatthird.yaml
-    - type:
-        $ref: ../schemas/Behindatthird.yaml
-    - type:
-        $ref: ../schemas/Tiedatthird.yaml
-    - type:
-        $ref: ../schemas/Score100pts.yaml
-    - type:
-        $ref: ../schemas/Oppscore100pts.yaml
-    - type:
-        $ref: ../schemas/Oppover500.yaml
-    - type:
-        $ref: ../schemas/Leadinfgpct.yaml
-    - type:
-        $ref: ../schemas/Leadinreb.yaml
-    - type:
-        $ref: ../schemas/Fewerturnovers.yaml
-    - type:
-        $ref: ../schemas/Pointspg.yaml
-    - type:
-        $ref: ../schemas/Opppointspg.yaml
-    - type:
-        $ref: ../schemas/Diffpointspg.yaml
-    - type:
-        $ref: ../schemas/Vseast.yaml
-    - type:
-        $ref: ../schemas/Vsatlantic.yaml
-    - type:
-        $ref: ../schemas/Vscentral.yaml
-    - type:
-        $ref: ../schemas/Vssoutheast.yaml
-    - type:
-        $ref: ../schemas/Vswest.yaml
-    - type:
-        $ref: ../schemas/Vsnorthwest.yaml
-    - type:
-        $ref: ../schemas/Vspacific.yaml
-    - type:
-        $ref: ../schemas/Vssouthwest.yaml
-    - type:
-        $ref: ../schemas/Jan.yaml
-    - type:
-        $ref: ../schemas/Feb.yaml
-    - type:
-        $ref: ../schemas/Mar.yaml
-    - type:
-        $ref: ../schemas/Apr.yaml
-    - type:
-        $ref: ../schemas/May.yaml
-    - type:
-        $ref: ../schemas/Jun.yaml
-    - type:
-        $ref: ../schemas/Jul.yaml
-    - type:
-        $ref: ../schemas/Aug.yaml
-    - type:
-        $ref: ../schemas/Sep.yaml
-    - type:
-        $ref: ../schemas/Oct.yaml
-    - type:
-        $ref: ../schemas/Nov.yaml
-    - type:
-        $ref: ../schemas/Dec.yaml
-    - type:
-        $ref: ../schemas/Preas.yaml
-    - type:
-        $ref: ../schemas/Postas.yaml
+        $ref: ../schemas/Outcome4.yaml

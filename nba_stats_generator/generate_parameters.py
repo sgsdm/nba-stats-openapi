@@ -4,10 +4,12 @@ import re
 
 import yaml
 
+from typing import Any
+
 
 def generate_parameters(dir: pathlib.Path) -> None:
-    with (dir / "generator" / "analysis.json").open("r") as analysis_file:
-        analysis: dict[str, dict] = json.loads(analysis_file.read())
+    with (dir / "analysis.json").open("r") as analysis_file:
+        analysis: dict[str, Any] = json.loads(analysis_file.read())
 
     openapi_file_path = dir / "openapi.yaml"
     specification_dir = dir / "specification"
@@ -17,7 +19,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
     data_set_dir = specification_dir / "data_sets"
 
     with (dir / "specification" / "frontmatter.yaml").open("r") as frontmatter_file:
-        openapi: dict = yaml.safe_load(frontmatter_file.read())
+        openapi: dict[str, Any] = yaml.safe_load(frontmatter_file.read())
 
     parameters: set[str] = set()
     data_sets: set[str] = set()
@@ -100,7 +102,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
                 temp_schema["type"] = "string"
                 nullable = False
 
-            if (pattern := endpoint_vals["parameter_patterns"][parameter]) is not None:
+            if (pattern := endpoint_vals["parameter_patterns"].get(parameter)) is not None:
                 if "{" in pattern:  # probably regex. probably.
                     temp_schema["pattern"] = pattern
                 else:
@@ -131,7 +133,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
             continue
         print(endpoint)
 
-        if endpoint in ["LeagueDashPlayerShotLocations", "LeagueDashTeamShotLocations"]:
+        if endpoint in ["LeagueDashPlayerShotLocations", "LeagueDashTeamShotLocations", "PlayerIndex"]:
             continue
 
         for data_set, data_set_vals in endpoint_vals["data_sets"].items():
@@ -213,5 +215,5 @@ def generate_parameters(dir: pathlib.Path) -> None:
 
 
 if __name__ == "__main__":
-    working_dir = pathlib.Path(__file__).resolve().parents[2]
+    working_dir = pathlib.Path(__file__).resolve().parents[1]
     generate_parameters(working_dir)
