@@ -8,9 +8,6 @@
   "ActionType": {
     "$ref": "./ActionType.json"
   },
-  "Active": {
-    "$ref": "./Active.json"
-  },
   "ActiveFlag": {
     "$ref": "./ActiveFlag.json"
   },
@@ -40,9 +37,6 @@
   },
   "AllNbaTeamNumber": {
     "$ref": "./AllNbaTeamNumber.json"
-  },
-  "AllStar": {
-    "$ref": "./AllStar.json"
   },
   "Arena": {
     "$ref": "./Arena.json"
@@ -361,9 +355,6 @@
   },
   "DistMilesOff": {
     "$ref": "./DistMilesOff.json"
-  },
-  "DistanceRange": {
-    "$ref": "./DistanceRange.json"
   },
   "Div": {
     "$ref": "./Div.json"
@@ -982,9 +973,6 @@
   },
   "HighSeedTeamId": {
     "$ref": "./HighSeedTeamId.json"
-  },
-  "Historical": {
-    "$ref": "./Historical.json"
   },
   "HistoricalStatus": {
     "$ref": "./HistoricalStatus.json"

@@ -1,9 +1,0 @@
-{
-  "name": "DistanceRange",
-  "description": "[to do]",
-  "in": "query",
-  "schema": {
-    "$ref": "../schemas/DistanceRange.json"
-  },
-  "required": true
-}

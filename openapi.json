@@ -156,9 +156,6 @@
     "/leaguedashplayerptshot": {
       "$ref": "specification/paths/LeagueDashPlayerPtShot.json"
     },
-    "/leaguedashplayershotlocations": {
-      "$ref": "specification/paths/LeagueDashPlayerShotLocations.json"
-    },
     "/leaguedashplayerstats": {
       "$ref": "specification/paths/LeagueDashPlayerStats.json"
     },
@@ -176,9 +173,6 @@
     },
     "/leaguedashteamptshot": {
       "$ref": "specification/paths/LeagueDashTeamPtShot.json"
-    },
-    "/leaguedashteamshotlocations": {
-      "$ref": "specification/paths/LeagueDashTeamShotLocations.json"
     },
     "/leaguedashteamstats": {
       "$ref": "specification/paths/LeagueDashTeamStats.json"
@@ -287,9 +281,6 @@
     },
     "/playergamestreakfinder": {
       "$ref": "specification/paths/PlayerGameStreakFinder.json"
-    },
-    "/playerindex": {
-      "$ref": "specification/paths/PlayerIndex.json"
     },
     "/playernextngames": {
       "$ref": "specification/paths/PlayerNextNGames.json"

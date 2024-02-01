@@ -1,8 +1,0 @@
-{
-  "name": "Active",
-  "description": "[to do]",
-  "in": "query",
-  "schema": {
-    "$ref": "../schemas/Active.json"
-  }
-}

@@ -1,7 +1,4 @@
 {
-  "Active": {
-    "$ref": "./Active.json"
-  },
   "ActiveFlag": {
     "$ref": "./ActiveFlag.json"
   },
@@ -13,9 +10,6 @@
   },
   "AheadBehind": {
     "$ref": "./AheadBehind.json"
-  },
-  "AllStar": {
-    "$ref": "./AllStar.json"
   },
   "CloseDefDistRange": {
     "$ref": "./CloseDefDistRange.json"
@@ -61,9 +55,6 @@
   },
   "Direction": {
     "$ref": "./Direction.json"
-  },
-  "DistanceRange": {
-    "$ref": "./DistanceRange.json"
   },
   "Division": {
     "$ref": "./Division.json"
@@ -247,9 +238,6 @@
   },
   "Height": {
     "$ref": "./Height.json"
-  },
-  "Historical": {
-    "$ref": "./Historical.json"
   },
   "IsOnlyCurrentSeason": {
     "$ref": "./IsOnlyCurrentSeason.json"

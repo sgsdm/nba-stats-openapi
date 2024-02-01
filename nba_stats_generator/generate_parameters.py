@@ -4,6 +4,12 @@ import re
 
 from typing import Any
 
+IGNORED_ENDPOINTS = (
+    "LeagueDashPlayerShotLocations",
+    "LeagueDashTeamShotLocations",
+    "PlayerIndex",
+)
+
 
 def generate_parameters(dir: pathlib.Path) -> None:
     with (dir / "analysis.json").open("r") as analysis_file:
@@ -39,7 +45,8 @@ def generate_parameters(dir: pathlib.Path) -> None:
         if endpoint_vals["status"] in ["deprecated", "invalid"]:
             continue
 
-        print(endpoint)
+        if endpoint in IGNORED_ENDPOINTS:
+            continue
 
         openapi["paths"][f"/{endpoint.lower()}"] = {
             "$ref": f"specification/paths/{endpoint}.json"
@@ -157,11 +164,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
             continue
         print(endpoint)
 
-        if endpoint in [
-            "LeagueDashPlayerShotLocations",
-            "LeagueDashTeamShotLocations",
-            "PlayerIndex",
-        ]:
+        if endpoint in IGNORED_ENDPOINTS:
             continue
 
         for data_set, data_set_vals in endpoint_vals["data_sets"].items():
