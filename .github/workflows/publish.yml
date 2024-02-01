@@ -1,9 +1,13 @@
-name: Publish Swagger UI to Github Pages
+name: Publish Redoc to Github Pages
 
 on:
   push:
     branches:
       - main
+    paths:
+      - "nba_stats_api.json"
+    tags-ignore:
+      - "*"
 
 permissions:
   contents: read
