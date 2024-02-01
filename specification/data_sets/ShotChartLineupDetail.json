@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GRID_TYPE"
         },
@@ -85,140 +85,90 @@
         {
           "const": "VTM"
         }
-      ]
+      ],
+      "minItems": 26,
+      "maxItems": 26
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GridType.json"
-          }
+          "$ref": "../schemas/GridType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameEventId.json"
-          }
+          "$ref": "../schemas/GameEventId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GroupId.json"
-          }
+          "$ref": "../schemas/GroupId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GroupName.json"
-          }
+          "$ref": "../schemas/GroupName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Period.json"
-          }
+          "$ref": "../schemas/Period.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MinutesRemaining.json"
-          }
+          "$ref": "../schemas/MinutesRemaining.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SecondsRemaining.json"
-          }
+          "$ref": "../schemas/SecondsRemaining.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EventType.json"
-          }
+          "$ref": "../schemas/EventType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ActionType.json"
-          }
+          "$ref": "../schemas/ActionType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotType.json"
-          }
+          "$ref": "../schemas/ShotType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneBasic.json"
-          }
+          "$ref": "../schemas/ShotZoneBasic.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneArea.json"
-          }
+          "$ref": "../schemas/ShotZoneArea.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneRange.json"
-          }
+          "$ref": "../schemas/ShotZoneRange.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotDistance.json"
-          }
+          "$ref": "../schemas/ShotDistance.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LocX.json"
-          }
+          "$ref": "../schemas/LocX.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LocY.json"
-          }
+          "$ref": "../schemas/LocY.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotAttemptedFlag.json"
-          }
+          "$ref": "../schemas/ShotAttemptedFlag.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotMadeFlag.json"
-          }
+          "$ref": "../schemas/ShotMadeFlag.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameDate.json"
-          }
+          "$ref": "../schemas/GameDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Htm.json"
-          }
+          "$ref": "../schemas/Htm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Vtm.json"
-          }
+          "$ref": "../schemas/Vtm.json"
         }
       ]
     }

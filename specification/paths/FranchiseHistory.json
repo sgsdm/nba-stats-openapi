@@ -33,26 +33,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefunctTeams.json"
-                      }
+                      "$ref": "../data_sets/DefunctTeams.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FranchiseHistory.json"
-                      }
+                      "$ref": "../data_sets/FranchiseHistory.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

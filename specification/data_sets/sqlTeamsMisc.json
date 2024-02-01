@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -61,100 +61,66 @@
         {
           "const": "PFD"
         }
-      ]
+      ],
+      "minItems": 18,
+      "maxItems": 18
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOffTov.json"
-          }
+          "$ref": "../schemas/PtsOffTov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts2ndChance.json"
-          }
+          "$ref": "../schemas/Pts2ndChance.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsFb.json"
-          }
+          "$ref": "../schemas/PtsFb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsPaint.json"
-          }
+          "$ref": "../schemas/PtsPaint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OppPtsOffTov.json"
-          }
+          "$ref": "../schemas/OppPtsOffTov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OppPts2ndChance.json"
-          }
+          "$ref": "../schemas/OppPts2ndChance.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OppPtsFb.json"
-          }
+          "$ref": "../schemas/OppPtsFb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OppPtsPaint.json"
-          }
+          "$ref": "../schemas/OppPtsPaint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blk.json"
-          }
+          "$ref": "../schemas/Blk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blka.json"
-          }
+          "$ref": "../schemas/Blka.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pf.json"
-          }
+          "$ref": "../schemas/Pf.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pfd.json"
-          }
+          "$ref": "../schemas/Pfd.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "SEASON"
         },
@@ -148,245 +148,153 @@
         {
           "const": "ON_MOVE_COLLEGE"
         }
-      ]
+      ],
+      "minItems": 47,
+      "maxItems": 47
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Season.json"
-          }
+          "$ref": "../schemas/Season.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HeightWoShoes.json"
-          }
+          "$ref": "../schemas/HeightWoShoes.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HeightWoShoesFtIn.json"
-          }
+          "$ref": "../schemas/HeightWoShoesFtIn.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HeightWShoes.json"
-          }
+          "$ref": "../schemas/HeightWShoes.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HeightWShoesFtIn.json"
-          }
+          "$ref": "../schemas/HeightWShoesFtIn.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Weight.json"
-          }
+          "$ref": "../schemas/Weight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Wingspan.json"
-          }
+          "$ref": "../schemas/Wingspan.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WingspanFtIn.json"
-          }
+          "$ref": "../schemas/WingspanFtIn.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StandingReach.json"
-          }
+          "$ref": "../schemas/StandingReach.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StandingReachFtIn.json"
-          }
+          "$ref": "../schemas/StandingReachFtIn.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BodyFatPct.json"
-          }
+          "$ref": "../schemas/BodyFatPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HandLength.json"
-          }
+          "$ref": "../schemas/HandLength.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HandWidth.json"
-          }
+          "$ref": "../schemas/HandWidth.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StandingVerticalLeap.json"
-          }
+          "$ref": "../schemas/StandingVerticalLeap.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MaxVerticalLeap.json"
-          }
+          "$ref": "../schemas/MaxVerticalLeap.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LaneAgilityTime.json"
-          }
+          "$ref": "../schemas/LaneAgilityTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ModifiedLaneAgilityTime.json"
-          }
+          "$ref": "../schemas/ModifiedLaneAgilityTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ThreeQuarterSprint.json"
-          }
+          "$ref": "../schemas/ThreeQuarterSprint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BenchPress.json"
-          }
+          "$ref": "../schemas/BenchPress.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotFifteenCornerLeft.json"
-          }
+          "$ref": "../schemas/SpotFifteenCornerLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotFifteenBreakLeft.json"
-          }
+          "$ref": "../schemas/SpotFifteenBreakLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotFifteenTopKey.json"
-          }
+          "$ref": "../schemas/SpotFifteenTopKey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotFifteenBreakRight.json"
-          }
+          "$ref": "../schemas/SpotFifteenBreakRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotFifteenCornerRight.json"
-          }
+          "$ref": "../schemas/SpotFifteenCornerRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotCollegeCornerLeft.json"
-          }
+          "$ref": "../schemas/SpotCollegeCornerLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotCollegeBreakLeft.json"
-          }
+          "$ref": "../schemas/SpotCollegeBreakLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotCollegeTopKey.json"
-          }
+          "$ref": "../schemas/SpotCollegeTopKey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotCollegeBreakRight.json"
-          }
+          "$ref": "../schemas/SpotCollegeBreakRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotCollegeCornerRight.json"
-          }
+          "$ref": "../schemas/SpotCollegeCornerRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotNbaCornerLeft.json"
-          }
+          "$ref": "../schemas/SpotNbaCornerLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotNbaBreakLeft.json"
-          }
+          "$ref": "../schemas/SpotNbaBreakLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotNbaTopKey.json"
-          }
+          "$ref": "../schemas/SpotNbaTopKey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotNbaBreakRight.json"
-          }
+          "$ref": "../schemas/SpotNbaBreakRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SpotNbaCornerRight.json"
-          }
+          "$ref": "../schemas/SpotNbaCornerRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribFifteenBreakLeft.json"
-          }
+          "$ref": "../schemas/OffDribFifteenBreakLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribFifteenTopKey.json"
-          }
+          "$ref": "../schemas/OffDribFifteenTopKey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribFifteenBreakRight.json"
-          }
+          "$ref": "../schemas/OffDribFifteenBreakRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribCollegeBreakLeft.json"
-          }
+          "$ref": "../schemas/OffDribCollegeBreakLeft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribCollegeTopKey.json"
-          }
+          "$ref": "../schemas/OffDribCollegeTopKey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffDribCollegeBreakRight.json"
-          }
+          "$ref": "../schemas/OffDribCollegeBreakRight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OnMoveFifteen.json"
-          }
+          "$ref": "../schemas/OnMoveFifteen.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OnMoveCollege.json"
-          }
+          "$ref": "../schemas/OnMoveCollege.json"
         }
       ]
     }

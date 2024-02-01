@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GRID_TYPE"
         },
@@ -28,45 +28,33 @@
         {
           "const": "FG_PCT"
         }
-      ]
+      ],
+      "minItems": 7,
+      "maxItems": 7
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GridType.json"
-          }
+          "$ref": "../schemas/GridType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneBasic.json"
-          }
+          "$ref": "../schemas/ShotZoneBasic.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneArea.json"
-          }
+          "$ref": "../schemas/ShotZoneArea.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotZoneRange.json"
-          }
+          "$ref": "../schemas/ShotZoneRange.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         }
       ]
     }

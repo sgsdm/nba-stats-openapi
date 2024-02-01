@@ -39,46 +39,36 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/EastConfPlayoffPicture.json"
-                      }
+                      "$ref": "../data_sets/EastConfPlayoffPicture.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/EastConfRemainingGames.json"
-                      }
+                      "$ref": "../data_sets/EastConfRemainingGames.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/EastConfStandings.json"
-                      }
+                      "$ref": "../data_sets/EastConfStandings.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WestConfPlayoffPicture.json"
-                      }
+                      "$ref": "../data_sets/WestConfPlayoffPicture.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WestConfRemainingGames.json"
-                      }
+                      "$ref": "../data_sets/WestConfRemainingGames.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WestConfStandings.json"
-                      }
+                      "$ref": "../data_sets/WestConfStandings.json"
                     }
-                  ]
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

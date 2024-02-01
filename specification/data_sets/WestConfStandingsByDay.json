@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -43,70 +43,48 @@
         {
           "const": "ROAD_RECORD"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LeagueId.json"
-          }
+          "$ref": "../schemas/LeagueId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonId.json"
-          }
+          "$ref": "../schemas/SeasonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Standingsdate.json"
-          }
+          "$ref": "../schemas/Standingsdate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Conference.json"
-          }
+          "$ref": "../schemas/Conference.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Team.json"
-          }
+          "$ref": "../schemas/Team.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/G.json"
-          }
+          "$ref": "../schemas/G.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/W.json"
-          }
+          "$ref": "../schemas/W.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/L.json"
-          }
+          "$ref": "../schemas/L.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WPct.json"
-          }
+          "$ref": "../schemas/WPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeRecord.json"
-          }
+          "$ref": "../schemas/HomeRecord.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RoadRecord.json"
-          }
+          "$ref": "../schemas/RoadRecord.json"
         }
       ]
     }

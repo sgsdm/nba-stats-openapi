@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -46,75 +46,51 @@
         {
           "const": "VISITOR_WL"
         }
-      ]
+      ],
+      "minItems": 13,
+      "maxItems": 13
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameDate.json"
-          }
+          "$ref": "../schemas/GameDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamId.json"
-          }
+          "$ref": "../schemas/HomeTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamId.json"
-          }
+          "$ref": "../schemas/VisitorTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamName.json"
-          }
+          "$ref": "../schemas/HomeTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamName.json"
-          }
+          "$ref": "../schemas/VisitorTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/HomeTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/VisitorTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamNickname.json"
-          }
+          "$ref": "../schemas/HomeTeamNickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamNickname.json"
-          }
+          "$ref": "../schemas/VisitorTeamNickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameTime.json"
-          }
+          "$ref": "../schemas/GameTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeWl.json"
-          }
+          "$ref": "../schemas/HomeWl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorWl.json"
-          }
+          "$ref": "../schemas/VisitorWl.json"
         }
       ]
     }

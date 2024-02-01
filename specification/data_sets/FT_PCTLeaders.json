@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -19,30 +19,24 @@
         {
           "const": "FT_PCT_RANK"
         }
-      ]
+      ],
+      "minItems": 4,
+      "maxItems": 4
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPct.json"
-          }
+          "$ref": "../schemas/FtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPctRank.json"
-          }
+          "$ref": "../schemas/FtPctRank.json"
         }
       ]
     }

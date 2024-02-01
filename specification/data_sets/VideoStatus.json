@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -49,80 +49,54 @@
         {
           "const": "PT_XYZ_AVAILABLE"
         }
-      ]
+      ],
+      "minItems": 14,
+      "maxItems": 14
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameDate.json"
-          }
+          "$ref": "../schemas/GameDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamId.json"
-          }
+          "$ref": "../schemas/VisitorTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamCity.json"
-          }
+          "$ref": "../schemas/VisitorTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamName.json"
-          }
+          "$ref": "../schemas/VisitorTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/VisitorTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamId.json"
-          }
+          "$ref": "../schemas/HomeTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamCity.json"
-          }
+          "$ref": "../schemas/HomeTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamName.json"
-          }
+          "$ref": "../schemas/HomeTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/HomeTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameStatus.json"
-          }
+          "$ref": "../schemas/GameStatus.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameStatusText.json"
-          }
+          "$ref": "../schemas/GameStatusText.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/IsAvailable.json"
-          }
+          "$ref": "../schemas/IsAvailable.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtXyzAvailable.json"
-          }
+          "$ref": "../schemas/PtXyzAvailable.json"
         }
       ]
     }

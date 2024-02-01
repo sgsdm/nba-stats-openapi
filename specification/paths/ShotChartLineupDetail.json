@@ -147,26 +147,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotChartLineupDetail.json"
-                      }
+                      "$ref": "../data_sets/ShotChartLineupDetail.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotChartLineupLeagueAverage.json"
-                      }
+                      "$ref": "../data_sets/ShotChartLineupLeagueAverage.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

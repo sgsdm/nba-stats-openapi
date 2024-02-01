@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -22,35 +22,27 @@
         {
           "const": "YEARACTIVETILL"
         }
-      ]
+      ],
+      "minItems": 5,
+      "maxItems": 5
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/City.json"
-          }
+          "$ref": "../schemas/City.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Nickname.json"
-          }
+          "$ref": "../schemas/Nickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Yearfounded.json"
-          }
+          "$ref": "../schemas/Yearfounded.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Yearactivetill.json"
-          }
+          "$ref": "../schemas/Yearactivetill.json"
         }
       ]
     }

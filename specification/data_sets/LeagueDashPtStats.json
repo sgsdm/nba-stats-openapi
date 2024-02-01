@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -49,80 +49,54 @@
         {
           "const": "AVG_SPEED_DEF"
         }
-      ]
+      ],
+      "minItems": 14,
+      "maxItems": 14
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/W.json"
-          }
+          "$ref": "../schemas/W.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/L.json"
-          }
+          "$ref": "../schemas/L.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DistFeet.json"
-          }
+          "$ref": "../schemas/DistFeet.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DistMiles.json"
-          }
+          "$ref": "../schemas/DistMiles.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DistMilesOff.json"
-          }
+          "$ref": "../schemas/DistMilesOff.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DistMilesDef.json"
-          }
+          "$ref": "../schemas/DistMilesDef.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AvgSpeed.json"
-          }
+          "$ref": "../schemas/AvgSpeed.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AvgSpeedOff.json"
-          }
+          "$ref": "../schemas/AvgSpeedOff.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AvgSpeedDef.json"
-          }
+          "$ref": "../schemas/AvgSpeedDef.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -19,30 +19,24 @@
         {
           "const": "FGA_RANK"
         }
-      ]
+      ],
+      "minItems": 4,
+      "maxItems": 4
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgaRank.json"
-          }
+          "$ref": "../schemas/FgaRank.json"
         }
       ]
     }

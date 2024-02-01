@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "OFFICIAL_ID"
         },
@@ -19,30 +19,24 @@
         {
           "const": "JERSEY_NUM"
         }
-      ]
+      ],
+      "minItems": 4,
+      "maxItems": 4
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/OfficialId.json"
-          }
+          "$ref": "../schemas/OfficialId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/JerseyNum.json"
-          }
+          "$ref": "../schemas/JerseyNum.json"
         }
       ]
     }

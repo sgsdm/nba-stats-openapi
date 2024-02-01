@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GROUP_SET"
         },
@@ -61,100 +61,66 @@
         {
           "const": "CFPARAMS"
         }
-      ]
+      ],
+      "minItems": 18,
+      "maxItems": 18
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GroupSet.json"
-          }
+          "$ref": "../schemas/GroupSet.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GroupValue.json"
-          }
+          "$ref": "../schemas/GroupValue.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3m.json"
-          }
+          "$ref": "../schemas/Fg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3a.json"
-          }
+          "$ref": "../schemas/Fg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EfgPct.json"
-          }
+          "$ref": "../schemas/EfgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blka.json"
-          }
+          "$ref": "../schemas/Blka.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAst2pm.json"
-          }
+          "$ref": "../schemas/PctAst2pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUast2pm.json"
-          }
+          "$ref": "../schemas/PctUast2pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAst3pm.json"
-          }
+          "$ref": "../schemas/PctAst3pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUast3pm.json"
-          }
+          "$ref": "../schemas/PctUast3pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAstFgm.json"
-          }
+          "$ref": "../schemas/PctAstFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUastFgm.json"
-          }
+          "$ref": "../schemas/PctUastFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Cfid.json"
-          }
+          "$ref": "../schemas/Cfid.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Cfparams.json"
-          }
+          "$ref": "../schemas/Cfparams.json"
         }
       ]
     }

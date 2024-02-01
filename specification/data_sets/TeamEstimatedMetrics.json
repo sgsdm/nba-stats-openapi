@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_NAME"
         },
@@ -97,160 +97,102 @@
         {
           "const": "E_PACE_RANK"
         }
-      ]
+      ],
+      "minItems": 30,
+      "maxItems": 30
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/W.json"
-          }
+          "$ref": "../schemas/W.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/L.json"
-          }
+          "$ref": "../schemas/L.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WPct.json"
-          }
+          "$ref": "../schemas/WPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EOffRating.json"
-          }
+          "$ref": "../schemas/EOffRating.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EDefRating.json"
-          }
+          "$ref": "../schemas/EDefRating.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ENetRating.json"
-          }
+          "$ref": "../schemas/ENetRating.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EPace.json"
-          }
+          "$ref": "../schemas/EPace.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EAstRatio.json"
-          }
+          "$ref": "../schemas/EAstRatio.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EOrebPct.json"
-          }
+          "$ref": "../schemas/EOrebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EDrebPct.json"
-          }
+          "$ref": "../schemas/EDrebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ERebPct.json"
-          }
+          "$ref": "../schemas/ERebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ETmTovPct.json"
-          }
+          "$ref": "../schemas/ETmTovPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GpRank.json"
-          }
+          "$ref": "../schemas/GpRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WRank.json"
-          }
+          "$ref": "../schemas/WRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LRank.json"
-          }
+          "$ref": "../schemas/LRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WPctRank.json"
-          }
+          "$ref": "../schemas/WPctRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MinRank.json"
-          }
+          "$ref": "../schemas/MinRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EOffRatingRank.json"
-          }
+          "$ref": "../schemas/EOffRatingRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EDefRatingRank.json"
-          }
+          "$ref": "../schemas/EDefRatingRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ENetRatingRank.json"
-          }
+          "$ref": "../schemas/ENetRatingRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EAstRatioRank.json"
-          }
+          "$ref": "../schemas/EAstRatioRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EOrebPctRank.json"
-          }
+          "$ref": "../schemas/EOrebPctRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EDrebPctRank.json"
-          }
+          "$ref": "../schemas/EDrebPctRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ERebPctRank.json"
-          }
+          "$ref": "../schemas/ERebPctRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ETmTovPctRank.json"
-          }
+          "$ref": "../schemas/ETmTovPctRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EPaceRank.json"
-          }
+          "$ref": "../schemas/EPaceRank.json"
         }
       ]
     }

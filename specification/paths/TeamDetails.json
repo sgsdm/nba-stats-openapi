@@ -33,56 +33,42 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamAwardsChampionships.json"
-                      }
+                      "$ref": "../data_sets/TeamAwardsChampionships.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamAwardsConf.json"
-                      }
+                      "$ref": "../data_sets/TeamAwardsConf.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamAwardsDiv.json"
-                      }
+                      "$ref": "../data_sets/TeamAwardsDiv.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamBackground.json"
-                      }
+                      "$ref": "../data_sets/TeamBackground.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamHistory.json"
-                      }
+                      "$ref": "../data_sets/TeamHistory.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamHof.json"
-                      }
+                      "$ref": "../data_sets/TeamHof.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamRetired.json"
-                      }
+                      "$ref": "../data_sets/TeamRetired.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamSocialSites.json"
-                      }
+                      "$ref": "../data_sets/TeamSocialSites.json"
                     }
-                  ]
+                  ],
+                  "minItems": 8,
+                  "maxItems": 8
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -40,65 +40,45 @@
         {
           "const": "PCT_PLUSMINUS"
         }
-      ]
+      ],
+      "minItems": 11,
+      "maxItems": 11
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/G.json"
-          }
+          "$ref": "../schemas/G.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Freq.json"
-          }
+          "$ref": "../schemas/Freq.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DFgm.json"
-          }
+          "$ref": "../schemas/DFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DFga.json"
-          }
+          "$ref": "../schemas/DFga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DFgPct.json"
-          }
+          "$ref": "../schemas/DFgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/NormalFgPct.json"
-          }
+          "$ref": "../schemas/NormalFgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPlusminus.json"
-          }
+          "$ref": "../schemas/PctPlusminus.json"
         }
       ]
     }

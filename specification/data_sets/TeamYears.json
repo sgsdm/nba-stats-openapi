@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "LEAGUE_ID"
         },
@@ -22,35 +22,27 @@
         {
           "const": "ABBREVIATION"
         }
-      ]
+      ],
+      "minItems": 5,
+      "maxItems": 5
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/LeagueId.json"
-          }
+          "$ref": "../schemas/LeagueId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MinYear.json"
-          }
+          "$ref": "../schemas/MinYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MaxYear.json"
-          }
+          "$ref": "../schemas/MaxYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Abbreviation.json"
-          }
+          "$ref": "../schemas/Abbreviation.json"
         }
       ]
     }

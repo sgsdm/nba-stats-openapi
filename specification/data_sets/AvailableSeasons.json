@@ -6,19 +6,19 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "SEASON_ID"
         }
-      ]
+      ],
+      "minItems": 1,
+      "maxItems": 1
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/SeasonId.json"
-          }
+          "$ref": "../schemas/SeasonId.json"
         }
       ]
     }

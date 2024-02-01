@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -43,70 +43,48 @@
         {
           "const": "VS_TEAM_ABBREVIATION"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameDate.json"
-          }
+          "$ref": "../schemas/GameDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameTime.json"
-          }
+          "$ref": "../schemas/GameTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Location.json"
-          }
+          "$ref": "../schemas/Location.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerTeamId.json"
-          }
+          "$ref": "../schemas/PlayerTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerTeamCity.json"
-          }
+          "$ref": "../schemas/PlayerTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerTeamNickname.json"
-          }
+          "$ref": "../schemas/PlayerTeamNickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/PlayerTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsTeamId.json"
-          }
+          "$ref": "../schemas/VsTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsTeamCity.json"
-          }
+          "$ref": "../schemas/VsTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsTeamNickname.json"
-          }
+          "$ref": "../schemas/VsTeamNickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/VsTeamAbbreviation.json"
         }
       ]
     }

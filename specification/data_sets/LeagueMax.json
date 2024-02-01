@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PTS"
         },
@@ -28,45 +28,33 @@
         {
           "const": "PTS_PER48"
         }
-      ]
+      ],
+      "minItems": 7,
+      "maxItems": 7
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPct.json"
-          }
+          "$ref": "../schemas/FtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EfgPct.json"
-          }
+          "$ref": "../schemas/EfgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TsPct.json"
-          }
+          "$ref": "../schemas/TsPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsPer48.json"
-          }
+          "$ref": "../schemas/PtsPer48.json"
         }
       ]
     }

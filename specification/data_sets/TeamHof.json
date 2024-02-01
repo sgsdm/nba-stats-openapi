@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYERID"
         },
@@ -25,40 +25,30 @@
         {
           "const": "YEAR"
         }
-      ]
+      ],
+      "minItems": 6,
+      "maxItems": 6
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Playerid.json"
-          }
+          "$ref": "../schemas/Playerid.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Player.json"
-          }
+          "$ref": "../schemas/Player.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Jersey.json"
-          }
+          "$ref": "../schemas/Jersey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Seasonswithteam.json"
-          }
+          "$ref": "../schemas/Seasonswithteam.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Year.json"
-          }
+          "$ref": "../schemas/Year.json"
         }
       ]
     }

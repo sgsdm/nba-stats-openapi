@@ -45,51 +45,39 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/Available.json"
-                      }
+                      "$ref": "../data_sets/Available.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/EastConfStandingsByDay.json"
-                      }
+                      "$ref": "../data_sets/EastConfStandingsByDay.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameHeader.json"
-                      }
+                      "$ref": "../data_sets/GameHeader.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LastMeeting.json"
-                      }
+                      "$ref": "../data_sets/LastMeeting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LineScore.json"
-                      }
+                      "$ref": "../data_sets/LineScore.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/SeriesStandings.json"
-                      }
+                      "$ref": "../data_sets/SeriesStandings.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WestConfStandingsByDay.json"
-                      }
+                      "$ref": "../data_sets/WestConfStandingsByDay.json"
                     }
-                  ]
+                  ],
+                  "minItems": 7,
+                  "maxItems": 7
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -31,50 +31,36 @@
         {
           "const": "TEAM_ABBREVIATION"
         }
-      ]
+      ],
+      "minItems": 8,
+      "maxItems": 8
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/JerseyNum.json"
-          }
+          "$ref": "../schemas/JerseyNum.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         }
       ]
     }

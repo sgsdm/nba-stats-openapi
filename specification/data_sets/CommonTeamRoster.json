@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TeamID"
         },
@@ -49,80 +49,54 @@
         {
           "const": "PLAYER_ID"
         }
-      ]
+      ],
+      "minItems": 14,
+      "maxItems": 14
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Teamid.json"
-          }
+          "$ref": "../schemas/Teamid.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Season.json"
-          }
+          "$ref": "../schemas/Season.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Leagueid.json"
-          }
+          "$ref": "../schemas/Leagueid.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Player.json"
-          }
+          "$ref": "../schemas/Player.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerSlug.json"
-          }
+          "$ref": "../schemas/PlayerSlug.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Num.json"
-          }
+          "$ref": "../schemas/Num.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Height.json"
-          }
+          "$ref": "../schemas/Height.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Weight.json"
-          }
+          "$ref": "../schemas/Weight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BirthDate.json"
-          }
+          "$ref": "../schemas/BirthDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Age.json"
-          }
+          "$ref": "../schemas/Age.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Exp.json"
-          }
+          "$ref": "../schemas/Exp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/School.json"
-          }
+          "$ref": "../schemas/School.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         }
       ]
     }

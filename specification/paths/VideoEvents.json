@@ -39,15 +39,17 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": []
+                  "prefixItems": [],
+                  "minItems": 0,
+                  "maxItems": 0
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

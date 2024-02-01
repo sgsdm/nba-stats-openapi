@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "REGION"
         },
@@ -79,130 +79,84 @@
         {
           "const": "PTS"
         }
-      ]
+      ],
+      "minItems": 24,
+      "maxItems": 24
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Region.json"
-          }
+          "$ref": "../schemas/Region.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Seed.json"
-          }
+          "$ref": "../schemas/Seed.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/College.json"
-          }
+          "$ref": "../schemas/College.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Players.json"
-          }
+          "$ref": "../schemas/Players.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3m.json"
-          }
+          "$ref": "../schemas/Fg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3a.json"
-          }
+          "$ref": "../schemas/Fg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ftm.json"
-          }
+          "$ref": "../schemas/Ftm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fta.json"
-          }
+          "$ref": "../schemas/Fta.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPct.json"
-          }
+          "$ref": "../schemas/FtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Oreb.json"
-          }
+          "$ref": "../schemas/Oreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Dreb.json"
-          }
+          "$ref": "../schemas/Dreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Stl.json"
-          }
+          "$ref": "../schemas/Stl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blk.json"
-          }
+          "$ref": "../schemas/Blk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Tov.json"
-          }
+          "$ref": "../schemas/Tov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pf.json"
-          }
+          "$ref": "../schemas/Pf.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         }
       ]
     }

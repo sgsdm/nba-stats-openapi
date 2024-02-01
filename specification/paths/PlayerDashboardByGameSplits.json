@@ -165,41 +165,33 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/ByActualMarginPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ByActualMarginPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ByHalfPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ByHalfPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ByPeriodPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ByPeriodPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ByScoreMarginPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ByScoreMarginPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallPlayerDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 5,
+                  "maxItems": 5
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

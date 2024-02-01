@@ -153,31 +153,27 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallTeamPlayerOnOffDetails.json"
-                      }
+                      "$ref": "../data_sets/OverallTeamPlayerOnOffDetails.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayersOffCourtTeamPlayerOnOffDetails.json"
-                      }
+                      "$ref": "../data_sets/PlayersOffCourtTeamPlayerOnOffDetails.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayersOnCourtTeamPlayerOnOffDetails.json"
-                      }
+                      "$ref": "../data_sets/PlayersOnCourtTeamPlayerOnOffDetails.json"
                     }
-                  ]
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

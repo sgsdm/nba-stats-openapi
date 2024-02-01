@@ -135,41 +135,33 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/NumContestedRebounding.json"
-                      }
+                      "$ref": "../data_sets/NumContestedRebounding.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallRebounding.json"
-                      }
+                      "$ref": "../data_sets/OverallRebounding.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/RebDistanceRebounding.json"
-                      }
+                      "$ref": "../data_sets/RebDistanceRebounding.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotDistanceRebounding.json"
-                      }
+                      "$ref": "../data_sets/ShotDistanceRebounding.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotTypeRebounding.json"
-                      }
+                      "$ref": "../data_sets/ShotTypeRebounding.json"
                     }
-                  ]
+                  ],
+                  "minItems": 5,
+                  "maxItems": 5
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

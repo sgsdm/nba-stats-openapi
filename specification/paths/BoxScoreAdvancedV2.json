@@ -63,26 +63,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayerStats.json"
-                      }
+                      "$ref": "../data_sets/PlayerStats.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamStats.json"
-                      }
+                      "$ref": "../data_sets/TeamStats.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

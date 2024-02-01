@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "DATE_EST"
         },
@@ -91,150 +91,96 @@
         {
           "const": "AVG_PTS"
         }
-      ]
+      ],
+      "minItems": 28,
+      "maxItems": 28
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/DateEst.json"
-          }
+          "$ref": "../schemas/DateEst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeam.json"
-          }
+          "$ref": "../schemas/VisitorTeam.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeam.json"
-          }
+          "$ref": "../schemas/HomeTeam.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gs.json"
-          }
+          "$ref": "../schemas/Gs.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ActualMinutes.json"
-          }
+          "$ref": "../schemas/ActualMinutes.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ActualSeconds.json"
-          }
+          "$ref": "../schemas/ActualSeconds.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg.json"
-          }
+          "$ref": "../schemas/Fg.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3.json"
-          }
+          "$ref": "../schemas/Fg3.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3a.json"
-          }
+          "$ref": "../schemas/Fg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ft.json"
-          }
+          "$ref": "../schemas/Ft.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fta.json"
-          }
+          "$ref": "../schemas/Fta.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPct.json"
-          }
+          "$ref": "../schemas/FtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffReb.json"
-          }
+          "$ref": "../schemas/OffReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DefReb.json"
-          }
+          "$ref": "../schemas/DefReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TotReb.json"
-          }
+          "$ref": "../schemas/TotReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AvgTotReb.json"
-          }
+          "$ref": "../schemas/AvgTotReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pf.json"
-          }
+          "$ref": "../schemas/Pf.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Dq.json"
-          }
+          "$ref": "../schemas/Dq.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Stl.json"
-          }
+          "$ref": "../schemas/Stl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Turnovers.json"
-          }
+          "$ref": "../schemas/Turnovers.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blk.json"
-          }
+          "$ref": "../schemas/Blk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AvgPts.json"
-          }
+          "$ref": "../schemas/AvgPts.json"
         }
       ]
     }

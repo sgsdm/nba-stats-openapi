@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -88,145 +88,93 @@
         {
           "const": "RANK_EFF"
         }
-      ]
+      ],
+      "minItems": 27,
+      "maxItems": 27
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonId.json"
-          }
+          "$ref": "../schemas/SeasonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LeagueId.json"
-          }
+          "$ref": "../schemas/LeagueId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerAge.json"
-          }
+          "$ref": "../schemas/PlayerAge.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gs.json"
-          }
+          "$ref": "../schemas/Gs.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankMin.json"
-          }
+          "$ref": "../schemas/RankMin.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFgm.json"
-          }
+          "$ref": "../schemas/RankFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFga.json"
-          }
+          "$ref": "../schemas/RankFga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFgPct.json"
-          }
+          "$ref": "../schemas/RankFgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFg3m.json"
-          }
+          "$ref": "../schemas/RankFg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFg3a.json"
-          }
+          "$ref": "../schemas/RankFg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFg3Pct.json"
-          }
+          "$ref": "../schemas/RankFg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFtm.json"
-          }
+          "$ref": "../schemas/RankFtm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFta.json"
-          }
+          "$ref": "../schemas/RankFta.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankFtPct.json"
-          }
+          "$ref": "../schemas/RankFtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankOreb.json"
-          }
+          "$ref": "../schemas/RankOreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankDreb.json"
-          }
+          "$ref": "../schemas/RankDreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankReb.json"
-          }
+          "$ref": "../schemas/RankReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankAst.json"
-          }
+          "$ref": "../schemas/RankAst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankStl.json"
-          }
+          "$ref": "../schemas/RankStl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankBlk.json"
-          }
+          "$ref": "../schemas/RankBlk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankTov.json"
-          }
+          "$ref": "../schemas/RankTov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankPts.json"
-          }
+          "$ref": "../schemas/RankPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RankEff.json"
-          }
+          "$ref": "../schemas/RankEff.json"
         }
       ]
     }

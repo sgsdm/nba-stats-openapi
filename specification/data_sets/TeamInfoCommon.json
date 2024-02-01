@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -52,85 +52,57 @@
         {
           "const": "MAX_YEAR"
         }
-      ]
+      ],
+      "minItems": 15,
+      "maxItems": 15
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonYear.json"
-          }
+          "$ref": "../schemas/SeasonYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamConference.json"
-          }
+          "$ref": "../schemas/TeamConference.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamDivision.json"
-          }
+          "$ref": "../schemas/TeamDivision.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCode.json"
-          }
+          "$ref": "../schemas/TeamCode.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/W.json"
-          }
+          "$ref": "../schemas/W.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/L.json"
-          }
+          "$ref": "../schemas/L.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pct.json"
-          }
+          "$ref": "../schemas/Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ConfRank.json"
-          }
+          "$ref": "../schemas/ConfRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DivRank.json"
-          }
+          "$ref": "../schemas/DivRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MinYear.json"
-          }
+          "$ref": "../schemas/MinYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MaxYear.json"
-          }
+          "$ref": "../schemas/MaxYear.json"
         }
       ]
     }

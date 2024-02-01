@@ -39,26 +39,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AwayTeam.json"
-                      }
+                      "$ref": "../data_sets/AwayTeam.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomeTeam.json"
-                      }
+                      "$ref": "../data_sets/HomeTeam.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

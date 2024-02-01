@@ -6,27 +6,25 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "MATCHUP"
         },
         {
           "const": "GAME_ID"
         }
-      ]
+      ],
+      "minItems": 2,
+      "maxItems": 2
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Matchup.json"
-          }
+          "$ref": "../schemas/Matchup.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         }
       ]
     }

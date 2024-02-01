@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -76,125 +76,81 @@
         {
           "const": "AST_PCT"
         }
-      ]
+      ],
+      "minItems": 23,
+      "maxItems": 23
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Age.json"
-          }
+          "$ref": "../schemas/Age.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerHeight.json"
-          }
+          "$ref": "../schemas/PlayerHeight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerHeightInches.json"
-          }
+          "$ref": "../schemas/PlayerHeightInches.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerWeight.json"
-          }
+          "$ref": "../schemas/PlayerWeight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/College.json"
-          }
+          "$ref": "../schemas/College.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Country.json"
-          }
+          "$ref": "../schemas/Country.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftYear.json"
-          }
+          "$ref": "../schemas/DraftYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftRound.json"
-          }
+          "$ref": "../schemas/DraftRound.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftNumber.json"
-          }
+          "$ref": "../schemas/DraftNumber.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/NetRating.json"
-          }
+          "$ref": "../schemas/NetRating.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OrebPct.json"
-          }
+          "$ref": "../schemas/OrebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DrebPct.json"
-          }
+          "$ref": "../schemas/DrebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/UsgPct.json"
-          }
+          "$ref": "../schemas/UsgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TsPct.json"
-          }
+          "$ref": "../schemas/TsPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AstPct.json"
-          }
+          "$ref": "../schemas/AstPct.json"
         }
       ]
     }

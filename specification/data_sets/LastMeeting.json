@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -46,75 +46,51 @@
         {
           "const": "LAST_GAME_VISITOR_TEAM_POINTS"
         }
-      ]
+      ],
+      "minItems": 13,
+      "maxItems": 13
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameId.json"
-          }
+          "$ref": "../schemas/LastGameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameDateEst.json"
-          }
+          "$ref": "../schemas/LastGameDateEst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameHomeTeamId.json"
-          }
+          "$ref": "../schemas/LastGameHomeTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameHomeTeamCity.json"
-          }
+          "$ref": "../schemas/LastGameHomeTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameHomeTeamName.json"
-          }
+          "$ref": "../schemas/LastGameHomeTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameHomeTeamAbbreviation.json"
-          }
+          "$ref": "../schemas/LastGameHomeTeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameHomeTeamPoints.json"
-          }
+          "$ref": "../schemas/LastGameHomeTeamPoints.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameVisitorTeamId.json"
-          }
+          "$ref": "../schemas/LastGameVisitorTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameVisitorTeamCity.json"
-          }
+          "$ref": "../schemas/LastGameVisitorTeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameVisitorTeamName.json"
-          }
+          "$ref": "../schemas/LastGameVisitorTeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameVisitorTeamCity1.json"
-          }
+          "$ref": "../schemas/LastGameVisitorTeamCity1.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastGameVisitorTeamPoints.json"
-          }
+          "$ref": "../schemas/LastGameVisitorTeamPoints.json"
         }
       ]
     }

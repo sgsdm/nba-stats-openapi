@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -34,55 +34,39 @@
         {
           "const": "SORT_SEQUENCE"
         }
-      ]
+      ],
+      "minItems": 9,
+      "maxItems": 9
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Season.json"
-          }
+          "$ref": "../schemas/Season.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CoachId.json"
-          }
+          "$ref": "../schemas/CoachId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CoachName.json"
-          }
+          "$ref": "../schemas/CoachName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/IsAssistant.json"
-          }
+          "$ref": "../schemas/IsAssistant.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CoachType.json"
-          }
+          "$ref": "../schemas/CoachType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SortSequence.json"
-          }
+          "$ref": "../schemas/SortSequence.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -28,45 +28,33 @@
         {
           "const": "PIE"
         }
-      ]
+      ],
+      "minItems": 7,
+      "maxItems": 7
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Timeframe.json"
-          }
+          "$ref": "../schemas/Timeframe.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pie.json"
-          }
+          "$ref": "../schemas/Pie.json"
         }
       ]
     }

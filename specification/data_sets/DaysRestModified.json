@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GROUP_SET"
         },
@@ -106,175 +106,111 @@
         {
           "const": "NBA_FANTASY_PTS"
         }
-      ]
+      ],
+      "minItems": 33,
+      "maxItems": 33
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GroupSet.json"
-          }
+          "$ref": "../schemas/GroupSet.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GroupValue.json"
-          }
+          "$ref": "../schemas/GroupValue.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonYear.json"
-          }
+          "$ref": "../schemas/SeasonYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/W.json"
-          }
+          "$ref": "../schemas/W.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/L.json"
-          }
+          "$ref": "../schemas/L.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WPct.json"
-          }
+          "$ref": "../schemas/WPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3m.json"
-          }
+          "$ref": "../schemas/Fg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3a.json"
-          }
+          "$ref": "../schemas/Fg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ftm.json"
-          }
+          "$ref": "../schemas/Ftm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fta.json"
-          }
+          "$ref": "../schemas/Fta.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPct.json"
-          }
+          "$ref": "../schemas/FtPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Oreb.json"
-          }
+          "$ref": "../schemas/Oreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Dreb.json"
-          }
+          "$ref": "../schemas/Dreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Tov.json"
-          }
+          "$ref": "../schemas/Tov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Stl.json"
-          }
+          "$ref": "../schemas/Stl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blk.json"
-          }
+          "$ref": "../schemas/Blk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blka.json"
-          }
+          "$ref": "../schemas/Blka.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pf.json"
-          }
+          "$ref": "../schemas/Pf.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pfd.json"
-          }
+          "$ref": "../schemas/Pfd.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlusMinus.json"
-          }
+          "$ref": "../schemas/PlusMinus.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Dd2.json"
-          }
+          "$ref": "../schemas/Dd2.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Td3.json"
-          }
+          "$ref": "../schemas/Td3.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FanDuelPts.json"
-          }
+          "$ref": "../schemas/FanDuelPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/NbaFantasyPts.json"
-          }
+          "$ref": "../schemas/NbaFantasyPts.json"
         }
       ]
     }

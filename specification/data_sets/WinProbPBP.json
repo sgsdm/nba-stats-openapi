@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -52,85 +52,57 @@
         {
           "const": "ISVISIBLE"
         }
-      ]
+      ],
+      "minItems": 15,
+      "maxItems": 15
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EventNum.json"
-          }
+          "$ref": "../schemas/EventNum.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomePct.json"
-          }
+          "$ref": "../schemas/HomePct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorPct.json"
-          }
+          "$ref": "../schemas/VisitorPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomePts.json"
-          }
+          "$ref": "../schemas/HomePts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorPts.json"
-          }
+          "$ref": "../schemas/VisitorPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeScoreMargin.json"
-          }
+          "$ref": "../schemas/HomeScoreMargin.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Period.json"
-          }
+          "$ref": "../schemas/Period.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SecondsRemaining.json"
-          }
+          "$ref": "../schemas/SecondsRemaining.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomePossInd.json"
-          }
+          "$ref": "../schemas/HomePossInd.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeG.json"
-          }
+          "$ref": "../schemas/HomeG.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Description.json"
-          }
+          "$ref": "../schemas/Description.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Location.json"
-          }
+          "$ref": "../schemas/Location.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pctimestring.json"
-          }
+          "$ref": "../schemas/Pctimestring.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Isvisible.json"
-          }
+          "$ref": "../schemas/Isvisible.json"
         }
       ]
     }

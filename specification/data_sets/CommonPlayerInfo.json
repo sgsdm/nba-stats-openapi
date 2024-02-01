@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PERSON_ID"
         },
@@ -100,165 +100,105 @@
         {
           "const": "DRAFT_NUMBER"
         }
-      ]
+      ],
+      "minItems": 31,
+      "maxItems": 31
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PersonId.json"
-          }
+          "$ref": "../schemas/PersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayFirstLast.json"
-          }
+          "$ref": "../schemas/DisplayFirstLast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayLastCommaFirst.json"
-          }
+          "$ref": "../schemas/DisplayLastCommaFirst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayFiLast.json"
-          }
+          "$ref": "../schemas/DisplayFiLast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerSlug.json"
-          }
+          "$ref": "../schemas/PlayerSlug.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Birthdate.json"
-          }
+          "$ref": "../schemas/Birthdate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/School.json"
-          }
+          "$ref": "../schemas/School.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Country.json"
-          }
+          "$ref": "../schemas/Country.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastAffiliation.json"
-          }
+          "$ref": "../schemas/LastAffiliation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Height.json"
-          }
+          "$ref": "../schemas/Height.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Weight.json"
-          }
+          "$ref": "../schemas/Weight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonExp.json"
-          }
+          "$ref": "../schemas/SeasonExp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Jersey.json"
-          }
+          "$ref": "../schemas/Jersey.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Rosterstatus.json"
-          }
+          "$ref": "../schemas/Rosterstatus.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCode.json"
-          }
+          "$ref": "../schemas/TeamCode.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Playercode.json"
-          }
+          "$ref": "../schemas/Playercode.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FromYear.json"
-          }
+          "$ref": "../schemas/FromYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ToYear.json"
-          }
+          "$ref": "../schemas/ToYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DleagueFlag.json"
-          }
+          "$ref": "../schemas/DleagueFlag.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/NbaFlag.json"
-          }
+          "$ref": "../schemas/NbaFlag.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GamesPlayedFlag.json"
-          }
+          "$ref": "../schemas/GamesPlayedFlag.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftYear.json"
-          }
+          "$ref": "../schemas/DraftYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftRound.json"
-          }
+          "$ref": "../schemas/DraftRound.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DraftNumber.json"
-          }
+          "$ref": "../schemas/DraftNumber.json"
         }
       ]
     }

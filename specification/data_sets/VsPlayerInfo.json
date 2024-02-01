@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PERSON_ID"
         },
@@ -37,60 +37,42 @@
         {
           "const": "LAST_AFFILIATION"
         }
-      ]
+      ],
+      "minItems": 10,
+      "maxItems": 10
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PersonId.json"
-          }
+          "$ref": "../schemas/PersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayFirstLast.json"
-          }
+          "$ref": "../schemas/DisplayFirstLast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayLastCommaFirst.json"
-          }
+          "$ref": "../schemas/DisplayLastCommaFirst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DisplayFiLast.json"
-          }
+          "$ref": "../schemas/DisplayFiLast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Birthdate.json"
-          }
+          "$ref": "../schemas/Birthdate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/School.json"
-          }
+          "$ref": "../schemas/School.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Country.json"
-          }
+          "$ref": "../schemas/Country.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastAffiliation.json"
-          }
+          "$ref": "../schemas/LastAffiliation.json"
         }
       ]
     }

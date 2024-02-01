@@ -51,111 +51,75 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/ASTLeaders.json"
-                      }
+                      "$ref": "../data_sets/ASTLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/BLKLeaders.json"
-                      }
+                      "$ref": "../data_sets/BLKLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DREBLeaders.json"
-                      }
+                      "$ref": "../data_sets/DREBLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FG3ALeaders.json"
-                      }
+                      "$ref": "../data_sets/FG3ALeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FG3MLeaders.json"
-                      }
+                      "$ref": "../data_sets/FG3MLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FG3_PCTLeaders.json"
-                      }
+                      "$ref": "../data_sets/FG3_PCTLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FGALeaders.json"
-                      }
+                      "$ref": "../data_sets/FGALeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FGMLeaders.json"
-                      }
+                      "$ref": "../data_sets/FGMLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FG_PCTLeaders.json"
-                      }
+                      "$ref": "../data_sets/FG_PCTLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FTALeaders.json"
-                      }
+                      "$ref": "../data_sets/FTALeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FTMLeaders.json"
-                      }
+                      "$ref": "../data_sets/FTMLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/FT_PCTLeaders.json"
-                      }
+                      "$ref": "../data_sets/FT_PCTLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GPLeaders.json"
-                      }
+                      "$ref": "../data_sets/GPLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OREBLeaders.json"
-                      }
+                      "$ref": "../data_sets/OREBLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PFLeaders.json"
-                      }
+                      "$ref": "../data_sets/PFLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PTSLeaders.json"
-                      }
+                      "$ref": "../data_sets/PTSLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/REBLeaders.json"
-                      }
+                      "$ref": "../data_sets/REBLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/STLLeaders.json"
-                      }
+                      "$ref": "../data_sets/STLLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TOVLeaders.json"
-                      }
+                      "$ref": "../data_sets/TOVLeaders.json"
                     }
-                  ]
+                  ],
+                  "minItems": 19,
+                  "maxItems": 19
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

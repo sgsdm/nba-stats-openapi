@@ -6,11 +6,13 @@
     },
     "headers": {
       "type": "array",
-      "items": []
+      "prefixItems": [],
+      "minItems": 0,
+      "maxItems": 0
     },
     "rowSet": {
       "type": "array",
-      "items": []
+      "prefixItems": []
     }
   }
 }

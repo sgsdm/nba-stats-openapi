@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PERSON_ID"
         },
@@ -61,100 +61,66 @@
         {
           "const": "AGE"
         }
-      ]
+      ],
+      "minItems": 18,
+      "maxItems": 18
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PersonId.json"
-          }
+          "$ref": "../schemas/PersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Season.json"
-          }
+          "$ref": "../schemas/Season.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RoundNumber.json"
-          }
+          "$ref": "../schemas/RoundNumber.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RoundPick.json"
-          }
+          "$ref": "../schemas/RoundPick.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OverallPick.json"
-          }
+          "$ref": "../schemas/OverallPick.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Organization.json"
-          }
+          "$ref": "../schemas/Organization.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OrganizationType.json"
-          }
+          "$ref": "../schemas/OrganizationType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Height.json"
-          }
+          "$ref": "../schemas/Height.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Weight.json"
-          }
+          "$ref": "../schemas/Weight.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/JerseyNumber.json"
-          }
+          "$ref": "../schemas/JerseyNumber.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Birthdate.json"
-          }
+          "$ref": "../schemas/Birthdate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Age.json"
-          }
+          "$ref": "../schemas/Age.json"
         }
       ]
     }

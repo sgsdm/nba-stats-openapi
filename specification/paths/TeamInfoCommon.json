@@ -51,31 +51,27 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AvailableSeasons.json"
-                      }
+                      "$ref": "../data_sets/AvailableSeasons.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamInfoCommon.json"
-                      }
+                      "$ref": "../data_sets/TeamInfoCommon.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamSeasonRanks.json"
-                      }
+                      "$ref": "../data_sets/TeamSeasonRanks.json"
                     }
-                  ]
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

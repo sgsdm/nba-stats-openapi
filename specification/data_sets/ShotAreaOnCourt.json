@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GROUP_SET"
         },
@@ -43,70 +43,48 @@
         {
           "const": "CFPARAMS"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GroupSet.json"
-          }
+          "$ref": "../schemas/GroupSet.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsPlayerId.json"
-          }
+          "$ref": "../schemas/VsPlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VsPlayerName.json"
-          }
+          "$ref": "../schemas/VsPlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CourtStatus.json"
-          }
+          "$ref": "../schemas/CourtStatus.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GroupValue.json"
-          }
+          "$ref": "../schemas/GroupValue.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Cfid.json"
-          }
+          "$ref": "../schemas/Cfid.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Cfparams.json"
-          }
+          "$ref": "../schemas/Cfparams.json"
         }
       ]
     }

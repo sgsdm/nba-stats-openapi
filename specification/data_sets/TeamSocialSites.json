@@ -6,27 +6,25 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "ACCOUNTTYPE"
         },
         {
           "const": "WEBSITE_LINK"
         }
-      ]
+      ],
+      "minItems": 2,
+      "maxItems": 2
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Accounttype.json"
-          }
+          "$ref": "../schemas/Accounttype.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WebsiteLink.json"
-          }
+          "$ref": "../schemas/WebsiteLink.json"
         }
       ]
     }

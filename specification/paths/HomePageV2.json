@@ -69,56 +69,42 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat1.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat1.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat2.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat2.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat3.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat3.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat4.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat4.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat5.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat5.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat6.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat6.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat7.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat7.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageStat8.json"
-                      }
+                      "$ref": "../data_sets/HomePageStat8.json"
                     }
-                  ]
+                  ],
+                  "minItems": 8,
+                  "maxItems": 8
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

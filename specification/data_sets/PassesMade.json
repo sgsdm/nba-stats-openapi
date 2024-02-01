@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -70,115 +70,75 @@
         {
           "const": "FG3_PCT"
         }
-      ]
+      ],
+      "minItems": 21,
+      "maxItems": 21
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerNameLastFirst.json"
-          }
+          "$ref": "../schemas/PlayerNameLastFirst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PassType.json"
-          }
+          "$ref": "../schemas/PassType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/G.json"
-          }
+          "$ref": "../schemas/G.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PassTo.json"
-          }
+          "$ref": "../schemas/PassTo.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PassTeammatePlayerId.json"
-          }
+          "$ref": "../schemas/PassTeammatePlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Frequency.json"
-          }
+          "$ref": "../schemas/Frequency.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pass.json"
-          }
+          "$ref": "../schemas/Pass.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg2m.json"
-          }
+          "$ref": "../schemas/Fg2m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg2a.json"
-          }
+          "$ref": "../schemas/Fg2a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg2Pct.json"
-          }
+          "$ref": "../schemas/Fg2Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3m.json"
-          }
+          "$ref": "../schemas/Fg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3a.json"
-          }
+          "$ref": "../schemas/Fg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fg3Pct.json"
-          }
+          "$ref": "../schemas/Fg3Pct.json"
         }
       ]
     }

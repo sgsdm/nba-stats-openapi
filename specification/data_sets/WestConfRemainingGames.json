@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM"
         },
@@ -22,35 +22,27 @@
         {
           "const": "REMAINING_AWAY_G"
         }
-      ]
+      ],
+      "minItems": 5,
+      "maxItems": 5
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Team.json"
-          }
+          "$ref": "../schemas/Team.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RemainingG.json"
-          }
+          "$ref": "../schemas/RemainingG.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RemainingHomeG.json"
-          }
+          "$ref": "../schemas/RemainingHomeG.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RemainingAwayG.json"
-          }
+          "$ref": "../schemas/RemainingAwayG.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "CONFERENCE"
         },
@@ -43,70 +43,48 @@
         {
           "const": "HIGH_SEED_SERIES_REMAINING_AWAY_G"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Conference.json"
-          }
+          "$ref": "../schemas/Conference.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedRank.json"
-          }
+          "$ref": "../schemas/HighSeedRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedTeam.json"
-          }
+          "$ref": "../schemas/HighSeedTeam.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedTeamId.json"
-          }
+          "$ref": "../schemas/HighSeedTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LowSeedRank.json"
-          }
+          "$ref": "../schemas/LowSeedRank.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LowSeedTeam.json"
-          }
+          "$ref": "../schemas/LowSeedTeam.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LowSeedTeamId.json"
-          }
+          "$ref": "../schemas/LowSeedTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedSeriesW.json"
-          }
+          "$ref": "../schemas/HighSeedSeriesW.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedSeriesL.json"
-          }
+          "$ref": "../schemas/HighSeedSeriesL.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedSeriesRemainingG.json"
-          }
+          "$ref": "../schemas/HighSeedSeriesRemainingG.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedSeriesRemainingHomeG.json"
-          }
+          "$ref": "../schemas/HighSeedSeriesRemainingHomeG.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HighSeedSeriesRemainingAwayG.json"
-          }
+          "$ref": "../schemas/HighSeedSeriesRemainingAwayG.json"
         }
       ]
     }

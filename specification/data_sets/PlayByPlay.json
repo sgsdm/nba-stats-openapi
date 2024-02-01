@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -43,70 +43,48 @@
         {
           "const": "SCOREMARGIN"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Eventnum.json"
-          }
+          "$ref": "../schemas/Eventnum.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Eventmsgtype.json"
-          }
+          "$ref": "../schemas/Eventmsgtype.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Eventmsgactiontype.json"
-          }
+          "$ref": "../schemas/Eventmsgactiontype.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Period.json"
-          }
+          "$ref": "../schemas/Period.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Wctimestring.json"
-          }
+          "$ref": "../schemas/Wctimestring.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pctimestring.json"
-          }
+          "$ref": "../schemas/Pctimestring.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Homedescription.json"
-          }
+          "$ref": "../schemas/Homedescription.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Neutraldescription.json"
-          }
+          "$ref": "../schemas/Neutraldescription.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Visitordescription.json"
-          }
+          "$ref": "../schemas/Visitordescription.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Score.json"
-          }
+          "$ref": "../schemas/Score.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Scoremargin.json"
-          }
+          "$ref": "../schemas/Scoremargin.json"
         }
       ]
     }

@@ -165,61 +165,45 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/OnOffCourt.json"
-                      }
+                      "$ref": "../data_sets/OnOffCourt.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Overall.json"
-                      }
+                      "$ref": "../data_sets/Overall.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotAreaOffCourt.json"
-                      }
+                      "$ref": "../data_sets/ShotAreaOffCourt.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotAreaOnCourt.json"
-                      }
+                      "$ref": "../data_sets/ShotAreaOnCourt.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotAreaOverall.json"
-                      }
+                      "$ref": "../data_sets/ShotAreaOverall.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotDistanceOffCourt.json"
-                      }
+                      "$ref": "../data_sets/ShotDistanceOffCourt.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotDistanceOnCourt.json"
-                      }
+                      "$ref": "../data_sets/ShotDistanceOnCourt.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotDistanceOverall.json"
-                      }
+                      "$ref": "../data_sets/ShotDistanceOverall.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/vsPlayerOverall.json"
-                      }
+                      "$ref": "../data_sets/vsPlayerOverall.json"
                     }
-                  ]
+                  ],
+                  "minItems": 9,
+                  "maxItems": 9
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

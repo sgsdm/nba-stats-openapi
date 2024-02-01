@@ -177,26 +177,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/Lineups.json"
-                      }
+                      "$ref": "../data_sets/Lineups.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Overall.json"
-                      }
+                      "$ref": "../data_sets/Overall.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

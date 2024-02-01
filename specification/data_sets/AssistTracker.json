@@ -6,19 +6,19 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "ASSISTS"
         }
-      ]
+      ],
+      "minItems": 1,
+      "maxItems": 1
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Assists.json"
-          }
+          "$ref": "../schemas/Assists.json"
         }
       ]
     }

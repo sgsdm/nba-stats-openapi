@@ -81,41 +81,33 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/DaysRestModified.json"
-                      }
+                      "$ref": "../data_sets/DaysRestModified.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LastNGames.json"
-                      }
+                      "$ref": "../data_sets/LastNGames.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Location.json"
-                      }
+                      "$ref": "../data_sets/Location.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Opponent.json"
-                      }
+                      "$ref": "../data_sets/Opponent.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Overall.json"
-                      }
+                      "$ref": "../data_sets/Overall.json"
                     }
-                  ]
+                  ],
+                  "minItems": 5,
+                  "maxItems": 5
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

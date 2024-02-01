@@ -165,26 +165,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayersSeasonTotals.json"
-                      }
+                      "$ref": "../data_sets/PlayersSeasonTotals.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamOverall.json"
-                      }
+                      "$ref": "../data_sets/TeamOverall.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

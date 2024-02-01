@@ -243,21 +243,21 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotLocations.json"
-                      }
+                      "$ref": "../data_sets/ShotLocations.json"
                     }
-                  ]
+                  ],
+                  "minItems": 1,
+                  "maxItems": 1
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

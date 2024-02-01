@@ -63,26 +63,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/sqlPlayersScoring.json"
-                      }
+                      "$ref": "../data_sets/sqlPlayersScoring.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/sqlTeamsScoring.json"
-                      }
+                      "$ref": "../data_sets/sqlTeamsScoring.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

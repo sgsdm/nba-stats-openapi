@@ -189,21 +189,21 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/LeagueLineupViz.json"
-                      }
+                      "$ref": "../data_sets/LeagueLineupViz.json"
                     }
-                  ]
+                  ],
+                  "minItems": 1,
+                  "maxItems": 1
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

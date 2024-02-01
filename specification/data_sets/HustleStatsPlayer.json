@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -91,150 +91,96 @@
         {
           "const": "PCT_BOX_OUTS_REB"
         }
-      ]
+      ],
+      "minItems": 28,
+      "maxItems": 28
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Age.json"
-          }
+          "$ref": "../schemas/Age.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/G.json"
-          }
+          "$ref": "../schemas/G.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ContestedShots.json"
-          }
+          "$ref": "../schemas/ContestedShots.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ContestedShots2pt.json"
-          }
+          "$ref": "../schemas/ContestedShots2pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ContestedShots3pt.json"
-          }
+          "$ref": "../schemas/ContestedShots3pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Deflections.json"
-          }
+          "$ref": "../schemas/Deflections.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ChargesDrawn.json"
-          }
+          "$ref": "../schemas/ChargesDrawn.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ScreenAssists.json"
-          }
+          "$ref": "../schemas/ScreenAssists.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ScreenAstPts.json"
-          }
+          "$ref": "../schemas/ScreenAstPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffLooseBallsRecovered.json"
-          }
+          "$ref": "../schemas/OffLooseBallsRecovered.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DefLooseBallsRecovered.json"
-          }
+          "$ref": "../schemas/DefLooseBallsRecovered.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LooseBallsRecovered.json"
-          }
+          "$ref": "../schemas/LooseBallsRecovered.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
-          }
+          "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
-          }
+          "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffBoxouts.json"
-          }
+          "$ref": "../schemas/OffBoxouts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DefBoxouts.json"
-          }
+          "$ref": "../schemas/DefBoxouts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BoxOutPlayerTeamRebs.json"
-          }
+          "$ref": "../schemas/BoxOutPlayerTeamRebs.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BoxOutPlayerRebs.json"
-          }
+          "$ref": "../schemas/BoxOutPlayerRebs.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BoxOuts.json"
-          }
+          "$ref": "../schemas/BoxOuts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctBoxOutsOff.json"
-          }
+          "$ref": "../schemas/PctBoxOutsOff.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctBoxOutsDef.json"
-          }
+          "$ref": "../schemas/PctBoxOutsDef.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctBoxOutsTeamReb.json"
-          }
+          "$ref": "../schemas/PctBoxOutsTeamReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctBoxOutsReb.json"
-          }
+          "$ref": "../schemas/PctBoxOutsReb.json"
         }
       ]
     }

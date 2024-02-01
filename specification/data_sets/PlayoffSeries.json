@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -22,35 +22,27 @@
         {
           "const": "GAME_NUM"
         }
-      ]
+      ],
+      "minItems": 5,
+      "maxItems": 5
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamId.json"
-          }
+          "$ref": "../schemas/HomeTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamId.json"
-          }
+          "$ref": "../schemas/VisitorTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeriesId.json"
-          }
+          "$ref": "../schemas/SeriesId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameNum.json"
-          }
+          "$ref": "../schemas/GameNum.json"
         }
       ]
     }

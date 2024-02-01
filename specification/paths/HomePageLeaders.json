@@ -69,31 +69,27 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/HomePageLeaders.json"
-                      }
+                      "$ref": "../data_sets/HomePageLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LeagueAverage.json"
-                      }
+                      "$ref": "../data_sets/LeagueAverage.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LeagueMax.json"
-                      }
+                      "$ref": "../data_sets/LeagueMax.json"
                     }
-                  ]
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

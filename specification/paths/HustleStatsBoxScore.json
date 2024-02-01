@@ -33,31 +33,27 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/HustleStatsAvailable.json"
-                      }
+                      "$ref": "../data_sets/HustleStatsAvailable.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayerStats.json"
-                      }
+                      "$ref": "../data_sets/PlayerStats.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamStats.json"
-                      }
+                      "$ref": "../data_sets/TeamStats.json"
                     }
-                  ]
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

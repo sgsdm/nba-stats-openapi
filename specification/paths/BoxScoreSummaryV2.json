@@ -33,61 +33,45 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AvailableVideo.json"
-                      }
+                      "$ref": "../data_sets/AvailableVideo.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameInfo.json"
-                      }
+                      "$ref": "../data_sets/GameInfo.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameSummary.json"
-                      }
+                      "$ref": "../data_sets/GameSummary.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/InactivePlayers.json"
-                      }
+                      "$ref": "../data_sets/InactivePlayers.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LastMeeting.json"
-                      }
+                      "$ref": "../data_sets/LastMeeting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LineScore.json"
-                      }
+                      "$ref": "../data_sets/LineScore.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Officials.json"
-                      }
+                      "$ref": "../data_sets/Officials.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OtherStats.json"
-                      }
+                      "$ref": "../data_sets/OtherStats.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/SeasonSeries.json"
-                      }
+                      "$ref": "../data_sets/SeasonSeries.json"
                     }
-                  ]
+                  ],
+                  "minItems": 9,
+                  "maxItems": 9
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

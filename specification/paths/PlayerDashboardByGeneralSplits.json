@@ -165,51 +165,39 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/DaysRestPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/DaysRestPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LocationPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/LocationPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/MonthPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/MonthPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PrePostAllStarPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/PrePostAllStarPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/StartingPosition.json"
-                      }
+                      "$ref": "../data_sets/StartingPosition.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WinsLossesPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/WinsLossesPlayerDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 7,
+                  "maxItems": 7
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

@@ -6,27 +6,25 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "YEARAWARDED"
         },
         {
           "const": "OPPOSITETEAM"
         }
-      ]
+      ],
+      "minItems": 2,
+      "maxItems": 2
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/Yearawarded.json"
-          }
+          "$ref": "../schemas/Yearawarded.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Oppositeteam.json"
-          }
+          "$ref": "../schemas/Oppositeteam.json"
         }
       ]
     }

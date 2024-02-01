@@ -39,26 +39,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameInfo.json"
-                      }
+                      "$ref": "../data_sets/GameInfo.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WinProbPBP.json"
-                      }
+                      "$ref": "../data_sets/WinProbPBP.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

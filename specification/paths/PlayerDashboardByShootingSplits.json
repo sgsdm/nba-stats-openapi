@@ -165,56 +165,42 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AssistedBy.json"
-                      }
+                      "$ref": "../data_sets/AssistedBy.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/AssitedShotPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/AssitedShotPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Shot5FTPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Shot5FTPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Shot8FTPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Shot8FTPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotAreaPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ShotAreaPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotTypePlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ShotTypePlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotTypeSummaryPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ShotTypeSummaryPlayerDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 8,
+                  "maxItems": 8
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

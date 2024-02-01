@@ -63,21 +63,21 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayerGameLog.json"
-                      }
+                      "$ref": "../data_sets/PlayerGameLog.json"
                     }
-                  ]
+                  ],
+                  "minItems": 1,
+                  "maxItems": 1
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

@@ -237,41 +237,33 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayersVsPlayers.json"
-                      }
+                      "$ref": "../data_sets/PlayersVsPlayers.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamPlayersVsPlayersOff.json"
-                      }
+                      "$ref": "../data_sets/TeamPlayersVsPlayersOff.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamPlayersVsPlayersOn.json"
-                      }
+                      "$ref": "../data_sets/TeamPlayersVsPlayersOn.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamVsPlayers.json"
-                      }
+                      "$ref": "../data_sets/TeamVsPlayers.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamVsPlayersOff.json"
-                      }
+                      "$ref": "../data_sets/TeamVsPlayersOff.json"
                     }
-                  ]
+                  ],
+                  "minItems": 5,
+                  "maxItems": 5
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

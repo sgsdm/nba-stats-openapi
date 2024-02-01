@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
@@ -70,115 +70,75 @@
         {
           "const": "PCT_UAST_FGM"
         }
-      ]
+      ],
+      "minItems": 21,
+      "maxItems": 21
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Min.json"
-          }
+          "$ref": "../schemas/Min.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctFga2pt.json"
-          }
+          "$ref": "../schemas/PctFga2pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctFga3pt.json"
-          }
+          "$ref": "../schemas/PctFga3pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPts2pt.json"
-          }
+          "$ref": "../schemas/PctPts2pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPts2ptMr.json"
-          }
+          "$ref": "../schemas/PctPts2ptMr.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPts3pt.json"
-          }
+          "$ref": "../schemas/PctPts3pt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPtsFb.json"
-          }
+          "$ref": "../schemas/PctPtsFb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPtsFt.json"
-          }
+          "$ref": "../schemas/PctPtsFt.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPtsOffTov.json"
-          }
+          "$ref": "../schemas/PctPtsOffTov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctPtsPaint.json"
-          }
+          "$ref": "../schemas/PctPtsPaint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAst2pm.json"
-          }
+          "$ref": "../schemas/PctAst2pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUast2pm.json"
-          }
+          "$ref": "../schemas/PctUast2pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAst3pm.json"
-          }
+          "$ref": "../schemas/PctAst3pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUast3pm.json"
-          }
+          "$ref": "../schemas/PctUast3pm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctAstFgm.json"
-          }
+          "$ref": "../schemas/PctAstFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PctUastFgm.json"
-          }
+          "$ref": "../schemas/PctUastFgm.json"
         }
       ]
     }

@@ -165,51 +165,39 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AssistedBy.json"
-                      }
+                      "$ref": "../data_sets/AssistedBy.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/AssitedShotTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/AssitedShotTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Shot5FTTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/Shot5FTTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Shot8FTTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/Shot8FTTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotAreaTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/ShotAreaTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotTypeTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/ShotTypeTeamDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 7,
+                  "maxItems": 7
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

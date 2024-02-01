@@ -45,66 +45,48 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/Available.json"
-                      }
+                      "$ref": "../data_sets/Available.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/EastConfStandingsByDay.json"
-                      }
+                      "$ref": "../data_sets/EastConfStandingsByDay.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameHeader.json"
-                      }
+                      "$ref": "../data_sets/GameHeader.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LastMeeting.json"
-                      }
+                      "$ref": "../data_sets/LastMeeting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LineScore.json"
-                      }
+                      "$ref": "../data_sets/LineScore.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/SeriesStandings.json"
-                      }
+                      "$ref": "../data_sets/SeriesStandings.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TeamLeaders.json"
-                      }
+                      "$ref": "../data_sets/TeamLeaders.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TicketLinks.json"
-                      }
+                      "$ref": "../data_sets/TicketLinks.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WestConfStandingsByDay.json"
-                      }
+                      "$ref": "../data_sets/WestConfStandingsByDay.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WinProbability.json"
-                      }
+                      "$ref": "../data_sets/WinProbability.json"
                     }
-                  ]
+                  ],
+                  "minItems": 10,
+                  "maxItems": 10
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

@@ -57,26 +57,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameByGameStats.json"
-                      }
+                      "$ref": "../data_sets/GameByGameStats.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TotalPlayerStats.json"
-                      }
+                      "$ref": "../data_sets/TotalPlayerStats.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

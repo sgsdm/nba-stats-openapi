@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_DATE_EST"
         },
@@ -49,80 +49,54 @@
         {
           "const": "WH_STATUS"
         }
-      ]
+      ],
+      "minItems": 14,
+      "maxItems": 14
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameDateEst.json"
-          }
+          "$ref": "../schemas/GameDateEst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameSequence.json"
-          }
+          "$ref": "../schemas/GameSequence.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameStatusId.json"
-          }
+          "$ref": "../schemas/GameStatusId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameStatusText.json"
-          }
+          "$ref": "../schemas/GameStatusText.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gamecode.json"
-          }
+          "$ref": "../schemas/Gamecode.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HomeTeamId.json"
-          }
+          "$ref": "../schemas/HomeTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/VisitorTeamId.json"
-          }
+          "$ref": "../schemas/VisitorTeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Season.json"
-          }
+          "$ref": "../schemas/Season.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LivePeriod.json"
-          }
+          "$ref": "../schemas/LivePeriod.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LivePcTime.json"
-          }
+          "$ref": "../schemas/LivePcTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/NatlTvBroadcasterAbbreviation.json"
-          }
+          "$ref": "../schemas/NatlTvBroadcasterAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LivePeriodTimeBcast.json"
-          }
+          "$ref": "../schemas/LivePeriodTimeBcast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WhStatus.json"
-          }
+          "$ref": "../schemas/WhStatus.json"
         }
       ]
     }

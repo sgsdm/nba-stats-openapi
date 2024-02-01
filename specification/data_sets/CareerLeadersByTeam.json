@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEAM_ID"
         },
@@ -58,95 +58,63 @@
         {
           "const": "SEASON_YEAR"
         }
-      ]
+      ],
+      "minItems": 17,
+      "maxItems": 17
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsPersonId.json"
-          }
+          "$ref": "../schemas/PtsPersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsPlayer.json"
-          }
+          "$ref": "../schemas/PtsPlayer.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ast.json"
-          }
+          "$ref": "../schemas/Ast.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AstPersonId.json"
-          }
+          "$ref": "../schemas/AstPersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/AstPlayer.json"
-          }
+          "$ref": "../schemas/AstPlayer.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RebPersonId.json"
-          }
+          "$ref": "../schemas/RebPersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RebPlayer.json"
-          }
+          "$ref": "../schemas/RebPlayer.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Blk.json"
-          }
+          "$ref": "../schemas/Blk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BlkPersonId.json"
-          }
+          "$ref": "../schemas/BlkPersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BlkPlayer.json"
-          }
+          "$ref": "../schemas/BlkPlayer.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Stl.json"
-          }
+          "$ref": "../schemas/Stl.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StlPersonId.json"
-          }
+          "$ref": "../schemas/StlPersonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StlPlayer.json"
-          }
+          "$ref": "../schemas/StlPlayer.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SeasonYear.json"
-          }
+          "$ref": "../schemas/SeasonYear.json"
         }
       ]
     }

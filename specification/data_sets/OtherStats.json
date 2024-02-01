@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "LEAGUE_ID"
         },
@@ -49,80 +49,54 @@
         {
           "const": "PTS_OFF_TO"
         }
-      ]
+      ],
+      "minItems": 14,
+      "maxItems": 14
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/LeagueId.json"
-          }
+          "$ref": "../schemas/LeagueId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsPaint.json"
-          }
+          "$ref": "../schemas/PtsPaint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts2ndChance.json"
-          }
+          "$ref": "../schemas/Pts2ndChance.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsFb.json"
-          }
+          "$ref": "../schemas/PtsFb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LargestLead.json"
-          }
+          "$ref": "../schemas/LargestLead.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LeadChanges.json"
-          }
+          "$ref": "../schemas/LeadChanges.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TimesTied.json"
-          }
+          "$ref": "../schemas/TimesTied.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamTurnovers.json"
-          }
+          "$ref": "../schemas/TeamTurnovers.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TotalTurnovers.json"
-          }
+          "$ref": "../schemas/TotalTurnovers.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamRebounds.json"
-          }
+          "$ref": "../schemas/TeamRebounds.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOffTo.json"
-          }
+          "$ref": "../schemas/PtsOffTo.json"
         }
       ]
     }

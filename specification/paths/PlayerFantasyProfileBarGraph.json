@@ -51,26 +51,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/LastFiveGamesAvg.json"
-                      }
+                      "$ref": "../data_sets/LastFiveGamesAvg.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/SeasonAvg.json"
-                      }
+                      "$ref": "../data_sets/SeasonAvg.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

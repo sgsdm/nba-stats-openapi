@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "PLAYER_ID"
         },
@@ -58,95 +58,63 @@
         {
           "const": "UC_REB_PCT"
         }
-      ]
+      ],
+      "minItems": 17,
+      "maxItems": 17
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerNameLastFirst.json"
-          }
+          "$ref": "../schemas/PlayerNameLastFirst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SortOrder.json"
-          }
+          "$ref": "../schemas/SortOrder.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/G.json"
-          }
+          "$ref": "../schemas/G.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ShotDistRange.json"
-          }
+          "$ref": "../schemas/ShotDistRange.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/RebFrequency.json"
-          }
+          "$ref": "../schemas/RebFrequency.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Oreb.json"
-          }
+          "$ref": "../schemas/Oreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Dreb.json"
-          }
+          "$ref": "../schemas/Dreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Reb.json"
-          }
+          "$ref": "../schemas/Reb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/COreb.json"
-          }
+          "$ref": "../schemas/COreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CDreb.json"
-          }
+          "$ref": "../schemas/CDreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CReb.json"
-          }
+          "$ref": "../schemas/CReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/CRebPct.json"
-          }
+          "$ref": "../schemas/CRebPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/UcOreb.json"
-          }
+          "$ref": "../schemas/UcOreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/UcDreb.json"
-          }
+          "$ref": "../schemas/UcDreb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/UcReb.json"
-          }
+          "$ref": "../schemas/UcReb.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/UcRebPct.json"
-          }
+          "$ref": "../schemas/UcRebPct.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "LEAGUE_ID"
         },
@@ -52,85 +52,57 @@
         {
           "const": "LEAGUE_TITLES"
         }
-      ]
+      ],
+      "minItems": 15,
+      "maxItems": 15
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/LeagueId.json"
-          }
+          "$ref": "../schemas/LeagueId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCity.json"
-          }
+          "$ref": "../schemas/TeamCity.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StartYear.json"
-          }
+          "$ref": "../schemas/StartYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EndYear.json"
-          }
+          "$ref": "../schemas/EndYear.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Years.json"
-          }
+          "$ref": "../schemas/Years.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Games.json"
-          }
+          "$ref": "../schemas/Games.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Wins.json"
-          }
+          "$ref": "../schemas/Wins.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Losses.json"
-          }
+          "$ref": "../schemas/Losses.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/WinPct.json"
-          }
+          "$ref": "../schemas/WinPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PoAppearances.json"
-          }
+          "$ref": "../schemas/PoAppearances.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DivTitles.json"
-          }
+          "$ref": "../schemas/DivTitles.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ConfTitles.json"
-          }
+          "$ref": "../schemas/ConfTitles.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LeagueTitles.json"
-          }
+          "$ref": "../schemas/LeagueTitles.json"
         }
       ]
     }

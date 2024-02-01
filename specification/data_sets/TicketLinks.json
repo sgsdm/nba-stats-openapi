@@ -6,27 +6,25 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_ID"
         },
         {
           "const": "LEAG_TIX"
         }
-      ]
+      ],
+      "minItems": 2,
+      "maxItems": 2
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LeagTix.json"
-          }
+          "$ref": "../schemas/LeagTix.json"
         }
       ]
     }

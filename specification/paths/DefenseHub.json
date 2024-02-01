@@ -63,66 +63,48 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat1.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat1.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat10.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat10.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat2.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat2.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat3.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat3.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat4.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat4.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat5.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat5.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat6.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat6.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat7.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat7.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat8.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat8.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DefenseHubStat9.json"
-                      }
+                      "$ref": "../data_sets/DefenseHubStat9.json"
                     }
-                  ]
+                  ],
+                  "minItems": 10,
+                  "maxItems": 10
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

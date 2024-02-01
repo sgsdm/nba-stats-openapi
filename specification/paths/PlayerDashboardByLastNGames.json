@@ -165,46 +165,36 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/GameNumberPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/GameNumberPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Last10PlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Last10PlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Last15PlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Last15PlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Last20PlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Last20PlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Last5PlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/Last5PlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallPlayerDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

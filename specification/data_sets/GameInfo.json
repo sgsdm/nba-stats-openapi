@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_DATE"
         },
@@ -16,25 +16,21 @@
         {
           "const": "GAME_TIME"
         }
-      ]
+      ],
+      "minItems": 3,
+      "maxItems": 3
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameDate.json"
-          }
+          "$ref": "../schemas/GameDate.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Attendance.json"
-          }
+          "$ref": "../schemas/Attendance.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameTime.json"
-          }
+          "$ref": "../schemas/GameTime.json"
         }
       ]
     }

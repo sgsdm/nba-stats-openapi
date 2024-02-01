@@ -165,36 +165,30 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PointsScoredPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/PointsScoredPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PontsAgainstPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/PontsAgainstPlayerDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ScoreDifferentialPlayerDashboard.json"
-                      }
+                      "$ref": "../data_sets/ScoreDifferentialPlayerDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 4,
+                  "maxItems": 4
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

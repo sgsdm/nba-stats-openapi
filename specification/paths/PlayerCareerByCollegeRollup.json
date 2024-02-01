@@ -51,36 +51,30 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/East.json"
-                      }
+                      "$ref": "../data_sets/East.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/Midwest.json"
-                      }
+                      "$ref": "../data_sets/Midwest.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/South.json"
-                      }
+                      "$ref": "../data_sets/South.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/West.json"
-                      }
+                      "$ref": "../data_sets/West.json"
                     }
-                  ]
+                  ],
+                  "minItems": 4,
+                  "maxItems": 4
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

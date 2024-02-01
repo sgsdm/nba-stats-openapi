@@ -45,26 +45,24 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/AvailableVideo.json"
-                      }
+                      "$ref": "../data_sets/AvailableVideo.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PlayByPlay.json"
-                      }
+                      "$ref": "../data_sets/PlayByPlay.json"
                     }
-                  ]
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

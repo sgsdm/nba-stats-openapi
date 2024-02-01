@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "GAME_DATE_EST"
         },
@@ -76,125 +76,81 @@
         {
           "const": "PTS"
         }
-      ]
+      ],
+      "minItems": 23,
+      "maxItems": 23
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/GameDateEst.json"
-          }
+          "$ref": "../schemas/GameDateEst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameSequence.json"
-          }
+          "$ref": "../schemas/GameSequence.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/GameId.json"
-          }
+          "$ref": "../schemas/GameId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamCityName.json"
-          }
+          "$ref": "../schemas/TeamCityName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamNickname.json"
-          }
+          "$ref": "../schemas/TeamNickname.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamWinsLosses.json"
-          }
+          "$ref": "../schemas/TeamWinsLosses.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsQtr1.json"
-          }
+          "$ref": "../schemas/PtsQtr1.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsQtr2.json"
-          }
+          "$ref": "../schemas/PtsQtr2.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsQtr3.json"
-          }
+          "$ref": "../schemas/PtsQtr3.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsQtr4.json"
-          }
+          "$ref": "../schemas/PtsQtr4.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt1.json"
-          }
+          "$ref": "../schemas/PtsOt1.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt2.json"
-          }
+          "$ref": "../schemas/PtsOt2.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt3.json"
-          }
+          "$ref": "../schemas/PtsOt3.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt4.json"
-          }
+          "$ref": "../schemas/PtsOt4.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt5.json"
-          }
+          "$ref": "../schemas/PtsOt5.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt6.json"
-          }
+          "$ref": "../schemas/PtsOt6.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt7.json"
-          }
+          "$ref": "../schemas/PtsOt7.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt8.json"
-          }
+          "$ref": "../schemas/PtsOt8.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt9.json"
-          }
+          "$ref": "../schemas/PtsOt9.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PtsOt10.json"
-          }
+          "$ref": "../schemas/PtsOt10.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         }
       ]
     }

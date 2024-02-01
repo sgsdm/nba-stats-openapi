@@ -129,46 +129,36 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/ClosestDefender10ftPlusShooting.json"
-                      }
+                      "$ref": "../data_sets/ClosestDefender10ftPlusShooting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ClosestDefenderShooting.json"
-                      }
+                      "$ref": "../data_sets/ClosestDefenderShooting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/DribbleShooting.json"
-                      }
+                      "$ref": "../data_sets/DribbleShooting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/GeneralShooting.json"
-                      }
+                      "$ref": "../data_sets/GeneralShooting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/ShotClockShooting.json"
-                      }
+                      "$ref": "../data_sets/ShotClockShooting.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/TouchTimeShooting.json"
-                      }
+                      "$ref": "../data_sets/TouchTimeShooting.json"
                     }
-                  ]
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }

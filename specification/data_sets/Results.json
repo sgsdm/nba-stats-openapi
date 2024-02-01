@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "TEMP_PLAYER_ID"
         },
@@ -43,70 +43,48 @@
         {
           "const": "BENCH_PRESS"
         }
-      ]
+      ],
+      "minItems": 12,
+      "maxItems": 12
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/TempPlayerId.json"
-          }
+          "$ref": "../schemas/TempPlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerId.json"
-          }
+          "$ref": "../schemas/PlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FirstName.json"
-          }
+          "$ref": "../schemas/FirstName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LastName.json"
-          }
+          "$ref": "../schemas/LastName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerName.json"
-          }
+          "$ref": "../schemas/PlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Position.json"
-          }
+          "$ref": "../schemas/Position.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/StandingVerticalLeap.json"
-          }
+          "$ref": "../schemas/StandingVerticalLeap.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MaxVerticalLeap.json"
-          }
+          "$ref": "../schemas/MaxVerticalLeap.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/LaneAgilityTime.json"
-          }
+          "$ref": "../schemas/LaneAgilityTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ModifiedLaneAgilityTime.json"
-          }
+          "$ref": "../schemas/ModifiedLaneAgilityTime.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ThreeQuarterSprint.json"
-          }
+          "$ref": "../schemas/ThreeQuarterSprint.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/BenchPress.json"
-          }
+          "$ref": "../schemas/BenchPress.json"
         }
       ]
     }

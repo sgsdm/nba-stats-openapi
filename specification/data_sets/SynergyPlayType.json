@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "SEASON_ID"
         },
@@ -73,120 +73,78 @@
         {
           "const": "FGMX"
         }
-      ]
+      ],
+      "minItems": 22,
+      "maxItems": 22
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/SeasonId.json"
-          }
+          "$ref": "../schemas/SeasonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamId.json"
-          }
+          "$ref": "../schemas/TeamId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamAbbreviation.json"
-          }
+          "$ref": "../schemas/TeamAbbreviation.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamName.json"
-          }
+          "$ref": "../schemas/TeamName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayType.json"
-          }
+          "$ref": "../schemas/PlayType.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TypeGrouping.json"
-          }
+          "$ref": "../schemas/TypeGrouping.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Percentile.json"
-          }
+          "$ref": "../schemas/Percentile.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PossPct.json"
-          }
+          "$ref": "../schemas/PossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Ppp.json"
-          }
+          "$ref": "../schemas/Ppp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FgPct.json"
-          }
+          "$ref": "../schemas/FgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/FtPossPct.json"
-          }
+          "$ref": "../schemas/FtPossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TovPossPct.json"
-          }
+          "$ref": "../schemas/TovPossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/SfPossPct.json"
-          }
+          "$ref": "../schemas/SfPossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlusonePossPct.json"
-          }
+          "$ref": "../schemas/PlusonePossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/ScorePossPct.json"
-          }
+          "$ref": "../schemas/ScorePossPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/EfgPct.json"
-          }
+          "$ref": "../schemas/EfgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Poss.json"
-          }
+          "$ref": "../schemas/Poss.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Pts.json"
-          }
+          "$ref": "../schemas/Pts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgm.json"
-          }
+          "$ref": "../schemas/Fgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fga.json"
-          }
+          "$ref": "../schemas/Fga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Fgmx.json"
-          }
+          "$ref": "../schemas/Fgmx.json"
         }
       ]
     }

@@ -6,7 +6,7 @@
     },
     "headers": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
           "const": "SEASON_ID"
         },
@@ -85,140 +85,90 @@
         {
           "const": "SFL"
         }
-      ]
+      ],
+      "minItems": 26,
+      "maxItems": 26
     },
     "rowSet": {
       "type": "array",
-      "items": [
+      "prefixItems": [
         {
-          "type": {
-            "$ref": "../schemas/SeasonId.json"
-          }
+          "$ref": "../schemas/SeasonId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffPlayerId.json"
-          }
+          "$ref": "../schemas/OffPlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/OffPlayerName.json"
-          }
+          "$ref": "../schemas/OffPlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DefPlayerId.json"
-          }
+          "$ref": "../schemas/DefPlayerId.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/DefPlayerName.json"
-          }
+          "$ref": "../schemas/DefPlayerName.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Gp.json"
-          }
+          "$ref": "../schemas/Gp.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupMin.json"
-          }
+          "$ref": "../schemas/MatchupMin.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PartialPoss.json"
-          }
+          "$ref": "../schemas/PartialPoss.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/PlayerPts.json"
-          }
+          "$ref": "../schemas/PlayerPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/TeamPts.json"
-          }
+          "$ref": "../schemas/TeamPts.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupAst.json"
-          }
+          "$ref": "../schemas/MatchupAst.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupTov.json"
-          }
+          "$ref": "../schemas/MatchupTov.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupBlk.json"
-          }
+          "$ref": "../schemas/MatchupBlk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFgm.json"
-          }
+          "$ref": "../schemas/MatchupFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFga.json"
-          }
+          "$ref": "../schemas/MatchupFga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFgPct.json"
-          }
+          "$ref": "../schemas/MatchupFgPct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFg3m.json"
-          }
+          "$ref": "../schemas/MatchupFg3m.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFg3a.json"
-          }
+          "$ref": "../schemas/MatchupFg3a.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFg3Pct.json"
-          }
+          "$ref": "../schemas/MatchupFg3Pct.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HelpBlk.json"
-          }
+          "$ref": "../schemas/HelpBlk.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HelpFgm.json"
-          }
+          "$ref": "../schemas/HelpFgm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HelpFga.json"
-          }
+          "$ref": "../schemas/HelpFga.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/HelpFgPerc.json"
-          }
+          "$ref": "../schemas/HelpFgPerc.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFtm.json"
-          }
+          "$ref": "../schemas/MatchupFtm.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/MatchupFta.json"
-          }
+          "$ref": "../schemas/MatchupFta.json"
         },
         {
-          "type": {
-            "$ref": "../schemas/Sfl.json"
-          }
+          "$ref": "../schemas/Sfl.json"
         }
       ]
     }

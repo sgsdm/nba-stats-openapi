@@ -165,46 +165,36 @@
                 },
                 "resultSets": {
                   "type": "array",
-                  "items": [
+                  "prefixItems": [
                     {
-                      "type": {
-                        "$ref": "../data_sets/DaysRestTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/DaysRestTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/LocationTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/LocationTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/MonthTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/MonthTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/OverallTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/OverallTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/PrePostAllStarTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/PrePostAllStarTeamDashboard.json"
                     },
                     {
-                      "type": {
-                        "$ref": "../data_sets/WinsLossesTeamDashboard.json"
-                      }
+                      "$ref": "../data_sets/WinsLossesTeamDashboard.json"
                     }
-                  ]
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
                 }
               }
             }
           }
-        },
-        "404": {
-          "description": "[to do]"
         }
+      },
+      "404": {
+        "description": "[to do]"
       }
     }
   }
