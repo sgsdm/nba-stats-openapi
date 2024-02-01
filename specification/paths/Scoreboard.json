@@ -30,13 +30,13 @@
                   "type": "object",
                   "properties": {
                     "DayOffset": {
-                      "$ref": "../schemas/DayOffset.json"
+                      "const": "$request.query.DayOffset"
                     },
                     "GameDate": {
-                      "$ref": "../schemas/GameDate.json"
+                      "const": "$request.query.GameDate"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     }
                   }
                 },

@@ -39,22 +39,22 @@
                   "type": "object",
                   "properties": {
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     }
                   }
                 },

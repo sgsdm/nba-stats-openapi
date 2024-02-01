@@ -288,271 +288,271 @@
                   "type": "object",
                   "properties": {
                     "ActiveStreaksOnly": {
-                      "$ref": "../schemas/ActiveStreaksOnly.json"
+                      "const": "$request.query.ActiveStreaksOnly"
                     },
                     "Conference": {
-                      "$ref": "../schemas/Conference.json"
+                      "const": "$request.query.Conference"
                     },
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "Division": {
-                      "$ref": "../schemas/Division.json"
+                      "const": "$request.query.Division"
                     },
                     "DraftNumber": {
-                      "$ref": "../schemas/DraftNumber.json"
+                      "const": "$request.query.DraftNumber"
                     },
                     "DraftRound": {
-                      "$ref": "../schemas/DraftRound.json"
+                      "const": "$request.query.DraftRound"
                     },
                     "DraftTeamID": {
-                      "$ref": "../schemas/DraftTeamID.json"
+                      "const": "$request.query.DraftTeamID"
                     },
                     "DraftYear": {
-                      "$ref": "../schemas/DraftYear.json"
+                      "const": "$request.query.DraftYear"
                     },
                     "EqAST": {
-                      "$ref": "../schemas/EqAST.json"
+                      "const": "$request.query.EqAST"
                     },
                     "EqBLK": {
-                      "$ref": "../schemas/EqBLK.json"
+                      "const": "$request.query.EqBLK"
                     },
                     "EqDD": {
-                      "$ref": "../schemas/EqDD.json"
+                      "const": "$request.query.EqDD"
                     },
                     "EqDREB": {
-                      "$ref": "../schemas/EqDREB.json"
+                      "const": "$request.query.EqDREB"
                     },
                     "EqFG3A": {
-                      "$ref": "../schemas/EqFG3A.json"
+                      "const": "$request.query.EqFG3A"
                     },
                     "EqFG3M": {
-                      "$ref": "../schemas/EqFG3M.json"
+                      "const": "$request.query.EqFG3M"
                     },
                     "EqFG3_PCT": {
-                      "$ref": "../schemas/EqFG3_PCT.json"
+                      "const": "$request.query.EqFG3_PCT"
                     },
                     "EqFGA": {
-                      "$ref": "../schemas/EqFGA.json"
+                      "const": "$request.query.EqFGA"
                     },
                     "EqFGM": {
-                      "$ref": "../schemas/EqFGM.json"
+                      "const": "$request.query.EqFGM"
                     },
                     "EqFG_PCT": {
-                      "$ref": "../schemas/EqFG_PCT.json"
+                      "const": "$request.query.EqFG_PCT"
                     },
                     "EqFTA": {
-                      "$ref": "../schemas/EqFTA.json"
+                      "const": "$request.query.EqFTA"
                     },
                     "EqFTM": {
-                      "$ref": "../schemas/EqFTM.json"
+                      "const": "$request.query.EqFTM"
                     },
                     "EqFT_PCT": {
-                      "$ref": "../schemas/EqFT_PCT.json"
+                      "const": "$request.query.EqFT_PCT"
                     },
                     "EqMINUTES": {
-                      "$ref": "../schemas/EqMINUTES.json"
+                      "const": "$request.query.EqMINUTES"
                     },
                     "EqOREB": {
-                      "$ref": "../schemas/EqOREB.json"
+                      "const": "$request.query.EqOREB"
                     },
                     "EqPF": {
-                      "$ref": "../schemas/EqPF.json"
+                      "const": "$request.query.EqPF"
                     },
                     "EqPTS": {
-                      "$ref": "../schemas/EqPTS.json"
+                      "const": "$request.query.EqPTS"
                     },
                     "EqREB": {
-                      "$ref": "../schemas/EqREB.json"
+                      "const": "$request.query.EqREB"
                     },
                     "EqSTL": {
-                      "$ref": "../schemas/EqSTL.json"
+                      "const": "$request.query.EqSTL"
                     },
                     "EqTD": {
-                      "$ref": "../schemas/EqTD.json"
+                      "const": "$request.query.EqTD"
                     },
                     "EqTOV": {
-                      "$ref": "../schemas/EqTOV.json"
+                      "const": "$request.query.EqTOV"
                     },
                     "GameID": {
-                      "$ref": "../schemas/GameID.json"
+                      "const": "$request.query.GameID"
                     },
                     "GtAST": {
-                      "$ref": "../schemas/GtAST.json"
+                      "const": "$request.query.GtAST"
                     },
                     "GtBLK": {
-                      "$ref": "../schemas/GtBLK.json"
+                      "const": "$request.query.GtBLK"
                     },
                     "GtDD": {
-                      "$ref": "../schemas/GtDD.json"
+                      "const": "$request.query.GtDD"
                     },
                     "GtDREB": {
-                      "$ref": "../schemas/GtDREB.json"
+                      "const": "$request.query.GtDREB"
                     },
                     "GtFG3A": {
-                      "$ref": "../schemas/GtFG3A.json"
+                      "const": "$request.query.GtFG3A"
                     },
                     "GtFG3M": {
-                      "$ref": "../schemas/GtFG3M.json"
+                      "const": "$request.query.GtFG3M"
                     },
                     "GtFG3_PCT": {
-                      "$ref": "../schemas/GtFG3_PCT.json"
+                      "const": "$request.query.GtFG3_PCT"
                     },
                     "GtFGA": {
-                      "$ref": "../schemas/GtFGA.json"
+                      "const": "$request.query.GtFGA"
                     },
                     "GtFGM": {
-                      "$ref": "../schemas/GtFGM.json"
+                      "const": "$request.query.GtFGM"
                     },
                     "GtFG_PCT": {
-                      "$ref": "../schemas/GtFG_PCT.json"
+                      "const": "$request.query.GtFG_PCT"
                     },
                     "GtFTA": {
-                      "$ref": "../schemas/GtFTA.json"
+                      "const": "$request.query.GtFTA"
                     },
                     "GtFTM": {
-                      "$ref": "../schemas/GtFTM.json"
+                      "const": "$request.query.GtFTM"
                     },
                     "GtFT_PCT": {
-                      "$ref": "../schemas/GtFT_PCT.json"
+                      "const": "$request.query.GtFT_PCT"
                     },
                     "GtMINUTES": {
-                      "$ref": "../schemas/GtMINUTES.json"
+                      "const": "$request.query.GtMINUTES"
                     },
                     "GtOREB": {
-                      "$ref": "../schemas/GtOREB.json"
+                      "const": "$request.query.GtOREB"
                     },
                     "GtPF": {
-                      "$ref": "../schemas/GtPF.json"
+                      "const": "$request.query.GtPF"
                     },
                     "GtPTS": {
-                      "$ref": "../schemas/GtPTS.json"
+                      "const": "$request.query.GtPTS"
                     },
                     "GtREB": {
-                      "$ref": "../schemas/GtREB.json"
+                      "const": "$request.query.GtREB"
                     },
                     "GtSTL": {
-                      "$ref": "../schemas/GtSTL.json"
+                      "const": "$request.query.GtSTL"
                     },
                     "GtTD": {
-                      "$ref": "../schemas/GtTD.json"
+                      "const": "$request.query.GtTD"
                     },
                     "GtTOV": {
-                      "$ref": "../schemas/GtTOV.json"
+                      "const": "$request.query.GtTOV"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "LtAST": {
-                      "$ref": "../schemas/LtAST.json"
+                      "const": "$request.query.LtAST"
                     },
                     "LtBLK": {
-                      "$ref": "../schemas/LtBLK.json"
+                      "const": "$request.query.LtBLK"
                     },
                     "LtDD": {
-                      "$ref": "../schemas/LtDD.json"
+                      "const": "$request.query.LtDD"
                     },
                     "LtDREB": {
-                      "$ref": "../schemas/LtDREB.json"
+                      "const": "$request.query.LtDREB"
                     },
                     "LtFG3A": {
-                      "$ref": "../schemas/LtFG3A.json"
+                      "const": "$request.query.LtFG3A"
                     },
                     "LtFG3M": {
-                      "$ref": "../schemas/LtFG3M.json"
+                      "const": "$request.query.LtFG3M"
                     },
                     "LtFG3_PCT": {
-                      "$ref": "../schemas/LtFG3_PCT.json"
+                      "const": "$request.query.LtFG3_PCT"
                     },
                     "LtFGA": {
-                      "$ref": "../schemas/LtFGA.json"
+                      "const": "$request.query.LtFGA"
                     },
                     "LtFGM": {
-                      "$ref": "../schemas/LtFGM.json"
+                      "const": "$request.query.LtFGM"
                     },
                     "LtFG_PCT": {
-                      "$ref": "../schemas/LtFG_PCT.json"
+                      "const": "$request.query.LtFG_PCT"
                     },
                     "LtFTA": {
-                      "$ref": "../schemas/LtFTA.json"
+                      "const": "$request.query.LtFTA"
                     },
                     "LtFTM": {
-                      "$ref": "../schemas/LtFTM.json"
+                      "const": "$request.query.LtFTM"
                     },
                     "LtFT_PCT": {
-                      "$ref": "../schemas/LtFT_PCT.json"
+                      "const": "$request.query.LtFT_PCT"
                     },
                     "LtMINUTES": {
-                      "$ref": "../schemas/LtMINUTES.json"
+                      "const": "$request.query.LtMINUTES"
                     },
                     "LtOREB": {
-                      "$ref": "../schemas/LtOREB.json"
+                      "const": "$request.query.LtOREB"
                     },
                     "LtPF": {
-                      "$ref": "../schemas/LtPF.json"
+                      "const": "$request.query.LtPF"
                     },
                     "LtPTS": {
-                      "$ref": "../schemas/LtPTS.json"
+                      "const": "$request.query.LtPTS"
                     },
                     "LtREB": {
-                      "$ref": "../schemas/LtREB.json"
+                      "const": "$request.query.LtREB"
                     },
                     "LtSTL": {
-                      "$ref": "../schemas/LtSTL.json"
+                      "const": "$request.query.LtSTL"
                     },
                     "LtTD": {
-                      "$ref": "../schemas/LtTD.json"
+                      "const": "$request.query.LtTD"
                     },
                     "LtTOV": {
-                      "$ref": "../schemas/LtTOV.json"
+                      "const": "$request.query.LtTOV"
                     },
                     "MinGames": {
-                      "$ref": "../schemas/MinGames.json"
+                      "const": "$request.query.MinGames"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PORound": {
-                      "$ref": "../schemas/PORound.json"
+                      "const": "$request.query.PORound"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "RookieYear": {
-                      "$ref": "../schemas/RookieYear.json"
+                      "const": "$request.query.RookieYear"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonSegment": {
-                      "$ref": "../schemas/SeasonSegment.json"
+                      "const": "$request.query.SeasonSegment"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "StarterBench": {
-                      "$ref": "../schemas/StarterBench.json"
+                      "const": "$request.query.StarterBench"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     },
                     "VsTeamID": {
-                      "$ref": "../schemas/VsTeamID.json"
+                      "const": "$request.query.VsTeamID"
                     },
                     "YearsExperience": {
-                      "$ref": "../schemas/YearsExperience.json"
+                      "const": "$request.query.YearsExperience"
                     }
                   }
                 },

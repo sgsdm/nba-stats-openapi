@@ -24,7 +24,7 @@
                   "type": "object",
                   "properties": {
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     }
                   }
                 },

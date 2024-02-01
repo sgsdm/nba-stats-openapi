@@ -30,13 +30,13 @@
                   "type": "object",
                   "properties": {
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "PerMode": {
-                      "$ref": "../schemas/PerMode.json"
+                      "const": "$request.query.PerMode"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     }
                   }
                 },

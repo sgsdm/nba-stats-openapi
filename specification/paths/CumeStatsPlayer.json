@@ -36,19 +36,19 @@
                   "type": "object",
                   "properties": {
                     "GameIDs": {
-                      "$ref": "../schemas/GameIDs.json"
+                      "const": "$request.query.GameIDs"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     }
                   }
                 },

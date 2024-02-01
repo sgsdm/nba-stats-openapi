@@ -48,31 +48,31 @@
                   "type": "object",
                   "properties": {
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     },
                     "VsTeamID": {
-                      "$ref": "../schemas/VsTeamID.json"
+                      "const": "$request.query.VsTeamID"
                     }
                   }
                 },

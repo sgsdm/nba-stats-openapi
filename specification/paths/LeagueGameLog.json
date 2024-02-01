@@ -48,31 +48,31 @@
                   "type": "object",
                   "properties": {
                     "Counter": {
-                      "$ref": "../schemas/Counter.json"
+                      "const": "$request.query.Counter"
                     },
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "Direction": {
-                      "$ref": "../schemas/Direction.json"
+                      "const": "$request.query.Direction"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "PlayerOrTeam": {
-                      "$ref": "../schemas/PlayerOrTeam.json"
+                      "const": "$request.query.PlayerOrTeam"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "Sorter": {
-                      "$ref": "../schemas/Sorter.json"
+                      "const": "$request.query.Sorter"
                     }
                   }
                 },

@@ -45,28 +45,28 @@
                   "type": "object",
                   "properties": {
                     "Person1Id": {
-                      "$ref": "../schemas/Person1Id.json"
+                      "const": "$request.query.Person1Id"
                     },
                     "Person1LeagueId": {
-                      "$ref": "../schemas/Person1LeagueId.json"
+                      "const": "$request.query.Person1LeagueId"
                     },
                     "Person1Season": {
-                      "$ref": "../schemas/Person1Season.json"
+                      "const": "$request.query.Person1Season"
                     },
                     "Person1SeasonType": {
-                      "$ref": "../schemas/Person1SeasonType.json"
+                      "const": "$request.query.Person1SeasonType"
                     },
                     "Person2Id": {
-                      "$ref": "../schemas/Person2Id.json"
+                      "const": "$request.query.Person2Id"
                     },
                     "Person2LeagueId": {
-                      "$ref": "../schemas/Person2LeagueId.json"
+                      "const": "$request.query.Person2LeagueId"
                     },
                     "Person2Season": {
-                      "$ref": "../schemas/Person2Season.json"
+                      "const": "$request.query.Person2Season"
                     },
                     "Person2SeasonType": {
-                      "$ref": "../schemas/Person2SeasonType.json"
+                      "const": "$request.query.Person2SeasonType"
                     }
                   }
                 },

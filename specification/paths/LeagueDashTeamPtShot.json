@@ -99,82 +99,82 @@
                   "type": "object",
                   "properties": {
                     "CloseDefDistRange": {
-                      "$ref": "../schemas/CloseDefDistRange.json"
+                      "const": "$request.query.CloseDefDistRange"
                     },
                     "Conference": {
-                      "$ref": "../schemas/Conference.json"
+                      "const": "$request.query.Conference"
                     },
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "Division": {
-                      "$ref": "../schemas/Division.json"
+                      "const": "$request.query.Division"
                     },
                     "DribbleRange": {
-                      "$ref": "../schemas/DribbleRange.json"
+                      "const": "$request.query.DribbleRange"
                     },
                     "GameSegment": {
-                      "$ref": "../schemas/GameSegment.json"
+                      "const": "$request.query.GameSegment"
                     },
                     "GeneralRange": {
-                      "$ref": "../schemas/GeneralRange.json"
+                      "const": "$request.query.GeneralRange"
                     },
                     "LastNGames": {
-                      "$ref": "../schemas/LastNGames.json"
+                      "const": "$request.query.LastNGames"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "Month": {
-                      "$ref": "../schemas/Month.json"
+                      "const": "$request.query.Month"
                     },
                     "OpponentTeamID": {
-                      "$ref": "../schemas/OpponentTeamID.json"
+                      "const": "$request.query.OpponentTeamID"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PORound": {
-                      "$ref": "../schemas/PORound.json"
+                      "const": "$request.query.PORound"
                     },
                     "PerMode": {
-                      "$ref": "../schemas/PerMode.json"
+                      "const": "$request.query.PerMode"
                     },
                     "Period": {
-                      "$ref": "../schemas/Period.json"
+                      "const": "$request.query.Period"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonSegment": {
-                      "$ref": "../schemas/SeasonSegment.json"
+                      "const": "$request.query.SeasonSegment"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "ShotClockRange": {
-                      "$ref": "../schemas/ShotClockRange.json"
+                      "const": "$request.query.ShotClockRange"
                     },
                     "ShotDistRange": {
-                      "$ref": "../schemas/ShotDistRange.json"
+                      "const": "$request.query.ShotDistRange"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "TouchTimeRange": {
-                      "$ref": "../schemas/TouchTimeRange.json"
+                      "const": "$request.query.TouchTimeRange"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     }
                   }
                 },

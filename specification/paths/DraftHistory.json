@@ -45,28 +45,28 @@
                   "type": "object",
                   "properties": {
                     "College": {
-                      "$ref": "../schemas/College.json"
+                      "const": "$request.query.College"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "OverallPick": {
-                      "$ref": "../schemas/OverallPick.json"
+                      "const": "$request.query.OverallPick"
                     },
                     "RoundNum": {
-                      "$ref": "../schemas/RoundNum.json"
+                      "const": "$request.query.RoundNum"
                     },
                     "RoundPick": {
-                      "$ref": "../schemas/RoundPick.json"
+                      "const": "$request.query.RoundPick"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "TopX": {
-                      "$ref": "../schemas/TopX.json"
+                      "const": "$request.query.TopX"
                     }
                   }
                 },

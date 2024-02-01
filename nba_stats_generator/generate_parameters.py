@@ -90,10 +90,16 @@ def generate_parameters(dir: pathlib.Path) -> None:
                 {"$ref": f"../parameters/{parameter}.json"}
             )
 
+            # temp_path["get"]["responses"]["200"]["content"]["application/json"][
+            #     "schema"
+            # ]["properties"]["parameters"]["properties"][parameter] = {
+            #     "$ref": f"../schemas/{parameter}.json"
+            # }
+
             temp_path["get"]["responses"]["200"]["content"]["application/json"][
                 "schema"
             ]["properties"]["parameters"]["properties"][parameter] = {
-                "$ref": f"../schemas/{parameter}.json"
+                "const": f"$request.query.{parameter}"
             }
 
             if parameter in parameters:

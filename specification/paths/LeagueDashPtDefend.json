@@ -114,97 +114,97 @@
                   "type": "object",
                   "properties": {
                     "College": {
-                      "$ref": "../schemas/College.json"
+                      "const": "$request.query.College"
                     },
                     "Conference": {
-                      "$ref": "../schemas/Conference.json"
+                      "const": "$request.query.Conference"
                     },
                     "Country": {
-                      "$ref": "../schemas/Country.json"
+                      "const": "$request.query.Country"
                     },
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "DefenseCategory": {
-                      "$ref": "../schemas/DefenseCategory.json"
+                      "const": "$request.query.DefenseCategory"
                     },
                     "Division": {
-                      "$ref": "../schemas/Division.json"
+                      "const": "$request.query.Division"
                     },
                     "DraftPick": {
-                      "$ref": "../schemas/DraftPick.json"
+                      "const": "$request.query.DraftPick"
                     },
                     "DraftYear": {
-                      "$ref": "../schemas/DraftYear.json"
+                      "const": "$request.query.DraftYear"
                     },
                     "GameSegment": {
-                      "$ref": "../schemas/GameSegment.json"
+                      "const": "$request.query.GameSegment"
                     },
                     "Height": {
-                      "$ref": "../schemas/Height.json"
+                      "const": "$request.query.Height"
                     },
                     "LastNGames": {
-                      "$ref": "../schemas/LastNGames.json"
+                      "const": "$request.query.LastNGames"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "Month": {
-                      "$ref": "../schemas/Month.json"
+                      "const": "$request.query.Month"
                     },
                     "OpponentTeamID": {
-                      "$ref": "../schemas/OpponentTeamID.json"
+                      "const": "$request.query.OpponentTeamID"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PORound": {
-                      "$ref": "../schemas/PORound.json"
+                      "const": "$request.query.PORound"
                     },
                     "PerMode": {
-                      "$ref": "../schemas/PerMode.json"
+                      "const": "$request.query.PerMode"
                     },
                     "Period": {
-                      "$ref": "../schemas/Period.json"
+                      "const": "$request.query.Period"
                     },
                     "PlayerExperience": {
-                      "$ref": "../schemas/PlayerExperience.json"
+                      "const": "$request.query.PlayerExperience"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "PlayerPosition": {
-                      "$ref": "../schemas/PlayerPosition.json"
+                      "const": "$request.query.PlayerPosition"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonSegment": {
-                      "$ref": "../schemas/SeasonSegment.json"
+                      "const": "$request.query.SeasonSegment"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "StarterBench": {
-                      "$ref": "../schemas/StarterBench.json"
+                      "const": "$request.query.StarterBench"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     },
                     "Weight": {
-                      "$ref": "../schemas/Weight.json"
+                      "const": "$request.query.Weight"
                     }
                   }
                 },

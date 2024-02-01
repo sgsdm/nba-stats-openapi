@@ -30,13 +30,13 @@
                   "type": "object",
                   "properties": {
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "Section": {
-                      "$ref": "../schemas/Section.json"
+                      "const": "$request.query.Section"
                     }
                   }
                 },

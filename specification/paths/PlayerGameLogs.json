@@ -84,67 +84,67 @@
                   "type": "object",
                   "properties": {
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "GameSegment": {
-                      "$ref": "../schemas/GameSegment.json"
+                      "const": "$request.query.GameSegment"
                     },
                     "LastNGames": {
-                      "$ref": "../schemas/LastNGames.json"
+                      "const": "$request.query.LastNGames"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "MeasureType": {
-                      "$ref": "../schemas/MeasureType.json"
+                      "const": "$request.query.MeasureType"
                     },
                     "Month": {
-                      "$ref": "../schemas/Month.json"
+                      "const": "$request.query.Month"
                     },
                     "OppTeamID": {
-                      "$ref": "../schemas/OppTeamID.json"
+                      "const": "$request.query.OppTeamID"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PORound": {
-                      "$ref": "../schemas/PORound.json"
+                      "const": "$request.query.PORound"
                     },
                     "PerMode": {
-                      "$ref": "../schemas/PerMode.json"
+                      "const": "$request.query.PerMode"
                     },
                     "Period": {
-                      "$ref": "../schemas/Period.json"
+                      "const": "$request.query.Period"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonSegment": {
-                      "$ref": "../schemas/SeasonSegment.json"
+                      "const": "$request.query.SeasonSegment"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "ShotClockRange": {
-                      "$ref": "../schemas/ShotClockRange.json"
+                      "const": "$request.query.ShotClockRange"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     }
                   }
                 },

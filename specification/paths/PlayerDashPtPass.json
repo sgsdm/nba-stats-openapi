@@ -69,52 +69,52 @@
                   "type": "object",
                   "properties": {
                     "DateFrom": {
-                      "$ref": "../schemas/DateFrom.json"
+                      "const": "$request.query.DateFrom"
                     },
                     "DateTo": {
-                      "$ref": "../schemas/DateTo.json"
+                      "const": "$request.query.DateTo"
                     },
                     "LastNGames": {
-                      "$ref": "../schemas/LastNGames.json"
+                      "const": "$request.query.LastNGames"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "Location": {
-                      "$ref": "../schemas/Location.json"
+                      "const": "$request.query.Location"
                     },
                     "Month": {
-                      "$ref": "../schemas/Month.json"
+                      "const": "$request.query.Month"
                     },
                     "OpponentTeamID": {
-                      "$ref": "../schemas/OpponentTeamID.json"
+                      "const": "$request.query.OpponentTeamID"
                     },
                     "Outcome": {
-                      "$ref": "../schemas/Outcome.json"
+                      "const": "$request.query.Outcome"
                     },
                     "PerMode": {
-                      "$ref": "../schemas/PerMode.json"
+                      "const": "$request.query.PerMode"
                     },
                     "PlayerID": {
-                      "$ref": "../schemas/PlayerID.json"
+                      "const": "$request.query.PlayerID"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonSegment": {
-                      "$ref": "../schemas/SeasonSegment.json"
+                      "const": "$request.query.SeasonSegment"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     },
                     "VsConference": {
-                      "$ref": "../schemas/VsConference.json"
+                      "const": "$request.query.VsConference"
                     },
                     "VsDivision": {
-                      "$ref": "../schemas/VsDivision.json"
+                      "const": "$request.query.VsDivision"
                     }
                   }
                 },

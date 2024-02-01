@@ -42,25 +42,25 @@
                   "type": "object",
                   "properties": {
                     "GameScope": {
-                      "$ref": "../schemas/GameScope.json"
+                      "const": "$request.query.GameScope"
                     },
                     "LeagueID": {
-                      "$ref": "../schemas/LeagueID.json"
+                      "const": "$request.query.LeagueID"
                     },
                     "PlayerOrTeam": {
-                      "$ref": "../schemas/PlayerOrTeam.json"
+                      "const": "$request.query.PlayerOrTeam"
                     },
                     "PlayerScope": {
-                      "$ref": "../schemas/PlayerScope.json"
+                      "const": "$request.query.PlayerScope"
                     },
                     "Season": {
-                      "$ref": "../schemas/Season.json"
+                      "const": "$request.query.Season"
                     },
                     "SeasonType": {
-                      "$ref": "../schemas/SeasonType.json"
+                      "const": "$request.query.SeasonType"
                     },
                     "StatCategory": {
-                      "$ref": "../schemas/StatCategory.json"
+                      "const": "$request.query.StatCategory"
                     }
                   }
                 },

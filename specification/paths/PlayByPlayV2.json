@@ -30,13 +30,13 @@
                   "type": "object",
                   "properties": {
                     "EndPeriod": {
-                      "$ref": "../schemas/EndPeriod.json"
+                      "const": "$request.query.EndPeriod"
                     },
                     "GameID": {
-                      "$ref": "../schemas/GameID.json"
+                      "const": "$request.query.GameID"
                     },
                     "StartPeriod": {
-                      "$ref": "../schemas/StartPeriod.json"
+                      "const": "$request.query.StartPeriod"
                     }
                   }
                 },

@@ -39,22 +39,22 @@
                   "type": "object",
                   "properties": {
                     "EndPeriod": {
-                      "$ref": "../schemas/EndPeriod.json"
+                      "const": "$request.query.EndPeriod"
                     },
                     "EndRange": {
-                      "$ref": "../schemas/EndRange.json"
+                      "const": "$request.query.EndRange"
                     },
                     "GameID": {
-                      "$ref": "../schemas/GameID.json"
+                      "const": "$request.query.GameID"
                     },
                     "RangeType": {
-                      "$ref": "../schemas/RangeType.json"
+                      "const": "$request.query.RangeType"
                     },
                     "StartPeriod": {
-                      "$ref": "../schemas/StartPeriod.json"
+                      "const": "$request.query.StartPeriod"
                     },
                     "StartRange": {
-                      "$ref": "../schemas/StartRange.json"
+                      "const": "$request.query.StartRange"
                     }
                   }
                 },

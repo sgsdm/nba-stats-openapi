@@ -24,7 +24,7 @@
                   "type": "object",
                   "properties": {
                     "TeamID": {
-                      "$ref": "../schemas/TeamID.json"
+                      "const": "$request.query.TeamID"
                     }
                   }
                 },
