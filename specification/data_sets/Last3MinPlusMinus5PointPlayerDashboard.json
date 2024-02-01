@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "Last3MinPlusMinus5PointPlayerDashboard"
     },
     "headers": {
       "type": "array",

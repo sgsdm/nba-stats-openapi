@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "ShotAreaOffCourt"
     },
     "headers": {
       "type": "array",

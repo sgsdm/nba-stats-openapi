@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "ClosestDefender10ftPlusShooting"
     },
     "headers": {
       "type": "array",

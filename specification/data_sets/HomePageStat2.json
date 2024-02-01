@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "HomePageStat2"
     },
     "headers": {
       "type": "array",

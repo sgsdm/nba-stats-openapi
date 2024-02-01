@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "AssitedShotPlayerDashboard"
     },
     "headers": {
       "type": "array",

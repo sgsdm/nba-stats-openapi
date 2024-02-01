@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "PassesReceived"
     },
     "headers": {
       "type": "array",

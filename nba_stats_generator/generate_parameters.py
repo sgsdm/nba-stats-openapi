@@ -176,7 +176,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
             temp_data_set: dict[str, Any] = {
                 "type": "object",
                 "properties": {
-                    "name": {"type": "string"},
+                    "name": {"const": data_set},
                     "headers": {
                         "type": "array",
                         "prefixItems": [

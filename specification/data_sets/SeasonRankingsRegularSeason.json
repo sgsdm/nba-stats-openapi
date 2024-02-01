@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "SeasonRankingsRegularSeason"
     },
     "headers": {
       "type": "array",

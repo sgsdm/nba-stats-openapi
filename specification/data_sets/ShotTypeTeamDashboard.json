@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "ShotTypeTeamDashboard"
     },
     "headers": {
       "type": "array",

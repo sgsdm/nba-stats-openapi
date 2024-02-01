@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "FTMLeaders"
     },
     "headers": {
       "type": "array",

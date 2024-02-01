@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "DefenseHubStat9"
     },
     "headers": {
       "type": "array",

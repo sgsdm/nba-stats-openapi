@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "Shot8FTPlayerDashboard"
     },
     "headers": {
       "type": "array",

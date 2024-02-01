@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "FT_PCTLeaders"
     },
     "headers": {
       "type": "array",

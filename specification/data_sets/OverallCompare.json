@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "const": "OverallCompare"
     },
     "headers": {
       "type": "array",
