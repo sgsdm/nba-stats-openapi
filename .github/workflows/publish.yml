@@ -39,11 +39,11 @@ jobs:
       - name: LS?
         run: ls specification/schemas/
 
-      - name: Bundle into one file
-        run: redocly bundle openapi.json -o nba_stats_api.json --force
+    #   - name: Bundle into one file
+    #     run: redocly bundle openapi.json -o nba_stats_api.json --force
 
       - name: Generate Redoc-html
-        run: redocly build-docs nba_stats_api.json
+        run: redocly build-docs openapi.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
