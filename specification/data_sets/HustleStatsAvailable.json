@@ -4,6 +4,9 @@
     "name": {
       "const": "HustleStatsAvailable"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

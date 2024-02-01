@@ -4,6 +4,9 @@
     "name": {
       "const": "SynergyPlayType"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

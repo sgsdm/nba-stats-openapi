@@ -4,6 +4,9 @@
     "name": {
       "const": "PlayersOffCourtTeamPlayerOnOffDetails"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

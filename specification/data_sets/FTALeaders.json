@@ -4,6 +4,9 @@
     "name": {
       "const": "FTALeaders"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,6 +4,9 @@
     "name": {
       "const": "Shot8FTPlayerDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

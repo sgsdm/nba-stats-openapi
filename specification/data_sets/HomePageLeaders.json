@@ -4,6 +4,9 @@
     "name": {
       "const": "HomePageLeaders"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

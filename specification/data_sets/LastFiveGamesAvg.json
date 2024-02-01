@@ -4,6 +4,9 @@
     "name": {
       "const": "LastFiveGamesAvg"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

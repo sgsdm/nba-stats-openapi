@@ -4,6 +4,9 @@
     "name": {
       "const": "AssistedBy"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

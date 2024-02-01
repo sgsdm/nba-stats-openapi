@@ -4,6 +4,9 @@
     "name": {
       "const": "OverallTeamPlayerOnOffSummary"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,6 +4,9 @@
     "name": {
       "const": "Location"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

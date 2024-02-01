@@ -4,6 +4,9 @@
     "name": {
       "const": "Shot5FTTeamDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,6 +4,9 @@
     "name": {
       "const": "PlayerEstimatedMetrics"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

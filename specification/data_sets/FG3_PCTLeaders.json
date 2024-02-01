@@ -4,6 +4,9 @@
     "name": {
       "const": "FG3_PCTLeaders"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

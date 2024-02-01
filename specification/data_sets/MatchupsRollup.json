@@ -4,6 +4,9 @@
     "name": {
       "const": "MatchupsRollup"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

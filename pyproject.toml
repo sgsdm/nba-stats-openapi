@@ -11,6 +11,7 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.1.15"
+openapi-spec-validator = "^0.7.1"
 
 [build-system]
 requires = ["poetry-core"]

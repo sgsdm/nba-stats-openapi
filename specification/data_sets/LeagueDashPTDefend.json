@@ -4,6 +4,9 @@
     "name": {
       "const": "LeagueDashPTDefend"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

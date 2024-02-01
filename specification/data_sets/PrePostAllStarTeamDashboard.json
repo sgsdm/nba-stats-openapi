@@ -4,6 +4,9 @@
     "name": {
       "const": "PrePostAllStarTeamDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

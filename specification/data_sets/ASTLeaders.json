@@ -4,6 +4,9 @@
     "name": {
       "const": "ASTLeaders"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

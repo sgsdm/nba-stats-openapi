@@ -4,6 +4,9 @@
     "name": {
       "const": "WestConfPlayoffPicture"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

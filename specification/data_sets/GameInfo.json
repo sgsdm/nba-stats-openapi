@@ -4,6 +4,9 @@
     "name": {
       "const": "GameInfo"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

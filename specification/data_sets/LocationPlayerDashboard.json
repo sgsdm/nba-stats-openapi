@@ -4,6 +4,9 @@
     "name": {
       "const": "LocationPlayerDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

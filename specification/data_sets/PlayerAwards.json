@@ -4,6 +4,9 @@
     "name": {
       "const": "PlayerAwards"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

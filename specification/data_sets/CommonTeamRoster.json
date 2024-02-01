@@ -4,6 +4,9 @@
     "name": {
       "const": "CommonTeamRoster"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

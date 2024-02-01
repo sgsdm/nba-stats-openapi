@@ -4,6 +4,9 @@
     "name": {
       "const": "FGALeaders"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -5,7 +5,8 @@
     "description": "[to do]",
     "security": [],
     "tags": [
-      "nba"
+      "nba",
+      "wnba"
     ],
     "parameters": [
       {

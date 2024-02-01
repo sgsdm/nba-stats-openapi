@@ -4,6 +4,9 @@
     "name": {
       "const": "MonthTeamDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [

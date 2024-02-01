@@ -4,6 +4,9 @@
     "name": {
       "const": "AssitedShotTeamDashboard"
     },
+    "x-tags": [
+      "dataset"
+    ],
     "headers": {
       "type": "array",
       "prefixItems": [
