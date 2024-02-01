@@ -386,5 +386,15 @@
     "schemas": {
       "$ref": "specification/schemas/_index.json"
     }
-  }
+  },
+  "tags": [
+    {
+      "name": "nba",
+      "description": "Endpoints available in the NBA stats website"
+    },
+    {
+      "name": "wnba",
+      "description": "Endpoints available only in the WNBA stats website"
+    }
+  ]
 }
