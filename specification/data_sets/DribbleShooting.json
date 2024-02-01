@@ -4,9 +4,6 @@
     "name": {
       "const": "DribbleShooting"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

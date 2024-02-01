@@ -4,9 +4,6 @@
     "name": {
       "const": "DefendingShots"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

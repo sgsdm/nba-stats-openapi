@@ -4,9 +4,6 @@
     "name": {
       "const": "LastMeeting"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

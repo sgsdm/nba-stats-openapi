@@ -4,9 +4,6 @@
     "name": {
       "const": "LeagueLeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

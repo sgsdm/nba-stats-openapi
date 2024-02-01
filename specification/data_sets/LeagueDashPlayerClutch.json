@@ -4,9 +4,6 @@
     "name": {
       "const": "LeagueDashPlayerClutch"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

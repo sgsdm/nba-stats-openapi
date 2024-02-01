@@ -4,9 +4,6 @@
     "name": {
       "const": "RebDistanceRebounding"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

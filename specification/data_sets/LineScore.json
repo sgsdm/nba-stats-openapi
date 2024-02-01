@@ -4,9 +4,6 @@
     "name": {
       "const": "LineScore"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

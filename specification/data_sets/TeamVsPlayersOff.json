@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamVsPlayersOff"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

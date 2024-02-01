@@ -4,9 +4,6 @@
     "name": {
       "const": "HomeTeam"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "WestConfStandings"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

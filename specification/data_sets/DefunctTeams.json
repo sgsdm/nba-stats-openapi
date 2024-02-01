@@ -4,9 +4,6 @@
     "name": {
       "const": "DefunctTeams"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

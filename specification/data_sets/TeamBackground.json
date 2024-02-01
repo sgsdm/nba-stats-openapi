@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamBackground"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

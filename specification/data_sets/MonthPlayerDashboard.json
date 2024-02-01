@@ -4,9 +4,6 @@
     "name": {
       "const": "MonthPlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

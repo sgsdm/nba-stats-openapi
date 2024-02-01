@@ -4,9 +4,6 @@
     "name": {
       "const": "ShotDistanceRebounding"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "DraftBoard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "ShotDistanceOffCourt"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

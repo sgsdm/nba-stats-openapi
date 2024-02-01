@@ -4,9 +4,6 @@
     "name": {
       "const": "CommonPlayerInfo"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

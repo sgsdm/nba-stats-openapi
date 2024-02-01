@@ -4,9 +4,6 @@
     "name": {
       "const": "SeasonSeries"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

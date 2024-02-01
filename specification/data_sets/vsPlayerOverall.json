@@ -4,9 +4,6 @@
     "name": {
       "const": "vsPlayerOverall"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

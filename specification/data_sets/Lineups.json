@@ -4,9 +4,6 @@
     "name": {
       "const": "Lineups"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

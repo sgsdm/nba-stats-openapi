@@ -4,9 +4,6 @@
     "name": {
       "const": "sqlPlayersFourFactors"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

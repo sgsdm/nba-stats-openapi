@@ -4,9 +4,6 @@
     "name": {
       "const": "ByActualMarginPlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

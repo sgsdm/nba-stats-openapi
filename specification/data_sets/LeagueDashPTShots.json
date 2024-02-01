@@ -4,9 +4,6 @@
     "name": {
       "const": "LeagueDashPTShots"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

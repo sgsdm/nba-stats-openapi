@@ -4,9 +4,6 @@
     "name": {
       "const": "GPLeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

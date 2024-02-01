@@ -4,9 +4,6 @@
     "name": {
       "const": "DefenseHubStat7"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

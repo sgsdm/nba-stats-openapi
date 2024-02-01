@@ -4,9 +4,6 @@
     "name": {
       "const": "FranchiseLeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

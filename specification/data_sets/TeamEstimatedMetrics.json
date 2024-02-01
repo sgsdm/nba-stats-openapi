@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamEstimatedMetrics"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

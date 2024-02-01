@@ -4,9 +4,6 @@
     "name": {
       "const": "LeagueGameFinderResults"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

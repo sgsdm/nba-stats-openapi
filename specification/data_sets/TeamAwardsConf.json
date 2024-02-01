@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamAwardsConf"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

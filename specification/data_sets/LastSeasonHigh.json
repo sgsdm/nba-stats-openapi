@@ -4,9 +4,6 @@
     "name": {
       "const": "LastSeasonHigh"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

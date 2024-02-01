@@ -4,9 +4,6 @@
     "name": {
       "const": "sqlPlayersScoring"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

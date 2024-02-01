@@ -4,9 +4,6 @@
     "name": {
       "const": "REBLeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

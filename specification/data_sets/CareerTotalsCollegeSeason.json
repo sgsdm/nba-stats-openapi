@@ -4,9 +4,6 @@
     "name": {
       "const": "CareerTotalsCollegeSeason"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "LeagueAverages"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

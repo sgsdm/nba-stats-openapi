@@ -4,9 +4,6 @@
     "name": {
       "const": "OverallTeamDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

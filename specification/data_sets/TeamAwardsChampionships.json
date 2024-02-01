@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamAwardsChampionships"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

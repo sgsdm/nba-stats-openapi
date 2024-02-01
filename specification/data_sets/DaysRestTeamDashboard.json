@@ -4,9 +4,6 @@
     "name": {
       "const": "DaysRestTeamDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

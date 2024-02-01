@@ -4,9 +4,6 @@
     "name": {
       "const": "ByPeriodPlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

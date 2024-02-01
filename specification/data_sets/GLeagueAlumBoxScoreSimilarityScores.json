@@ -4,9 +4,6 @@
     "name": {
       "const": "GLeagueAlumBoxScoreSimilarityScores"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "ShotAreaPlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

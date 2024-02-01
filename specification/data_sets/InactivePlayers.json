@@ -4,9 +4,6 @@
     "name": {
       "const": "InactivePlayers"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

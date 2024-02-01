@@ -4,9 +4,6 @@
     "name": {
       "const": "PlayerGameLog"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

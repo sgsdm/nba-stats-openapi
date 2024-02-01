@@ -4,9 +4,6 @@
     "name": {
       "const": "SeriesStandings"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

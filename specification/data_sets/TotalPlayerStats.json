@@ -4,9 +4,6 @@
     "name": {
       "const": "TotalPlayerStats"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

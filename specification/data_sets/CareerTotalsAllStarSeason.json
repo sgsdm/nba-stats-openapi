@@ -4,9 +4,6 @@
     "name": {
       "const": "CareerTotalsAllStarSeason"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "OverallRebounding"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

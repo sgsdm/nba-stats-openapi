@@ -4,9 +4,6 @@
     "name": {
       "const": "ShotAreaTeamDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

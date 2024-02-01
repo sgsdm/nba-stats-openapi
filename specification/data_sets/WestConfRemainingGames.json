@@ -4,9 +4,6 @@
     "name": {
       "const": "WestConfRemainingGames"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

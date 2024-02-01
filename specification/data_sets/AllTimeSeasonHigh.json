@@ -4,9 +4,6 @@
     "name": {
       "const": "AllTimeSeasonHigh"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

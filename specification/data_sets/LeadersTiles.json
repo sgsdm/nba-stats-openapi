@@ -4,9 +4,6 @@
     "name": {
       "const": "LeadersTiles"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

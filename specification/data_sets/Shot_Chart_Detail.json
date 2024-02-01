@@ -4,9 +4,6 @@
     "name": {
       "const": "Shot_Chart_Detail"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "EastConfStandingsByDay"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

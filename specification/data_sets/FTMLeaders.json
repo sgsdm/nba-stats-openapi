@@ -4,9 +4,6 @@
     "name": {
       "const": "FTMLeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

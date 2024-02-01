@@ -1,0 +1,13 @@
+apis:
+  main@v1:
+    root: "nba_stats_api.json"
+extends:
+  - recommended
+theme:
+  openapi:
+    pagination: item
+    theme:
+      colors:
+        primary:
+          main: "orange"
+    nativeScrollbars: true

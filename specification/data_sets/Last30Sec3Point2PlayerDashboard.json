@@ -4,9 +4,6 @@
     "name": {
       "const": "Last30Sec3Point2PlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

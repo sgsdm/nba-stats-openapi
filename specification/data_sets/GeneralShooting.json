@@ -4,9 +4,6 @@
     "name": {
       "const": "GeneralShooting"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

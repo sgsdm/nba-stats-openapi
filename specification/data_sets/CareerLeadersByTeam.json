@@ -4,9 +4,6 @@
     "name": {
       "const": "CareerLeadersByTeam"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "SeasonTotalsPreseason"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

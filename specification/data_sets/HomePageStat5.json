@@ -4,9 +4,6 @@
     "name": {
       "const": "HomePageStat5"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

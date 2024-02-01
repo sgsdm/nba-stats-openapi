@@ -4,9 +4,6 @@
     "name": {
       "const": "SeasonAvg"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "League_Wide"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

@@ -4,9 +4,6 @@
     "name": {
       "const": "TicketLinks"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

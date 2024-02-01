@@ -4,9 +4,6 @@
     "name": {
       "const": "EastConfPlayoffPicture"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

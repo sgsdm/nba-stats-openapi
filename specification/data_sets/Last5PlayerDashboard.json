@@ -4,9 +4,6 @@
     "name": {
       "const": "Last5PlayerDashboard"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

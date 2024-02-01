@@ -4,9 +4,6 @@
     "name": {
       "const": "OnOffCourt"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

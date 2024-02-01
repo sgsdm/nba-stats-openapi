@@ -4,9 +4,6 @@
     "name": {
       "const": "PlayersSeasonTotals"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

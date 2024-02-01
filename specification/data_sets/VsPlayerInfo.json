@@ -4,9 +4,6 @@
     "name": {
       "const": "VsPlayerInfo"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

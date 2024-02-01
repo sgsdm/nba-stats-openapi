@@ -4,9 +4,6 @@
     "name": {
       "const": "TeamStarterBenchStats"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

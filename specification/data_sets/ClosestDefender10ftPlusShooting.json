@@ -4,9 +4,6 @@
     "name": {
       "const": "ClosestDefender10ftPlusShooting"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

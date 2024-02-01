@@ -4,9 +4,6 @@
     "name": {
       "const": "DraftCombineStats"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

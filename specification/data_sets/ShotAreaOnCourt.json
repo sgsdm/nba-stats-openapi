@@ -4,9 +4,6 @@
     "name": {
       "const": "ShotAreaOnCourt"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [

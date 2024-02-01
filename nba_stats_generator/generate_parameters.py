@@ -317,7 +317,7 @@ def generate_parameters(dir: pathlib.Path) -> None:
                 "type": "object",
                 "properties": {
                     "name": {"const": data_set},
-                    "x-tags": ["dataset"],
+                    #"x-tags": ["dataset"],
                     "headers": {
                         "type": "array",
                         "prefixItems": [

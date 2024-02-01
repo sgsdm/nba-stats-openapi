@@ -4,9 +4,6 @@
     "name": {
       "const": "FG3ALeaders"
     },
-    "x-tags": [
-      "dataset"
-    ],
     "headers": {
       "type": "array",
       "prefixItems": [
