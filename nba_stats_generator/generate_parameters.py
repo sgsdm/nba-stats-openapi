@@ -144,11 +144,9 @@ WNBA_ENDPOINTS = (
 
 
 def generate_parameters(dir: pathlib.Path) -> None:
-    with (dir / "analysis.json").open("r") as analysis_file:
-        analysis: dict[str, Any] = json.load(analysis_file)
-
     openapi_file_path = dir / "openapi.json"
     specification_dir = dir / "specification"
+    data_directory = dir / "data"
 
     parameter_dir = specification_dir / "parameters"
     if not parameter_dir.exists():
@@ -166,7 +164,10 @@ def generate_parameters(dir: pathlib.Path) -> None:
     if not data_set_dir.exists():
         data_set_dir.mkdir()
 
-    with (dir / "specification" / "frontmatter.json").open("r") as frontmatter_file:
+    with (data_directory / "endpoint_analysis.json").open("r") as analysis_file:
+        analysis: dict[str, Any] = json.load(analysis_file)
+
+    with (data_directory / "frontmatter.json").open("r") as frontmatter_file:
         openapi: dict[str, Any] = json.load(frontmatter_file)
 
     parameters: set[str] = set()
@@ -217,18 +218,14 @@ def generate_parameters(dir: pathlib.Path) -> None:
                 },
             }
         }
+
         if endpoint.lower() in WNBA_ENDPOINTS:
             temp_path["get"]["tags"].append("wnba")
+
         for parameter in endpoint_vals["parameters"]:
             temp_path["get"]["parameters"].append(
                 {"$ref": f"../parameters/{parameter}.json"}
             )
-
-            # temp_path["get"]["responses"]["200"]["content"]["application/json"][
-            #     "schema"
-            # ]["properties"]["parameters"]["properties"][parameter] = {
-            #     "$ref": f"../schemas/{parameter}.json"
-            # }
 
             temp_path["get"]["responses"]["200"]["content"]["application/json"][
                 "schema"
@@ -317,7 +314,6 @@ def generate_parameters(dir: pathlib.Path) -> None:
                 "type": "object",
                 "properties": {
                     "name": {"const": data_set},
-                    #"x-tags": ["dataset"],
                     "headers": {
                         "type": "array",
                         "prefixItems": [
