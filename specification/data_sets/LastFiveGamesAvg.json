@@ -58,53 +58,58 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/FanDuelPts.json"
-        },
-        {
-          "$ref": "../schemas/NbaFantasyPts.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/Reb.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/Fg3m.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Tov.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/FanDuelPts.json"
+          },
+          {
+            "$ref": "../schemas/NbaFantasyPts.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/Reb.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/Fg3m.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Tov.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          }
+        ],
+        "minItems": 15,
+        "maxItems": 15
+      }
     }
   }
 }

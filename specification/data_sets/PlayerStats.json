@@ -106,101 +106,106 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/StartPosition.json"
-        },
-        {
-          "$ref": "../schemas/Comment.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/EOffRating.json"
-        },
-        {
-          "$ref": "../schemas/OffRating.json"
-        },
-        {
-          "$ref": "../schemas/EDefRating.json"
-        },
-        {
-          "$ref": "../schemas/DefRating.json"
-        },
-        {
-          "$ref": "../schemas/ENetRating.json"
-        },
-        {
-          "$ref": "../schemas/NetRating.json"
-        },
-        {
-          "$ref": "../schemas/AstPct.json"
-        },
-        {
-          "$ref": "../schemas/AstTov.json"
-        },
-        {
-          "$ref": "../schemas/AstRatio.json"
-        },
-        {
-          "$ref": "../schemas/OrebPct.json"
-        },
-        {
-          "$ref": "../schemas/DrebPct.json"
-        },
-        {
-          "$ref": "../schemas/RebPct.json"
-        },
-        {
-          "$ref": "../schemas/TmTovPct.json"
-        },
-        {
-          "$ref": "../schemas/EfgPct.json"
-        },
-        {
-          "$ref": "../schemas/TsPct.json"
-        },
-        {
-          "$ref": "../schemas/UsgPct.json"
-        },
-        {
-          "$ref": "../schemas/EUsgPct.json"
-        },
-        {
-          "$ref": "../schemas/EPace.json"
-        },
-        {
-          "$ref": "../schemas/Pace.json"
-        },
-        {
-          "$ref": "../schemas/PacePer40.json"
-        },
-        {
-          "$ref": "../schemas/Poss.json"
-        },
-        {
-          "$ref": "../schemas/Pie.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/StartPosition.json"
+          },
+          {
+            "$ref": "../schemas/Comment.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/EOffRating.json"
+          },
+          {
+            "$ref": "../schemas/OffRating.json"
+          },
+          {
+            "$ref": "../schemas/EDefRating.json"
+          },
+          {
+            "$ref": "../schemas/DefRating.json"
+          },
+          {
+            "$ref": "../schemas/ENetRating.json"
+          },
+          {
+            "$ref": "../schemas/NetRating.json"
+          },
+          {
+            "$ref": "../schemas/AstPct.json"
+          },
+          {
+            "$ref": "../schemas/AstTov.json"
+          },
+          {
+            "$ref": "../schemas/AstRatio.json"
+          },
+          {
+            "$ref": "../schemas/OrebPct.json"
+          },
+          {
+            "$ref": "../schemas/DrebPct.json"
+          },
+          {
+            "$ref": "../schemas/RebPct.json"
+          },
+          {
+            "$ref": "../schemas/TmTovPct.json"
+          },
+          {
+            "$ref": "../schemas/EfgPct.json"
+          },
+          {
+            "$ref": "../schemas/TsPct.json"
+          },
+          {
+            "$ref": "../schemas/UsgPct.json"
+          },
+          {
+            "$ref": "../schemas/EUsgPct.json"
+          },
+          {
+            "$ref": "../schemas/EPace.json"
+          },
+          {
+            "$ref": "../schemas/Pace.json"
+          },
+          {
+            "$ref": "../schemas/PacePer40.json"
+          },
+          {
+            "$ref": "../schemas/Poss.json"
+          },
+          {
+            "$ref": "../schemas/Pie.json"
+          }
+        ],
+        "minItems": 31,
+        "maxItems": 31
+      }
     }
   }
 }

@@ -28,23 +28,28 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Rank.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/Dreb.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Rank.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/Dreb.json"
+          }
+        ],
+        "minItems": 5,
+        "maxItems": 5
+      }
     }
   }
 }

@@ -185,18 +185,23 @@ def generate_parameters(dir: pathlib.Path) -> None:
                         "minItems": len(data_set_vals),
                         "maxItems": len(data_set_vals),
                     },
-                    "rowSet": {"type": "array", "prefixItems": []},
+                    "rowSet": {
+                        "type": "array",
+                        "items": {"type": "array", "prefixItems": []},
+                    },
                 },
             }
 
+            count: int = 0
             for column_val in data_set_vals:
                 cleaned_column_val = "".join(
                     [val.capitalize() for val in column_val.split("_")]
                 )
 
-                temp_data_set["properties"]["rowSet"]["prefixItems"].append(
+                temp_data_set["properties"]["rowSet"]["items"]["prefixItems"].append(
                     {"$ref": f"../schemas/{cleaned_column_val}.json"}
                 )
+                count += 1
 
                 if cleaned_column_val in schemas:
                     continue
@@ -211,6 +216,8 @@ def generate_parameters(dir: pathlib.Path) -> None:
                         schema_file,
                         indent=2,
                     )
+            temp_data_set["properties"]["rowSet"]["items"]["minItems"] = count
+            temp_data_set["properties"]["rowSet"]["items"]["maxItems"] = count
 
             with (data_set_dir / f"{data_set}.json").open("w") as data_set_file:
                 json.dump(temp_data_set, data_set_file, indent=2)

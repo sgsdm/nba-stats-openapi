@@ -34,29 +34,34 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/VideoAvailableFlag.json"
-        },
-        {
-          "$ref": "../schemas/PtAvailable.json"
-        },
-        {
-          "$ref": "../schemas/PtXyzAvailable.json"
-        },
-        {
-          "$ref": "../schemas/WhStatus.json"
-        },
-        {
-          "$ref": "../schemas/HustleStatus.json"
-        },
-        {
-          "$ref": "../schemas/HistoricalStatus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/VideoAvailableFlag.json"
+          },
+          {
+            "$ref": "../schemas/PtAvailable.json"
+          },
+          {
+            "$ref": "../schemas/PtXyzAvailable.json"
+          },
+          {
+            "$ref": "../schemas/WhStatus.json"
+          },
+          {
+            "$ref": "../schemas/HustleStatus.json"
+          },
+          {
+            "$ref": "../schemas/HistoricalStatus.json"
+          }
+        ],
+        "minItems": 7,
+        "maxItems": 7
+      }
     }
   }
 }

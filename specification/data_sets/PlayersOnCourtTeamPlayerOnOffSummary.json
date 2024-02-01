@@ -52,47 +52,52 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GroupSet.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/VsPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/VsPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/CourtStatus.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/PlusMinus.json"
-        },
-        {
-          "$ref": "../schemas/OffRating.json"
-        },
-        {
-          "$ref": "../schemas/DefRating.json"
-        },
-        {
-          "$ref": "../schemas/NetRating.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GroupSet.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/VsPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/VsPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/CourtStatus.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/PlusMinus.json"
+          },
+          {
+            "$ref": "../schemas/OffRating.json"
+          },
+          {
+            "$ref": "../schemas/DefRating.json"
+          },
+          {
+            "$ref": "../schemas/NetRating.json"
+          }
+        ],
+        "minItems": 13,
+        "maxItems": 13
+      }
     }
   }
 }

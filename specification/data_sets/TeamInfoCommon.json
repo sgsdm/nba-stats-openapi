@@ -58,53 +58,58 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/SeasonYear.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamConference.json"
-        },
-        {
-          "$ref": "../schemas/TeamDivision.json"
-        },
-        {
-          "$ref": "../schemas/TeamCode.json"
-        },
-        {
-          "$ref": "../schemas/W.json"
-        },
-        {
-          "$ref": "../schemas/L.json"
-        },
-        {
-          "$ref": "../schemas/Pct.json"
-        },
-        {
-          "$ref": "../schemas/ConfRank.json"
-        },
-        {
-          "$ref": "../schemas/DivRank.json"
-        },
-        {
-          "$ref": "../schemas/MinYear.json"
-        },
-        {
-          "$ref": "../schemas/MaxYear.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/SeasonYear.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamConference.json"
+          },
+          {
+            "$ref": "../schemas/TeamDivision.json"
+          },
+          {
+            "$ref": "../schemas/TeamCode.json"
+          },
+          {
+            "$ref": "../schemas/W.json"
+          },
+          {
+            "$ref": "../schemas/L.json"
+          },
+          {
+            "$ref": "../schemas/Pct.json"
+          },
+          {
+            "$ref": "../schemas/ConfRank.json"
+          },
+          {
+            "$ref": "../schemas/DivRank.json"
+          },
+          {
+            "$ref": "../schemas/MinYear.json"
+          },
+          {
+            "$ref": "../schemas/MaxYear.json"
+          }
+        ],
+        "minItems": 15,
+        "maxItems": 15
+      }
     }
   }
 }

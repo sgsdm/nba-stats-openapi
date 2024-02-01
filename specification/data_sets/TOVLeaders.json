@@ -25,20 +25,25 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Tov.json"
-        },
-        {
-          "$ref": "../schemas/TovRank.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Tov.json"
+          },
+          {
+            "$ref": "../schemas/TovRank.json"
+          }
+        ],
+        "minItems": 4,
+        "maxItems": 4
+      }
     }
   }
 }

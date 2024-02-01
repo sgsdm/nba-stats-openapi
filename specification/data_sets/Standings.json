@@ -157,152 +157,157 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Leagueid.json"
-        },
-        {
-          "$ref": "../schemas/Seasonyear.json"
-        },
-        {
-          "$ref": "../schemas/Teamid.json"
-        },
-        {
-          "$ref": "../schemas/Teamcity.json"
-        },
-        {
-          "$ref": "../schemas/Teamname.json"
-        },
-        {
-          "$ref": "../schemas/Teamabbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Teamslug.json"
-        },
-        {
-          "$ref": "../schemas/Conference.json"
-        },
-        {
-          "$ref": "../schemas/Istgroup.json"
-        },
-        {
-          "$ref": "../schemas/Clinchindicator.json"
-        },
-        {
-          "$ref": "../schemas/Clinchedistknockout.json"
-        },
-        {
-          "$ref": "../schemas/Clinchedistgroup.json"
-        },
-        {
-          "$ref": "../schemas/Clinchedistwildcard.json"
-        },
-        {
-          "$ref": "../schemas/Istwildcardrank.json"
-        },
-        {
-          "$ref": "../schemas/Istgrouprank.json"
-        },
-        {
-          "$ref": "../schemas/Istknockoutrank.json"
-        },
-        {
-          "$ref": "../schemas/Wins.json"
-        },
-        {
-          "$ref": "../schemas/Losses.json"
-        },
-        {
-          "$ref": "../schemas/Pct.json"
-        },
-        {
-          "$ref": "../schemas/Istgroupgb.json"
-        },
-        {
-          "$ref": "../schemas/Istwildcardgb.json"
-        },
-        {
-          "$ref": "../schemas/Diff.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/Opppts.json"
-        },
-        {
-          "$ref": "../schemas/Gameid1.json"
-        },
-        {
-          "$ref": "../schemas/Opponentteamabbreviation1.json"
-        },
-        {
-          "$ref": "../schemas/Location1.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatus1.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatustext1.json"
-        },
-        {
-          "$ref": "../schemas/Outcome1.json"
-        },
-        {
-          "$ref": "../schemas/Gameid2.json"
-        },
-        {
-          "$ref": "../schemas/Opponentteamabbreviation2.json"
-        },
-        {
-          "$ref": "../schemas/Location2.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatus2.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatustext2.json"
-        },
-        {
-          "$ref": "../schemas/Outcome2.json"
-        },
-        {
-          "$ref": "../schemas/Gameid3.json"
-        },
-        {
-          "$ref": "../schemas/Opponentteamabbreviation3.json"
-        },
-        {
-          "$ref": "../schemas/Location3.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatus3.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatustext3.json"
-        },
-        {
-          "$ref": "../schemas/Outcome3.json"
-        },
-        {
-          "$ref": "../schemas/Gameid4.json"
-        },
-        {
-          "$ref": "../schemas/Opponentteamabbreviation4.json"
-        },
-        {
-          "$ref": "../schemas/Location4.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatus4.json"
-        },
-        {
-          "$ref": "../schemas/Gamestatustext4.json"
-        },
-        {
-          "$ref": "../schemas/Outcome4.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Leagueid.json"
+          },
+          {
+            "$ref": "../schemas/Seasonyear.json"
+          },
+          {
+            "$ref": "../schemas/Teamid.json"
+          },
+          {
+            "$ref": "../schemas/Teamcity.json"
+          },
+          {
+            "$ref": "../schemas/Teamname.json"
+          },
+          {
+            "$ref": "../schemas/Teamabbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Teamslug.json"
+          },
+          {
+            "$ref": "../schemas/Conference.json"
+          },
+          {
+            "$ref": "../schemas/Istgroup.json"
+          },
+          {
+            "$ref": "../schemas/Clinchindicator.json"
+          },
+          {
+            "$ref": "../schemas/Clinchedistknockout.json"
+          },
+          {
+            "$ref": "../schemas/Clinchedistgroup.json"
+          },
+          {
+            "$ref": "../schemas/Clinchedistwildcard.json"
+          },
+          {
+            "$ref": "../schemas/Istwildcardrank.json"
+          },
+          {
+            "$ref": "../schemas/Istgrouprank.json"
+          },
+          {
+            "$ref": "../schemas/Istknockoutrank.json"
+          },
+          {
+            "$ref": "../schemas/Wins.json"
+          },
+          {
+            "$ref": "../schemas/Losses.json"
+          },
+          {
+            "$ref": "../schemas/Pct.json"
+          },
+          {
+            "$ref": "../schemas/Istgroupgb.json"
+          },
+          {
+            "$ref": "../schemas/Istwildcardgb.json"
+          },
+          {
+            "$ref": "../schemas/Diff.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/Opppts.json"
+          },
+          {
+            "$ref": "../schemas/Gameid1.json"
+          },
+          {
+            "$ref": "../schemas/Opponentteamabbreviation1.json"
+          },
+          {
+            "$ref": "../schemas/Location1.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatus1.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatustext1.json"
+          },
+          {
+            "$ref": "../schemas/Outcome1.json"
+          },
+          {
+            "$ref": "../schemas/Gameid2.json"
+          },
+          {
+            "$ref": "../schemas/Opponentteamabbreviation2.json"
+          },
+          {
+            "$ref": "../schemas/Location2.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatus2.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatustext2.json"
+          },
+          {
+            "$ref": "../schemas/Outcome2.json"
+          },
+          {
+            "$ref": "../schemas/Gameid3.json"
+          },
+          {
+            "$ref": "../schemas/Opponentteamabbreviation3.json"
+          },
+          {
+            "$ref": "../schemas/Location3.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatus3.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatustext3.json"
+          },
+          {
+            "$ref": "../schemas/Outcome3.json"
+          },
+          {
+            "$ref": "../schemas/Gameid4.json"
+          },
+          {
+            "$ref": "../schemas/Opponentteamabbreviation4.json"
+          },
+          {
+            "$ref": "../schemas/Location4.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatus4.json"
+          },
+          {
+            "$ref": "../schemas/Gamestatustext4.json"
+          },
+          {
+            "$ref": "../schemas/Outcome4.json"
+          }
+        ],
+        "minItems": 48,
+        "maxItems": 48
+      }
     }
   }
 }

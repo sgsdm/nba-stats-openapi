@@ -58,53 +58,58 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/LeagueId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/StartYear.json"
-        },
-        {
-          "$ref": "../schemas/EndYear.json"
-        },
-        {
-          "$ref": "../schemas/Years.json"
-        },
-        {
-          "$ref": "../schemas/Games.json"
-        },
-        {
-          "$ref": "../schemas/Wins.json"
-        },
-        {
-          "$ref": "../schemas/Losses.json"
-        },
-        {
-          "$ref": "../schemas/WinPct.json"
-        },
-        {
-          "$ref": "../schemas/PoAppearances.json"
-        },
-        {
-          "$ref": "../schemas/DivTitles.json"
-        },
-        {
-          "$ref": "../schemas/ConfTitles.json"
-        },
-        {
-          "$ref": "../schemas/LeagueTitles.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/LeagueId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/StartYear.json"
+          },
+          {
+            "$ref": "../schemas/EndYear.json"
+          },
+          {
+            "$ref": "../schemas/Years.json"
+          },
+          {
+            "$ref": "../schemas/Games.json"
+          },
+          {
+            "$ref": "../schemas/Wins.json"
+          },
+          {
+            "$ref": "../schemas/Losses.json"
+          },
+          {
+            "$ref": "../schemas/WinPct.json"
+          },
+          {
+            "$ref": "../schemas/PoAppearances.json"
+          },
+          {
+            "$ref": "../schemas/DivTitles.json"
+          },
+          {
+            "$ref": "../schemas/ConfTitles.json"
+          },
+          {
+            "$ref": "../schemas/LeagueTitles.json"
+          }
+        ],
+        "minItems": 15,
+        "maxItems": 15
+      }
     }
   }
 }

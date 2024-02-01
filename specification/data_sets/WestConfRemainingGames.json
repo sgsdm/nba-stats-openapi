@@ -28,23 +28,28 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Team.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/RemainingG.json"
-        },
-        {
-          "$ref": "../schemas/RemainingHomeG.json"
-        },
-        {
-          "$ref": "../schemas/RemainingAwayG.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Team.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/RemainingG.json"
+          },
+          {
+            "$ref": "../schemas/RemainingHomeG.json"
+          },
+          {
+            "$ref": "../schemas/RemainingAwayG.json"
+          }
+        ],
+        "minItems": 5,
+        "maxItems": 5
+      }
     }
   }
 }

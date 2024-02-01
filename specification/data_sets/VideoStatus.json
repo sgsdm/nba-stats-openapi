@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamCity.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamName.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamId.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamCity.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamName.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/GameStatus.json"
-        },
-        {
-          "$ref": "../schemas/GameStatusText.json"
-        },
-        {
-          "$ref": "../schemas/IsAvailable.json"
-        },
-        {
-          "$ref": "../schemas/PtXyzAvailable.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamCity.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamName.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamId.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamCity.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamName.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/GameStatus.json"
+          },
+          {
+            "$ref": "../schemas/GameStatusText.json"
+          },
+          {
+            "$ref": "../schemas/IsAvailable.json"
+          },
+          {
+            "$ref": "../schemas/PtXyzAvailable.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

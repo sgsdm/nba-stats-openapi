@@ -61,56 +61,61 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/PtsPersonId.json"
-        },
-        {
-          "$ref": "../schemas/PtsPlayer.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/AstPersonId.json"
-        },
-        {
-          "$ref": "../schemas/AstPlayer.json"
-        },
-        {
-          "$ref": "../schemas/Reb.json"
-        },
-        {
-          "$ref": "../schemas/RebPersonId.json"
-        },
-        {
-          "$ref": "../schemas/RebPlayer.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/BlkPersonId.json"
-        },
-        {
-          "$ref": "../schemas/BlkPlayer.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/StlPersonId.json"
-        },
-        {
-          "$ref": "../schemas/StlPlayer.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/PtsPersonId.json"
+          },
+          {
+            "$ref": "../schemas/PtsPlayer.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/AstPersonId.json"
+          },
+          {
+            "$ref": "../schemas/AstPlayer.json"
+          },
+          {
+            "$ref": "../schemas/Reb.json"
+          },
+          {
+            "$ref": "../schemas/RebPersonId.json"
+          },
+          {
+            "$ref": "../schemas/RebPlayer.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/BlkPersonId.json"
+          },
+          {
+            "$ref": "../schemas/BlkPlayer.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/StlPersonId.json"
+          },
+          {
+            "$ref": "../schemas/StlPlayer.json"
+          }
+        ],
+        "minItems": 16,
+        "maxItems": 16
+      }
     }
   }
 }

@@ -52,47 +52,52 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/LeagueId.json"
-        },
-        {
-          "$ref": "../schemas/SeasonId.json"
-        },
-        {
-          "$ref": "../schemas/Standingsdate.json"
-        },
-        {
-          "$ref": "../schemas/Conference.json"
-        },
-        {
-          "$ref": "../schemas/Team.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/W.json"
-        },
-        {
-          "$ref": "../schemas/L.json"
-        },
-        {
-          "$ref": "../schemas/WPct.json"
-        },
-        {
-          "$ref": "../schemas/HomeRecord.json"
-        },
-        {
-          "$ref": "../schemas/RoadRecord.json"
-        },
-        {
-          "$ref": "../schemas/Returntoplay.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/LeagueId.json"
+          },
+          {
+            "$ref": "../schemas/SeasonId.json"
+          },
+          {
+            "$ref": "../schemas/Standingsdate.json"
+          },
+          {
+            "$ref": "../schemas/Conference.json"
+          },
+          {
+            "$ref": "../schemas/Team.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/W.json"
+          },
+          {
+            "$ref": "../schemas/L.json"
+          },
+          {
+            "$ref": "../schemas/WPct.json"
+          },
+          {
+            "$ref": "../schemas/HomeRecord.json"
+          },
+          {
+            "$ref": "../schemas/RoadRecord.json"
+          },
+          {
+            "$ref": "../schemas/Returntoplay.json"
+          }
+        ],
+        "minItems": 13,
+        "maxItems": 13
+      }
     }
   }
 }

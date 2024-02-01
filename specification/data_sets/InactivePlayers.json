@@ -37,32 +37,37 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/JerseyNum.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/JerseyNum.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          }
+        ],
+        "minItems": 8,
+        "maxItems": 8
+      }
     }
   }
 }

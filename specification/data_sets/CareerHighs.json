@@ -43,38 +43,43 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamCity.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamName.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Stat.json"
-        },
-        {
-          "$ref": "../schemas/StatsValue.json"
-        },
-        {
-          "$ref": "../schemas/StatOrder.json"
-        },
-        {
-          "$ref": "../schemas/DateEst.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamCity.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamName.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Stat.json"
+          },
+          {
+            "$ref": "../schemas/StatsValue.json"
+          },
+          {
+            "$ref": "../schemas/StatOrder.json"
+          },
+          {
+            "$ref": "../schemas/DateEst.json"
+          }
+        ],
+        "minItems": 10,
+        "maxItems": 10
+      }
     }
   }
 }

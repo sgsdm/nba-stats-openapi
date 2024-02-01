@@ -97,92 +97,97 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/DateEst.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeam.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeam.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/Gs.json"
-        },
-        {
-          "$ref": "../schemas/ActualMinutes.json"
-        },
-        {
-          "$ref": "../schemas/ActualSeconds.json"
-        },
-        {
-          "$ref": "../schemas/Fg.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3.json"
-        },
-        {
-          "$ref": "../schemas/Fg3a.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/Ft.json"
-        },
-        {
-          "$ref": "../schemas/Fta.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/OffReb.json"
-        },
-        {
-          "$ref": "../schemas/DefReb.json"
-        },
-        {
-          "$ref": "../schemas/TotReb.json"
-        },
-        {
-          "$ref": "../schemas/AvgTotReb.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/Pf.json"
-        },
-        {
-          "$ref": "../schemas/Dq.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/Turnovers.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/AvgPts.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/DateEst.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeam.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeam.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/Gs.json"
+          },
+          {
+            "$ref": "../schemas/ActualMinutes.json"
+          },
+          {
+            "$ref": "../schemas/ActualSeconds.json"
+          },
+          {
+            "$ref": "../schemas/Fg.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3.json"
+          },
+          {
+            "$ref": "../schemas/Fg3a.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/Ft.json"
+          },
+          {
+            "$ref": "../schemas/Fta.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/OffReb.json"
+          },
+          {
+            "$ref": "../schemas/DefReb.json"
+          },
+          {
+            "$ref": "../schemas/TotReb.json"
+          },
+          {
+            "$ref": "../schemas/AvgTotReb.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/Pf.json"
+          },
+          {
+            "$ref": "../schemas/Dq.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/Turnovers.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/AvgPts.json"
+          }
+        ],
+        "minItems": 28,
+        "maxItems": 28
+      }
     }
   }
 }

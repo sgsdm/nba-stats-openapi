@@ -85,80 +85,85 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GroupId.json"
-        },
-        {
-          "$ref": "../schemas/GroupName.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/OffRating.json"
-        },
-        {
-          "$ref": "../schemas/DefRating.json"
-        },
-        {
-          "$ref": "../schemas/NetRating.json"
-        },
-        {
-          "$ref": "../schemas/Pace.json"
-        },
-        {
-          "$ref": "../schemas/TsPct.json"
-        },
-        {
-          "$ref": "../schemas/FtaRate.json"
-        },
-        {
-          "$ref": "../schemas/TmAstPct.json"
-        },
-        {
-          "$ref": "../schemas/PctFga2pt.json"
-        },
-        {
-          "$ref": "../schemas/PctFga3pt.json"
-        },
-        {
-          "$ref": "../schemas/PctPts2ptMr.json"
-        },
-        {
-          "$ref": "../schemas/PctPtsFb.json"
-        },
-        {
-          "$ref": "../schemas/PctPtsFt.json"
-        },
-        {
-          "$ref": "../schemas/PctPtsPaint.json"
-        },
-        {
-          "$ref": "../schemas/PctAstFgm.json"
-        },
-        {
-          "$ref": "../schemas/PctUastFgm.json"
-        },
-        {
-          "$ref": "../schemas/OppFg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/OppEfgPct.json"
-        },
-        {
-          "$ref": "../schemas/OppFtaRate.json"
-        },
-        {
-          "$ref": "../schemas/OppTovPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GroupId.json"
+          },
+          {
+            "$ref": "../schemas/GroupName.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/OffRating.json"
+          },
+          {
+            "$ref": "../schemas/DefRating.json"
+          },
+          {
+            "$ref": "../schemas/NetRating.json"
+          },
+          {
+            "$ref": "../schemas/Pace.json"
+          },
+          {
+            "$ref": "../schemas/TsPct.json"
+          },
+          {
+            "$ref": "../schemas/FtaRate.json"
+          },
+          {
+            "$ref": "../schemas/TmAstPct.json"
+          },
+          {
+            "$ref": "../schemas/PctFga2pt.json"
+          },
+          {
+            "$ref": "../schemas/PctFga3pt.json"
+          },
+          {
+            "$ref": "../schemas/PctPts2ptMr.json"
+          },
+          {
+            "$ref": "../schemas/PctPtsFb.json"
+          },
+          {
+            "$ref": "../schemas/PctPtsFt.json"
+          },
+          {
+            "$ref": "../schemas/PctPtsPaint.json"
+          },
+          {
+            "$ref": "../schemas/PctAstFgm.json"
+          },
+          {
+            "$ref": "../schemas/PctUastFgm.json"
+          },
+          {
+            "$ref": "../schemas/OppFg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/OppEfgPct.json"
+          },
+          {
+            "$ref": "../schemas/OppFtaRate.json"
+          },
+          {
+            "$ref": "../schemas/OppTovPct.json"
+          }
+        ],
+        "minItems": 24,
+        "maxItems": 24
+      }
     }
   }
 }

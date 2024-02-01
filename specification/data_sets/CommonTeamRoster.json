@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Teamid.json"
-        },
-        {
-          "$ref": "../schemas/Season.json"
-        },
-        {
-          "$ref": "../schemas/Leagueid.json"
-        },
-        {
-          "$ref": "../schemas/Player.json"
-        },
-        {
-          "$ref": "../schemas/PlayerSlug.json"
-        },
-        {
-          "$ref": "../schemas/Num.json"
-        },
-        {
-          "$ref": "../schemas/Position.json"
-        },
-        {
-          "$ref": "../schemas/Height.json"
-        },
-        {
-          "$ref": "../schemas/Weight.json"
-        },
-        {
-          "$ref": "../schemas/BirthDate.json"
-        },
-        {
-          "$ref": "../schemas/Age.json"
-        },
-        {
-          "$ref": "../schemas/Exp.json"
-        },
-        {
-          "$ref": "../schemas/School.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Teamid.json"
+          },
+          {
+            "$ref": "../schemas/Season.json"
+          },
+          {
+            "$ref": "../schemas/Leagueid.json"
+          },
+          {
+            "$ref": "../schemas/Player.json"
+          },
+          {
+            "$ref": "../schemas/PlayerSlug.json"
+          },
+          {
+            "$ref": "../schemas/Num.json"
+          },
+          {
+            "$ref": "../schemas/Position.json"
+          },
+          {
+            "$ref": "../schemas/Height.json"
+          },
+          {
+            "$ref": "../schemas/Weight.json"
+          },
+          {
+            "$ref": "../schemas/BirthDate.json"
+          },
+          {
+            "$ref": "../schemas/Age.json"
+          },
+          {
+            "$ref": "../schemas/Exp.json"
+          },
+          {
+            "$ref": "../schemas/School.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

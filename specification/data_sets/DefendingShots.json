@@ -43,38 +43,43 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/CloseDefPersonId.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/DefenseCategory.json"
-        },
-        {
-          "$ref": "../schemas/Freq.json"
-        },
-        {
-          "$ref": "../schemas/DFgm.json"
-        },
-        {
-          "$ref": "../schemas/DFga.json"
-        },
-        {
-          "$ref": "../schemas/DFgPct.json"
-        },
-        {
-          "$ref": "../schemas/NormalFgPct.json"
-        },
-        {
-          "$ref": "../schemas/PctPlusminus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/CloseDefPersonId.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/DefenseCategory.json"
+          },
+          {
+            "$ref": "../schemas/Freq.json"
+          },
+          {
+            "$ref": "../schemas/DFgm.json"
+          },
+          {
+            "$ref": "../schemas/DFga.json"
+          },
+          {
+            "$ref": "../schemas/DFgPct.json"
+          },
+          {
+            "$ref": "../schemas/NormalFgPct.json"
+          },
+          {
+            "$ref": "../schemas/PctPlusminus.json"
+          }
+        ],
+        "minItems": 10,
+        "maxItems": 10
+      }
     }
   }
 }

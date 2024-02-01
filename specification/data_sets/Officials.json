@@ -25,20 +25,25 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/OfficialId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/JerseyNum.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/OfficialId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/JerseyNum.json"
+          }
+        ],
+        "minItems": 4,
+        "maxItems": 4
+      }
     }
   }
 }

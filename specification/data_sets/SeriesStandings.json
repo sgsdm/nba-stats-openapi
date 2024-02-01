@@ -34,29 +34,34 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamId.json"
-        },
-        {
-          "$ref": "../schemas/GameDateEst.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamWins.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamLosses.json"
-        },
-        {
-          "$ref": "../schemas/SeriesLeader.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamId.json"
+          },
+          {
+            "$ref": "../schemas/GameDateEst.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamWins.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamLosses.json"
+          },
+          {
+            "$ref": "../schemas/SeriesLeader.json"
+          }
+        ],
+        "minItems": 7,
+        "maxItems": 7
+      }
     }
   }
 }

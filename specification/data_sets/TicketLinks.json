@@ -19,14 +19,19 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/LeagTix.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/LeagTix.json"
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
     }
   }
 }

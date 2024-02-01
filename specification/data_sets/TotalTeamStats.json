@@ -121,116 +121,121 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/City.json"
-        },
-        {
-          "$ref": "../schemas/Nickname.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/W.json"
-        },
-        {
-          "$ref": "../schemas/L.json"
-        },
-        {
-          "$ref": "../schemas/WHome.json"
-        },
-        {
-          "$ref": "../schemas/LHome.json"
-        },
-        {
-          "$ref": "../schemas/WRoad.json"
-        },
-        {
-          "$ref": "../schemas/LRoad.json"
-        },
-        {
-          "$ref": "../schemas/TeamTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/TeamRebounds.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/Gs.json"
-        },
-        {
-          "$ref": "../schemas/ActualMinutes.json"
-        },
-        {
-          "$ref": "../schemas/ActualSeconds.json"
-        },
-        {
-          "$ref": "../schemas/Fg.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3.json"
-        },
-        {
-          "$ref": "../schemas/Fg3a.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/Ft.json"
-        },
-        {
-          "$ref": "../schemas/Fta.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/OffReb.json"
-        },
-        {
-          "$ref": "../schemas/DefReb.json"
-        },
-        {
-          "$ref": "../schemas/TotReb.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/Pf.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/TotalTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/AvgReb.json"
-        },
-        {
-          "$ref": "../schemas/AvgPts.json"
-        },
-        {
-          "$ref": "../schemas/Dq.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/City.json"
+          },
+          {
+            "$ref": "../schemas/Nickname.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/W.json"
+          },
+          {
+            "$ref": "../schemas/L.json"
+          },
+          {
+            "$ref": "../schemas/WHome.json"
+          },
+          {
+            "$ref": "../schemas/LHome.json"
+          },
+          {
+            "$ref": "../schemas/WRoad.json"
+          },
+          {
+            "$ref": "../schemas/LRoad.json"
+          },
+          {
+            "$ref": "../schemas/TeamTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/TeamRebounds.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/Gs.json"
+          },
+          {
+            "$ref": "../schemas/ActualMinutes.json"
+          },
+          {
+            "$ref": "../schemas/ActualSeconds.json"
+          },
+          {
+            "$ref": "../schemas/Fg.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3.json"
+          },
+          {
+            "$ref": "../schemas/Fg3a.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/Ft.json"
+          },
+          {
+            "$ref": "../schemas/Fta.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/OffReb.json"
+          },
+          {
+            "$ref": "../schemas/DefReb.json"
+          },
+          {
+            "$ref": "../schemas/TotReb.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/Pf.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/TotalTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/AvgReb.json"
+          },
+          {
+            "$ref": "../schemas/AvgPts.json"
+          },
+          {
+            "$ref": "../schemas/Dq.json"
+          }
+        ],
+        "minItems": 36,
+        "maxItems": 36
+      }
     }
   }
 }

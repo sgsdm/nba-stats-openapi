@@ -19,14 +19,19 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/HustleStatus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/HustleStatus.json"
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
     }
   }
 }

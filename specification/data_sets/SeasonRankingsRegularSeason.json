@@ -94,89 +94,94 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/SeasonId.json"
-        },
-        {
-          "$ref": "../schemas/LeagueId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/PlayerAge.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/Gs.json"
-        },
-        {
-          "$ref": "../schemas/RankMin.json"
-        },
-        {
-          "$ref": "../schemas/RankFgm.json"
-        },
-        {
-          "$ref": "../schemas/RankFga.json"
-        },
-        {
-          "$ref": "../schemas/RankFgPct.json"
-        },
-        {
-          "$ref": "../schemas/RankFg3m.json"
-        },
-        {
-          "$ref": "../schemas/RankFg3a.json"
-        },
-        {
-          "$ref": "../schemas/RankFg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/RankFtm.json"
-        },
-        {
-          "$ref": "../schemas/RankFta.json"
-        },
-        {
-          "$ref": "../schemas/RankFtPct.json"
-        },
-        {
-          "$ref": "../schemas/RankOreb.json"
-        },
-        {
-          "$ref": "../schemas/RankDreb.json"
-        },
-        {
-          "$ref": "../schemas/RankReb.json"
-        },
-        {
-          "$ref": "../schemas/RankAst.json"
-        },
-        {
-          "$ref": "../schemas/RankStl.json"
-        },
-        {
-          "$ref": "../schemas/RankBlk.json"
-        },
-        {
-          "$ref": "../schemas/RankTov.json"
-        },
-        {
-          "$ref": "../schemas/RankPts.json"
-        },
-        {
-          "$ref": "../schemas/RankEff.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/SeasonId.json"
+          },
+          {
+            "$ref": "../schemas/LeagueId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/PlayerAge.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/Gs.json"
+          },
+          {
+            "$ref": "../schemas/RankMin.json"
+          },
+          {
+            "$ref": "../schemas/RankFgm.json"
+          },
+          {
+            "$ref": "../schemas/RankFga.json"
+          },
+          {
+            "$ref": "../schemas/RankFgPct.json"
+          },
+          {
+            "$ref": "../schemas/RankFg3m.json"
+          },
+          {
+            "$ref": "../schemas/RankFg3a.json"
+          },
+          {
+            "$ref": "../schemas/RankFg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/RankFtm.json"
+          },
+          {
+            "$ref": "../schemas/RankFta.json"
+          },
+          {
+            "$ref": "../schemas/RankFtPct.json"
+          },
+          {
+            "$ref": "../schemas/RankOreb.json"
+          },
+          {
+            "$ref": "../schemas/RankDreb.json"
+          },
+          {
+            "$ref": "../schemas/RankReb.json"
+          },
+          {
+            "$ref": "../schemas/RankAst.json"
+          },
+          {
+            "$ref": "../schemas/RankStl.json"
+          },
+          {
+            "$ref": "../schemas/RankBlk.json"
+          },
+          {
+            "$ref": "../schemas/RankTov.json"
+          },
+          {
+            "$ref": "../schemas/RankPts.json"
+          },
+          {
+            "$ref": "../schemas/RankEff.json"
+          }
+        ],
+        "minItems": 27,
+        "maxItems": 27
+      }
     }
   }
 }

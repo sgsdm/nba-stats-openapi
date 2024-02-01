@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GroupSet.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/VsPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/VsPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/CourtStatus.json"
-        },
-        {
-          "$ref": "../schemas/GroupValue.json"
-        },
-        {
-          "$ref": "../schemas/Fgm.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Cfid.json"
-        },
-        {
-          "$ref": "../schemas/Cfparams.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GroupSet.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/VsPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/VsPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/CourtStatus.json"
+          },
+          {
+            "$ref": "../schemas/GroupValue.json"
+          },
+          {
+            "$ref": "../schemas/Fgm.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Cfid.json"
+          },
+          {
+            "$ref": "../schemas/Cfparams.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

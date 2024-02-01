@@ -34,29 +34,34 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/EfgPct.json"
-        },
-        {
-          "$ref": "../schemas/TsPct.json"
-        },
-        {
-          "$ref": "../schemas/PtsPer48.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/EfgPct.json"
+          },
+          {
+            "$ref": "../schemas/TsPct.json"
+          },
+          {
+            "$ref": "../schemas/PtsPer48.json"
+          }
+        ],
+        "minItems": 7,
+        "maxItems": 7
+      }
     }
   }
 }

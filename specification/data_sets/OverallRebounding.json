@@ -61,56 +61,61 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerNameLastFirst.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/Overall.json"
-        },
-        {
-          "$ref": "../schemas/RebFrequency.json"
-        },
-        {
-          "$ref": "../schemas/Oreb.json"
-        },
-        {
-          "$ref": "../schemas/Dreb.json"
-        },
-        {
-          "$ref": "../schemas/Reb.json"
-        },
-        {
-          "$ref": "../schemas/COreb.json"
-        },
-        {
-          "$ref": "../schemas/CDreb.json"
-        },
-        {
-          "$ref": "../schemas/CReb.json"
-        },
-        {
-          "$ref": "../schemas/CRebPct.json"
-        },
-        {
-          "$ref": "../schemas/UcOreb.json"
-        },
-        {
-          "$ref": "../schemas/UcDreb.json"
-        },
-        {
-          "$ref": "../schemas/UcReb.json"
-        },
-        {
-          "$ref": "../schemas/UcRebPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/Overall.json"
+          },
+          {
+            "$ref": "../schemas/RebFrequency.json"
+          },
+          {
+            "$ref": "../schemas/Oreb.json"
+          },
+          {
+            "$ref": "../schemas/Dreb.json"
+          },
+          {
+            "$ref": "../schemas/Reb.json"
+          },
+          {
+            "$ref": "../schemas/COreb.json"
+          },
+          {
+            "$ref": "../schemas/CDreb.json"
+          },
+          {
+            "$ref": "../schemas/CReb.json"
+          },
+          {
+            "$ref": "../schemas/CRebPct.json"
+          },
+          {
+            "$ref": "../schemas/UcOreb.json"
+          },
+          {
+            "$ref": "../schemas/UcDreb.json"
+          },
+          {
+            "$ref": "../schemas/UcReb.json"
+          },
+          {
+            "$ref": "../schemas/UcRebPct.json"
+          }
+        ],
+        "minItems": 16,
+        "maxItems": 16
+      }
     }
   }
 }

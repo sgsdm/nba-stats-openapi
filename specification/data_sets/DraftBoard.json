@@ -67,62 +67,67 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Season.json"
-        },
-        {
-          "$ref": "../schemas/RoundNumber.json"
-        },
-        {
-          "$ref": "../schemas/RoundPick.json"
-        },
-        {
-          "$ref": "../schemas/OverallPick.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Organization.json"
-        },
-        {
-          "$ref": "../schemas/OrganizationType.json"
-        },
-        {
-          "$ref": "../schemas/Height.json"
-        },
-        {
-          "$ref": "../schemas/Weight.json"
-        },
-        {
-          "$ref": "../schemas/Position.json"
-        },
-        {
-          "$ref": "../schemas/JerseyNumber.json"
-        },
-        {
-          "$ref": "../schemas/Birthdate.json"
-        },
-        {
-          "$ref": "../schemas/Age.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Season.json"
+          },
+          {
+            "$ref": "../schemas/RoundNumber.json"
+          },
+          {
+            "$ref": "../schemas/RoundPick.json"
+          },
+          {
+            "$ref": "../schemas/OverallPick.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Organization.json"
+          },
+          {
+            "$ref": "../schemas/OrganizationType.json"
+          },
+          {
+            "$ref": "../schemas/Height.json"
+          },
+          {
+            "$ref": "../schemas/Weight.json"
+          },
+          {
+            "$ref": "../schemas/Position.json"
+          },
+          {
+            "$ref": "../schemas/JerseyNumber.json"
+          },
+          {
+            "$ref": "../schemas/Birthdate.json"
+          },
+          {
+            "$ref": "../schemas/Age.json"
+          }
+        ],
+        "minItems": 18,
+        "maxItems": 18
+      }
     }
   }
 }

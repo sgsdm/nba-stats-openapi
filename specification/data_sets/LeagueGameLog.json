@@ -100,95 +100,100 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/SeasonId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/Matchup.json"
-        },
-        {
-          "$ref": "../schemas/Wl.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/Fgm.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3m.json"
-        },
-        {
-          "$ref": "../schemas/Fg3a.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/Ftm.json"
-        },
-        {
-          "$ref": "../schemas/Fta.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/Oreb.json"
-        },
-        {
-          "$ref": "../schemas/Dreb.json"
-        },
-        {
-          "$ref": "../schemas/Reb.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Tov.json"
-        },
-        {
-          "$ref": "../schemas/Pf.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/PlusMinus.json"
-        },
-        {
-          "$ref": "../schemas/VideoAvailable.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/SeasonId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/Matchup.json"
+          },
+          {
+            "$ref": "../schemas/Wl.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/Fgm.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3m.json"
+          },
+          {
+            "$ref": "../schemas/Fg3a.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/Ftm.json"
+          },
+          {
+            "$ref": "../schemas/Fta.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/Oreb.json"
+          },
+          {
+            "$ref": "../schemas/Dreb.json"
+          },
+          {
+            "$ref": "../schemas/Reb.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Tov.json"
+          },
+          {
+            "$ref": "../schemas/Pf.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/PlusMinus.json"
+          },
+          {
+            "$ref": "../schemas/VideoAvailable.json"
+          }
+        ],
+        "minItems": 29,
+        "maxItems": 29
+      }
     }
   }
 }

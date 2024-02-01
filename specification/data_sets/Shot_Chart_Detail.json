@@ -85,80 +85,85 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GridType.json"
-        },
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameEventId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/Period.json"
-        },
-        {
-          "$ref": "../schemas/MinutesRemaining.json"
-        },
-        {
-          "$ref": "../schemas/SecondsRemaining.json"
-        },
-        {
-          "$ref": "../schemas/EventType.json"
-        },
-        {
-          "$ref": "../schemas/ActionType.json"
-        },
-        {
-          "$ref": "../schemas/ShotType.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneBasic.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneArea.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneRange.json"
-        },
-        {
-          "$ref": "../schemas/ShotDistance.json"
-        },
-        {
-          "$ref": "../schemas/LocX.json"
-        },
-        {
-          "$ref": "../schemas/LocY.json"
-        },
-        {
-          "$ref": "../schemas/ShotAttemptedFlag.json"
-        },
-        {
-          "$ref": "../schemas/ShotMadeFlag.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/Htm.json"
-        },
-        {
-          "$ref": "../schemas/Vtm.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GridType.json"
+          },
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameEventId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/Period.json"
+          },
+          {
+            "$ref": "../schemas/MinutesRemaining.json"
+          },
+          {
+            "$ref": "../schemas/SecondsRemaining.json"
+          },
+          {
+            "$ref": "../schemas/EventType.json"
+          },
+          {
+            "$ref": "../schemas/ActionType.json"
+          },
+          {
+            "$ref": "../schemas/ShotType.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneBasic.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneArea.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneRange.json"
+          },
+          {
+            "$ref": "../schemas/ShotDistance.json"
+          },
+          {
+            "$ref": "../schemas/LocX.json"
+          },
+          {
+            "$ref": "../schemas/LocY.json"
+          },
+          {
+            "$ref": "../schemas/ShotAttemptedFlag.json"
+          },
+          {
+            "$ref": "../schemas/ShotMadeFlag.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/Htm.json"
+          },
+          {
+            "$ref": "../schemas/Vtm.json"
+          }
+        ],
+        "minItems": 24,
+        "maxItems": 24
+      }
     }
   }
 }

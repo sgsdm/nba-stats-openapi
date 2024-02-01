@@ -31,26 +31,31 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Playerid.json"
-        },
-        {
-          "$ref": "../schemas/Player.json"
-        },
-        {
-          "$ref": "../schemas/Position.json"
-        },
-        {
-          "$ref": "../schemas/Jersey.json"
-        },
-        {
-          "$ref": "../schemas/Seasonswithteam.json"
-        },
-        {
-          "$ref": "../schemas/Year.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Playerid.json"
+          },
+          {
+            "$ref": "../schemas/Player.json"
+          },
+          {
+            "$ref": "../schemas/Position.json"
+          },
+          {
+            "$ref": "../schemas/Jersey.json"
+          },
+          {
+            "$ref": "../schemas/Seasonswithteam.json"
+          },
+          {
+            "$ref": "../schemas/Year.json"
+          }
+        ],
+        "minItems": 6,
+        "maxItems": 6
+      }
     }
   }
 }

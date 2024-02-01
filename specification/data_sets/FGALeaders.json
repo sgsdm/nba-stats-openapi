@@ -25,20 +25,25 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgaRank.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgaRank.json"
+          }
+        ],
+        "minItems": 4,
+        "maxItems": 4
+      }
     }
   }
 }

@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/DisplayLastCommaFirst.json"
-        },
-        {
-          "$ref": "../schemas/DisplayFirstLast.json"
-        },
-        {
-          "$ref": "../schemas/Rosterstatus.json"
-        },
-        {
-          "$ref": "../schemas/FromYear.json"
-        },
-        {
-          "$ref": "../schemas/ToYear.json"
-        },
-        {
-          "$ref": "../schemas/Playercode.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCode.json"
-        },
-        {
-          "$ref": "../schemas/GamesPlayedFlag.json"
-        },
-        {
-          "$ref": "../schemas/OtherleagueExperienceCh.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/DisplayLastCommaFirst.json"
+          },
+          {
+            "$ref": "../schemas/DisplayFirstLast.json"
+          },
+          {
+            "$ref": "../schemas/Rosterstatus.json"
+          },
+          {
+            "$ref": "../schemas/FromYear.json"
+          },
+          {
+            "$ref": "../schemas/ToYear.json"
+          },
+          {
+            "$ref": "../schemas/Playercode.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCode.json"
+          },
+          {
+            "$ref": "../schemas/GamesPlayedFlag.json"
+          },
+          {
+            "$ref": "../schemas/OtherleagueExperienceCh.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

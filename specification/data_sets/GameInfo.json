@@ -22,17 +22,22 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/Attendance.json"
-        },
-        {
-          "$ref": "../schemas/GameTime.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/Attendance.json"
+          },
+          {
+            "$ref": "../schemas/GameTime.json"
+          }
+        ],
+        "minItems": 3,
+        "maxItems": 3
+      }
     }
   }
 }

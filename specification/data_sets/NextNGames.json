@@ -52,47 +52,52 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamId.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamName.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamName.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/GameTime.json"
-        },
-        {
-          "$ref": "../schemas/HomeWl.json"
-        },
-        {
-          "$ref": "../schemas/VisitorWl.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamId.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamName.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamName.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/GameTime.json"
+          },
+          {
+            "$ref": "../schemas/HomeWl.json"
+          },
+          {
+            "$ref": "../schemas/VisitorWl.json"
+          }
+        ],
+        "minItems": 13,
+        "maxItems": 13
+      }
     }
   }
 }

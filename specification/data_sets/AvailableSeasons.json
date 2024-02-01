@@ -16,11 +16,16 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/SeasonId.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/SeasonId.json"
+          }
+        ],
+        "minItems": 1,
+        "maxItems": 1
+      }
     }
   }
 }

@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/PtsPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PtsPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/RebPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/RebPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Reb.json"
-        },
-        {
-          "$ref": "../schemas/AstPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/AstPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/PtsPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PtsPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/RebPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/RebPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Reb.json"
+          },
+          {
+            "$ref": "../schemas/AstPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/AstPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

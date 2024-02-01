@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/EfgPct.json"
-        },
-        {
-          "$ref": "../schemas/FtaRate.json"
-        },
-        {
-          "$ref": "../schemas/TmTovPct.json"
-        },
-        {
-          "$ref": "../schemas/OrebPct.json"
-        },
-        {
-          "$ref": "../schemas/OppEfgPct.json"
-        },
-        {
-          "$ref": "../schemas/OppFtaRate.json"
-        },
-        {
-          "$ref": "../schemas/OppTovPct.json"
-        },
-        {
-          "$ref": "../schemas/OppOrebPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/EfgPct.json"
+          },
+          {
+            "$ref": "../schemas/FtaRate.json"
+          },
+          {
+            "$ref": "../schemas/TmTovPct.json"
+          },
+          {
+            "$ref": "../schemas/OrebPct.json"
+          },
+          {
+            "$ref": "../schemas/OppEfgPct.json"
+          },
+          {
+            "$ref": "../schemas/OppFtaRate.json"
+          },
+          {
+            "$ref": "../schemas/OppTovPct.json"
+          },
+          {
+            "$ref": "../schemas/OppOrebPct.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

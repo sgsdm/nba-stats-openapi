@@ -40,35 +40,40 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/Season.json"
-        },
-        {
-          "$ref": "../schemas/CoachId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/CoachName.json"
-        },
-        {
-          "$ref": "../schemas/IsAssistant.json"
-        },
-        {
-          "$ref": "../schemas/CoachType.json"
-        },
-        {
-          "$ref": "../schemas/SortSequence.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/Season.json"
+          },
+          {
+            "$ref": "../schemas/CoachId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/CoachName.json"
+          },
+          {
+            "$ref": "../schemas/IsAssistant.json"
+          },
+          {
+            "$ref": "../schemas/CoachType.json"
+          },
+          {
+            "$ref": "../schemas/SortSequence.json"
+          }
+        ],
+        "minItems": 9,
+        "maxItems": 9
+      }
     }
   }
 }

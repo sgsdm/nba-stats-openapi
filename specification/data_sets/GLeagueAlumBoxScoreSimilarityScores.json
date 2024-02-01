@@ -25,20 +25,25 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Person2Id.json"
-        },
-        {
-          "$ref": "../schemas/Person2.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/SimilarityScore.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Person2Id.json"
+          },
+          {
+            "$ref": "../schemas/Person2.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/SimilarityScore.json"
+          }
+        ],
+        "minItems": 4,
+        "maxItems": 4
+      }
     }
   }
 }

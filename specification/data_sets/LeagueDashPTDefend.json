@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/CloseDefPersonId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/PlayerLastTeamId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerLastTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/PlayerPosition.json"
-        },
-        {
-          "$ref": "../schemas/Age.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/Freq.json"
-        },
-        {
-          "$ref": "../schemas/DFgm.json"
-        },
-        {
-          "$ref": "../schemas/DFga.json"
-        },
-        {
-          "$ref": "../schemas/DFgPct.json"
-        },
-        {
-          "$ref": "../schemas/NormalFgPct.json"
-        },
-        {
-          "$ref": "../schemas/PctPlusminus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/CloseDefPersonId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/PlayerLastTeamId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerLastTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/PlayerPosition.json"
+          },
+          {
+            "$ref": "../schemas/Age.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/Freq.json"
+          },
+          {
+            "$ref": "../schemas/DFgm.json"
+          },
+          {
+            "$ref": "../schemas/DFga.json"
+          },
+          {
+            "$ref": "../schemas/DFgPct.json"
+          },
+          {
+            "$ref": "../schemas/NormalFgPct.json"
+          },
+          {
+            "$ref": "../schemas/PctPlusminus.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

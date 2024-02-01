@@ -70,65 +70,70 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerNameLastFirst.json"
-        },
-        {
-          "$ref": "../schemas/SortOrder.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/ShotClockRange.json"
-        },
-        {
-          "$ref": "../schemas/FgaFrequency.json"
-        },
-        {
-          "$ref": "../schemas/Fgm.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/EfgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg2aFrequency.json"
-        },
-        {
-          "$ref": "../schemas/Fg2m.json"
-        },
-        {
-          "$ref": "../schemas/Fg2a.json"
-        },
-        {
-          "$ref": "../schemas/Fg2Pct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3aFrequency.json"
-        },
-        {
-          "$ref": "../schemas/Fg3m.json"
-        },
-        {
-          "$ref": "../schemas/Fg3a.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          },
+          {
+            "$ref": "../schemas/SortOrder.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/ShotClockRange.json"
+          },
+          {
+            "$ref": "../schemas/FgaFrequency.json"
+          },
+          {
+            "$ref": "../schemas/Fgm.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/EfgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg2aFrequency.json"
+          },
+          {
+            "$ref": "../schemas/Fg2m.json"
+          },
+          {
+            "$ref": "../schemas/Fg2a.json"
+          },
+          {
+            "$ref": "../schemas/Fg2Pct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3aFrequency.json"
+          },
+          {
+            "$ref": "../schemas/Fg3m.json"
+          },
+          {
+            "$ref": "../schemas/Fg3a.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          }
+        ],
+        "minItems": 19,
+        "maxItems": 19
+      }
     }
   }
 }

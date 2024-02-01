@@ -79,74 +79,79 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/SeasonId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/PlayType.json"
-        },
-        {
-          "$ref": "../schemas/TypeGrouping.json"
-        },
-        {
-          "$ref": "../schemas/Percentile.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/PossPct.json"
-        },
-        {
-          "$ref": "../schemas/Ppp.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/FtPossPct.json"
-        },
-        {
-          "$ref": "../schemas/TovPossPct.json"
-        },
-        {
-          "$ref": "../schemas/SfPossPct.json"
-        },
-        {
-          "$ref": "../schemas/PlusonePossPct.json"
-        },
-        {
-          "$ref": "../schemas/ScorePossPct.json"
-        },
-        {
-          "$ref": "../schemas/EfgPct.json"
-        },
-        {
-          "$ref": "../schemas/Poss.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/Fgm.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/Fgmx.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/SeasonId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/PlayType.json"
+          },
+          {
+            "$ref": "../schemas/TypeGrouping.json"
+          },
+          {
+            "$ref": "../schemas/Percentile.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/PossPct.json"
+          },
+          {
+            "$ref": "../schemas/Ppp.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/FtPossPct.json"
+          },
+          {
+            "$ref": "../schemas/TovPossPct.json"
+          },
+          {
+            "$ref": "../schemas/SfPossPct.json"
+          },
+          {
+            "$ref": "../schemas/PlusonePossPct.json"
+          },
+          {
+            "$ref": "../schemas/ScorePossPct.json"
+          },
+          {
+            "$ref": "../schemas/EfgPct.json"
+          },
+          {
+            "$ref": "../schemas/Poss.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/Fgm.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/Fgmx.json"
+          }
+        ],
+        "minItems": 22,
+        "maxItems": 22
+      }
     }
   }
 }

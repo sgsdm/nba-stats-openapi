@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerFirst.json"
-        },
-        {
-          "$ref": "../schemas/PlayerLast.json"
-        },
-        {
-          "$ref": "../schemas/InTimeReal.json"
-        },
-        {
-          "$ref": "../schemas/OutTimeReal.json"
-        },
-        {
-          "$ref": "../schemas/PlayerPts.json"
-        },
-        {
-          "$ref": "../schemas/PtDiff.json"
-        },
-        {
-          "$ref": "../schemas/UsgPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerFirst.json"
+          },
+          {
+            "$ref": "../schemas/PlayerLast.json"
+          },
+          {
+            "$ref": "../schemas/InTimeReal.json"
+          },
+          {
+            "$ref": "../schemas/OutTimeReal.json"
+          },
+          {
+            "$ref": "../schemas/PlayerPts.json"
+          },
+          {
+            "$ref": "../schemas/PtDiff.json"
+          },
+          {
+            "$ref": "../schemas/UsgPct.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

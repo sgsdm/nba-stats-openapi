@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameDateEst.json"
-        },
-        {
-          "$ref": "../schemas/GameSequence.json"
-        },
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameStatusId.json"
-        },
-        {
-          "$ref": "../schemas/GameStatusText.json"
-        },
-        {
-          "$ref": "../schemas/Gamecode.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamId.json"
-        },
-        {
-          "$ref": "../schemas/Season.json"
-        },
-        {
-          "$ref": "../schemas/LivePeriod.json"
-        },
-        {
-          "$ref": "../schemas/LivePcTime.json"
-        },
-        {
-          "$ref": "../schemas/NatlTvBroadcasterAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/LivePeriodTimeBcast.json"
-        },
-        {
-          "$ref": "../schemas/WhStatus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameDateEst.json"
+          },
+          {
+            "$ref": "../schemas/GameSequence.json"
+          },
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameStatusId.json"
+          },
+          {
+            "$ref": "../schemas/GameStatusText.json"
+          },
+          {
+            "$ref": "../schemas/Gamecode.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamId.json"
+          },
+          {
+            "$ref": "../schemas/Season.json"
+          },
+          {
+            "$ref": "../schemas/LivePeriod.json"
+          },
+          {
+            "$ref": "../schemas/LivePcTime.json"
+          },
+          {
+            "$ref": "../schemas/NatlTvBroadcasterAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/LivePeriodTimeBcast.json"
+          },
+          {
+            "$ref": "../schemas/WhStatus.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

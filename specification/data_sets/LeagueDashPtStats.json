@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/W.json"
-        },
-        {
-          "$ref": "../schemas/L.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/DistFeet.json"
-        },
-        {
-          "$ref": "../schemas/DistMiles.json"
-        },
-        {
-          "$ref": "../schemas/DistMilesOff.json"
-        },
-        {
-          "$ref": "../schemas/DistMilesDef.json"
-        },
-        {
-          "$ref": "../schemas/AvgSpeed.json"
-        },
-        {
-          "$ref": "../schemas/AvgSpeedOff.json"
-        },
-        {
-          "$ref": "../schemas/AvgSpeedDef.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/W.json"
+          },
+          {
+            "$ref": "../schemas/L.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/DistFeet.json"
+          },
+          {
+            "$ref": "../schemas/DistMiles.json"
+          },
+          {
+            "$ref": "../schemas/DistMilesOff.json"
+          },
+          {
+            "$ref": "../schemas/DistMilesDef.json"
+          },
+          {
+            "$ref": "../schemas/AvgSpeed.json"
+          },
+          {
+            "$ref": "../schemas/AvgSpeedOff.json"
+          },
+          {
+            "$ref": "../schemas/AvgSpeedDef.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

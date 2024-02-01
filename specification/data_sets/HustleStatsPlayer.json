@@ -97,92 +97,97 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Age.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/ContestedShots.json"
-        },
-        {
-          "$ref": "../schemas/ContestedShots2pt.json"
-        },
-        {
-          "$ref": "../schemas/ContestedShots3pt.json"
-        },
-        {
-          "$ref": "../schemas/Deflections.json"
-        },
-        {
-          "$ref": "../schemas/ChargesDrawn.json"
-        },
-        {
-          "$ref": "../schemas/ScreenAssists.json"
-        },
-        {
-          "$ref": "../schemas/ScreenAstPts.json"
-        },
-        {
-          "$ref": "../schemas/OffLooseBallsRecovered.json"
-        },
-        {
-          "$ref": "../schemas/DefLooseBallsRecovered.json"
-        },
-        {
-          "$ref": "../schemas/LooseBallsRecovered.json"
-        },
-        {
-          "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
-        },
-        {
-          "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
-        },
-        {
-          "$ref": "../schemas/OffBoxouts.json"
-        },
-        {
-          "$ref": "../schemas/DefBoxouts.json"
-        },
-        {
-          "$ref": "../schemas/BoxOutPlayerTeamRebs.json"
-        },
-        {
-          "$ref": "../schemas/BoxOutPlayerRebs.json"
-        },
-        {
-          "$ref": "../schemas/BoxOuts.json"
-        },
-        {
-          "$ref": "../schemas/PctBoxOutsOff.json"
-        },
-        {
-          "$ref": "../schemas/PctBoxOutsDef.json"
-        },
-        {
-          "$ref": "../schemas/PctBoxOutsTeamReb.json"
-        },
-        {
-          "$ref": "../schemas/PctBoxOutsReb.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Age.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/ContestedShots.json"
+          },
+          {
+            "$ref": "../schemas/ContestedShots2pt.json"
+          },
+          {
+            "$ref": "../schemas/ContestedShots3pt.json"
+          },
+          {
+            "$ref": "../schemas/Deflections.json"
+          },
+          {
+            "$ref": "../schemas/ChargesDrawn.json"
+          },
+          {
+            "$ref": "../schemas/ScreenAssists.json"
+          },
+          {
+            "$ref": "../schemas/ScreenAstPts.json"
+          },
+          {
+            "$ref": "../schemas/OffLooseBallsRecovered.json"
+          },
+          {
+            "$ref": "../schemas/DefLooseBallsRecovered.json"
+          },
+          {
+            "$ref": "../schemas/LooseBallsRecovered.json"
+          },
+          {
+            "$ref": "../schemas/PctLooseBallsRecoveredOff.json"
+          },
+          {
+            "$ref": "../schemas/PctLooseBallsRecoveredDef.json"
+          },
+          {
+            "$ref": "../schemas/OffBoxouts.json"
+          },
+          {
+            "$ref": "../schemas/DefBoxouts.json"
+          },
+          {
+            "$ref": "../schemas/BoxOutPlayerTeamRebs.json"
+          },
+          {
+            "$ref": "../schemas/BoxOutPlayerRebs.json"
+          },
+          {
+            "$ref": "../schemas/BoxOuts.json"
+          },
+          {
+            "$ref": "../schemas/PctBoxOutsOff.json"
+          },
+          {
+            "$ref": "../schemas/PctBoxOutsDef.json"
+          },
+          {
+            "$ref": "../schemas/PctBoxOutsTeamReb.json"
+          },
+          {
+            "$ref": "../schemas/PctBoxOutsReb.json"
+          }
+        ],
+        "minItems": 28,
+        "maxItems": 28
+      }
     }
   }
 }

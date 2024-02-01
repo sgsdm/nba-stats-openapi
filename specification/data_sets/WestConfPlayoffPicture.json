@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Conference.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedRank.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedTeam.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedTeamId.json"
-        },
-        {
-          "$ref": "../schemas/LowSeedRank.json"
-        },
-        {
-          "$ref": "../schemas/LowSeedTeam.json"
-        },
-        {
-          "$ref": "../schemas/LowSeedTeamId.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedSeriesW.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedSeriesL.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedSeriesRemainingG.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedSeriesRemainingHomeG.json"
-        },
-        {
-          "$ref": "../schemas/HighSeedSeriesRemainingAwayG.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Conference.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedRank.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedTeam.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedTeamId.json"
+          },
+          {
+            "$ref": "../schemas/LowSeedRank.json"
+          },
+          {
+            "$ref": "../schemas/LowSeedTeam.json"
+          },
+          {
+            "$ref": "../schemas/LowSeedTeamId.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedSeriesW.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedSeriesL.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedSeriesRemainingG.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedSeriesRemainingHomeG.json"
+          },
+          {
+            "$ref": "../schemas/HighSeedSeriesRemainingAwayG.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

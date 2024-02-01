@@ -12,7 +12,12 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": []
+      "items": {
+        "type": "array",
+        "prefixItems": [],
+        "minItems": 0,
+        "maxItems": 0
+      }
     }
   }
 }

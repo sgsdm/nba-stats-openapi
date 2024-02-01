@@ -46,41 +46,46 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/G.json"
-        },
-        {
-          "$ref": "../schemas/Freq.json"
-        },
-        {
-          "$ref": "../schemas/DFgm.json"
-        },
-        {
-          "$ref": "../schemas/DFga.json"
-        },
-        {
-          "$ref": "../schemas/DFgPct.json"
-        },
-        {
-          "$ref": "../schemas/NormalFgPct.json"
-        },
-        {
-          "$ref": "../schemas/PctPlusminus.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/G.json"
+          },
+          {
+            "$ref": "../schemas/Freq.json"
+          },
+          {
+            "$ref": "../schemas/DFgm.json"
+          },
+          {
+            "$ref": "../schemas/DFga.json"
+          },
+          {
+            "$ref": "../schemas/DFgPct.json"
+          },
+          {
+            "$ref": "../schemas/NormalFgPct.json"
+          },
+          {
+            "$ref": "../schemas/PctPlusminus.json"
+          }
+        ],
+        "minItems": 11,
+        "maxItems": 11
+      }
     }
   }
 }

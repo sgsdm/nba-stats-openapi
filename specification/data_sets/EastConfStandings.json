@@ -193,188 +193,193 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Conference.json"
-        },
-        {
-          "$ref": "../schemas/Rank.json"
-        },
-        {
-          "$ref": "../schemas/Team.json"
-        },
-        {
-          "$ref": "../schemas/TeamSlug.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/Wins.json"
-        },
-        {
-          "$ref": "../schemas/Losses.json"
-        },
-        {
-          "$ref": "../schemas/Pct.json"
-        },
-        {
-          "$ref": "../schemas/Div.json"
-        },
-        {
-          "$ref": "../schemas/Conf.json"
-        },
-        {
-          "$ref": "../schemas/Home.json"
-        },
-        {
-          "$ref": "../schemas/Away.json"
-        },
-        {
-          "$ref": "../schemas/Gb.json"
-        },
-        {
-          "$ref": "../schemas/GrOver500.json"
-        },
-        {
-          "$ref": "../schemas/GrOver500Home.json"
-        },
-        {
-          "$ref": "../schemas/GrOver500Away.json"
-        },
-        {
-          "$ref": "../schemas/GrUnder500.json"
-        },
-        {
-          "$ref": "../schemas/GrUnder500Home.json"
-        },
-        {
-          "$ref": "../schemas/GrUnder500Away.json"
-        },
-        {
-          "$ref": "../schemas/RankingCriteria.json"
-        },
-        {
-          "$ref": "../schemas/ClinchedPlayoffs.json"
-        },
-        {
-          "$ref": "../schemas/ClinchedConference.json"
-        },
-        {
-          "$ref": "../schemas/ClinchedDivision.json"
-        },
-        {
-          "$ref": "../schemas/ClinchedPlayIn.json"
-        },
-        {
-          "$ref": "../schemas/EliminatedPlayoffs.json"
-        },
-        {
-          "$ref": "../schemas/SosaRemaining.json"
-        },
-        {
-          "$ref": "../schemas/ReturntoplayEastPiFlag.json"
-        },
-        {
-          "$ref": "../schemas/ReturntoplayAlreadyEliminated.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame1Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame2Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame3Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame4Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame5Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame6Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame7Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame8Outcome.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame1Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame2Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame3Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame4Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame5Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame6Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame7Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame8Id.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame1Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame2Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame3Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame4Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame5Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame6Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame7Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame8Opponent.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame1Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame2Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame3Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame4Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame5Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame6Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame7Label.json"
-        },
-        {
-          "$ref": "../schemas/SeedingGame8Label.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Conference.json"
+          },
+          {
+            "$ref": "../schemas/Rank.json"
+          },
+          {
+            "$ref": "../schemas/Team.json"
+          },
+          {
+            "$ref": "../schemas/TeamSlug.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/Wins.json"
+          },
+          {
+            "$ref": "../schemas/Losses.json"
+          },
+          {
+            "$ref": "../schemas/Pct.json"
+          },
+          {
+            "$ref": "../schemas/Div.json"
+          },
+          {
+            "$ref": "../schemas/Conf.json"
+          },
+          {
+            "$ref": "../schemas/Home.json"
+          },
+          {
+            "$ref": "../schemas/Away.json"
+          },
+          {
+            "$ref": "../schemas/Gb.json"
+          },
+          {
+            "$ref": "../schemas/GrOver500.json"
+          },
+          {
+            "$ref": "../schemas/GrOver500Home.json"
+          },
+          {
+            "$ref": "../schemas/GrOver500Away.json"
+          },
+          {
+            "$ref": "../schemas/GrUnder500.json"
+          },
+          {
+            "$ref": "../schemas/GrUnder500Home.json"
+          },
+          {
+            "$ref": "../schemas/GrUnder500Away.json"
+          },
+          {
+            "$ref": "../schemas/RankingCriteria.json"
+          },
+          {
+            "$ref": "../schemas/ClinchedPlayoffs.json"
+          },
+          {
+            "$ref": "../schemas/ClinchedConference.json"
+          },
+          {
+            "$ref": "../schemas/ClinchedDivision.json"
+          },
+          {
+            "$ref": "../schemas/ClinchedPlayIn.json"
+          },
+          {
+            "$ref": "../schemas/EliminatedPlayoffs.json"
+          },
+          {
+            "$ref": "../schemas/SosaRemaining.json"
+          },
+          {
+            "$ref": "../schemas/ReturntoplayEastPiFlag.json"
+          },
+          {
+            "$ref": "../schemas/ReturntoplayAlreadyEliminated.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame1Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame2Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame3Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame4Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame5Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame6Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame7Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame8Outcome.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame1Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame2Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame3Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame4Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame5Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame6Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame7Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame8Id.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame1Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame2Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame3Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame4Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame5Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame6Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame7Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame8Opponent.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame1Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame2Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame3Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame4Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame5Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame6Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame7Label.json"
+          },
+          {
+            "$ref": "../schemas/SeedingGame8Label.json"
+          }
+        ],
+        "minItems": 60,
+        "maxItems": 60
+      }
     }
   }
 }

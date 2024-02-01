@@ -58,53 +58,58 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/EventNum.json"
-        },
-        {
-          "$ref": "../schemas/HomePct.json"
-        },
-        {
-          "$ref": "../schemas/VisitorPct.json"
-        },
-        {
-          "$ref": "../schemas/HomePts.json"
-        },
-        {
-          "$ref": "../schemas/VisitorPts.json"
-        },
-        {
-          "$ref": "../schemas/HomeScoreMargin.json"
-        },
-        {
-          "$ref": "../schemas/Period.json"
-        },
-        {
-          "$ref": "../schemas/SecondsRemaining.json"
-        },
-        {
-          "$ref": "../schemas/HomePossInd.json"
-        },
-        {
-          "$ref": "../schemas/HomeG.json"
-        },
-        {
-          "$ref": "../schemas/Description.json"
-        },
-        {
-          "$ref": "../schemas/Location.json"
-        },
-        {
-          "$ref": "../schemas/Pctimestring.json"
-        },
-        {
-          "$ref": "../schemas/Isvisible.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/EventNum.json"
+          },
+          {
+            "$ref": "../schemas/HomePct.json"
+          },
+          {
+            "$ref": "../schemas/VisitorPct.json"
+          },
+          {
+            "$ref": "../schemas/HomePts.json"
+          },
+          {
+            "$ref": "../schemas/VisitorPts.json"
+          },
+          {
+            "$ref": "../schemas/HomeScoreMargin.json"
+          },
+          {
+            "$ref": "../schemas/Period.json"
+          },
+          {
+            "$ref": "../schemas/SecondsRemaining.json"
+          },
+          {
+            "$ref": "../schemas/HomePossInd.json"
+          },
+          {
+            "$ref": "../schemas/HomeG.json"
+          },
+          {
+            "$ref": "../schemas/Description.json"
+          },
+          {
+            "$ref": "../schemas/Location.json"
+          },
+          {
+            "$ref": "../schemas/Pctimestring.json"
+          },
+          {
+            "$ref": "../schemas/Isvisible.json"
+          }
+        ],
+        "minItems": 15,
+        "maxItems": 15
+      }
     }
   }
 }

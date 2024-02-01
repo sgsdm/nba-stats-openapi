@@ -28,23 +28,28 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/City.json"
-        },
-        {
-          "$ref": "../schemas/Nickname.json"
-        },
-        {
-          "$ref": "../schemas/Yearfounded.json"
-        },
-        {
-          "$ref": "../schemas/Yearactivetill.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/City.json"
+          },
+          {
+            "$ref": "../schemas/Nickname.json"
+          },
+          {
+            "$ref": "../schemas/Yearfounded.json"
+          },
+          {
+            "$ref": "../schemas/Yearactivetill.json"
+          }
+        ],
+        "minItems": 5,
+        "maxItems": 5
+      }
     }
   }
 }

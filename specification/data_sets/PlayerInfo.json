@@ -43,38 +43,43 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/DisplayFirstLast.json"
-        },
-        {
-          "$ref": "../schemas/DisplayLastCommaFirst.json"
-        },
-        {
-          "$ref": "../schemas/DisplayFiLast.json"
-        },
-        {
-          "$ref": "../schemas/Birthdate.json"
-        },
-        {
-          "$ref": "../schemas/School.json"
-        },
-        {
-          "$ref": "../schemas/Country.json"
-        },
-        {
-          "$ref": "../schemas/LastAffiliation.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/DisplayFirstLast.json"
+          },
+          {
+            "$ref": "../schemas/DisplayLastCommaFirst.json"
+          },
+          {
+            "$ref": "../schemas/DisplayFiLast.json"
+          },
+          {
+            "$ref": "../schemas/Birthdate.json"
+          },
+          {
+            "$ref": "../schemas/School.json"
+          },
+          {
+            "$ref": "../schemas/Country.json"
+          },
+          {
+            "$ref": "../schemas/LastAffiliation.json"
+          }
+        ],
+        "minItems": 10,
+        "maxItems": 10
+      }
     }
   }
 }

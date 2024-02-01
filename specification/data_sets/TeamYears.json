@@ -28,23 +28,28 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/LeagueId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/MinYear.json"
-        },
-        {
-          "$ref": "../schemas/MaxYear.json"
-        },
-        {
-          "$ref": "../schemas/Abbreviation.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/LeagueId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/MinYear.json"
+          },
+          {
+            "$ref": "../schemas/MaxYear.json"
+          },
+          {
+            "$ref": "../schemas/Abbreviation.json"
+          }
+        ],
+        "minItems": 5,
+        "maxItems": 5
+      }
     }
   }
 }

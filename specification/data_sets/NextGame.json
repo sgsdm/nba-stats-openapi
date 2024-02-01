@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/GameDate.json"
-        },
-        {
-          "$ref": "../schemas/GameTime.json"
-        },
-        {
-          "$ref": "../schemas/Location.json"
-        },
-        {
-          "$ref": "../schemas/PlayerTeamId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerTeamCity.json"
-        },
-        {
-          "$ref": "../schemas/PlayerTeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/PlayerTeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamCity.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/VsTeamAbbreviation.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/GameDate.json"
+          },
+          {
+            "$ref": "../schemas/GameTime.json"
+          },
+          {
+            "$ref": "../schemas/Location.json"
+          },
+          {
+            "$ref": "../schemas/PlayerTeamId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerTeamCity.json"
+          },
+          {
+            "$ref": "../schemas/PlayerTeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/PlayerTeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamCity.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/VsTeamAbbreviation.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

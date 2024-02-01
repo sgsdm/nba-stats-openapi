@@ -19,14 +19,19 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Accounttype.json"
-        },
-        {
-          "$ref": "../schemas/WebsiteLink.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Accounttype.json"
+          },
+          {
+            "$ref": "../schemas/WebsiteLink.json"
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
     }
   }
 }

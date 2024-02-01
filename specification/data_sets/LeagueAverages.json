@@ -34,29 +34,34 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GridType.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneBasic.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneArea.json"
-        },
-        {
-          "$ref": "../schemas/ShotZoneRange.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/Fgm.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GridType.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneBasic.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneArea.json"
+          },
+          {
+            "$ref": "../schemas/ShotZoneRange.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/Fgm.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          }
+        ],
+        "minItems": 7,
+        "maxItems": 7
+      }
     }
   }
 }

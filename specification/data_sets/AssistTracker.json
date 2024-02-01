@@ -16,11 +16,16 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/Assists.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/Assists.json"
+          }
+        ],
+        "minItems": 1,
+        "maxItems": 1
+      }
     }
   }
 }

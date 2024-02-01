@@ -157,152 +157,157 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/DisplayFiLast.json"
-        },
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/JerseyNum.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/Gs.json"
-        },
-        {
-          "$ref": "../schemas/ActualMinutes.json"
-        },
-        {
-          "$ref": "../schemas/ActualSeconds.json"
-        },
-        {
-          "$ref": "../schemas/Fg.json"
-        },
-        {
-          "$ref": "../schemas/Fga.json"
-        },
-        {
-          "$ref": "../schemas/FgPct.json"
-        },
-        {
-          "$ref": "../schemas/Fg3.json"
-        },
-        {
-          "$ref": "../schemas/Fg3a.json"
-        },
-        {
-          "$ref": "../schemas/Fg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/Ft.json"
-        },
-        {
-          "$ref": "../schemas/Fta.json"
-        },
-        {
-          "$ref": "../schemas/FtPct.json"
-        },
-        {
-          "$ref": "../schemas/OffReb.json"
-        },
-        {
-          "$ref": "../schemas/DefReb.json"
-        },
-        {
-          "$ref": "../schemas/TotReb.json"
-        },
-        {
-          "$ref": "../schemas/Ast.json"
-        },
-        {
-          "$ref": "../schemas/Pf.json"
-        },
-        {
-          "$ref": "../schemas/Dq.json"
-        },
-        {
-          "$ref": "../schemas/Stl.json"
-        },
-        {
-          "$ref": "../schemas/Turnovers.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        },
-        {
-          "$ref": "../schemas/MaxActualMinutes.json"
-        },
-        {
-          "$ref": "../schemas/MaxActualSeconds.json"
-        },
-        {
-          "$ref": "../schemas/MaxReb.json"
-        },
-        {
-          "$ref": "../schemas/MaxAst.json"
-        },
-        {
-          "$ref": "../schemas/MaxStl.json"
-        },
-        {
-          "$ref": "../schemas/MaxTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/MaxBlk.json"
-        },
-        {
-          "$ref": "../schemas/MaxPts.json"
-        },
-        {
-          "$ref": "../schemas/AvgActualMinutes.json"
-        },
-        {
-          "$ref": "../schemas/AvgActualSeconds.json"
-        },
-        {
-          "$ref": "../schemas/AvgTotReb.json"
-        },
-        {
-          "$ref": "../schemas/AvgAst.json"
-        },
-        {
-          "$ref": "../schemas/AvgStl.json"
-        },
-        {
-          "$ref": "../schemas/AvgTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/AvgBlk.json"
-        },
-        {
-          "$ref": "../schemas/AvgPts.json"
-        },
-        {
-          "$ref": "../schemas/PerMinTotReb.json"
-        },
-        {
-          "$ref": "../schemas/PerMinAst.json"
-        },
-        {
-          "$ref": "../schemas/PerMinStl.json"
-        },
-        {
-          "$ref": "../schemas/PerMinTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/PerMinBlk.json"
-        },
-        {
-          "$ref": "../schemas/PerMinPts.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/DisplayFiLast.json"
+          },
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/JerseyNum.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/Gs.json"
+          },
+          {
+            "$ref": "../schemas/ActualMinutes.json"
+          },
+          {
+            "$ref": "../schemas/ActualSeconds.json"
+          },
+          {
+            "$ref": "../schemas/Fg.json"
+          },
+          {
+            "$ref": "../schemas/Fga.json"
+          },
+          {
+            "$ref": "../schemas/FgPct.json"
+          },
+          {
+            "$ref": "../schemas/Fg3.json"
+          },
+          {
+            "$ref": "../schemas/Fg3a.json"
+          },
+          {
+            "$ref": "../schemas/Fg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/Ft.json"
+          },
+          {
+            "$ref": "../schemas/Fta.json"
+          },
+          {
+            "$ref": "../schemas/FtPct.json"
+          },
+          {
+            "$ref": "../schemas/OffReb.json"
+          },
+          {
+            "$ref": "../schemas/DefReb.json"
+          },
+          {
+            "$ref": "../schemas/TotReb.json"
+          },
+          {
+            "$ref": "../schemas/Ast.json"
+          },
+          {
+            "$ref": "../schemas/Pf.json"
+          },
+          {
+            "$ref": "../schemas/Dq.json"
+          },
+          {
+            "$ref": "../schemas/Stl.json"
+          },
+          {
+            "$ref": "../schemas/Turnovers.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          },
+          {
+            "$ref": "../schemas/MaxActualMinutes.json"
+          },
+          {
+            "$ref": "../schemas/MaxActualSeconds.json"
+          },
+          {
+            "$ref": "../schemas/MaxReb.json"
+          },
+          {
+            "$ref": "../schemas/MaxAst.json"
+          },
+          {
+            "$ref": "../schemas/MaxStl.json"
+          },
+          {
+            "$ref": "../schemas/MaxTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/MaxBlk.json"
+          },
+          {
+            "$ref": "../schemas/MaxPts.json"
+          },
+          {
+            "$ref": "../schemas/AvgActualMinutes.json"
+          },
+          {
+            "$ref": "../schemas/AvgActualSeconds.json"
+          },
+          {
+            "$ref": "../schemas/AvgTotReb.json"
+          },
+          {
+            "$ref": "../schemas/AvgAst.json"
+          },
+          {
+            "$ref": "../schemas/AvgStl.json"
+          },
+          {
+            "$ref": "../schemas/AvgTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/AvgBlk.json"
+          },
+          {
+            "$ref": "../schemas/AvgPts.json"
+          },
+          {
+            "$ref": "../schemas/PerMinTotReb.json"
+          },
+          {
+            "$ref": "../schemas/PerMinAst.json"
+          },
+          {
+            "$ref": "../schemas/PerMinStl.json"
+          },
+          {
+            "$ref": "../schemas/PerMinTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/PerMinBlk.json"
+          },
+          {
+            "$ref": "../schemas/PerMinPts.json"
+          }
+        ],
+        "minItems": 48,
+        "maxItems": 48
+      }
     }
   }
 }

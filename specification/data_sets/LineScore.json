@@ -82,77 +82,82 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameDateEst.json"
-        },
-        {
-          "$ref": "../schemas/GameSequence.json"
-        },
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCityName.json"
-        },
-        {
-          "$ref": "../schemas/TeamNickname.json"
-        },
-        {
-          "$ref": "../schemas/TeamWinsLosses.json"
-        },
-        {
-          "$ref": "../schemas/PtsQtr1.json"
-        },
-        {
-          "$ref": "../schemas/PtsQtr2.json"
-        },
-        {
-          "$ref": "../schemas/PtsQtr3.json"
-        },
-        {
-          "$ref": "../schemas/PtsQtr4.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt1.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt2.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt3.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt4.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt5.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt6.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt7.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt8.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt9.json"
-        },
-        {
-          "$ref": "../schemas/PtsOt10.json"
-        },
-        {
-          "$ref": "../schemas/Pts.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameDateEst.json"
+          },
+          {
+            "$ref": "../schemas/GameSequence.json"
+          },
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCityName.json"
+          },
+          {
+            "$ref": "../schemas/TeamNickname.json"
+          },
+          {
+            "$ref": "../schemas/TeamWinsLosses.json"
+          },
+          {
+            "$ref": "../schemas/PtsQtr1.json"
+          },
+          {
+            "$ref": "../schemas/PtsQtr2.json"
+          },
+          {
+            "$ref": "../schemas/PtsQtr3.json"
+          },
+          {
+            "$ref": "../schemas/PtsQtr4.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt1.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt2.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt3.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt4.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt5.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt6.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt7.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt8.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt9.json"
+          },
+          {
+            "$ref": "../schemas/PtsOt10.json"
+          },
+          {
+            "$ref": "../schemas/Pts.json"
+          }
+        ],
+        "minItems": 23,
+        "maxItems": 23
+      }
     }
   }
 }

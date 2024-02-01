@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TempPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Position.json"
-        },
-        {
-          "$ref": "../schemas/StandingVerticalLeap.json"
-        },
-        {
-          "$ref": "../schemas/MaxVerticalLeap.json"
-        },
-        {
-          "$ref": "../schemas/LaneAgilityTime.json"
-        },
-        {
-          "$ref": "../schemas/ModifiedLaneAgilityTime.json"
-        },
-        {
-          "$ref": "../schemas/ThreeQuarterSprint.json"
-        },
-        {
-          "$ref": "../schemas/BenchPress.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TempPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Position.json"
+          },
+          {
+            "$ref": "../schemas/StandingVerticalLeap.json"
+          },
+          {
+            "$ref": "../schemas/MaxVerticalLeap.json"
+          },
+          {
+            "$ref": "../schemas/LaneAgilityTime.json"
+          },
+          {
+            "$ref": "../schemas/ModifiedLaneAgilityTime.json"
+          },
+          {
+            "$ref": "../schemas/ThreeQuarterSprint.json"
+          },
+          {
+            "$ref": "../schemas/BenchPress.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

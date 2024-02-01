@@ -91,86 +91,91 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/SeasonId.json"
-        },
-        {
-          "$ref": "../schemas/OffPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/OffPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/DefPlayerId.json"
-        },
-        {
-          "$ref": "../schemas/DefPlayerName.json"
-        },
-        {
-          "$ref": "../schemas/Gp.json"
-        },
-        {
-          "$ref": "../schemas/MatchupMin.json"
-        },
-        {
-          "$ref": "../schemas/PartialPoss.json"
-        },
-        {
-          "$ref": "../schemas/PlayerPts.json"
-        },
-        {
-          "$ref": "../schemas/TeamPts.json"
-        },
-        {
-          "$ref": "../schemas/MatchupAst.json"
-        },
-        {
-          "$ref": "../schemas/MatchupTov.json"
-        },
-        {
-          "$ref": "../schemas/MatchupBlk.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFgm.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFga.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFgPct.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFg3m.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFg3a.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFg3Pct.json"
-        },
-        {
-          "$ref": "../schemas/HelpBlk.json"
-        },
-        {
-          "$ref": "../schemas/HelpFgm.json"
-        },
-        {
-          "$ref": "../schemas/HelpFga.json"
-        },
-        {
-          "$ref": "../schemas/HelpFgPerc.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFtm.json"
-        },
-        {
-          "$ref": "../schemas/MatchupFta.json"
-        },
-        {
-          "$ref": "../schemas/Sfl.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/SeasonId.json"
+          },
+          {
+            "$ref": "../schemas/OffPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/OffPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/DefPlayerId.json"
+          },
+          {
+            "$ref": "../schemas/DefPlayerName.json"
+          },
+          {
+            "$ref": "../schemas/Gp.json"
+          },
+          {
+            "$ref": "../schemas/MatchupMin.json"
+          },
+          {
+            "$ref": "../schemas/PartialPoss.json"
+          },
+          {
+            "$ref": "../schemas/PlayerPts.json"
+          },
+          {
+            "$ref": "../schemas/TeamPts.json"
+          },
+          {
+            "$ref": "../schemas/MatchupAst.json"
+          },
+          {
+            "$ref": "../schemas/MatchupTov.json"
+          },
+          {
+            "$ref": "../schemas/MatchupBlk.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFgm.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFga.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFgPct.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFg3m.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFg3a.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFg3Pct.json"
+          },
+          {
+            "$ref": "../schemas/HelpBlk.json"
+          },
+          {
+            "$ref": "../schemas/HelpFgm.json"
+          },
+          {
+            "$ref": "../schemas/HelpFga.json"
+          },
+          {
+            "$ref": "../schemas/HelpFgPerc.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFtm.json"
+          },
+          {
+            "$ref": "../schemas/MatchupFta.json"
+          },
+          {
+            "$ref": "../schemas/Sfl.json"
+          }
+        ],
+        "minItems": 26,
+        "maxItems": 26
+      }
     }
   }
 }

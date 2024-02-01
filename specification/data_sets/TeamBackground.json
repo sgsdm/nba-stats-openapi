@@ -46,41 +46,46 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/Abbreviation.json"
-        },
-        {
-          "$ref": "../schemas/Nickname.json"
-        },
-        {
-          "$ref": "../schemas/Yearfounded.json"
-        },
-        {
-          "$ref": "../schemas/City.json"
-        },
-        {
-          "$ref": "../schemas/Arena.json"
-        },
-        {
-          "$ref": "../schemas/Arenacapacity.json"
-        },
-        {
-          "$ref": "../schemas/Owner.json"
-        },
-        {
-          "$ref": "../schemas/Generalmanager.json"
-        },
-        {
-          "$ref": "../schemas/Headcoach.json"
-        },
-        {
-          "$ref": "../schemas/Dleagueaffiliation.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/Abbreviation.json"
+          },
+          {
+            "$ref": "../schemas/Nickname.json"
+          },
+          {
+            "$ref": "../schemas/Yearfounded.json"
+          },
+          {
+            "$ref": "../schemas/City.json"
+          },
+          {
+            "$ref": "../schemas/Arena.json"
+          },
+          {
+            "$ref": "../schemas/Arenacapacity.json"
+          },
+          {
+            "$ref": "../schemas/Owner.json"
+          },
+          {
+            "$ref": "../schemas/Generalmanager.json"
+          },
+          {
+            "$ref": "../schemas/Headcoach.json"
+          },
+          {
+            "$ref": "../schemas/Dleagueaffiliation.json"
+          }
+        ],
+        "minItems": 11,
+        "maxItems": 11
+      }
     }
   }
 }

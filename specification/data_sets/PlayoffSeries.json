@@ -28,23 +28,28 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/HomeTeamId.json"
-        },
-        {
-          "$ref": "../schemas/VisitorTeamId.json"
-        },
-        {
-          "$ref": "../schemas/SeriesId.json"
-        },
-        {
-          "$ref": "../schemas/GameNum.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/HomeTeamId.json"
+          },
+          {
+            "$ref": "../schemas/VisitorTeamId.json"
+          },
+          {
+            "$ref": "../schemas/SeriesId.json"
+          },
+          {
+            "$ref": "../schemas/GameNum.json"
+          }
+        ],
+        "minItems": 5,
+        "maxItems": 5
+      }
     }
   }
 }

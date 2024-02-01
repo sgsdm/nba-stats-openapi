@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/Team.json"
-        },
-        {
-          "$ref": "../schemas/Description.json"
-        },
-        {
-          "$ref": "../schemas/AllNbaTeamNumber.json"
-        },
-        {
-          "$ref": "../schemas/Season.json"
-        },
-        {
-          "$ref": "../schemas/Month.json"
-        },
-        {
-          "$ref": "../schemas/Week.json"
-        },
-        {
-          "$ref": "../schemas/Conference.json"
-        },
-        {
-          "$ref": "../schemas/Type.json"
-        },
-        {
-          "$ref": "../schemas/Subtype1.json"
-        },
-        {
-          "$ref": "../schemas/Subtype2.json"
-        },
-        {
-          "$ref": "../schemas/Subtype3.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/Team.json"
+          },
+          {
+            "$ref": "../schemas/Description.json"
+          },
+          {
+            "$ref": "../schemas/AllNbaTeamNumber.json"
+          },
+          {
+            "$ref": "../schemas/Season.json"
+          },
+          {
+            "$ref": "../schemas/Month.json"
+          },
+          {
+            "$ref": "../schemas/Week.json"
+          },
+          {
+            "$ref": "../schemas/Conference.json"
+          },
+          {
+            "$ref": "../schemas/Type.json"
+          },
+          {
+            "$ref": "../schemas/Subtype1.json"
+          },
+          {
+            "$ref": "../schemas/Subtype2.json"
+          },
+          {
+            "$ref": "../schemas/Subtype3.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }

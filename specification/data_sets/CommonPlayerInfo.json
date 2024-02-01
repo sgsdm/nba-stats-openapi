@@ -106,101 +106,106 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PersonId.json"
-        },
-        {
-          "$ref": "../schemas/FirstName.json"
-        },
-        {
-          "$ref": "../schemas/LastName.json"
-        },
-        {
-          "$ref": "../schemas/DisplayFirstLast.json"
-        },
-        {
-          "$ref": "../schemas/DisplayLastCommaFirst.json"
-        },
-        {
-          "$ref": "../schemas/DisplayFiLast.json"
-        },
-        {
-          "$ref": "../schemas/PlayerSlug.json"
-        },
-        {
-          "$ref": "../schemas/Birthdate.json"
-        },
-        {
-          "$ref": "../schemas/School.json"
-        },
-        {
-          "$ref": "../schemas/Country.json"
-        },
-        {
-          "$ref": "../schemas/LastAffiliation.json"
-        },
-        {
-          "$ref": "../schemas/Height.json"
-        },
-        {
-          "$ref": "../schemas/Weight.json"
-        },
-        {
-          "$ref": "../schemas/SeasonExp.json"
-        },
-        {
-          "$ref": "../schemas/Jersey.json"
-        },
-        {
-          "$ref": "../schemas/Position.json"
-        },
-        {
-          "$ref": "../schemas/Rosterstatus.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamName.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCode.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/Playercode.json"
-        },
-        {
-          "$ref": "../schemas/FromYear.json"
-        },
-        {
-          "$ref": "../schemas/ToYear.json"
-        },
-        {
-          "$ref": "../schemas/DleagueFlag.json"
-        },
-        {
-          "$ref": "../schemas/NbaFlag.json"
-        },
-        {
-          "$ref": "../schemas/GamesPlayedFlag.json"
-        },
-        {
-          "$ref": "../schemas/DraftYear.json"
-        },
-        {
-          "$ref": "../schemas/DraftRound.json"
-        },
-        {
-          "$ref": "../schemas/DraftNumber.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PersonId.json"
+          },
+          {
+            "$ref": "../schemas/FirstName.json"
+          },
+          {
+            "$ref": "../schemas/LastName.json"
+          },
+          {
+            "$ref": "../schemas/DisplayFirstLast.json"
+          },
+          {
+            "$ref": "../schemas/DisplayLastCommaFirst.json"
+          },
+          {
+            "$ref": "../schemas/DisplayFiLast.json"
+          },
+          {
+            "$ref": "../schemas/PlayerSlug.json"
+          },
+          {
+            "$ref": "../schemas/Birthdate.json"
+          },
+          {
+            "$ref": "../schemas/School.json"
+          },
+          {
+            "$ref": "../schemas/Country.json"
+          },
+          {
+            "$ref": "../schemas/LastAffiliation.json"
+          },
+          {
+            "$ref": "../schemas/Height.json"
+          },
+          {
+            "$ref": "../schemas/Weight.json"
+          },
+          {
+            "$ref": "../schemas/SeasonExp.json"
+          },
+          {
+            "$ref": "../schemas/Jersey.json"
+          },
+          {
+            "$ref": "../schemas/Position.json"
+          },
+          {
+            "$ref": "../schemas/Rosterstatus.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamName.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCode.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/Playercode.json"
+          },
+          {
+            "$ref": "../schemas/FromYear.json"
+          },
+          {
+            "$ref": "../schemas/ToYear.json"
+          },
+          {
+            "$ref": "../schemas/DleagueFlag.json"
+          },
+          {
+            "$ref": "../schemas/NbaFlag.json"
+          },
+          {
+            "$ref": "../schemas/GamesPlayedFlag.json"
+          },
+          {
+            "$ref": "../schemas/DraftYear.json"
+          },
+          {
+            "$ref": "../schemas/DraftRound.json"
+          },
+          {
+            "$ref": "../schemas/DraftNumber.json"
+          }
+        ],
+        "minItems": 31,
+        "maxItems": 31
+      }
     }
   }
 }

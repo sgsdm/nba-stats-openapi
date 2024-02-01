@@ -76,71 +76,76 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/PlayerName.json"
-        },
-        {
-          "$ref": "../schemas/StartPosition.json"
-        },
-        {
-          "$ref": "../schemas/Comment.json"
-        },
-        {
-          "$ref": "../schemas/Min.json"
-        },
-        {
-          "$ref": "../schemas/PtsOffTov.json"
-        },
-        {
-          "$ref": "../schemas/Pts2ndChance.json"
-        },
-        {
-          "$ref": "../schemas/PtsFb.json"
-        },
-        {
-          "$ref": "../schemas/PtsPaint.json"
-        },
-        {
-          "$ref": "../schemas/OppPtsOffTov.json"
-        },
-        {
-          "$ref": "../schemas/OppPts2ndChance.json"
-        },
-        {
-          "$ref": "../schemas/OppPtsFb.json"
-        },
-        {
-          "$ref": "../schemas/OppPtsPaint.json"
-        },
-        {
-          "$ref": "../schemas/Blk.json"
-        },
-        {
-          "$ref": "../schemas/Blka.json"
-        },
-        {
-          "$ref": "../schemas/Pf.json"
-        },
-        {
-          "$ref": "../schemas/Pfd.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/PlayerName.json"
+          },
+          {
+            "$ref": "../schemas/StartPosition.json"
+          },
+          {
+            "$ref": "../schemas/Comment.json"
+          },
+          {
+            "$ref": "../schemas/Min.json"
+          },
+          {
+            "$ref": "../schemas/PtsOffTov.json"
+          },
+          {
+            "$ref": "../schemas/Pts2ndChance.json"
+          },
+          {
+            "$ref": "../schemas/PtsFb.json"
+          },
+          {
+            "$ref": "../schemas/PtsPaint.json"
+          },
+          {
+            "$ref": "../schemas/OppPtsOffTov.json"
+          },
+          {
+            "$ref": "../schemas/OppPts2ndChance.json"
+          },
+          {
+            "$ref": "../schemas/OppPtsFb.json"
+          },
+          {
+            "$ref": "../schemas/OppPtsPaint.json"
+          },
+          {
+            "$ref": "../schemas/Blk.json"
+          },
+          {
+            "$ref": "../schemas/Blka.json"
+          },
+          {
+            "$ref": "../schemas/Pf.json"
+          },
+          {
+            "$ref": "../schemas/Pfd.json"
+          }
+        ],
+        "minItems": 21,
+        "maxItems": 21
+      }
     }
   }
 }

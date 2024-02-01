@@ -40,35 +40,40 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/PlayerNameLastFirst.json"
-        },
-        {
-          "$ref": "../schemas/PlayerId.json"
-        },
-        {
-          "$ref": "../schemas/Gamestreak.json"
-        },
-        {
-          "$ref": "../schemas/Startdate.json"
-        },
-        {
-          "$ref": "../schemas/Enddate.json"
-        },
-        {
-          "$ref": "../schemas/Activestreak.json"
-        },
-        {
-          "$ref": "../schemas/Numseasons.json"
-        },
-        {
-          "$ref": "../schemas/Lastseason.json"
-        },
-        {
-          "$ref": "../schemas/Firstseason.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/PlayerNameLastFirst.json"
+          },
+          {
+            "$ref": "../schemas/PlayerId.json"
+          },
+          {
+            "$ref": "../schemas/Gamestreak.json"
+          },
+          {
+            "$ref": "../schemas/Startdate.json"
+          },
+          {
+            "$ref": "../schemas/Enddate.json"
+          },
+          {
+            "$ref": "../schemas/Activestreak.json"
+          },
+          {
+            "$ref": "../schemas/Numseasons.json"
+          },
+          {
+            "$ref": "../schemas/Lastseason.json"
+          },
+          {
+            "$ref": "../schemas/Firstseason.json"
+          }
+        ],
+        "minItems": 9,
+        "maxItems": 9
+      }
     }
   }
 }

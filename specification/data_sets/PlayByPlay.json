@@ -49,44 +49,49 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/GameId.json"
-        },
-        {
-          "$ref": "../schemas/Eventnum.json"
-        },
-        {
-          "$ref": "../schemas/Eventmsgtype.json"
-        },
-        {
-          "$ref": "../schemas/Eventmsgactiontype.json"
-        },
-        {
-          "$ref": "../schemas/Period.json"
-        },
-        {
-          "$ref": "../schemas/Wctimestring.json"
-        },
-        {
-          "$ref": "../schemas/Pctimestring.json"
-        },
-        {
-          "$ref": "../schemas/Homedescription.json"
-        },
-        {
-          "$ref": "../schemas/Neutraldescription.json"
-        },
-        {
-          "$ref": "../schemas/Visitordescription.json"
-        },
-        {
-          "$ref": "../schemas/Score.json"
-        },
-        {
-          "$ref": "../schemas/Scoremargin.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/GameId.json"
+          },
+          {
+            "$ref": "../schemas/Eventnum.json"
+          },
+          {
+            "$ref": "../schemas/Eventmsgtype.json"
+          },
+          {
+            "$ref": "../schemas/Eventmsgactiontype.json"
+          },
+          {
+            "$ref": "../schemas/Period.json"
+          },
+          {
+            "$ref": "../schemas/Wctimestring.json"
+          },
+          {
+            "$ref": "../schemas/Pctimestring.json"
+          },
+          {
+            "$ref": "../schemas/Homedescription.json"
+          },
+          {
+            "$ref": "../schemas/Neutraldescription.json"
+          },
+          {
+            "$ref": "../schemas/Visitordescription.json"
+          },
+          {
+            "$ref": "../schemas/Score.json"
+          },
+          {
+            "$ref": "../schemas/Scoremargin.json"
+          }
+        ],
+        "minItems": 12,
+        "maxItems": 12
+      }
     }
   }
 }

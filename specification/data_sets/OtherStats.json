@@ -55,50 +55,55 @@
     },
     "rowSet": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "../schemas/LeagueId.json"
-        },
-        {
-          "$ref": "../schemas/TeamId.json"
-        },
-        {
-          "$ref": "../schemas/TeamAbbreviation.json"
-        },
-        {
-          "$ref": "../schemas/TeamCity.json"
-        },
-        {
-          "$ref": "../schemas/PtsPaint.json"
-        },
-        {
-          "$ref": "../schemas/Pts2ndChance.json"
-        },
-        {
-          "$ref": "../schemas/PtsFb.json"
-        },
-        {
-          "$ref": "../schemas/LargestLead.json"
-        },
-        {
-          "$ref": "../schemas/LeadChanges.json"
-        },
-        {
-          "$ref": "../schemas/TimesTied.json"
-        },
-        {
-          "$ref": "../schemas/TeamTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/TotalTurnovers.json"
-        },
-        {
-          "$ref": "../schemas/TeamRebounds.json"
-        },
-        {
-          "$ref": "../schemas/PtsOffTo.json"
-        }
-      ]
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "$ref": "../schemas/LeagueId.json"
+          },
+          {
+            "$ref": "../schemas/TeamId.json"
+          },
+          {
+            "$ref": "../schemas/TeamAbbreviation.json"
+          },
+          {
+            "$ref": "../schemas/TeamCity.json"
+          },
+          {
+            "$ref": "../schemas/PtsPaint.json"
+          },
+          {
+            "$ref": "../schemas/Pts2ndChance.json"
+          },
+          {
+            "$ref": "../schemas/PtsFb.json"
+          },
+          {
+            "$ref": "../schemas/LargestLead.json"
+          },
+          {
+            "$ref": "../schemas/LeadChanges.json"
+          },
+          {
+            "$ref": "../schemas/TimesTied.json"
+          },
+          {
+            "$ref": "../schemas/TeamTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/TotalTurnovers.json"
+          },
+          {
+            "$ref": "../schemas/TeamRebounds.json"
+          },
+          {
+            "$ref": "../schemas/PtsOffTo.json"
+          }
+        ],
+        "minItems": 14,
+        "maxItems": 14
+      }
     }
   }
 }
