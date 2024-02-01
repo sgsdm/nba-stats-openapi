@@ -36,6 +36,9 @@ jobs:
       - name: Install Redocly CLI
         run: npm install -g @redocly/cli
 
+      - name: LS?
+        run: ls
+
       - name: Bundle into one file
         run: redocly bundle openapi.json -o nba_stats_api.json --force
 
