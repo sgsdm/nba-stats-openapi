@@ -41,12 +41,12 @@ jobs:
     #     run: redocly bundle openapi.json -o nba_stats_api.json --force
 
       - name: Generate Redoc-html
-        run: redocly build-docs nba_stats_api.json
+        run: mkdir output && redocly build-docs nba_stats_api.json -o output/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "redoc-static.html"
+          path: "output"
 
   deploy:
     runs-on: ubuntu-latest
