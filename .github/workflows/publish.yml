@@ -36,20 +36,16 @@ jobs:
       - name: Install Redocly CLI
         run: npm install -g @redocly/cli
 
-      - name: Bundle JSON into RefDoc
+      - name: Bundle into one file
         run: redocly bundle openapi.json -o nba_stats_api.json --force
 
-      - name: Generate Swagger UI
-        uses: Legion2/swagger-ui-action@v1
-        with:
-          output: swagger-ui
-          spec-file: nba_stats_api.json
-          version: ">=5.0.0"
+      - name: Generate Redoc-html
+        run: redocly build-docs nba_stats_api.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "swagger-ui/"
+          path: "redoc-static.html"
 
   deploy:
     runs-on: ubuntu-latest
